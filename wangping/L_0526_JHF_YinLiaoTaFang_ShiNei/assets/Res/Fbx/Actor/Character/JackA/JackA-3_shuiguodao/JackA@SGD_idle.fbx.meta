@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f46e22c4-5d7e-4135-9720-d4e24d17716e",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "37584": {
+      "importer": "gltf-animation",
+      "uuid": "f46e22c4-5d7e-4135-9720-d4e24d17716e@37584",
+      "displayName": "",
+      "id": "37584",
+      "name": "SGD_idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b9bcb": {
+      "importer": "gltf-scene",
+      "uuid": "f46e22c4-5d7e-4135-9720-d4e24d17716e@b9bcb",
+      "displayName": "",
+      "id": "b9bcb",
+      "name": "JackA@SGD_idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "SGD_idle",
+            "from": 0,
+            "to": 3,
+            "wrapMode": 2,
+            "previousId": "37584"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "f46e22c4-5d7e-4135-9720-d4e24d17716e@b9bcb"
+      ]
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f5808228-6327-4d37-a4a5-ee2a6e739958",
+  "files": [],
+  "subMetas": {
+    "1f63f": {
+      "importer": "gltf-mesh",
+      "uuid": "f5808228-6327-4d37-a4a5-ee2a6e739958@1f63f",
+      "displayName": "",
+      "id": "1f63f",
+      "name": "ZhuoZi.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 356
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8cbf6": {
+      "importer": "texture",
+      "uuid": "f5808228-6327-4d37-a4a5-ee2a6e739958@8cbf6",
+      "displayName": "",
+      "id": "8cbf6",
+      "name": "file17.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/Fbx/sceneFbx/zhuozi/ZhuoZi.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a32f0": {
+      "importer": "gltf-material",
+      "uuid": "f5808228-6327-4d37-a4a5-ee2a6e739958@a32f0",
+      "displayName": "",
+      "id": "a32f0",
+      "name": "M_ZhuoZi.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4613f": {
+      "importer": "gltf-scene",
+      "uuid": "f5808228-6327-4d37-a4a5-ee2a6e739958@4613f",
+      "displayName": "",
+      "id": "4613f",
+      "name": "DC_prp_ZhuoZi_mod.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file17",
+        "uri": "db://assets/Res/Fbx/sceneFbx/zhuozi/ZhuoZi.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f5808228-6327-4d37-a4a5-ee2a6e739958@1f63f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f5808228-6327-4d37-a4a5-ee2a6e739958@8cbf6"
+      ],
+      "materials": [
+        "f5808228-6327-4d37-a4a5-ee2a6e739958@a32f0"
+      ],
+      "scenes": [
+        "f5808228-6327-4d37-a4a5-ee2a6e739958@4613f"
+      ]
+    },
+    "materials": {
+      "f5808228-6327-4d37-a4a5-ee2a6e739958@a32f0": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "f5808228-6327-4d37-a4a5-ee2a6e739958@8cbf6",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

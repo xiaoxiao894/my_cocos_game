@@ -1,0 +1,139 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7447d77b-cc53-47f9-bd1c-0f45316cd946",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "17901": {
+      "importer": "gltf-mesh",
+      "uuid": "7447d77b-cc53-47f9-bd1c-0f45316cd946@17901",
+      "displayName": "",
+      "id": "17901",
+      "name": "Circle twist start.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 26
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "99950": {
+      "importer": "gltf-scene",
+      "uuid": "7447d77b-cc53-47f9-bd1c-0f45316cd946@99950",
+      "displayName": "",
+      "id": "99950",
+      "name": "centipede@walk_f.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "82cee": {
+      "importer": "gltf-mesh",
+      "uuid": "7447d77b-cc53-47f9-bd1c-0f45316cd946@82cee",
+      "displayName": "",
+      "id": "82cee",
+      "name": "Circle twist end .mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 26
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bda48": {
+      "importer": "gltf-animation",
+      "uuid": "7447d77b-cc53-47f9-bd1c-0f45316cd946@bda48",
+      "displayName": "",
+      "id": "bda48",
+      "name": "walk_f.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.0666667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "centipede@walk_f",
+        "duration": 1.0666667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk_f",
+            "from": 0,
+            "to": 1.0666667222976685,
+            "wrapMode": 2,
+            "previousId": "bda48"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7447d77b-cc53-47f9-bd1c-0f45316cd946@82cee",
+        "7447d77b-cc53-47f9-bd1c-0f45316cd946@17901"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "7447d77b-cc53-47f9-bd1c-0f45316cd946@99950"
+      ]
+    },
+    "redirect": "7447d77b-cc53-47f9-bd1c-0f45316cd946@99950"
+  }
+}

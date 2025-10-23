@@ -1,0 +1,86 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "PLUG"
+      },
+      {
+        "index": 2,
+        "name": "Player"
+      },
+      {
+        "index": 3,
+        "name": "Tree"
+      },
+      {
+        "index": 4,
+        "name": "Rope"
+      },
+      {
+        "index": 5,
+        "name": "Test"
+      },
+      {
+        "index": 6,
+        "name": "Wood"
+      },
+      {
+        "index": 7,
+        "name": "Wall"
+      },
+      {
+        "index": 8,
+        "name": "Build"
+      },
+      {
+        "index": 9,
+        "name": "TreeWall"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 469,
+      "1": 384,
+      "2": 449,
+      "3": 384,
+      "4": 193,
+      "5": 256,
+      "6": 981,
+      "7": 351,
+      "8": 495,
+      "9": 64
+    },
+    "fixedTimeStep": 0.0166667
+  },
+  "layer": [
+    {
+      "name": "QUAD",
+      "value": 524288
+    },
+    {
+      "name": "ROPE",
+      "value": 1
+    },
+    {
+      "name": "colliderBeast",
+      "value": 262144
+    },
+    {
+      "name": "paling",
+      "value": 131072
+    }
+  ],
+  "script": {
+    "preserveSymlinks": true
+  }
+}

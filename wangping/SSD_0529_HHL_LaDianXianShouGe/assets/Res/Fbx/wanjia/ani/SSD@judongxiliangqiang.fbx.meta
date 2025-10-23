@@ -1,0 +1,111 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "892ea571-5287-4825-bcd0-efc248b08a2f",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "1485d": {
+      "importer": "gltf-animation",
+      "uuid": "892ea571-5287-4825-bcd0-efc248b08a2f@1485d",
+      "displayName": "",
+      "id": "1485d",
+      "name": "judongxiliangqiang.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.100000023841858
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f73cf": {
+      "importer": "gltf-scene",
+      "uuid": "892ea571-5287-4825-bcd0-efc248b08a2f@f73cf",
+      "displayName": "",
+      "id": "f73cf",
+      "name": "SSD@judongxiliangqiang.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 1.100000023841858,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "judongxiliangqiang",
+            "from": 0,
+            "to": 1.100000023841858,
+            "wrapMode": 1,
+            "previousId": "1485d"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "892ea571-5287-4825-bcd0-efc248b08a2f@f73cf"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0.5,
+      "autoErrorRate": true,
+      "errorRate": 0.5
+    }
+  }
+}

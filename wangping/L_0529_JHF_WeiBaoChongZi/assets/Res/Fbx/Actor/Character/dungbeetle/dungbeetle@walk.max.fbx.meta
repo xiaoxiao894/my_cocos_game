@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4776d237-5adf-4c7a-9d13-241f55e1d646",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "7f3dc": {
+      "importer": "gltf-animation",
+      "uuid": "4776d237-5adf-4c7a-9d13-241f55e1d646@7f3dc",
+      "displayName": "",
+      "id": "7f3dc",
+      "name": "walk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.600000023841858
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "3a262": {
+      "importer": "gltf-scene",
+      "uuid": "4776d237-5adf-4c7a-9d13-241f55e1d646@3a262",
+      "displayName": "",
+      "id": "3a262",
+      "name": "dungbeetle@walk.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "dungbeetle@walk",
+        "duration": 1.600000023841858,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk",
+            "from": 0,
+            "to": 1.600000023841858,
+            "wrapMode": 2,
+            "previousId": "7f3dc"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "4776d237-5adf-4c7a-9d13-241f55e1d646@3a262"
+      ]
+    }
+  }
+}

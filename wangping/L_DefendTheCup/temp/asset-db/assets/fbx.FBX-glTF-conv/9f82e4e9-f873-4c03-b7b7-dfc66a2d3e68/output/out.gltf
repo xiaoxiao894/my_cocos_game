@@ -1,0 +1,261 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2082,
+      "max": [
+        1.4248944520950317,
+        1.1286736726760864,
+        0.8562984466552734
+      ],
+      "min": [
+        -1.4248944520950317,
+        -1.1286735534667969,
+        -0.1562921106815338
+      ],
+      "name": "c/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 2082,
+      "name": "c/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2082,
+      "name": "c/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 2082,
+      "name": "c/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 8892,
+      "name": "c/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 83280,
+      "byteStride": 40,
+      "name": "c",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17784,
+      "byteOffset": 83280,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 101064,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 3,
+          "hour": 21,
+          "millisecond": 389,
+          "minute": 11,
+          "month": 6,
+          "second": 0,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2019.2",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2020",
+            "fileName": "C:\\Users\\北远\\Desktop\\L资源文件未整理\\FBX\\ZhiZhu Egg.FBX"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Cocos\\PlayAble\\L_DefendTheCup\\assets\\Res\\Fbx\\Map\\zhuangshi\\Zhizhuluan\\ZhiZhu Egg.FBX"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 19.999998092651367
+              },
+              "specular": {
+                "value": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.20000000298023224
+                ]
+              },
+              "specularFactor": {
+                "value": 1.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "M_蜘蛛卵_2"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "c",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "c",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

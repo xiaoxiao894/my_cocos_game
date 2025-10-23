@@ -1,0 +1,182 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ee1fa477-896c-4af1-a888-b6ec0c7419f6",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "ee1fa477-896c-4af1-a888-b6ec0c7419f6@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 1
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe711": {
+      "importer": "gltf-mesh",
+      "uuid": "ee1fa477-896c-4af1-a888-b6ec0c7419f6@fe711",
+      "displayName": "",
+      "id": "fe711",
+      "name": "weapen_00mianqian.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 32
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "50d7d": {
+      "importer": "gltf-mesh",
+      "uuid": "ee1fa477-896c-4af1-a888-b6ec0c7419f6@50d7d",
+      "displayName": "",
+      "id": "50d7d",
+      "name": "mianqiantou.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 112
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "ee1fa477-896c-4af1-a888-b6ec0c7419f6@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 1
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db4d2": {
+      "importer": "gltf-material",
+      "uuid": "ee1fa477-896c-4af1-a888-b6ec0c7419f6@db4d2",
+      "displayName": "",
+      "id": "db4d2",
+      "name": "02 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d90a4": {
+      "importer": "gltf-material",
+      "uuid": "ee1fa477-896c-4af1-a888-b6ec0c7419f6@d90a4",
+      "displayName": "",
+      "id": "d90a4",
+      "name": "01 - Default.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "612ab": {
+      "importer": "gltf-scene",
+      "uuid": "ee1fa477-896c-4af1-a888-b6ec0c7419f6@612ab",
+      "displayName": "",
+      "id": "612ab",
+      "name": "MianQian_skin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ee1fa477-896c-4af1-a888-b6ec0c7419f6@fe711",
+        "ee1fa477-896c-4af1-a888-b6ec0c7419f6@50d7d"
+      ],
+      "skeletons": [
+        "ee1fa477-896c-4af1-a888-b6ec0c7419f6@30732",
+        "ee1fa477-896c-4af1-a888-b6ec0c7419f6@f1394"
+      ],
+      "textures": [],
+      "materials": [
+        "ee1fa477-896c-4af1-a888-b6ec0c7419f6@db4d2",
+        "ee1fa477-896c-4af1-a888-b6ec0c7419f6@d90a4"
+      ],
+      "scenes": [
+        "ee1fa477-896c-4af1-a888-b6ec0c7419f6@612ab"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c1050457-3c68-4c46-9aea-eb996e7aef81",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "76339": {
+      "importer": "gltf-scene",
+      "uuid": "c1050457-3c68-4c46-9aea-eb996e7aef81@76339",
+      "displayName": "",
+      "id": "76339",
+      "name": "t_spider_02@walk_f_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b226": {
+      "importer": "gltf-animation",
+      "uuid": "c1050457-3c68-4c46-9aea-eb996e7aef81@4b226",
+      "displayName": "",
+      "id": "4b226",
+      "name": "walk_f_1.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6333333253860474
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "walk",
+        "duration": 0.6333333253860474,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk_f_1",
+            "from": 0,
+            "to": 0.6333333253860474,
+            "wrapMode": 2,
+            "previousId": "4b226"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "c1050457-3c68-4c46-9aea-eb996e7aef81@76339"
+      ]
+    }
+  }
+}

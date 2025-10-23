@@ -1,0 +1,126 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cc74e5c2-a6de-4a39-9112-64b53336515d",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "39eac": {
+      "importer": "gltf-animation",
+      "uuid": "cc74e5c2-a6de-4a39-9112-64b53336515d@39eac",
+      "displayName": "",
+      "id": "39eac",
+      "name": "attack01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.800000011920929
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "attackEvent",
+            "params": []
+          },
+          {
+            "frame": 0.8,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.8,
+            "func": "attackOver",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "ca417": {
+      "importer": "gltf-scene",
+      "uuid": "cc74e5c2-a6de-4a39-9112-64b53336515d@ca417",
+      "displayName": "",
+      "id": "ca417",
+      "name": "t_spider_02@attack01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.800000011920929,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack01",
+            "from": 0,
+            "to": 0.800000011920929,
+            "wrapMode": 1,
+            "previousId": "39eac"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "cc74e5c2-a6de-4a39-9112-64b53336515d@ca417"
+      ]
+    }
+  }
+}

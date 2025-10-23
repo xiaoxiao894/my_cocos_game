@@ -1,0 +1,206 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "055cf": {
+      "importer": "gltf-mesh",
+      "uuid": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@055cf",
+      "displayName": "",
+      "id": "055cf",
+      "name": "mantis_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 5592
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8e62e": {
+      "importer": "gltf-animation",
+      "uuid": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@8e62e",
+      "displayName": "",
+      "id": "8e62e",
+      "name": "Walk-Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 62
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "07e60": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@07e60",
+      "displayName": "",
+      "id": "07e60",
+      "name": "Map #11.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "b68c0": {
+      "importer": "texture",
+      "uuid": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@b68c0",
+      "displayName": "",
+      "id": "b68c0",
+      "name": "Map #11.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@07e60"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db4d2": {
+      "importer": "gltf-material",
+      "uuid": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@db4d2",
+      "displayName": "",
+      "id": "db4d2",
+      "name": "02 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06dee": {
+      "importer": "gltf-scene",
+      "uuid": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@06dee",
+      "displayName": "",
+      "id": "06dee",
+      "name": "mantis@Walk-Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #11",
+        "uri": "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@07e60"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Walk-Attack",
+            "from": 0,
+            "to": 1.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "8e62e"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@055cf"
+      ],
+      "skeletons": [
+        "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@438fe"
+      ],
+      "textures": [
+        "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@b68c0"
+      ],
+      "materials": [
+        "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@db4d2"
+      ],
+      "scenes": [
+        "a19da4e0-89a9-48d9-800f-7a59c0e3ccd7@06dee"
+      ]
+    }
+  }
+}

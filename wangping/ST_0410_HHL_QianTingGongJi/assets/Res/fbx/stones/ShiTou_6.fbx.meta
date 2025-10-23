@@ -1,0 +1,239 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6fa59f29-2575-4acd-90b2-4a44275232d3",
+  "files": [],
+  "subMetas": {
+    "59890": {
+      "importer": "gltf-scene",
+      "uuid": "6fa59f29-2575-4acd-90b2-4a44275232d3@59890",
+      "displayName": "",
+      "id": "59890",
+      "name": "ShiTou_6.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1e54": {
+      "importer": "gltf-mesh",
+      "uuid": "6fa59f29-2575-4acd-90b2-4a44275232d3@f1e54",
+      "displayName": "",
+      "id": "f1e54",
+      "name": "SM_RP_Vol_01_17.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 486
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "99ef2": {
+      "importer": "texture",
+      "uuid": "6fa59f29-2575-4acd-90b2-4a44275232d3@99ef2",
+      "displayName": "",
+      "id": "99ef2",
+      "name": "ShiTou_albedo_3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/fbx/stones/ShiTou_albedo.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "55b43": {
+      "importer": "gltf-material",
+      "uuid": "6fa59f29-2575-4acd-90b2-4a44275232d3@55b43",
+      "displayName": "",
+      "id": "55b43",
+      "name": "lambert3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "ShiTou_albedo_3",
+        "uri": "db://assets/Res/fbx/stones/ShiTou_albedo.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6fa59f29-2575-4acd-90b2-4a44275232d3@f1e54"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6fa59f29-2575-4acd-90b2-4a44275232d3@99ef2"
+      ],
+      "materials": [
+        "6fa59f29-2575-4acd-90b2-4a44275232d3@55b43"
+      ],
+      "scenes": [
+        "6fa59f29-2575-4acd-90b2-4a44275232d3@59890"
+      ]
+    },
+    "materials": {
+      "6fa59f29-2575-4acd-90b2-4a44275232d3@55b43": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 27,
+              "g": 160,
+              "b": 202,
+              "a": 255
+            },
+            "roughness": 0,
+            "specularIntensity": 0,
+            "emissive": {
+              "__type__": "cc.Color",
+              "r": 0,
+              "g": 35,
+              "b": 46,
+              "a": 255
+            },
+            "mainTexture": {
+              "__uuid__": "c81e18f0-48be-45bb-8d72-ff8436f27e7e@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "enable": false,
+      "targetRatio": 1
+    }
+  }
+}

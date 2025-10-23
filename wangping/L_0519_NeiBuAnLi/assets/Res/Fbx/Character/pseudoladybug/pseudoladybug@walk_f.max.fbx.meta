@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f6687cba-1b94-4ba6-82f5-d1adf324f44c",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "72356": {
+      "importer": "gltf-scene",
+      "uuid": "f6687cba-1b94-4ba6-82f5-d1adf324f44c@72356",
+      "displayName": "",
+      "id": "72356",
+      "name": "pseudoladybug@walk_f.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bda48": {
+      "importer": "gltf-animation",
+      "uuid": "f6687cba-1b94-4ba6-82f5-d1adf324f44c@bda48",
+      "displayName": "",
+      "id": "bda48",
+      "name": "walk_f.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "pseudoladybug@walk_f",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk_f",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "bda48"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "f6687cba-1b94-4ba6-82f5-d1adf324f44c@72356"
+      ]
+    },
+    "redirect": "f6687cba-1b94-4ba6-82f5-d1adf324f44c@72356"
+  }
+}

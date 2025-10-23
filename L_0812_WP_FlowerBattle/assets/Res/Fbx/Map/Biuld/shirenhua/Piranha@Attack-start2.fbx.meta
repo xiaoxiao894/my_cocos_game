@@ -1,0 +1,192 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4232f867-dbec-4e25-b1c9-edce977318f2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "88591": {
+      "importer": "gltf-mesh",
+      "uuid": "4232f867-dbec-4e25-b1c9-edce977318f2@88591",
+      "displayName": "",
+      "id": "88591",
+      "name": "piranha_01_a.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 6198
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ffbf5": {
+      "importer": "gltf-animation",
+      "uuid": "4232f867-dbec-4e25-b1c9-edce977318f2@ffbf5",
+      "displayName": "",
+      "id": "ffbf5",
+      "name": "Attack-start2.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.8333333730697632
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "4232f867-dbec-4e25-b1c9-edce977318f2@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 39
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b2e9": {
+      "importer": "texture",
+      "uuid": "4232f867-dbec-4e25-b1c9-edce977318f2@5b2e9",
+      "displayName": "",
+      "id": "5b2e9",
+      "name": "pasted__file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/Fbx/Map/Biuld/shirenhua/t_piranha_01_a_d.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3a51d": {
+      "importer": "gltf-material",
+      "uuid": "4232f867-dbec-4e25-b1c9-edce977318f2@3a51d",
+      "displayName": "",
+      "id": "3a51d",
+      "name": "a.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "892fe": {
+      "importer": "gltf-scene",
+      "uuid": "4232f867-dbec-4e25-b1c9-edce977318f2@892fe",
+      "displayName": "",
+      "id": "892fe",
+      "name": "Piranha@Attack-start2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "pasted__file1",
+        "uri": "db://assets/Res/Fbx/Map/Biuld/shirenhua/t_piranha_01_a_d.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.8333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Attack-start2",
+            "from": 0,
+            "to": 1.8333333730697632,
+            "wrapMode": 1,
+            "previousId": "ffbf5"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "4232f867-dbec-4e25-b1c9-edce977318f2@88591"
+      ],
+      "skeletons": [
+        "4232f867-dbec-4e25-b1c9-edce977318f2@438fe"
+      ],
+      "textures": [
+        "4232f867-dbec-4e25-b1c9-edce977318f2@5b2e9"
+      ],
+      "materials": [
+        "4232f867-dbec-4e25-b1c9-edce977318f2@3a51d"
+      ],
+      "scenes": [
+        "4232f867-dbec-4e25-b1c9-edce977318f2@892fe"
+      ]
+    }
+  }
+}

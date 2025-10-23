@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "aa2311c3-b328-4a3c-b842-fc66709cfaaf",
+  "files": [],
+  "subMetas": {
+    "010e5": {
+      "importer": "gltf-mesh",
+      "uuid": "aa2311c3-b328-4a3c-b842-fc66709cfaaf@010e5",
+      "displayName": "",
+      "id": "010e5",
+      "name": "FBX_TD_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 200
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d883": {
+      "importer": "gltf-material",
+      "uuid": "aa2311c3-b328-4a3c-b842-fc66709cfaaf@8d883",
+      "displayName": "",
+      "id": "8d883",
+      "name": "lambert1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bbbd0": {
+      "importer": "gltf-scene",
+      "uuid": "aa2311c3-b328-4a3c-b842-fc66709cfaaf@bbbd0",
+      "displayName": "",
+      "id": "bbbd0",
+      "name": "Model_nt_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "aa2311c3-b328-4a3c-b842-fc66709cfaaf@010e5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "aa2311c3-b328-4a3c-b842-fc66709cfaaf@8d883"
+      ],
+      "scenes": [
+        "aa2311c3-b328-4a3c-b842-fc66709cfaaf@bbbd0"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": false
+    }
+  }
+}

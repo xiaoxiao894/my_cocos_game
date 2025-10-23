@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ede61366-9b97-4282-81a3-e9e17f163ed9",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "99021": {
+      "importer": "gltf-scene",
+      "uuid": "ede61366-9b97-4282-81a3-e9e17f163ed9@99021",
+      "displayName": "",
+      "id": "99021",
+      "name": "Piranha@Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c2696": {
+      "importer": "gltf-animation",
+      "uuid": "ede61366-9b97-4282-81a3-e9e17f163ed9@c2696",
+      "displayName": "",
+      "id": "c2696",
+      "name": "Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.6666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "piranha_01@idle",
+        "duration": 2.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idle",
+            "from": 0,
+            "to": 2.6666667461395264,
+            "wrapMode": 2,
+            "previousId": "c2696"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "ede61366-9b97-4282-81a3-e9e17f163ed9@99021"
+      ]
+    }
+  }
+}

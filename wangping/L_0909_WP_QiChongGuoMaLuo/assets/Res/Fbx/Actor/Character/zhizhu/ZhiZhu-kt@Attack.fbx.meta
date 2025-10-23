@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "18a1eda4-9f27-4a43-a767-eb301780b913",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "2cd1c": {
+      "importer": "gltf-animation",
+      "uuid": "18a1eda4-9f27-4a43-a767-eb301780b913@2cd1c",
+      "displayName": "",
+      "id": "2cd1c",
+      "name": "Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e43b6": {
+      "importer": "gltf-scene",
+      "uuid": "18a1eda4-9f27-4a43-a767-eb301780b913@e43b6",
+      "displayName": "",
+      "id": "e43b6",
+      "name": "ZhiZhu-kt@Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Attack",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2,
+            "previousId": "2cd1c"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "18a1eda4-9f27-4a43-a767-eb301780b913@e43b6"
+      ]
+    }
+  }
+}

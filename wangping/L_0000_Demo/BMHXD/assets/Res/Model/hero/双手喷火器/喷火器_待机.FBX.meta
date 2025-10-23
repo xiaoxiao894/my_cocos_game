@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "afd76ae6-3313-4971-8d99-fafd9d4c2913",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "afd76ae6-3313-4971-8d99-fafd9d4c2913@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "4d267": {
+      "importer": "gltf-scene",
+      "uuid": "afd76ae6-3313-4971-8d99-fafd9d4c2913@4d267",
+      "displayName": "",
+      "id": "4d267",
+      "name": "喷火器_待机.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 2,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "afd76ae6-3313-4971-8d99-fafd9d4c2913@4d267"
+      ]
+    }
+  }
+}

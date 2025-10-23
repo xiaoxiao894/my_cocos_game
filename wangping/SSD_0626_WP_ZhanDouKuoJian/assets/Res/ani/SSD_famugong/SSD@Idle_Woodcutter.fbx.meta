@@ -1,0 +1,105 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "eee6d0c6-134b-4b55-ace7-36c006301762",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "150e2": {
+      "importer": "gltf-animation",
+      "uuid": "eee6d0c6-134b-4b55-ace7-36c006301762@150e2",
+      "displayName": "",
+      "id": "150e2",
+      "name": "Idle_Woodcutter.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "258d5": {
+      "importer": "gltf-scene",
+      "uuid": "eee6d0c6-134b-4b55-ace7-36c006301762@258d5",
+      "displayName": "",
+      "id": "258d5",
+      "name": "SSD@Idle_Woodcutter.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idle_Woodcutter",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "150e2"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "eee6d0c6-134b-4b55-ace7-36c006301762@258d5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "83f5ed3f-de71-49d0-823a-287c0c55c688",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "89400": {
+      "importer": "gltf-animation",
+      "uuid": "83f5ed3f-de71-49d0-823a-287c0c55c688@89400",
+      "displayName": "",
+      "id": "89400",
+      "name": "Idle_pt.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.6666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "5dc4e": {
+      "importer": "gltf-scene",
+      "uuid": "83f5ed3f-de71-49d0-823a-287c0c55c688@5dc4e",
+      "displayName": "",
+      "id": "5dc4e",
+      "name": "YuMi@Idle_pt.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.6666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idle_pt",
+            "from": 0,
+            "to": 1.6666666269302368,
+            "wrapMode": 2,
+            "previousId": "89400"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "83f5ed3f-de71-49d0-823a-287c0c55c688@5dc4e"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

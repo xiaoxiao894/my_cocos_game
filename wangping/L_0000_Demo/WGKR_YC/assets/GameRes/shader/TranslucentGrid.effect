@@ -1,0 +1,544 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: standard-vs:vert
+      frag: standard-fs:frag
+      properties: &props
+        blinkSec:          { value: 0.0 , editor: {tooltip: "闪烁频率,每次闪烁花多少秒,设置为0则不闪烁"}}
+        tilingOffset:   { value: [1.0, 1.0, 0.0, 0.0] }
+        mainColor:      { value: [1.0, 1.0, 1.0, 1.0], target: albedo, editor: { displayName: Albedo, type: color } }
+        albedoScale:    { value: [1.0, 1.0, 1.0], target: albedoScaleAndCutoff.xyz }
+        alphaThreshold: { value: 0.5, target: albedoScaleAndCutoff.w, editor: { parent: USE_ALPHA_TEST } }
+        occlusion:      { value: 1.0, target: pbrParams.x }
+        roughness:      { value: 0.8, target: pbrParams.y }
+        metallic:       { value: 0.6, target: pbrParams.z }
+        normalStrenth:  { value: 1.0, target: pbrParams.w, editor: { parent: USE_NORMAL_MAP } }
+        emissive:       { value: [0.0, 0.0, 0.0, 1.0], editor: { type: color } }
+        emissiveScale:  { value: [1.0, 1.0, 1.0], target: emissiveScaleParam.xyz }
+        mainTexture:    { value: grey, target: albedoMap, editor: { displayName: AlbedoMap } }
+        mainTextureSingleFaceAxis:    { value: [0, 1, 0], target: SingleFaceAxis.xyz, editor: { vector: vector, displayName: SingleFaceAxis, tooltip: "仅单面贴图的法线方向" } }
+        normalMap:      { value: normal       }
+        pbrMap:         { value: grey         }
+        metallicRoughnessMap: { value: grey   }
+        occlusionMap:   { value: white        }
+        emissiveMap:    { value: grey         }
+        gradientAxisXYZ:      { value: [0, 1, 0], target: gradientAxis.xyz, editor: { vector: vector, tooltip: "渐变透明的方向轴(从透明到不透明),哪个方向的则填1,其他为0"} }
+        gradientStartOffset:      { value: 0.5, editor: { tooltip: "渐变透明开始点的偏移(从模型原点开始)"} }
+        gradientLength:      { value: 0.8, editor: { tooltip: "渐变长度"} }
+        sweepLightColor:    { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color, tooltip: "扫光的颜色" }}
+        sweepLightScope:    { value: 10, editor: { tooltip: "扫光的总范围尺寸,以原点为中心" }}
+        sweepLightWidth:    { value: 1, editor: { tooltip: "扫光的宽度,以原点为中心" }}
+        sweepLightSec:    { value: 1, editor: { tooltip: "扫光一次花的秒数,大于0才有效果" }}
+      migrations: &migs # existing material data migration
+        properties:
+          mainColor:      { formerlySerializedAs: albedo }
+          alphaThreshold: { formerlySerializedAs: albedoScale.w }
+          normalStrenth:  { formerlySerializedAs: pbrScale.w }
+          mainTexture:    { formerlySerializedAs: albedoMap }
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+    - vert: standard-vs:vert
+      frag: standard-fs:frag
+      phase: forward-add
+      propertyIndex: 0
+      embeddedMacros: { CC_FORWARD_ADD: true }
+      depthStencilState:
+        depthFunc: equal
+        depthTest: true
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: one
+          blendDst: one
+          blendSrcAlpha: zero
+          blendDstAlpha: one
+      properties: *props
+    - switch: USE_Outline_PASS
+      vert: zOutline-vs:vert
+      frag: zOutline-fs:frag
+      rasterizerState:
+        cullMode: front
+      properties: &outline_props
+        lineColor:    { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color, tooltip: "模型描边的颜色" }}
+        lineWidth:    { value: 10, editor: { tooltip: "描边的宽度" }}
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+    - vert: shadow-caster-vs:vert
+      frag: shadow-caster-fs:frag
+      phase: shadow-caster
+      propertyIndex: 0
+      rasterizerState:
+        cullMode: back
+  - name: transparent
+    passes:
+    - vert: standard-vs:vert
+      frag: standard-fs:frag
+      depthStencilState:
+        depthTest: true
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+      migrations: *migs
+    - vert: standard-vs:vert
+      frag: standard-fs:frag
+      phase: forward-add
+      propertyIndex: 0
+      depthStencilState:
+        depthTest: true
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: one
+          blendDst: one
+      properties: *props
+    - vert: shadow-caster-vs:vert
+      frag: shadow-caster-fs:frag
+      phase: shadow-caster
+      propertyIndex: 0
+      rasterizerState:
+        cullMode: back
+}%
+
+// ========== 统一缓冲区对象 ==========
+CCProgram shared-ubos %{
+  uniform Constants {
+    vec4 tilingOffset;
+    vec4 albedo;
+    vec4 albedoScaleAndCutoff;
+    vec4 pbrParams;
+    vec4 emissive;
+    vec4 emissiveScaleParam;
+    vec4 lineColor;
+    float lineWidth;
+  };
+  
+  // 全局变量必须放在uniform block中
+  // 注意：所有向量必须使用1/2/4分量，避免3分量
+  uniform GlobalUniforms {
+    mat4 cc_matWorld;
+    mat4 cc_matWorldIT;
+    mat4 cc_matView;
+    mat4 cc_matProj;
+    mat4 cc_matViewProj;
+    mat4 cc_matLightViewProj; // 添加阴影投射专用矩阵
+    vec4 cc_cameraPos; // vec4代替vec3
+    vec4 cc_time;
+    vec4 cc_fogColor;
+  };
+}%
+
+// ================== 标准顶点着色器 ==================
+CCProgram standard-vs %{
+  precision highp float;
+  
+  #include <legacy/input>
+  #include <shared-ubos>
+  
+  #if USE_INSTANCING
+    in vec4 instanced_uv;
+    in vec4 instanced_albedo;
+    in vec4 instanced_blinkSec;
+    in vec4 instanced_sweepLightPosPer;
+  #endif
+
+  // 自定义uniform必须放在block中
+  uniform BlinkBlock {
+    float blinkSec;
+  };
+  
+  out float blinkTransparency;
+
+  #if USE_SweepLight
+    uniform SweepLightBlock {
+      vec4 sweepLightColor;
+      float sweepLightWidth;
+      float sweepLightScope;
+      float sweepLightSec;
+    };
+    out float v_sweepLightPosPer;
+  #endif
+
+  out vec3 position;
+  out vec3 v_position;
+  out vec3 v_normal;
+  out vec2 v_uv;
+  out vec2 v_uv1;
+  out float v_fog_factor;
+  out vec4 v_baseColor;
+
+  #if USE_NORMAL_MAP
+    out vec3 v_tangent;
+    out vec3 v_bitangent;
+  #endif
+
+  #if HAS_SECOND_UV || USE_LIGHTMAP
+    in vec2 a_texCoord1;
+  #endif
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1.0);
+    vec3 normal = a_normal;
+    vec2 texCoord = a_texCoord;
+    
+    #if USE_INSTANCING
+      v_uv = a_texCoord * instanced_uv.xy + instanced_uv.zw;
+      #if HAS_SECOND_UV
+        v_uv1 = a_texCoord1 * instanced_uv.xy + instanced_uv.zw;
+      #endif
+      v_baseColor = instanced_albedo;
+    #else
+      v_uv = a_texCoord * tilingOffset.xy + tilingOffset.zw;
+      #if HAS_SECOND_UV
+        v_uv1 = a_texCoord1 * tilingOffset.xy + tilingOffset.zw;
+      #endif
+      v_baseColor = albedo;
+    #endif
+
+    position = a_position.xyz;
+    vec4 worldPos = cc_matWorld * pos;
+    v_position = worldPos.xyz;
+    v_normal = normalize((cc_matWorldIT * vec4(normal, 0.0)).xyz);
+
+    #if USE_NORMAL_MAP
+      v_tangent = normalize((cc_matWorld * vec4(a_tangent.xyz, 0.0)).xyz);
+      v_bitangent = cross(v_normal, v_tangent) * a_tangent.w;
+    #endif
+
+    // 闪烁效果
+    #if USE_INSTANCING
+      if(instanced_blinkSec.x > 0.0) {
+        blinkTransparency = abs(1.0 - mod(cc_time.x, instanced_blinkSec.x * 2.0) / instanced_blinkSec.x);
+      } else {
+        blinkTransparency = 1.0;
+      }
+    #else
+      if(blinkSec > 0.0) {
+        blinkTransparency = abs(1.0 - mod(cc_time.x, blinkSec * 2.0) / blinkSec);
+      } else {
+        blinkTransparency = 1.0;
+      }
+    #endif
+
+    // 扫光效果
+    #if USE_SweepLight
+      #if USE_INSTANCING
+        v_sweepLightPosPer = instanced_sweepLightPosPer.x;
+      #else
+        if(sweepLightSec > 0.0) {
+          v_sweepLightPosPer = mod(cc_time.x, sweepLightSec) / sweepLightSec;
+        } else {
+          v_sweepLightPosPer = -1.0;
+        }
+      #endif
+    #endif
+
+    // 雾效因子计算
+    vec4 viewPos = cc_matView * worldPos;
+    v_fog_factor = clamp((viewPos.z + 50.0) / 100.0, 0.0, 1.0);
+
+    return cc_matProj * viewPos;
+  }
+}%
+
+// ================== 标准片段着色器 ==================
+CCProgram standard-fs %{
+  precision highp float;
+  
+  #include <shared-ubos>
+  
+  in vec4 v_baseColor;
+  in vec3 position;
+  in vec3 v_position;
+  in vec2 v_uv;
+  in vec2 v_uv1;
+  in vec3 v_normal;
+  in float v_fog_factor;
+  in float blinkTransparency;
+
+  #if USE_GRADIENT_Transparency
+  uniform GradientBlock {
+    vec4 gradientAxis;
+    float gradientLength;
+    float gradientStartOffset;
+  };
+  #endif
+  
+  #if USE_SweepLight
+    uniform SweepLightBlock {
+      vec4 sweepLightColor;
+      float sweepLightWidth;
+      float sweepLightScope;
+      float sweepLightSec;
+    };
+    in float v_sweepLightPosPer;
+  #endif
+
+  #if USE_ALBEDO_MAP
+    uniform sampler2D albedoMap;
+    #define ALBEDO_UV v_uv
+    
+    #if USE_ALBEDO_MAP_SINGLE_FACE
+      uniform SingleFaceBlock {
+        vec4 SingleFaceAxis;
+      };
+    #endif
+  #endif
+  
+  #if USE_NORMAL_MAP
+    in vec3 v_tangent;
+    in vec3 v_bitangent;
+    uniform sampler2D normalMap;
+    #define NORMAL_UV v_uv
+  #endif
+  
+  #define PBR_UV v_uv
+  
+  #if USE_PBR_MAP
+    uniform sampler2D pbrMap;
+  #endif
+  
+  #if USE_METALLIC_ROUGHNESS_MAP
+    uniform sampler2D metallicRoughnessMap;
+  #endif
+  
+  #if USE_OCCLUSION_MAP
+    uniform sampler2D occlusionMap;
+  #endif
+  
+  #if USE_EMISSIVE_MAP
+    uniform sampler2D emissiveMap;
+    #define EMISSIVE_UV v_uv
+  #endif
+
+  #define OCCLUSION_CHANNEL r
+  #define ROUGHNESS_CHANNEL g
+  #define METALLIC_CHANNEL b
+
+  #if USE_ALPHA_TEST
+    #define ALPHA_TEST_CHANNEL a
+  #endif
+
+  // 光照计算
+  vec3 calculateLighting(vec3 normal, vec3 albedo) {
+    vec3 lightDir = normalize(vec3(0.5, 1.0, 0.7));
+    float diff = max(dot(normal, lightDir), 0.0);
+    vec3 diffuse = diff * vec3(1.0);
+    vec3 ambient = vec3(0.2);
+    return albedo * (ambient + diffuse);
+  }
+
+  vec4 frag () {
+    vec4 baseColor = v_baseColor;
+
+    #if USE_ALBEDO_MAP
+      bool hasTex = true;
+      #if USE_ALBEDO_MAP_SINGLE_FACE
+        hasTex = (v_normal.y >= 0.999);
+      #endif
+      
+      if(hasTex) {
+        vec4 texColor = texture(albedoMap, ALBEDO_UV);
+        texColor.rgb = pow(texColor.rgb, vec3(2.2)); // sRGB to linear
+        baseColor *= texColor;
+      }
+    #endif
+    
+    #if USE_GRADIENT_Transparency
+      float gradientDir = dot(gradientAxis.xyz, position);
+      baseColor.a *= clamp((gradientDir + gradientStartOffset) / gradientLength, 0.0, 1.0);
+    #endif
+    
+    #if USE_SweepLight
+      if(v_sweepLightPosPer > 0.0) {
+        float sweepLightCenterY = sweepLightScope / 2.0 - v_sweepLightPosPer * sweepLightScope;
+        float slDis = abs(position.y - sweepLightCenterY);
+        float slAph = smoothstep(1.0, 0.0, slDis / (sweepLightWidth / 2.0));
+        baseColor.rgb = mix(baseColor.rgb, sweepLightColor.rgb, slAph);
+      }
+    #endif
+
+    // 应用光照
+    vec3 litColor = calculateLighting(normalize(v_normal), baseColor.rgb);
+    vec4 color = vec4(litColor, baseColor.a);
+    
+    // 闪烁效果
+    color.a *= blinkTransparency;
+
+    // 应用雾效
+    #if CC_USE_FOG
+      color.rgb = mix(color.rgb, cc_fogColor.rgb, v_fog_factor);
+    #endif
+    
+    return color;
+  }
+}%
+
+// ================== 描边顶点着色器 ==================
+CCProgram zOutline-vs %{
+  precision highp float;
+  
+  #include <legacy/input>
+  #include <shared-ubos>
+  
+  #if USE_INSTANCING
+    in vec4 instanced_outlineColor;
+    in vec4 instanced_outlineWidth;
+  #endif
+
+  out vec3 position;
+  out vec3 v_position;
+  out vec3 v_normal;
+  out vec4 v_color;
+  
+  #if USE_Margin_FadeOut
+    out float v_camera_normal_dot;
+  #endif
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1.0);
+    vec3 normal = a_normal;
+    
+    vec4 worldPos = cc_matWorld * pos;
+    v_position = worldPos.xyz;
+    v_normal = normalize((cc_matWorldIT * vec4(normal, 0.0)).xyz);
+
+    #if USE_Margin_FadeOut
+      // 使用cc_cameraPos.xyz获取前三个分量
+      vec3 cameraDir = normalize(cc_cameraPos.xyz - v_position);
+      v_camera_normal_dot = dot(v_normal, cameraDir);
+    #endif
+
+    float width;
+    #if USE_INSTANCING
+      width = instanced_outlineWidth.x * 0.001;
+      v_color = instanced_outlineColor;
+    #else
+      width = lineWidth * 0.001;
+      v_color = lineColor;
+    #endif
+    
+    // 顶点扩展
+    vec3 expandDir = normalize(a_normal);
+    pos.xyz += expandDir * width;
+    
+    vec4 viewPos = cc_matView * worldPos;
+    return cc_matProj * viewPos;
+  }
+}%
+
+// ================== 描边片段着色器 ==================
+CCProgram zOutline-fs %{
+  precision highp float;
+  
+  in vec3 position;
+  in vec3 v_position;
+  in vec3 v_normal;
+  in vec4 v_color;
+  
+  #if USE_Margin_FadeOut
+    in float v_camera_normal_dot;
+  #endif
+
+  vec4 frag () {
+    vec4 o = v_color;
+    
+    #if USE_Margin_FadeOut
+      o.a = abs(v_camera_normal_dot);
+    #endif
+    
+    return o;
+  }
+}%
+
+// ================== 阴影投射着色器 ==================
+CCProgram shadow-caster-vs %{
+  precision highp float;
+  
+  #include <legacy/input>
+  #include <shared-ubos>
+  
+  #if HAS_SECOND_UV || USE_LIGHTMAP
+    in vec2 a_texCoord1;
+  #endif
+
+  out vec2 v_uv;
+  out vec2 v_uv1;
+  out vec2 v_clip_depth;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1.0);
+    vec4 worldPos = cc_matWorld * pos;
+    vec4 clipPos = cc_matLightViewProj * worldPos; // 使用全局缓冲区中的矩阵
+
+    v_uv = a_texCoord * tilingOffset.xy + tilingOffset.zw;
+    
+    #if HAS_SECOND_UV
+      v_uv1 = a_texCoord1 * tilingOffset.xy + tilingOffset.zw;
+    #endif
+
+    v_clip_depth = clipPos.zw;
+
+    return clipPos;
+  }
+}%
+
+CCProgram shadow-caster-fs %{
+  precision highp float;
+  
+  #include <shared-ubos>
+  
+  in vec2 v_uv;
+  in vec2 v_uv1;
+  in vec2 v_clip_depth;
+
+  #if USE_ALBEDO_MAP
+    uniform sampler2D albedoMap;
+    #define ALBEDO_UV v_uv
+  #endif
+
+  #if USE_ALPHA_TEST
+    #define ALPHA_TEST_CHANNEL a
+  #endif
+
+  // 深度打包
+  vec4 packDepth(float depth) {
+    depth = depth * 0.5 + 0.5;
+    vec4 enc = vec4(1.0, 255.0, 65025.0, 16581375.0) * depth;
+    enc = fract(enc);
+    enc -= enc.yzww * vec4(1.0/255.0, 1.0/255.0, 1.0/255.0, 0.0);
+    return enc;
+  }
+
+  vec4 frag () {
+    vec4 baseColor = albedo;
+
+    #if USE_ALBEDO_MAP
+      baseColor *= texture(albedoMap, ALBEDO_UV);
+    #endif
+
+    #if USE_ALPHA_TEST
+      if (baseColor.ALPHA_TEST_CHANNEL < albedoScaleAndCutoff.w) discard;
+    #endif
+
+    float depth = v_clip_depth.x / v_clip_depth.y;
+    return packDepth(depth);
+  }
+}%

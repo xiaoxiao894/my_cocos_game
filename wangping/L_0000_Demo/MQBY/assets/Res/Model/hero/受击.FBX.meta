@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7e777f3b-6346-44ae-9ae0-baec217665c1",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "96058": {
+      "importer": "gltf-scene",
+      "uuid": "7e777f3b-6346-44ae-9ae0-baec217665c1@96058",
+      "displayName": "",
+      "id": "96058",
+      "name": "受击.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "7e777f3b-6346-44ae-9ae0-baec217665c1@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "hurt.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5333333611488342
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.5333333611488342,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "hurt",
+            "from": 0,
+            "to": 0.5333333611488342,
+            "wrapMode": 2,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "7e777f3b-6346-44ae-9ae0-baec217665c1@96058"
+      ]
+    }
+  }
+}

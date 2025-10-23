@@ -1,0 +1,65 @@
+// Effect Syntax Guide: https://docs.cocos.com/creator/manual/zh/shader/index.html
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: legacy/main-functions/general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      properties: &props
+        mainTexture:    { value: white }
+        _baseColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+        _waveTexture: { value: white}
+        _waveBaseColor: { value: [1, 1, 1, 1], editor: { type: color } }
+  - name: transparent
+    passes:
+    - vert: general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+}%
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <legacy/output>
+  #include <legacy/fog-fs>
+
+  in vec2 v_uv;
+  in vec3 v_position;
+
+  uniform sampler2D mainTexture;
+  uniform sampler2D _waveTexture;
+
+  uniform Constant {
+    vec4 _baseColor;
+    vec4 _waveBaseColor;
+  };
+
+  vec4 waveColor(vec2 uv){
+    float tilling = 6.5;
+    float  speed = 0.03;
+    vec2 offset = vec2(0,1.0) * speed * cc_time.x;
+    vec4 wColor1 = texture(_waveTexture, uv * tilling + offset);
+    vec4 wColor2 = texture(_waveTexture, -uv * tilling + offset);
+    vec4 wColor = min(wColor1, wColor2);
+    wColor=wColor*_waveBaseColor;
+    //强度，越大白色部分越亮，可能主要体现在渐变的图上，我用的图没渐变看不出来
+    float stren = 1.0;
+    return wColor * stren;
+  }
+
+  vec4 frag () {
+    vec4 col = _baseColor * texture(mainTexture, v_uv);
+    vec4 wColor =waveColor(v_uv);
+    col = col +wColor;
+    //CC_APPLY_FOG(col, v_position);
+    col.a = 0.7;
+    return CCFragOutput(col);
+  }
+}%

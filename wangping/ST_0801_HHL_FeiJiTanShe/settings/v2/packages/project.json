@@ -1,0 +1,33 @@
+{
+  "__version__": "1.0.6",
+  "layer": [
+    {
+      "name": "MAIN_PLAYER",
+      "value": 2
+    },
+    {
+      "name": "FLOOR",
+      "value": 32
+    }
+  ],
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionMatrix": {
+      "0": 5,
+      "1": 0,
+      "2": 1
+    },
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "ROPE"
+      }
+    ]
+  },
+  "general": {
+    "designResolution": {
+      "height": 1920,
+      "width": 1080
+    }
+  }
+}

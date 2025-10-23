@@ -1,0 +1,200 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6dfca974-e350-468b-b12a-f96e79284667",
+  "files": [],
+  "subMetas": {
+    "b43ab": {
+      "importer": "gltf-mesh",
+      "uuid": "6dfca974-e350-468b-b12a-f96e79284667@b43ab",
+      "displayName": "",
+      "id": "b43ab",
+      "name": "spider_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1314
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "6dfca974-e350-468b-b12a-f96e79284667@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 18
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8803": {
+      "importer": "gltf-material",
+      "uuid": "6dfca974-e350-468b-b12a-f96e79284667@c8803",
+      "displayName": "",
+      "id": "c8803",
+      "name": "t_spider_d.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dad16": {
+      "importer": "gltf-scene",
+      "uuid": "6dfca974-e350-468b-b12a-f96e79284667@dad16",
+      "displayName": "",
+      "id": "dad16",
+      "name": "skin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6dfca974-e350-468b-b12a-f96e79284667@b43ab"
+      ],
+      "skeletons": [
+        "6dfca974-e350-468b-b12a-f96e79284667@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "6dfca974-e350-468b-b12a-f96e79284667@c8803"
+      ],
+      "scenes": [
+        "6dfca974-e350-468b-b12a-f96e79284667@dad16"
+      ]
+    },
+    "materials": {
+      "6dfca974-e350-468b-b12a-f96e79284667@c8803": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "DCC_APP_NAME": 1
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            },
+            "emissiveScale": 0,
+            "shininessExponent": 2,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 243,
+              "g": 243,
+              "b": 243,
+              "a": 255
+            },
+            "specularFactor": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

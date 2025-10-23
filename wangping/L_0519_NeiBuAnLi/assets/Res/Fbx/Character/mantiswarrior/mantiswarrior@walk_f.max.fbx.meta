@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "03c31bbc-2b6d-4d1e-899c-66f5567c4d62",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "bda48": {
+      "importer": "gltf-animation",
+      "uuid": "03c31bbc-2b6d-4d1e-899c-66f5567c4d62@bda48",
+      "displayName": "",
+      "id": "bda48",
+      "name": "walk_f.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9333333373069763
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b7913": {
+      "importer": "gltf-scene",
+      "uuid": "03c31bbc-2b6d-4d1e-899c-66f5567c4d62@b7913",
+      "displayName": "",
+      "id": "b7913",
+      "name": "mantiswarrior@walk_f.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mantiswarrior@walk_f",
+        "duration": 0.9333333373069763,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk_f",
+            "from": 0,
+            "to": 0.9333333373069763,
+            "wrapMode": 2,
+            "previousId": "bda48"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "03c31bbc-2b6d-4d1e-899c-66f5567c4d62@b7913"
+      ]
+    },
+    "redirect": "03c31bbc-2b6d-4d1e-899c-66f5567c4d62@b7913"
+  }
+}

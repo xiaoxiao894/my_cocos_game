@@ -1,0 +1,112 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "131c54b9-6efe-4c36-994d-29b8ce75b912",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "2cd1c": {
+      "importer": "gltf-animation",
+      "uuid": "131c54b9-6efe-4c36-994d-29b8ce75b912@2cd1c",
+      "displayName": "",
+      "id": "2cd1c",
+      "name": "Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8333333134651184
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1dd31": {
+      "importer": "gltf-scene",
+      "uuid": "131c54b9-6efe-4c36-994d-29b8ce75b912@1dd31",
+      "displayName": "",
+      "id": "1dd31",
+      "name": "NuJian@Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.8333333134651184,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Attack",
+            "from": 0,
+            "to": 0.8333333134651184,
+            "wrapMode": 2,
+            "previousId": "2cd1c"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "131c54b9-6efe-4c36-994d-29b8ce75b912@1dd31"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

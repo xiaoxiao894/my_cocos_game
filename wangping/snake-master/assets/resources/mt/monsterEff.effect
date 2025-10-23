@@ -1,0 +1,197 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha          
+      rasterizerState:
+        cullMode: none
+      properties:
+        alphaThreshold: { value: 0.5 }
+        # 自定义参数
+        hitwhit: {value: 0.0}
+        noiceTx: {value: white}
+        glowThreshold: {
+          value: 0.1,
+          editor: {
+            tooltip: "发光阈值（只有超过这个透明度的点才会发光）",
+            range: [0.0, 1.0]
+          }
+        }     
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #if USE_LOCAL
+    #include <builtin/uniforms/cc-local>
+  #endif
+
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+  
+  out vec4 v_color;
+  out vec2 v_uv0;
+
+  #if USE_TEXTURE
+    in vec2 a_uv0;
+  #endif
+
+  vec4 vert (){
+    vec4 pos = vec4(a_position, 1);
+
+    #if USE_LOCAL
+      pos = cc_matWorld * pos;
+    #endif
+
+    #if USE_PIXEL_ALIGNMENT
+      pos = cc_matView * pos;
+      pos.xyz = floor(pos.xyz);
+      pos = cc_matProj * pos;
+    #else
+      pos = cc_matViewProj * pos;
+    #endif
+
+    #if USE_TEXTURE
+      v_uv0 = a_uv0;
+    #endif
+
+    v_color = a_color;
+
+    v_uv0 = a_texCoord;
+
+    return pos;
+  }
+}%
+
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <builtin/internal/embedded-alpha>
+  #include <builtin/internal/alpha-test>
+
+  in vec4 v_color;
+
+  #if USE_TEXTURE
+    in vec2 v_uv0;
+    #pragma builtin(local)
+    layout(set = 2, binding = 11) uniform sampler2D cc_spriteTexture;
+  #endif
+
+  uniform sampler2D noiceTx;
+
+  // 定义向周边搜索的圈数
+  #pragma define range 5.0
+
+  #if SHOW_INNER_GLOW
+
+    uniform glow {
+
+      // 闪白进度
+      float hitwhit;
+
+      // 发光阈值
+      float glowThreshold;
+
+      // 特别地，必须是 vec4 先于 float 声明
+    };
+
+    vec4 getTextureColor(sampler2D mainTexture, vec2 v_uv0) {
+      if (v_uv0.x > 1.0 || v_uv0.x < 0.0 || v_uv0.y > 1.0 || v_uv0.y < 0.0) {
+        return vec4(0.0, 0.0, 0.0, 0.0);
+      }
+      return CCSampleWithAlphaSeparated(mainTexture, v_uv0);
+    }
+  #endif
+
+
+  vec4 frag () {
+    vec4 o = vec4(1, 1, 1, 1);
+    vec4 white = vec4(1 , 1 ,1, 1);
+    vec4 burnColor = vec4(0, 0, 0.8, 1);
+    float vcolorA = v_color.a;
+
+    #if USE_TEXTURE
+      o *= CCSampleWithAlphaSeparated(cc_spriteTexture, v_uv0);
+      #if IS_GRAY
+        float gray  = 0.2126 * o.r + 0.7152 * o.g + 0.0722 * o.b;
+        o.r = o.g = o.b = gray;
+      #endif
+      #if CC_USE_ALPHA_ATLAS_TEXTURE
+        o.a *= texture2D(cc_spriteTexture, v_uv0 + vec2(0, 0.5)).r;
+      #endif
+    #endif
+
+    // o *= v_color;
+    //废弃a的透明度作用
+    // o.rgb *= v_color.rgb;
+    
+    #if SHOW_INNER_GLOW
+      vec4 color_dest = o;
+
+      if(hitwhit > 0.){
+        //下面那坨阴影就不闪白了吧 //&& v_uv0.y <= 0.90
+        if(color_dest.a > 0.02 ){
+          o = white * hitwhit + color_dest;
+        }else{
+          o = color_dest;
+        }
+      }
+
+      //利用v_color.r 实现冰冻减速内发光 r控制蓝色内发光开关
+      vec4 innerLightParam = vec4(1,1,1,1);
+      innerLightParam.r = o.a;
+      innerLightParam.g = 1. - abs(v_uv0.x - 0.5) * 0.5 ;
+      innerLightParam.b = 1. - abs(v_uv0.y - 0.5) * 0.5 ;
+      innerLightParam.a = innerLightParam.g * innerLightParam.b * 0.8;
+      if(innerLightParam.r < 0.08){
+          innerLightParam.a = 0.;
+      }
+      vec4 color_src = burnColor * innerLightParam.a;
+
+      // 源颜色（内发光）
+      if(v_color.r < 0.1){  
+        o = color_src * color_src.a + color_dest;
+      }
+    #endif
+      
+    //闪白
+    //利用alpha通道 实现不打断合批的 受击闪白 a越接近1.0 白图影响越大
+    //弃用了v_color.a的意义 //消融的时候不闪白
+    if(v_color.g == 1. && abs(vcolorA) > .01){
+      o.rgb = o.rgb * (1.0 - vcolorA) + white.rgb * vcolorA;
+    }
+
+    //消融
+    //v_color.g
+    if(v_color.g != 1.){
+
+      //改为step方式
+      float disFactor = 1.0;
+      disFactor *= step(o.b,v_color.g) * step(o.r, v_color.g) * step(o.g,v_color.g);
+      if(disFactor == 1.){
+        discard;
+      }
+
+      disFactor = 1.0;
+      disFactor *= step(v_color.g,0.2) * step(o.b,v_color.g+0.2);
+      o.rgb = mix(o.rgb, vec3(.2,.6,.2), disFactor);
+
+
+
+    }
+
+    return o;
+  }
+}%

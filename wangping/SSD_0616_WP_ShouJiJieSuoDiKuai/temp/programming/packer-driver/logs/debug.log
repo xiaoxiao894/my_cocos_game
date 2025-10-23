@@ -1,0 +1,981 @@
+17:06:34.024 debug: 2025/10/19 17:06:34
+17:06:34.024 debug: Project: D:\playable\wangping\SSD_0616_WP_ShouJiJieSuoDiKuai
+17:06:34.024 debug: Targets: editor,preview
+17:06:34.032 debug: Incremental file seems great.
+17:06:34.033 debug: Engine path: E:\cocos\cocoversion\Creator\3.8.6\resources\resources\3d\engine
+17:06:34.056 debug: Initializing target [Editor]
+17:06:34.057 debug: Loading cache
+17:06:34.132 debug: Loading cache costs 74.17599999999948ms.
+17:06:34.132 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,rich-text,mask,graphics,ui-skew,ui,affine-transform,particle,particle-2d,physics-framework,physics-cannon,physics-physx,physics-ammo,physics-builtin,physics-2d-framework,physics-2d-box2d-jsb,physics-2d-box2d,physics-2d-builtin,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,vendor-google,spine-3.8,spine-4.2,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
+17:06:34.132 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+17:06:34.133 debug: Initializing target [Preview]
+17:06:34.133 debug: Loading cache
+17:06:34.222 debug: Loading cache costs 88.3687000000009ms.
+17:06:34.222 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+17:06:34.318 debug: Sync engine features: 2d,3d,affine-transform,animation,audio,base,gfx-webgl,graphics,legacy-pipeline,light-probe,marionette,mask,meshopt,particle,physics-cannon,primitive,profiler,rich-text,skeletal-animation,tween,ui,legacy-pipeline
+17:06:34.326 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "E:\\cocos\\cocoversion\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "D:\\playable\\wangping\\SSD_0616_WP_ShouJiJieSuoDiKuai\\assets"
+  }
+]
+17:06:34.327 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/"
+  }
+}
+17:06:34.327 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/"
+  }
+}
+17:06:34.327 debug: Pulling asset-db.
+17:06:34.347 debug: Fetch asset-db cost: 19.73580000000038ms.
+17:06:34.348 debug: Build iteration starts.
+Number of accumulated asset changes: 40
+Feature changed: false
+17:06:34.349 debug: Target(editor) build started.
+17:06:34.357 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
+17:06:34.357 debug: Inspect cce:/internal/x/cc
+17:06:34.464 debug: transform url: 'cce:/internal/x/cc' costs: 106.60 ms
+17:06:34.480 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:06:34.480 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:06:34.480 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+17:06:34.481 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+17:06:34.481 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
+17:06:34.481 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:06:34.481 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:06:34.481 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:06:34.481 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:06:34.481 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:06:34.481 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/mask from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/mask.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/ui-skew from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui-skew.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:06:34.482 debug: Resolve cce:/internal/x/cc-fu/physics-physx from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-physx.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/physics-builtin from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-builtin.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-jsb from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-jsb.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/physics-2d-builtin from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-builtin.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+17:06:34.483 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/vendor-google from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/vendor-google.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+17:06:34.484 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+17:06:34.485 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+17:06:34.486 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
+17:06:34.486 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+17:06:34.487 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
+17:06:34.487 debug: Inspect cce:/internal/x/prerequisite-imports
+17:06:34.537 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 49.80 ms
+17:06:34.539 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts.
+17:06:34.539 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.540 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts.
+17:06:34.540 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts.
+17:06:34.540 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts.
+17:06:34.541 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts.
+17:06:34.541 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts.
+17:06:34.541 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.541 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts.
+17:06:34.542 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts.
+17:06:34.542 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts.
+17:06:34.542 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts.
+17:06:34.543 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.543 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.543 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.543 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts.
+17:06:34.543 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts.
+17:06:34.544 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts.
+17:06:34.544 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.545 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:34.545 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.545 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:34.545 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts.
+17:06:34.546 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts.
+17:06:34.546 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts.
+17:06:34.547 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts.
+17:06:34.547 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts.
+17:06:34.547 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts.
+17:06:34.547 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts.
+17:06:34.547 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts.
+17:06:34.548 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts.
+17:06:34.548 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts.
+17:06:34.548 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.548 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:34.548 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+17:06:34.549 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+17:06:34.549 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+17:06:34.549 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+17:06:34.550 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+17:06:34.550 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:06:34.550 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:06:34.550 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:06:34.550 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:06:34.550 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts as cce:/internal/x/cc.
+17:06:34.550 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts as cce:/internal/x/cc.
+17:06:34.551 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts as cce:/internal/x/cc.
+17:06:34.551 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.552 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Oct 18 2025 20:00:18 GMT+0800 (中国标准时间), Current mtime: Sun Oct 19 2025 17:06:21 GMT+0800 (中国标准时间)
+17:06:34.553 debug: Inspect cce:/internal/code-quality/cr.mjs
+17:06:34.576 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 22.90 ms
+17:06:34.578 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as cce:/internal/x/cc.
+17:06:34.578 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as cce:/internal/x/cc.
+17:06:34.578 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as cce:/internal/x/cc.
+17:06:34.579 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.579 debug: Resolve ../core/ResourceManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts.
+17:06:34.579 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.580 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.580 debug: Resolve ../entitys/enemyCharacter from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:34.580 debug: Resolve ../goodsDrop from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts.
+17:06:34.581 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.581 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.581 debug: Resolve ../BubbleFead from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.581 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.581 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as cce:/internal/x/cc.
+17:06:34.581 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as cce:/internal/x/cc.
+17:06:34.581 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as cce:/internal/x/cc.
+17:06:34.582 debug: Resolve ./Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.582 debug: Resolve ../Game/TreeController from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts.
+17:06:34.582 debug: Resolve ../core/ResourceManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts.
+17:06:34.583 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.583 debug: Resolve ../MathUtils from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.583 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.584 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.584 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.584 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as cce:/internal/x/cc.
+17:06:34.584 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as cce:/internal/x/cc.
+17:06:34.584 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as cce:/internal/x/cc.
+17:06:34.586 debug: Resolve ../core/SateMachine from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts.
+17:06:34.587 debug: Resolve ../states/AttackState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts.
+17:06:34.587 debug: Resolve ../states/DieState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts.
+17:06:34.588 debug: Resolve ../states/HurtState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts.
+17:06:34.588 debug: Resolve ../states/IdleState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts.
+17:06:34.588 debug: Resolve ../states/MoveState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts.
+17:06:34.589 debug: Resolve ../states/CutTreeState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts.
+17:06:34.589 debug: Resolve ../states/HandOver from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts.
+17:06:34.589 debug: Resolve ../states/CutCornState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts.
+17:06:34.590 debug: Resolve ../states/CornHandOver from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts.
+17:06:34.590 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.590 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts as cce:/internal/x/cc.
+17:06:34.590 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.590 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as cce:/internal/x/cc.
+17:06:34.590 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as cce:/internal/x/cc.
+17:06:34.590 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as cce:/internal/x/cc.
+17:06:34.591 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.591 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.591 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.592 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.592 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.592 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.592 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.592 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts as cce:/internal/x/cc.
+17:06:34.593 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts as cce:/internal/x/cc.
+17:06:34.593 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts as cce:/internal/x/cc.
+17:06:34.593 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.594 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts as cce:/internal/x/cc.
+17:06:34.594 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts as cce:/internal/x/cc.
+17:06:34.594 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts as cce:/internal/x/cc.
+17:06:34.594 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.594 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts as cce:/internal/x/cc.
+17:06:34.594 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.594 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.595 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts as cce:/internal/x/cc.
+17:06:34.595 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.595 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.595 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts as cce:/internal/x/cc.
+17:06:34.595 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.596 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.596 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.596 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as cce:/internal/x/cc.
+17:06:34.596 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as cce:/internal/x/cc.
+17:06:34.596 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as cce:/internal/x/cc.
+17:06:34.596 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.597 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.597 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.597 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.597 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.597 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as cce:/internal/x/cc.
+17:06:34.597 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as cce:/internal/x/cc.
+17:06:34.597 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as cce:/internal/x/cc.
+17:06:34.598 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.598 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.598 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.599 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.599 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.599 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as cce:/internal/x/cc.
+17:06:34.599 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as cce:/internal/x/cc.
+17:06:34.599 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as cce:/internal/x/cc.
+17:06:34.599 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.599 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.600 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.600 debug: Resolve ../MathUtils from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.600 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.600 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.601 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.601 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts as cce:/internal/x/cc.
+17:06:34.601 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts as cce:/internal/x/cc.
+17:06:34.602 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts as cce:/internal/x/cc.
+17:06:34.602 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.603 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as cce:/internal/x/cc.
+17:06:34.603 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as cce:/internal/x/cc.
+17:06:34.603 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as cce:/internal/x/cc.
+17:06:34.604 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.604 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.604 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.605 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.605 debug: Resolve ../BubbleFead from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.605 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.605 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as cce:/internal/x/cc.
+17:06:34.605 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as cce:/internal/x/cc.
+17:06:34.605 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as cce:/internal/x/cc.
+17:06:34.606 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.606 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.606 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.607 debug: Resolve ../MathUtils from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.607 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.607 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.608 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.609 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.609 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as cce:/internal/x/cc.
+17:06:34.609 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as cce:/internal/x/cc.
+17:06:34.609 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as cce:/internal/x/cc.
+17:06:34.610 debug: Resolve ../entitys/EnemyTree from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:34.610 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.610 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as cce:/internal/x/cc.
+17:06:34.610 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as cce:/internal/x/cc.
+17:06:34.610 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as cce:/internal/x/cc.
+17:06:34.610 debug: Resolve ./Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.610 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts as cce:/internal/x/cc.
+17:06:34.610 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts as cce:/internal/x/cc.
+17:06:34.611 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts as cce:/internal/x/cc.
+17:06:34.611 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.611 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as cce:/internal/x/cc.
+17:06:34.611 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as cce:/internal/x/cc.
+17:06:34.611 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as cce:/internal/x/cc.
+17:06:34.612 debug: Resolve ./Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.612 debug: Resolve ../goodsDrop from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts.
+17:06:34.612 debug: Resolve ../../Res/TX/DissolveEffect/scripts/DissolveEffect from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts.
+17:06:34.613 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.613 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.613 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as cce:/internal/x/cc.
+17:06:34.613 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as cce:/internal/x/cc.
+17:06:34.613 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as cce:/internal/x/cc.
+17:06:34.613 debug: Resolve ./MathUtils from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.614 debug: Resolve ./core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.614 debug: Resolve ./core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.614 debug: Resolve ./core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.641 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.641 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.641 debug: Resolve ../entitys/EnemyTree from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:34.641 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.641 debug: Resolve ../GroundEffct from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts.
+17:06:34.641 debug: Resolve ../entitys/enemyCharacter from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:34.641 debug: Resolve ./TreeController from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts.
+17:06:34.641 debug: Resolve ./PlayerController from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts.
+17:06:34.641 debug: Resolve ../../super_html_playable from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:34.641 debug: Resolve ../BubbleFead from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.641 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve ./core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as cce:/internal/x/cc.
+17:06:34.641 debug: Resolve ../super_html_playable from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:34.641 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve ./entitys/enemyCharacter from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:34.642 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve ./core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.642 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve ./core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve ../entitys/EnemyTree from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:34.642 debug: Resolve ./EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.642 debug: Resolve ./EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.642 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.642 debug: Resolve ./Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.642 debug: Resolve ../BubbleFead from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.642 debug: Resolve ../../super_html_playable from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:34.642 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.642 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc/env from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+17:06:34.642 debug: Resolve ./builtin-pipeline-settings from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+17:06:34.642 debug: Resolve ./builtin-pipeline-pass from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+17:06:34.642 debug: Resolve ./builtin-pipeline from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+17:06:34.642 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.642 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc/env from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+17:06:34.642 debug: Resolve ./builtin-pipeline-types from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+17:06:34.642 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+17:06:34.642 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+17:06:34.643 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+17:06:34.643 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.643 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+17:06:34.643 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+17:06:34.643 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+17:06:34.643 debug: Resolve ./builtin-pipeline-settings from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+17:06:34.643 debug: Resolve cc/env from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+17:06:34.643 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.643 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+17:06:34.643 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+17:06:34.643 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+17:06:34.648 debug: Resolve cc/env from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+17:06:34.648 debug: Resolve ./builtin-pipeline-types from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+17:06:34.648 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:06:34.648 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:06:34.648 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:06:34.681 debug: Target(editor) ends with cost 332.4351999999999ms.
+17:06:34.682 debug: Target(preview) build started.
+17:06:34.689 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
+17:06:34.690 debug: Inspect cce:/internal/x/cc
+17:06:34.744 debug: transform url: 'cce:/internal/x/cc' costs: 53.30 ms
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/mask from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/mask.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:06:34.746 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+17:06:34.747 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:06:34.748 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:06:34.748 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:06:34.748 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
+17:06:34.748 debug: Inspect cce:/internal/x/prerequisite-imports
+17:06:34.777 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 29.40 ms
+17:06:34.780 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts.
+17:06:34.780 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.780 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts.
+17:06:34.780 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts.
+17:06:34.780 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts.
+17:06:34.781 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts.
+17:06:34.781 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts.
+17:06:34.781 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.781 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts.
+17:06:34.782 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts.
+17:06:34.782 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts.
+17:06:34.782 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts.
+17:06:34.782 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.782 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.783 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.783 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts.
+17:06:34.783 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts.
+17:06:34.783 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts.
+17:06:34.784 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.784 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:34.784 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.784 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:34.786 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts.
+17:06:34.787 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts.
+17:06:34.788 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts.
+17:06:34.788 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts.
+17:06:34.788 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts.
+17:06:34.789 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts.
+17:06:34.789 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts.
+17:06:34.789 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts.
+17:06:34.789 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts.
+17:06:34.789 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts.
+17:06:34.790 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.790 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:34.790 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+17:06:34.790 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+17:06:34.790 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+17:06:34.791 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+17:06:34.791 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+17:06:34.791 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:06:34.791 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:06:34.791 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:06:34.791 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:06:34.792 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts as cce:/internal/x/cc.
+17:06:34.792 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts as cce:/internal/x/cc.
+17:06:34.792 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts as cce:/internal/x/cc.
+17:06:34.792 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.792 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Oct 18 2025 20:00:18 GMT+0800 (中国标准时间), Current mtime: Sun Oct 19 2025 17:06:21 GMT+0800 (中国标准时间)
+17:06:34.792 debug: Inspect cce:/internal/code-quality/cr.mjs
+17:06:34.814 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 21.40 ms
+17:06:34.829 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as cce:/internal/x/cc.
+17:06:34.829 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as cce:/internal/x/cc.
+17:06:34.829 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as cce:/internal/x/cc.
+17:06:34.829 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.830 debug: Resolve ../core/ResourceManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts.
+17:06:34.830 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.830 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.830 debug: Resolve ../entitys/enemyCharacter from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:34.831 debug: Resolve ../goodsDrop from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts.
+17:06:34.831 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.831 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.832 debug: Resolve ../BubbleFead from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.832 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.832 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as cce:/internal/x/cc.
+17:06:34.832 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as cce:/internal/x/cc.
+17:06:34.832 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as cce:/internal/x/cc.
+17:06:34.832 debug: Resolve ./Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.833 debug: Resolve ../Game/TreeController from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts.
+17:06:34.833 debug: Resolve ../core/ResourceManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts.
+17:06:34.833 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.833 debug: Resolve ../MathUtils from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.834 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.835 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.836 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.836 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as cce:/internal/x/cc.
+17:06:34.836 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as cce:/internal/x/cc.
+17:06:34.837 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as cce:/internal/x/cc.
+17:06:34.837 debug: Resolve ../core/SateMachine from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts.
+17:06:34.837 debug: Resolve ../states/AttackState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts.
+17:06:34.838 debug: Resolve ../states/DieState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts.
+17:06:34.838 debug: Resolve ../states/HurtState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts.
+17:06:34.838 debug: Resolve ../states/IdleState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts.
+17:06:34.838 debug: Resolve ../states/MoveState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts.
+17:06:34.839 debug: Resolve ../states/CutTreeState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts.
+17:06:34.839 debug: Resolve ../states/HandOver from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts.
+17:06:34.839 debug: Resolve ../states/CutCornState from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts.
+17:06:34.840 debug: Resolve ../states/CornHandOver from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts.
+17:06:34.840 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.840 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts as cce:/internal/x/cc.
+17:06:34.840 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.840 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as cce:/internal/x/cc.
+17:06:34.840 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as cce:/internal/x/cc.
+17:06:34.840 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as cce:/internal/x/cc.
+17:06:34.841 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.841 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.842 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.842 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.842 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.843 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.843 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.843 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts as cce:/internal/x/cc.
+17:06:34.843 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts as cce:/internal/x/cc.
+17:06:34.843 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts as cce:/internal/x/cc.
+17:06:34.843 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.843 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts as cce:/internal/x/cc.
+17:06:34.843 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts as cce:/internal/x/cc.
+17:06:34.843 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts as cce:/internal/x/cc.
+17:06:34.843 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.843 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts as cce:/internal/x/cc.
+17:06:34.844 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.844 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.844 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts as cce:/internal/x/cc.
+17:06:34.844 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.844 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.844 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts as cce:/internal/x/cc.
+17:06:34.845 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.845 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.845 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.845 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as cce:/internal/x/cc.
+17:06:34.845 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as cce:/internal/x/cc.
+17:06:34.845 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as cce:/internal/x/cc.
+17:06:34.845 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.846 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.846 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.847 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.847 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.848 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as cce:/internal/x/cc.
+17:06:34.848 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as cce:/internal/x/cc.
+17:06:34.848 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as cce:/internal/x/cc.
+17:06:34.848 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.849 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.850 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.850 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.850 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.850 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as cce:/internal/x/cc.
+17:06:34.851 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as cce:/internal/x/cc.
+17:06:34.851 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as cce:/internal/x/cc.
+17:06:34.852 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.853 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.854 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.854 debug: Resolve ../MathUtils from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.855 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.855 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.855 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.856 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts as cce:/internal/x/cc.
+17:06:34.856 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts as cce:/internal/x/cc.
+17:06:34.856 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts as cce:/internal/x/cc.
+17:06:34.856 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.856 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as cce:/internal/x/cc.
+17:06:34.856 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as cce:/internal/x/cc.
+17:06:34.856 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as cce:/internal/x/cc.
+17:06:34.856 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.857 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.857 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.858 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.858 debug: Resolve ../BubbleFead from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.858 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.858 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as cce:/internal/x/cc.
+17:06:34.858 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as cce:/internal/x/cc.
+17:06:34.858 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as cce:/internal/x/cc.
+17:06:34.859 debug: Resolve ./State from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:34.859 debug: Resolve ../entitys/Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.859 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.860 debug: Resolve ../MathUtils from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.860 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.860 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.860 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.861 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.861 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as cce:/internal/x/cc.
+17:06:34.861 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as cce:/internal/x/cc.
+17:06:34.861 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as cce:/internal/x/cc.
+17:06:34.861 debug: Resolve ../entitys/EnemyTree from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:34.861 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.861 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as cce:/internal/x/cc.
+17:06:34.861 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as cce:/internal/x/cc.
+17:06:34.861 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as cce:/internal/x/cc.
+17:06:34.862 debug: Resolve ./Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.862 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts as cce:/internal/x/cc.
+17:06:34.862 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts as cce:/internal/x/cc.
+17:06:34.862 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts as cce:/internal/x/cc.
+17:06:34.862 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.862 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as cce:/internal/x/cc.
+17:06:34.862 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as cce:/internal/x/cc.
+17:06:34.862 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as cce:/internal/x/cc.
+17:06:34.862 debug: Resolve ./Entity from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:34.862 debug: Resolve ../goodsDrop from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts.
+17:06:34.863 debug: Resolve ../../Res/TX/DissolveEffect/scripts/DissolveEffect from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts.
+17:06:34.863 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.863 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.863 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as cce:/internal/x/cc.
+17:06:34.863 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as cce:/internal/x/cc.
+17:06:34.864 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as cce:/internal/x/cc.
+17:06:34.864 debug: Resolve ./MathUtils from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:34.864 debug: Resolve ./core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.865 debug: Resolve ./core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.865 debug: Resolve ./core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.865 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.865 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as cce:/internal/x/cc.
+17:06:34.865 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as cce:/internal/x/cc.
+17:06:34.865 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as cce:/internal/x/cc.
+17:06:34.865 debug: Resolve ../core/EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.866 debug: Resolve ../core/EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.866 debug: Resolve ../entitys/EnemyTree from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:34.866 debug: Resolve ../core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.867 debug: Resolve ../GroundEffct from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts.
+17:06:34.867 debug: Resolve ../entitys/enemyCharacter from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:34.867 debug: Resolve ./TreeController from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts.
+17:06:34.867 debug: Resolve ./PlayerController from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts.
+17:06:34.869 debug: Resolve ../../super_html_playable from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:34.870 debug: Resolve ../BubbleFead from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.870 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.870 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve ./core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve ../super_html_playable from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:34.891 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve ./entitys/enemyCharacter from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:34.891 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve ./core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.891 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve ./core/Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve cc from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as cce:/internal/x/cc.
+17:06:34.891 debug: Resolve ../entitys/EnemyTree from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:34.891 debug: Resolve ./EventManager from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:34.892 debug: Resolve ./EventType from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:34.892 debug: Resolve ../entitys/Character from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:34.892 debug: Resolve ./Global from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:34.892 debug: Resolve ../BubbleFead from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:34.892 debug: Resolve ../../super_html_playable from file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:34.892 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc/env from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+17:06:34.892 debug: Resolve ./builtin-pipeline-settings from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+17:06:34.892 debug: Resolve ./builtin-pipeline-pass from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+17:06:34.892 debug: Resolve ./builtin-pipeline from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+17:06:34.892 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc/env from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+17:06:34.892 debug: Resolve ./builtin-pipeline-types from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve ./builtin-pipeline-settings from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+17:06:34.892 debug: Resolve cc/env from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+17:06:34.892 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc/env from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+17:06:34.892 debug: Resolve ./builtin-pipeline-types from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:06:34.892 debug: Resolve cc from file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:06:34.916 debug: Target(preview) ends with cost 234.22400000000016ms.
+17:06:37.995 debug: Pulling asset-db.
+17:06:40.054 debug: Fetch asset-db cost: 2059.0895ms.
+17:06:40.056 debug: Build iteration starts.
+Number of accumulated asset changes: 40
+Feature changed: false
+17:06:40.057 debug: Target(editor) build started.
+17:06:40.080 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
+17:06:40.080 debug: Inspect cce:/internal/x/prerequisite-imports
+17:06:40.197 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 116.50 ms
+17:06:40.204 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts.
+17:06:40.205 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:40.205 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts.
+17:06:40.205 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts.
+17:06:40.205 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts.
+17:06:40.205 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts.
+17:06:40.206 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts.
+17:06:40.206 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:40.206 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts.
+17:06:40.206 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts.
+17:06:40.207 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts.
+17:06:40.207 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts.
+17:06:40.207 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:40.208 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:40.208 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:40.208 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts.
+17:06:40.208 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts.
+17:06:40.209 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts.
+17:06:40.209 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:40.209 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:40.209 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:40.210 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:40.210 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts.
+17:06:40.210 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts.
+17:06:40.210 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts.
+17:06:40.210 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts.
+17:06:40.211 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts.
+17:06:40.211 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts.
+17:06:40.211 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts.
+17:06:40.211 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts.
+17:06:40.212 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts.
+17:06:40.212 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts.
+17:06:40.212 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:40.212 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:40.219 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+17:06:40.219 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+17:06:40.219 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+17:06:40.220 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+17:06:40.220 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+17:06:40.220 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:06:40.238 debug: Target(editor) ends with cost 180.8163999999997ms.
+17:06:40.238 debug: Target(preview) build started.
+17:06:40.241 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
+17:06:40.241 debug: Inspect cce:/internal/x/prerequisite-imports
+17:06:40.264 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 23.30 ms
+17:06:40.266 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Res/TX/DissolveEffect/scripts/DissolveEffect.ts.
+17:06:40.266 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/BubbleFead.ts.
+17:06:40.266 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/PlayerController.ts.
+17:06:40.266 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/TreeController.ts.
+17:06:40.269 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/Game/WorldMap.ts.
+17:06:40.269 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GameEndUI.ts.
+17:06:40.269 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/GroundEffct.ts.
+17:06:40.269 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/MathUtils.ts.
+17:06:40.270 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/NewComponent.ts.
+17:06:40.270 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/SoundManager.ts.
+17:06:40.270 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/UIWarnManager.ts.
+17:06:40.270 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/CameraMain.ts.
+17:06:40.271 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventManager.ts.
+17:06:40.271 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/EventType.ts.
+17:06:40.271 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/Global.ts.
+17:06:40.271 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/ResourceManager.ts.
+17:06:40.271 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/SateMachine.ts.
+17:06:40.271 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/core/touchEvent.ts.
+17:06:40.272 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Character.ts.
+17:06:40.273 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/EnemyTree.ts.
+17:06:40.273 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/Entity.ts.
+17:06:40.273 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/entitys/enemyCharacter.ts.
+17:06:40.274 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/goodsDrop.ts.
+17:06:40.274 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/AttackState.ts.
+17:06:40.274 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CornHandOver.ts.
+17:06:40.274 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutCornState.ts.
+17:06:40.275 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/CutTreeState.ts.
+17:06:40.276 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/DieState.ts.
+17:06:40.276 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HandOver.ts.
+17:06:40.276 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/HurtState.ts.
+17:06:40.276 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/IdleState.ts.
+17:06:40.276 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/MoveState.ts.
+17:06:40.277 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/Script/states/State.ts.
+17:06:40.277 debug: Resolve file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/playable/wangping/SSD_0616_WP_ShouJiJieSuoDiKuai/assets/super_html_playable.ts.
+17:06:40.277 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+17:06:40.277 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+17:06:40.277 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+17:06:40.278 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+17:06:40.278 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+17:06:40.278 debug: Resolve file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocos/cocoversion/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:06:40.295 debug: Target(preview) ends with cost 56.7983000000022ms.
+17:06:59.189 debug: Build iteration starts.
+Number of accumulated asset changes: 0
+Feature changed: true
+17:06:59.191 debug: Sync engine features: 2d,3d,affine-transform,animation,audio,base,gfx-webgl,legacy-pipeline,light-probe,marionette,meshopt,particle,physics-cannon,primitive,profiler,rich-text,skeletal-animation,tween,ui,legacy-pipeline
+17:06:59.191 debug: Target(editor) build started.
+17:06:59.220 debug: Target(editor) ends with cost 28.180500000002212ms.
+17:06:59.220 debug: Target(preview) build started.
+17:06:59.225 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间)
+17:06:59.225 debug: Inspect cce:/internal/x/cc
+17:06:59.432 debug: transform url: 'cce:/internal/x/cc' costs: 207.50 ms
+17:06:59.436 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:06:59.437 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:06:59.437 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:06:59.437 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+17:06:59.437 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:06:59.454 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+17:06:59.455 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:06:59.455 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:06:59.455 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:06:59.501 debug: Target(preview) ends with cost 280.3171000000002ms.
+17:06:59.810 debug: Build iteration starts.
+Number of accumulated asset changes: 0
+Feature changed: true
+17:06:59.812 debug: Sync engine features: 2d,3d,affine-transform,animation,audio,base,gfx-webgl,graphics,legacy-pipeline,light-probe,marionette,meshopt,particle,physics-cannon,primitive,profiler,rich-text,skeletal-animation,tween,ui,legacy-pipeline
+17:06:59.813 debug: Target(editor) build started.
+17:06:59.853 debug: Target(editor) ends with cost 40.2525999999998ms.
+17:06:59.853 debug: Target(preview) build started.
+17:06:59.856 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间)
+17:06:59.856 debug: Inspect cce:/internal/x/cc
+17:06:59.895 debug: transform url: 'cce:/internal/x/cc' costs: 39.10 ms
+17:06:59.898 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:06:59.898 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:06:59.898 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:06:59.898 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+17:06:59.899 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:06:59.899 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:06:59.899 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:06:59.899 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:06:59.900 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:06:59.963 debug: Target(preview) ends with cost 110.30230000000302ms.
+17:07:01.231 debug: Build iteration starts.
+Number of accumulated asset changes: 0
+Feature changed: true
+17:07:01.233 debug: Sync engine features: 2d,3d,affine-transform,animation,audio,base,gfx-webgl,graphics,legacy-pipeline,light-probe,marionette,mask,meshopt,particle,physics-cannon,primitive,profiler,rich-text,skeletal-animation,tween,ui,legacy-pipeline
+17:07:01.233 debug: Target(editor) build started.
+17:07:01.261 debug: Target(editor) ends with cost 27.30240000000049ms.
+17:07:01.261 debug: Target(preview) build started.
+17:07:01.292 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间)
+17:07:01.293 debug: Inspect cce:/internal/x/cc
+17:07:01.350 debug: transform url: 'cce:/internal/x/cc' costs: 57.80 ms
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/mask from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/mask.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:07:01.352 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:07:01.373 debug: Target(preview) ends with cost 112.3463000000047ms.
+17:07:03.915 debug: Build iteration starts.
+Number of accumulated asset changes: 0
+Feature changed: true
+17:07:03.917 debug: Sync engine features: 2d,3d,affine-transform,animation,audio,base,gfx-webgl,graphics,legacy-pipeline,light-probe,marionette,mask,meshopt,particle,physics-cannon,primitive,profiler,skeletal-animation,tween,ui,legacy-pipeline
+17:07:03.917 debug: Target(editor) build started.
+17:07:03.968 debug: Target(editor) ends with cost 50.66630000000441ms.
+17:07:03.968 debug: Target(preview) build started.
+17:07:03.974 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:42 GMT+0800 (中国标准时间)
+17:07:03.974 debug: Inspect cce:/internal/x/cc
+17:07:04.066 debug: transform url: 'cce:/internal/x/cc' costs: 91.80 ms
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/mask from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/mask.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:07:04.067 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:07:04.068 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:07:04.068 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:07:04.068 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:07:04.068 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:07:04.068 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:07:04.193 debug: Target(preview) ends with cost 224.3721000000005ms.
+17:07:25.060 debug: Build iteration starts.
+Number of accumulated asset changes: 0
+Feature changed: true
+17:07:25.062 debug: Sync engine features: 2d,3d,affine-transform,animation,audio,base,gfx-webgl,graphics,legacy-pipeline,light-probe,marionette,mask,meshopt,particle,physics-cannon,primitive,profiler,rich-text,skeletal-animation,tween,ui,legacy-pipeline
+17:07:25.062 debug: Target(editor) build started.
+17:07:25.086 debug: Target(editor) ends with cost 23.611400000001595ms.
+17:07:25.086 debug: Target(preview) build started.
+17:07:25.101 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:03 GMT+0800 (中国标准时间)
+17:07:25.101 debug: Inspect cce:/internal/x/cc
+17:07:25.182 debug: transform url: 'cce:/internal/x/cc' costs: 80.90 ms
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/affine-transform from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/affine-transform.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/mask from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/mask.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:07:25.184 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:07:25.204 debug: Target(preview) ends with cost 118.4123000000036ms.
+17:07:28.293 debug: Build iteration starts.
+Number of accumulated asset changes: 0
+Feature changed: true
+17:07:28.298 debug: Sync engine features: 2d,3d,animation,audio,base,gfx-webgl,graphics,legacy-pipeline,light-probe,marionette,mask,meshopt,particle,physics-cannon,primitive,profiler,rich-text,skeletal-animation,tween,ui,legacy-pipeline
+17:07:28.299 debug: Target(editor) build started.
+17:07:28.319 debug: Target(editor) ends with cost 20.501699999993434ms.
+17:07:28.319 debug: Target(preview) build started.
+17:07:28.325 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:01:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:06 GMT+0800 (中国标准时间)
+17:07:28.325 debug: Inspect cce:/internal/x/cc
+17:07:28.383 debug: transform url: 'cce:/internal/x/cc' costs: 57.60 ms
+17:07:28.384 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/graphics from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/graphics.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:07:28.385 debug: Resolve cce:/internal/x/cc-fu/mask from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/mask.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/rich-text from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/rich-text.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:07:28.386 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:07:28.405 debug: Target(preview) ends with cost 84.91650000000664ms.

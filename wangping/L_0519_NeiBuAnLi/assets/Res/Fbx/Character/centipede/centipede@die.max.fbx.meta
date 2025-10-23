@@ -1,0 +1,139 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1390a529-9e13-4771-beb0-0f1042905532",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "17901": {
+      "importer": "gltf-mesh",
+      "uuid": "1390a529-9e13-4771-beb0-0f1042905532@17901",
+      "displayName": "",
+      "id": "17901",
+      "name": "Circle twist start.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 26
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "82cee": {
+      "importer": "gltf-mesh",
+      "uuid": "1390a529-9e13-4771-beb0-0f1042905532@82cee",
+      "displayName": "",
+      "id": "82cee",
+      "name": "Circle twist end .mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 26
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4251": {
+      "importer": "gltf-animation",
+      "uuid": "1390a529-9e13-4771-beb0-0f1042905532@b4251",
+      "displayName": "",
+      "id": "b4251",
+      "name": "die.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.5
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e00b8": {
+      "importer": "gltf-scene",
+      "uuid": "1390a529-9e13-4771-beb0-0f1042905532@e00b8",
+      "displayName": "",
+      "id": "e00b8",
+      "name": "centipede@die.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "centipede@die",
+        "duration": 1.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "die",
+            "from": 0,
+            "to": 1.5,
+            "wrapMode": 1,
+            "previousId": "b4251"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "1390a529-9e13-4771-beb0-0f1042905532@82cee",
+        "1390a529-9e13-4771-beb0-0f1042905532@17901"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1390a529-9e13-4771-beb0-0f1042905532@e00b8"
+      ]
+    },
+    "redirect": "1390a529-9e13-4771-beb0-0f1042905532@e00b8"
+  }
+}

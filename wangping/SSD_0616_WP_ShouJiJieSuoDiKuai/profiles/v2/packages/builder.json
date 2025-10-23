@@ -1,0 +1,100 @@
+{
+  "__version__": "1.3.9",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "nativeCodeBundleMode": "asmjs",
+    "buildPath": "project://build",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "bundleConfigs": [],
+    "overwriteProjectSettings": {
+      "includeModules": {
+        "gfx-webgl2": "inherit-project-setting"
+      }
+    },
+    "name": "UnlockPlot",
+    "scenes": [
+      {
+        "url": "db://assets/Scene/Game.scene",
+        "uuid": "920f784c-ab36-40c1-a6e8-724ba5737f7a"
+      }
+    ]
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1752228268282": {
+        "type": "build",
+        "id": "1752228268282",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2025-10-19 17:14:03 build success in 1 min 28 s!",
+        "detailMessage": "The AnimationClip used by node \"New Node\" in prefab \"SangshiPrefab\" is missing. Detailed information:\rNode path: \"SangshiPrefab/New Node\"\rAsset url: \"db://assets/resources/Prefab/xiaoPrefab/SangshiPre...",
+        "options": {
+          "name": "UnlockPlot",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "inherit-project-setting",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "asmjs",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "920f784c-ab36-40c1-a6e8-724ba5737f7a",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/Game.scene",
+              "uuid": "920f784c-ab36-40c1-a6e8-724ba5737f7a"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile2025-7-11 18-04.log",
+          "engineModulesConfigKey": "migrationsConfig",
+          "mangleProperties": false,
+          "inlineEnum": true,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          }
+        },
+        "time": "2025-10-19 17:12:35",
+        "dirty": false
+      }
+    }
+  }
+}

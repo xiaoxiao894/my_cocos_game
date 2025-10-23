@@ -1,0 +1,6678 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 5612.05269998312,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-cannon",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-cannon"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 18539.35570001602,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 139
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 89
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 83
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 96
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 95
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
+              "column": 93
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 93
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 7
+            },
+            "end": {
+              "line": 19,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 7
+            },
+            "end": {
+              "line": 20,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 7
+            },
+            "end": {
+              "line": 21,
+              "column": 89
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 7
+            },
+            "end": {
+              "line": 22,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 7
+            },
+            "end": {
+              "line": 23,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
+              "column": 98
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 7
+            },
+            "end": {
+              "line": 25,
+              "column": 92
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 7
+            },
+            "end": {
+              "line": 26,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 7
+            },
+            "end": {
+              "line": 27,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 97
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 7
+            },
+            "end": {
+              "line": 31,
+              "column": 89
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 7
+            },
+            "end": {
+              "line": 32,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 7
+            },
+            "end": {
+              "line": 33,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 93
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 7
+            },
+            "end": {
+              "line": 36,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts",
+          "resolved": "__unresolved_33",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 7
+            },
+            "end": {
+              "line": 37,
+              "column": 95
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts",
+          "resolved": "__unresolved_34",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts",
+          "resolved": "__unresolved_35",
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 7
+            },
+            "end": {
+              "line": 39,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts",
+          "resolved": "__unresolved_36",
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 7
+            },
+            "end": {
+              "line": 40,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts",
+          "resolved": "__unresolved_37",
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 7
+            },
+            "end": {
+              "line": 41,
+              "column": 93
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts",
+          "resolved": "__unresolved_38",
+          "loc": {
+            "start": {
+              "line": 42,
+              "column": 7
+            },
+            "end": {
+              "line": 42,
+              "column": 80
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts",
+          "resolved": "__unresolved_39",
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 7
+            },
+            "end": {
+              "line": 43,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts",
+          "resolved": "__unresolved_40",
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 7
+            },
+            "end": {
+              "line": 44,
+              "column": 84
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts",
+          "resolved": "__unresolved_41",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts",
+          "resolved": "__unresolved_42",
+          "loc": {
+            "start": {
+              "line": 46,
+              "column": 7
+            },
+            "end": {
+              "line": 46,
+              "column": 89
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts",
+          "resolved": "__unresolved_43",
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 7
+            },
+            "end": {
+              "line": 47,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts",
+          "resolved": "__unresolved_44",
+          "loc": {
+            "start": {
+              "line": 48,
+              "column": 7
+            },
+            "end": {
+              "line": 48,
+              "column": 93
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts",
+          "resolved": "__unresolved_45",
+          "loc": {
+            "start": {
+              "line": 49,
+              "column": 7
+            },
+            "end": {
+              "line": 49,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts",
+          "resolved": "__unresolved_46",
+          "loc": {
+            "start": {
+              "line": 50,
+              "column": 7
+            },
+            "end": {
+              "line": 50,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts",
+          "resolved": "__unresolved_47",
+          "loc": {
+            "start": {
+              "line": 51,
+              "column": 7
+            },
+            "end": {
+              "line": 51,
+              "column": 84
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts",
+          "resolved": "__unresolved_48",
+          "loc": {
+            "start": {
+              "line": 52,
+              "column": 7
+            },
+            "end": {
+              "line": 52,
+              "column": 99
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts",
+          "resolved": "__unresolved_49",
+          "loc": {
+            "start": {
+              "line": 53,
+              "column": 7
+            },
+            "end": {
+              "line": 53,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts",
+          "resolved": "__unresolved_50",
+          "loc": {
+            "start": {
+              "line": 54,
+              "column": 7
+            },
+            "end": {
+              "line": 54,
+              "column": 87
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts",
+          "resolved": "__unresolved_51",
+          "loc": {
+            "start": {
+              "line": 55,
+              "column": 7
+            },
+            "end": {
+              "line": 55,
+              "column": 84
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts",
+          "resolved": "__unresolved_52",
+          "loc": {
+            "start": {
+              "line": 56,
+              "column": 7
+            },
+            "end": {
+              "line": 56,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts",
+          "resolved": "__unresolved_53",
+          "loc": {
+            "start": {
+              "line": 57,
+              "column": 7
+            },
+            "end": {
+              "line": 57,
+              "column": 89
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts",
+          "resolved": "__unresolved_54",
+          "loc": {
+            "start": {
+              "line": 58,
+              "column": 7
+            },
+            "end": {
+              "line": 58,
+              "column": 92
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts",
+          "resolved": "__unresolved_55",
+          "loc": {
+            "start": {
+              "line": 59,
+              "column": 7
+            },
+            "end": {
+              "line": 59,
+              "column": 101
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1752475648116.1917,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "c8b6a709c03b1f3a3069932b4b22bfbc5834b962",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910775.7915,
+        "uuid": "526d52a9-4432-4cff-9afd-17a09de883c0"
+      },
+      "chunkId": "56e2b8ebb54c39c61eca34ec13d9665900aa7580",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 341
+            },
+            "end": {
+              "line": 1,
+              "column": 345
+            }
+          }
+        },
+        {
+          "value": "./StateDefine",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 45
+            },
+            "end": {
+              "line": 2,
+              "column": 60
+            }
+          }
+        },
+        {
+          "value": "../Util/MathUtil",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Monster/FlowField",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 90
+            },
+            "end": {
+              "line": 6,
+              "column": 105
+            }
+          }
+        },
+        {
+          "value": "../Area/ItemAreaManager",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 32
+            },
+            "end": {
+              "line": 8,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "../Global/RVOObstacles",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 25
+            },
+            "end": {
+              "line": 10,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../RVO/Simulator",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 26
+            },
+            "end": {
+              "line": 11,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "./MinionManager",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 30
+            },
+            "end": {
+              "line": 12,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1756903710282,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072431.7192,
+        "uuid": "456b372f-e47f-4760-abd7-fbbc1bd71b0f"
+      },
+      "chunkId": "19b26be9e6be2ab15969538120268a2031af8ca2",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072440.7158,
+        "uuid": "350abdb9-732a-40b7-b1ed-a4aa10f307fd"
+      },
+      "chunkId": "f73e10101ae7a644f7770c1365f086159e35cba3",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910787.7874,
+        "uuid": "a04c9ec7-33de-4575-8377-cd8d1a6c9b60"
+      },
+      "chunkId": "38fe8fc128520c1627e75d32fbffca9988edda84",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 47
+            },
+            "end": {
+              "line": 1,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Base/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 52
+            },
+            "end": {
+              "line": 7,
+              "column": 67
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072433.7156,
+        "uuid": "d2858469-3a9b-466d-8f70-252227c97179"
+      },
+      "chunkId": "fc393f49b33b3358432fd435f11666628b28c17d",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910786.7874,
+        "uuid": "a69b00e8-259b-4801-91dd-09b5db9f4149"
+      },
+      "chunkId": "1ed039c5e0eac41d0196875266557e24b8dda38e",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910789.787,
+        "uuid": "894f79d1-0617-4af7-a96c-53cc89a6e985"
+      },
+      "chunkId": "2e7c33ed295904d41f26bc389d9768e1eb62ab2a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 129
+            },
+            "end": {
+              "line": 1,
+              "column": 133
+            }
+          }
+        },
+        {
+          "value": "../Base/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072432.719,
+        "uuid": "efa39ade-449d-475e-ba6a-d6bb7749744e"
+      },
+      "chunkId": "8f8e00cdb01e490249330f33fef86eff8441001d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072435.7156,
+        "uuid": "6c96b91d-6b69-4299-9f44-f59f5ba7660f"
+      },
+      "chunkId": "bfb299877ff69a7076da32b44da44b5f1d242687",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        },
+        {
+          "value": "../RVO/Common",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../RVO/Simulator",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072437.7156,
+        "uuid": "b21abffd-42c6-4d43-bbe0-0edd2fb59f53"
+      },
+      "chunkId": "5f4b8be556cd44c53cb905842518ac5167fa26f9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072437.7156,
+        "uuid": "75cc9fdd-1fa1-4419-93cb-61ffea26474f"
+      },
+      "chunkId": "0bab36b74db194016677f6a26184010a1c59929b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Agent",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./Common",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 43
+            },
+            "end": {
+              "line": 3,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./kdtree",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072437.7156,
+        "uuid": "99d7f5fd-fae6-4106-ba7a-93c1e298d001"
+      },
+      "chunkId": "25960b58f0aeb91d18a63bf47671dd433bf1e2f2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Common",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072438.7156,
+        "uuid": "a7ee4e36-baac-4720-ba0f-7f779a7fd328"
+      },
+      "chunkId": "070213af23b9d9d5ee834a7d882863b999001ce4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Common",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 43
+            },
+            "end": {
+              "line": 1,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./Simulator",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910780.7874,
+        "uuid": "2637de75-a914-48d0-8c26-3093f19af55e"
+      },
+      "chunkId": "2c0f9a9f9e9f08b982309608ec2c86699a122a36",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 28
+            },
+            "end": {
+              "line": 19,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 43
+            },
+            "end": {
+              "line": 20,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "./StateDefine",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 32
+            },
+            "end": {
+              "line": 21,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "../RVO/Simulator",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 26
+            },
+            "end": {
+              "line": 22,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "../Global/EventManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 29
+            },
+            "end": {
+              "line": 23,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../Common/Util",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 17
+            },
+            "end": {
+              "line": 24,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "../Monster/MonsterItem",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 28
+            },
+            "end": {
+              "line": 25,
+              "column": 52
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072435.7156,
+        "uuid": "1ef1e119-233f-44f2-90cb-5f7d226709a7"
+      },
+      "chunkId": "1fb976b85e785370df9961511dfdc220f0123687",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910785.7874,
+        "uuid": "7e898e6b-442b-41b0-8409-bfc34ad7198b"
+      },
+      "chunkId": "2526cf839350f7d55fd8c16a9956cca9ef0746b6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 35
+            },
+            "end": {
+              "line": 8,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910790.787,
+        "uuid": "609619dd-13da-4ed9-be24-cc1652d7e276"
+      },
+      "chunkId": "3fe10a5ecdcbf515dac0a644a2b0cb08a803921c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 171
+            },
+            "end": {
+              "line": 1,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 39
+            },
+            "end": {
+              "line": 2,
+              "column": 62
+            }
+          }
+        },
+        {
+          "value": "../RVO/Simulator",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "../RVO/Common",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 33
+            },
+            "end": {
+              "line": 5,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../Actor/StateDefine",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 33
+            },
+            "end": {
+              "line": 6,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 31
+            },
+            "end": {
+              "line": 7,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "../../Res/DissolveEffect/scripts/DissolveEffect",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 31
+            },
+            "end": {
+              "line": 8,
+              "column": 80
+            }
+          }
+        },
+        {
+          "value": "../Util/MathUtil",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 25
+            },
+            "end": {
+              "line": 9,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072444.1487,
+        "uuid": "379d8ae7-ac90-4b22-985f-4aeefbba2560"
+      },
+      "chunkId": "4ee45e64c94b5fba18e1dcc0a8631e96f91bd4a7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 101
+            },
+            "end": {
+              "line": 1,
+              "column": 105
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910776.7874,
+        "uuid": "1e255a34-8442-4032-a16c-5f19306fd1a9"
+      },
+      "chunkId": "4bdaf0ed19edfba28a6cc7489d7c42de481f81f9",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910777.787,
+        "uuid": "4412d74c-c385-40f2-879b-d1c96bba7480"
+      },
+      "chunkId": "08a70a073d3add643c39f4e0bf019f03df9c1a0f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 75
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910777.787,
+        "uuid": "e6677c30-f688-40ae-90fa-d42cf891c975"
+      },
+      "chunkId": "25db58406c955e80e0f1c6bdf9f3caee2a0910c5",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072430.7156,
+        "uuid": "4ddbe5a5-10f3-4ecb-8af5-48f6d6234c54"
+      },
+      "chunkId": "70ce7cca27ac89830c3cc63b41027df4cf01f538",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072430.7156,
+        "uuid": "ef32e254-d84d-460d-a5be-8f3b20555882"
+      },
+      "chunkId": "4ff37382da9350e0104a7595530fd021840b66fd",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072430.7156,
+        "uuid": "892bac72-ce41-4d20-9f43-e73094f24726"
+      },
+      "chunkId": "55bedb45a23a893a7d64c843a349193189980408",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 94
+            },
+            "end": {
+              "line": 1,
+              "column": 98
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./Bullet",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910779.7874,
+        "uuid": "c9215277-6c49-41c7-bfec-6dab18265140"
+      },
+      "chunkId": "e0b661dce1a7c14a49db25468ab451eb594393ec",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./PlayerManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910781.7864,
+        "uuid": "e9f5aeb5-18c5-4a7a-807c-d9470500e813"
+      },
+      "chunkId": "52132d8b12aae053c70f3bad59b64037bc43f841",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 193
+            },
+            "end": {
+              "line": 1,
+              "column": 197
+            }
+          }
+        },
+        {
+          "value": "./Actor",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./StateDefine",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../Input/VirtuallInput",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 29
+            },
+            "end": {
+              "line": 4,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 28
+            },
+            "end": {
+              "line": 5,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072436.7156,
+        "uuid": "05985e87-9de1-41f9-82a1-2ba4a0ff3d54"
+      },
+      "chunkId": "8b0fcdb09febd87100ccc12b3865df5de99c45a2",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 27
+            },
+            "end": {
+              "line": 1,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910779.7874,
+        "uuid": "8c9d3f27-bdec-46fb-9efa-43e254506bbf"
+      },
+      "chunkId": "c78859100e50dfdc820a62a1e338b9d9e530f299",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 105
+            },
+            "end": {
+              "line": 1,
+              "column": 109
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./MinionManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 30
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "./StateDefine",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 32
+            },
+            "end": {
+              "line": 5,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "./Actor",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 22
+            },
+            "end": {
+              "line": 6,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910780.7874,
+        "uuid": "ef19a092-3b4e-45a9-b6fb-c3a616879a1b"
+      },
+      "chunkId": "b7a5415a59a703108126e1aa0f4aef37e834322f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 130
+            },
+            "end": {
+              "line": 1,
+              "column": 134
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./Bullet",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "../Area/ItemAreaManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 32
+            },
+            "end": {
+              "line": 6,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts": {
+      "mTimestamp": {
+        "mtime": 1753091746448.7341,
+        "uuid": "c78cc326-872e-434e-8bf3-08d5366b2b41"
+      },
+      "chunkId": "d44a596aa7bb78952900f1bbbe6e6844449a1f50",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072431.7192,
+        "uuid": "a936bcb6-04dd-4230-880d-a6c3312a1468"
+      },
+      "chunkId": "1ace275cec59770fd15316df503a0ed753e1b82f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 112
+            },
+            "end": {
+              "line": 1,
+              "column": 116
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910783.7874,
+        "uuid": "a4400a37-39b6-400a-af02-461f2f80bf1f"
+      },
+      "chunkId": "2f95515413a10660ed09b1888df2f6076f2b7886",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 80
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072433.7156,
+        "uuid": "572c34c1-3c8f-408e-948b-6e2823890cfe"
+      },
+      "chunkId": "748c6a170929e61182ee17d2b50794c0bf274d4a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 75
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072433.7156,
+        "uuid": "7835ec41-e04c-4987-99c4-ceb25ef3684e"
+      },
+      "chunkId": "9b841830c6405dc015476e8798cd4911af575ca8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072433.7156,
+        "uuid": "a02c1f74-d150-45d0-9d75-44a2b6faffdb"
+      },
+      "chunkId": "b02c282fd910ca7eae6676058370556557663739",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910784.7874,
+        "uuid": "cb43065a-ec33-4eaa-96b9-da57371c0b59"
+      },
+      "chunkId": "404dea9c79a02d9fa3cb43659b0fa3bc8a46f7ae",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910785.7874,
+        "uuid": "3146bfb7-40b2-4ed7-9fe8-dff127377d8e"
+      },
+      "chunkId": "0ba0c1b7636589cb76f479b2dcc6dce271ca2d0b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../Enum",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 29
+            },
+            "end": {
+              "line": 3,
+              "column": 38
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/index.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/index.ts": {
+      "mTimestamp": 1756386910786.7874,
+      "chunkId": "27b48350bab5e89cd8194d8a461c743c1e61b0ca",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910786.7874,
+        "uuid": "c79b6cd5-af1a-45c1-bbfc-7e81ffc28974"
+      },
+      "chunkId": "05c0cddb5949c7772f67a290e9a23291cc3d529d",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072435.7156,
+        "uuid": "a8229baf-d639-473d-a43c-0cbd1bf0b2fa"
+      },
+      "chunkId": "a7aea5f81d2a24724544d0ff7d852a537ab354fa",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 45
+            },
+            "end": {
+              "line": 1,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../Base/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072435.7156,
+        "uuid": "521f9dd8-c670-47e2-bce5-68b801e36bc0"
+      },
+      "chunkId": "fed2b3317862700142baba0fc40abfd6638956ef",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910790.787,
+        "uuid": "2496f59e-0b60-40dd-ae8f-189899da621c"
+      },
+      "chunkId": "0fe42797971e8363a1b909383226309df766109a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 66
+            },
+            "end": {
+              "line": 1,
+              "column": 70
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910791.7876,
+        "uuid": "c092c945-66c8-422e-9654-c23e3b5bc044"
+      },
+      "chunkId": "c9fbee5eca8732935f6751dcbeebfa5fcbf228e6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 118
+            },
+            "end": {
+              "line": 1,
+              "column": 122
+            }
+          }
+        },
+        {
+          "value": "../Common/ItemPool",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 43
+            },
+            "end": {
+              "line": 3,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "./MonsterItem",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 28
+            },
+            "end": {
+              "line": 5,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Common/Util",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 17
+            },
+            "end": {
+              "line": 6,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "../RVO/Simulator",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 26
+            },
+            "end": {
+              "line": 7,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "../Global/EventManager",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../RVO/Common",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 24
+            },
+            "end": {
+              "line": 10,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910793.7874,
+        "uuid": "7ec6546b-a449-4b19-8c15-001c044024a2"
+      },
+      "chunkId": "9e447f104b6a209ffb406cacbbd79fe328d34505",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 103
+            },
+            "end": {
+              "line": 1,
+              "column": 107
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 75
+            },
+            "end": {
+              "line": 2,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "../Global/ResourceManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 32
+            },
+            "end": {
+              "line": 3,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Common/Platform",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 21
+            },
+            "end": {
+              "line": 5,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../Grid/GridSystem",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "../Monster/FlowField",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 26
+            },
+            "end": {
+              "line": 7,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../RVO/Simulator",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 26
+            },
+            "end": {
+              "line": 8,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "../RVO/Common",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 24
+            },
+            "end": {
+              "line": 9,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../Global/RVOObstacles",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 25
+            },
+            "end": {
+              "line": 10,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../Common/super_html_playable",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 32
+            },
+            "end": {
+              "line": 11,
+              "column": 63
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910793.7874,
+        "uuid": "b8447e3b-9bc8-49d3-8d99-085d6d340df9"
+      },
+      "chunkId": "c3c29d609d0603d6bc7ca65882462273346b1ca0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 87
+            },
+            "end": {
+              "line": 1,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910794.787,
+        "uuid": "d596a071-5d93-41c9-be64-8776dcf2872c"
+      },
+      "chunkId": "9c261f96950829f95954029af4b75afbe0485f8d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 88
+            },
+            "end": {
+              "line": 1,
+              "column": 92
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756903652780.9456,
+        "uuid": "4cc32448-5a2a-45af-b27d-b57f27adc7bc"
+      },
+      "chunkId": "69310f1008c1af2c7541813954d1ab068a08d737",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 147
+            },
+            "end": {
+              "line": 1,
+              "column": 151
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Enum/Index",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 52
+            },
+            "end": {
+              "line": 3,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "../Util/MathUtil",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 25
+            },
+            "end": {
+              "line": 4,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../Area/ItemAreaManager",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 32
+            },
+            "end": {
+              "line": 5,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "../Actor/PartnerManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 31
+            },
+            "end": {
+              "line": 6,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../Actor/Actor",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 22
+            },
+            "end": {
+              "line": 7,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../Actor/StateDefine",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 28
+            },
+            "end": {
+              "line": 8,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "../Language/LanguageManager",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 32
+            },
+            "end": {
+              "line": 9,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756903652780.9456,
+        "uuid": "56ff4dbd-ab2c-46b3-84d4-196f2a7733cc"
+      },
+      "chunkId": "e5241ac0e2dba50a1b280e9db9f8894203e23191",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 75
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Common/super_html_playable",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 32
+            },
+            "end": {
+              "line": 3,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "../Language/LanguageManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 32
+            },
+            "end": {
+              "line": 4,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910795.7874,
+        "uuid": "789f3358-b8fd-4a27-9acd-f4894ec8c573"
+      },
+      "chunkId": "0d19b801e4eb38fbca00b3b3f09917f72866f8c5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 107
+            },
+            "end": {
+              "line": 1,
+              "column": 111
+            }
+          }
+        },
+        {
+          "value": "../Input/VirtuallInput",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756386910795.7874,
+        "uuid": "1435b943-d352-4796-b6c4-40a05fdc95bf"
+      },
+      "chunkId": "7f58dd76cf4e3271c0ad425f1e05c2b74b107f3a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 84
+            },
+            "end": {
+              "line": 1,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "../Actor/PartnerManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756903652781.945,
+        "uuid": "b624604d-99c1-406d-af76-928421e3079a"
+      },
+      "chunkId": "315f3fff2b28b653045e91a6152af80029d50a5f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Language/LanguageManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 32
+            },
+            "end": {
+              "line": 3,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072440.7158,
+        "uuid": "bed6ac16-c2e9-4d66-8761-2b96bb152df4"
+      },
+      "chunkId": "fcd8491a6de785ec87489c39547f3d307785ddf7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072440.7158,
+        "uuid": "c59e950f-6966-49bb-ae6b-c0e10f83e414"
+      },
+      "chunkId": "6c1ca0d89ffc35d929161b5c1afb754fa58375fc",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072440.7158,
+        "uuid": "3c773702-3d13-4d13-9797-f313afa50b9d"
+      },
+      "chunkId": "7cf2e50eb0718f9ace2c51f4d35224dea222da20",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 103
+            },
+            "end": {
+              "line": 1,
+              "column": 107
+            }
+          }
+        },
+        {
+          "value": "./DeliverItem",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts": {
+      "mTimestamp": {
+        "mtime": 1752481072441.719,
+        "uuid": "cdfc6240-96cd-44f0-b932-00f2014c5a61"
+      },
+      "chunkId": "65ad9bb956b7947241e2a6d8b9bd4e77616da891",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 37
+            },
+            "end": {
+              "line": 1,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./PillarItem",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../Global/DataManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts": {
+      "mTimestamp": {
+        "mtime": 1756903652779.9492,
+        "uuid": "5ce687b1-9718-4e5c-9166-892c77f4357c"
+      },
+      "chunkId": "9d0ce00f23d5fc75a2d6d9052a79f48d322c8661",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 32
+            },
+            "end": {
+              "line": 1,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "../Base/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6e60cd26-6f73-4155-b8ee-028421ac51cd",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "6e60cd26-6f73-4155-b8ee-028421ac51cd@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "idle_hcg.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.6666666269302368
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "9a032": {
+      "importer": "gltf-scene",
+      "uuid": "6e60cd26-6f73-4155-b8ee-028421ac51cd@9a032",
+      "displayName": "",
+      "id": "9a032",
+      "name": "Anna@idle_hcg.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.6666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle_hcg",
+            "from": 0,
+            "to": 1.6666666269302368,
+            "wrapMode": 1,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "6e60cd26-6f73-4155-b8ee-028421ac51cd@9a032"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

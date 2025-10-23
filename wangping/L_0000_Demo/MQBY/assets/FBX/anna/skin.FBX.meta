@@ -1,0 +1,160 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0d0dc43c-513c-49d2-90c2-8c6b89a16331",
+  "files": [],
+  "subMetas": {
+    "c278d": {
+      "importer": "gltf-mesh",
+      "uuid": "0d0dc43c-513c-49d2-90c2-8c6b89a16331@c278d",
+      "displayName": "",
+      "id": "c278d",
+      "name": "anna_LOD2.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "lodLevel": 2,
+        "triangleCount": 2489
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "0d0dc43c-513c-49d2-90c2-8c6b89a16331@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 28
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "59f96": {
+      "importer": "texture",
+      "uuid": "0d0dc43c-513c-49d2-90c2-8c6b89a16331@59f96",
+      "displayName": "",
+      "id": "59f96",
+      "name": "贴图 #2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/FBX/anna/t_anna_d.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1fbcb": {
+      "importer": "gltf-material",
+      "uuid": "0d0dc43c-513c-49d2-90c2-8c6b89a16331@1fbcb",
+      "displayName": "",
+      "id": "1fbcb",
+      "name": "Material #28.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dad16": {
+      "importer": "gltf-scene",
+      "uuid": "0d0dc43c-513c-49d2-90c2-8c6b89a16331@dad16",
+      "displayName": "",
+      "id": "dad16",
+      "name": "skin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #2",
+        "uri": "db://assets/FBX/anna/t_anna_d.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": true,
+      "hasBuiltinLOD": true,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": null
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": null
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0d0dc43c-513c-49d2-90c2-8c6b89a16331@c278d"
+      ],
+      "skeletons": [
+        "0d0dc43c-513c-49d2-90c2-8c6b89a16331@438fe"
+      ],
+      "textures": [
+        "0d0dc43c-513c-49d2-90c2-8c6b89a16331@59f96"
+      ],
+      "materials": [
+        "0d0dc43c-513c-49d2-90c2-8c6b89a16331@1fbcb"
+      ],
+      "scenes": [
+        "0d0dc43c-513c-49d2-90c2-8c6b89a16331@dad16"
+      ]
+    },
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "addVertexColor": false,
+    "generateLightmapUVNode": false,
+    "meshOptimizer": {
+      "enable": false,
+      "algorithm": "simplify",
+      "simplifyOptions": {
+        "targetRatio": 1,
+        "enableSmartLink": true,
+        "agressiveness": 7,
+        "maxIterationCount": 100
+      }
+    }
+  }
+}

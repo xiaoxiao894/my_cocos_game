@@ -1,0 +1,146 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c5222faf-5fe7-4b0d-a36a-acf158da804d",
+  "files": [],
+  "subMetas": {
+    "c6048": {
+      "importer": "gltf-mesh",
+      "uuid": "c5222faf-5fe7-4b0d-a36a-acf158da804d@c6048",
+      "displayName": "",
+      "id": "c6048",
+      "name": "FBX_toyshovel_02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 424
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9a197": {
+      "importer": "gltf-embeded-image",
+      "uuid": "c5222faf-5fe7-4b0d-a36a-acf158da804d@9a197",
+      "displayName": "",
+      "id": "9a197",
+      "name": "贴图 #25.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "152e9": {
+      "importer": "texture",
+      "uuid": "c5222faf-5fe7-4b0d-a36a-acf158da804d@152e9",
+      "displayName": "",
+      "id": "152e9",
+      "name": "贴图 #25.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c5222faf-5fe7-4b0d-a36a-acf158da804d@9a197"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7890a": {
+      "importer": "gltf-material",
+      "uuid": "c5222faf-5fe7-4b0d-a36a-acf158da804d@7890a",
+      "displayName": "",
+      "id": "7890a",
+      "name": "Material #65.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "52afd": {
+      "importer": "gltf-scene",
+      "uuid": "c5222faf-5fe7-4b0d-a36a-acf158da804d@52afd",
+      "displayName": "",
+      "id": "52afd",
+      "name": "FBX_toyshovel_02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #25",
+        "uri": "c5222faf-5fe7-4b0d-a36a-acf158da804d@9a197"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c5222faf-5fe7-4b0d-a36a-acf158da804d@c6048"
+      ],
+      "skeletons": [],
+      "textures": [
+        "c5222faf-5fe7-4b0d-a36a-acf158da804d@152e9"
+      ],
+      "materials": [
+        "c5222faf-5fe7-4b0d-a36a-acf158da804d@7890a"
+      ],
+      "scenes": [
+        "c5222faf-5fe7-4b0d-a36a-acf158da804d@52afd"
+      ]
+    }
+  }
+}

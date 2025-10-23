@@ -1,0 +1,112 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d20afaf7-fcef-40c6-8484-c928ff681a6d",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c2696": {
+      "importer": "gltf-animation",
+      "uuid": "d20afaf7-fcef-40c6-8484-c928ff681a6d@c2696",
+      "displayName": "",
+      "id": "c2696",
+      "name": "Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.6666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "00c18": {
+      "importer": "gltf-scene",
+      "uuid": "d20afaf7-fcef-40c6-8484-c928ff681a6d@00c18",
+      "displayName": "",
+      "id": "00c18",
+      "name": "NuJian@Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idle",
+            "from": 0,
+            "to": 2.6666667461395264,
+            "wrapMode": 2,
+            "previousId": "c2696"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d20afaf7-fcef-40c6-8484-c928ff681a6d@00c18"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

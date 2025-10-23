@@ -1,0 +1,207 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e60d76a1-03d8-43b8-804c-96835d342baa",
+  "files": [],
+  "subMetas": {
+    "ca9ff": {
+      "importer": "gltf-mesh",
+      "uuid": "e60d76a1-03d8-43b8-804c-96835d342baa@ca9ff",
+      "displayName": "",
+      "id": "ca9ff",
+      "name": "Obj3d66-8995097-3-814.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "917fa": {
+      "importer": "gltf-material",
+      "uuid": "e60d76a1-03d8-43b8-804c-96835d342baa@917fa",
+      "displayName": "",
+      "id": "917fa",
+      "name": "Mat3d66-8995097-6-80326.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4a691": {
+      "importer": "gltf-scene",
+      "uuid": "e60d76a1-03d8-43b8-804c-96835d342baa@4a691",
+      "displayName": "",
+      "id": "4a691",
+      "name": "zhizhuwang4.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e60d76a1-03d8-43b8-804c-96835d342baa@ca9ff"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "e60d76a1-03d8-43b8-804c-96835d342baa@917fa"
+      ],
+      "scenes": [
+        "e60d76a1-03d8-43b8-804c-96835d342baa@4a691"
+      ]
+    },
+    "materials": {
+      "e60d76a1-03d8-43b8-804c-96835d342baa@917fa": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {
+              "isMultisample": true
+            },
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 143,
+              "g": 143,
+              "b": 143,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": false
+    }
+  }
+}

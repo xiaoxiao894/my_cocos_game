@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1f2a7f57-c95b-465e-af5f-8b584d979749",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b4251": {
+      "importer": "gltf-animation",
+      "uuid": "1f2a7f57-c95b-465e-af5f-8b584d979749@b4251",
+      "displayName": "",
+      "id": "b4251",
+      "name": "die_2.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.299999952316284
+        },
+        "events": [
+          {
+            "frame": 0.6666666666666666,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.6666666666666666,
+            "func": "dissolveEvent",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1.8,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b42511": {
+      "importer": "gltf-animation",
+      "uuid": "1f2a7f57-c95b-465e-af5f-8b584d979749@b42511",
+      "displayName": "",
+      "id": "b42511",
+      "name": "die.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1.5,
+        "sample": 30,
+        "span": {
+          "from": 1.1612194881206606,
+          "to": 2.299999952316284
+        },
+        "events": [
+          {
+            "frame": 0.6666666666666666,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.6666666666666666,
+            "func": "dissolveEvent",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "914fc": {
+      "importer": "gltf-scene",
+      "uuid": "1f2a7f57-c95b-465e-af5f-8b584d979749@914fc",
+      "displayName": "",
+      "id": "914fc",
+      "name": "Bear@die.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2.299999952316284,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "die_2",
+            "from": 0,
+            "to": 2.299999952316284,
+            "wrapMode": 1,
+            "previousId": "b4251"
+          },
+          {
+            "name": "die",
+            "from": 1.1612194881206606,
+            "to": 2.299999952316284,
+            "wrapMode": 1,
+            "speed": 1.5,
+            "previousId": "b42511"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1f2a7f57-c95b-465e-af5f-8b584d979749@914fc"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

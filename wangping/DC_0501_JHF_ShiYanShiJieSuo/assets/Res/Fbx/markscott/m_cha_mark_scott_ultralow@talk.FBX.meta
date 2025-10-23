@@ -1,0 +1,105 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9db582a9-76aa-4f6b-8b84-2d5de4a08eb0",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "9e9cb": {
+      "importer": "gltf-animation",
+      "uuid": "9db582a9-76aa-4f6b-8b84-2d5de4a08eb0@9e9cb",
+      "displayName": "",
+      "id": "9e9cb",
+      "name": "talk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.0666667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "42d9e": {
+      "importer": "gltf-scene",
+      "uuid": "9db582a9-76aa-4f6b-8b84-2d5de4a08eb0@42d9e",
+      "displayName": "",
+      "id": "42d9e",
+      "name": "m_cha_mark_scott_ultralow@talk.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.0666667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "talk",
+            "from": 0,
+            "to": 1.0666667222976685,
+            "wrapMode": 2,
+            "previousId": "9e9cb"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "9db582a9-76aa-4f6b-8b84-2d5de4a08eb0@42d9e"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f903393b-07e6-4c9f-a1b7-771369c65234",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "f903393b-07e6-4c9f-a1b7-771369c65234@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "C_runAttack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.800000011920929
+        },
+        "events": [
+          {
+            "frame": 0.16666666666666666,
+            "func": "attack",
+            "params": [
+              0
+            ]
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "attack",
+            "params": [
+              1
+            ]
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "54f26": {
+      "importer": "gltf-scene",
+      "uuid": "f903393b-07e6-4c9f-a1b7-771369c65234@54f26",
+      "displayName": "",
+      "id": "54f26",
+      "name": "C_runAttack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.800000011920929,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "C_runAttack",
+            "from": 0,
+            "to": 0.800000011920929,
+            "wrapMode": 0,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "f903393b-07e6-4c9f-a1b7-771369c65234@54f26"
+      ]
+    }
+  }
+}

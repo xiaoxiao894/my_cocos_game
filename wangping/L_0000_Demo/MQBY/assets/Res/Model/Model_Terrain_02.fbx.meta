@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2af2150e-1e35-4258-a6d4-85ccb3bca0d3",
+  "files": [],
+  "subMetas": {
+    "796fa": {
+      "importer": "gltf-mesh",
+      "uuid": "2af2150e-1e35-4258-a6d4-85ccb3bca0d3@796fa",
+      "displayName": "",
+      "id": "796fa",
+      "name": "FBX_Terrain_02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d883": {
+      "importer": "gltf-material",
+      "uuid": "2af2150e-1e35-4258-a6d4-85ccb3bca0d3@8d883",
+      "displayName": "",
+      "id": "8d883",
+      "name": "lambert1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce886": {
+      "importer": "gltf-scene",
+      "uuid": "2af2150e-1e35-4258-a6d4-85ccb3bca0d3@ce886",
+      "displayName": "",
+      "id": "ce886",
+      "name": "Model_Terrain_02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2af2150e-1e35-4258-a6d4-85ccb3bca0d3@796fa"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "2af2150e-1e35-4258-a6d4-85ccb3bca0d3@8d883"
+      ],
+      "scenes": [
+        "2af2150e-1e35-4258-a6d4-85ccb3bca0d3@ce886"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": false
+    }
+  }
+}

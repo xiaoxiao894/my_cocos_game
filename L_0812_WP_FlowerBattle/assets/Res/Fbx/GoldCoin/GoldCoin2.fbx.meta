@@ -1,0 +1,245 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "96350435-86c3-418e-895d-796775bab7bd",
+  "files": [],
+  "subMetas": {
+    "25893": {
+      "importer": "gltf-mesh",
+      "uuid": "96350435-86c3-418e-895d-796775bab7bd@25893",
+      "displayName": "",
+      "id": "25893",
+      "name": "pCube2.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 660
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "74237": {
+      "importer": "texture",
+      "uuid": "96350435-86c3-418e-895d-796775bab7bd@74237",
+      "displayName": "",
+      "id": "74237",
+      "name": "jinbi.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "96350435-86c3-418e-895d-796775bab7bd@60e5a"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "60e5a": {
+      "importer": "gltf-embeded-image",
+      "uuid": "96350435-86c3-418e-895d-796775bab7bd@60e5a",
+      "displayName": "",
+      "id": "60e5a",
+      "name": "jinbi.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "37b3d": {
+      "importer": "gltf-material",
+      "uuid": "96350435-86c3-418e-895d-796775bab7bd@37b3d",
+      "displayName": "",
+      "id": "37b3d",
+      "name": "jinbi.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b38d2": {
+      "importer": "gltf-scene",
+      "uuid": "96350435-86c3-418e-895d-796775bab7bd@b38d2",
+      "displayName": "",
+      "id": "b38d2",
+      "name": "GoldCoin2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "jinbi",
+        "uri": "96350435-86c3-418e-895d-796775bab7bd@60e5a"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "96350435-86c3-418e-895d-796775bab7bd@25893"
+      ],
+      "skeletons": [],
+      "textures": [
+        "96350435-86c3-418e-895d-796775bab7bd@74237"
+      ],
+      "materials": [
+        "96350435-86c3-418e-895d-796775bab7bd@37b3d"
+      ],
+      "scenes": [
+        "96350435-86c3-418e-895d-796775bab7bd@b38d2"
+      ]
+    },
+    "materials": {
+      "96350435-86c3-418e-895d-796775bab7bd@37b3d": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "roughness": 0.3,
+            "metallic": 0.2,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "50a0e0cf-ba44-4db5-b080-757c5df49ff8@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

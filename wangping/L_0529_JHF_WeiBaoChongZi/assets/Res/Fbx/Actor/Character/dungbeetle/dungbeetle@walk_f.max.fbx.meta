@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8c14eae2-ed88-444e-8bc7-afba475ff779",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "bda48": {
+      "importer": "gltf-animation",
+      "uuid": "8c14eae2-ed88-444e-8bc7-afba475ff779@bda48",
+      "displayName": "",
+      "id": "bda48",
+      "name": "walk_f.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.600000023841858
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "be818": {
+      "importer": "gltf-scene",
+      "uuid": "8c14eae2-ed88-444e-8bc7-afba475ff779@be818",
+      "displayName": "",
+      "id": "be818",
+      "name": "dungbeetle@walk_f.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.600000023841858,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk_f",
+            "from": 0,
+            "to": 1.600000023841858,
+            "wrapMode": 2,
+            "previousId": "bda48"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "8c14eae2-ed88-444e-8bc7-afba475ff779@be818"
+      ]
+    }
+  }
+}

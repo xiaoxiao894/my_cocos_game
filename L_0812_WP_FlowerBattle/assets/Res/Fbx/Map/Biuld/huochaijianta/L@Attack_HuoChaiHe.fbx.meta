@@ -1,0 +1,232 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "68dee643-2bd9-4e08-874f-8f5d61f3a21b",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "ea542": {
+      "importer": "gltf-animation",
+      "uuid": "68dee643-2bd9-4e08-874f-8f5d61f3a21b@ea542",
+      "displayName": "",
+      "id": "ea542",
+      "name": "Attack_HuoChaiHe.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9333333373069763
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "AttackAni",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "d32ee": {
+      "importer": "gltf-animation",
+      "uuid": "68dee643-2bd9-4e08-874f-8f5d61f3a21b@d32ee",
+      "displayName": "",
+      "id": "d32ee",
+      "name": "attack_fire.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9333333373069763
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "AttackAni",
+            "params": []
+          },
+          {
+            "frame": 0.9,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.9,
+            "func": "restFireEvent",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "7c8e0": {
+      "importer": "gltf-animation",
+      "uuid": "68dee643-2bd9-4e08-874f-8f5d61f3a21b@7c8e0",
+      "displayName": "",
+      "id": "7c8e0",
+      "name": "attack_fire1.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4
+        },
+        "events": [
+          {
+            "frame": 0.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "AttackAni",
+            "params": []
+          },
+          {
+            "frame": 0.36666666666666664,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.36666666666666664,
+            "func": "restFireEvent",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "08ff8": {
+      "importer": "gltf-scene",
+      "uuid": "68dee643-2bd9-4e08-874f-8f5d61f3a21b@08ff8",
+      "displayName": "",
+      "id": "08ff8",
+      "name": "L@Attack_HuoChaiHe.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.9333333373069763,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Attack_HuoChaiHe",
+            "from": 0,
+            "to": 0.9333333373069763,
+            "wrapMode": 1,
+            "previousId": "ea542"
+          },
+          {
+            "name": "attack_fire",
+            "from": 0,
+            "to": 0.9333333373069763,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "d32ee"
+          },
+          {
+            "name": "attack_fire1",
+            "from": 0,
+            "to": 0.4,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "7c8e0"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "68dee643-2bd9-4e08-874f-8f5d61f3a21b@08ff8"
+      ]
+    }
+  }
+}

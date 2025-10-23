@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "53636386-e16f-426a-821f-461cc07daae7",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "26332": {
+      "importer": "gltf-scene",
+      "uuid": "53636386-e16f-426a-821f-461cc07daae7@26332",
+      "displayName": "",
+      "id": "26332",
+      "name": "ladybug@skill02_stop.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f65d1": {
+      "importer": "gltf-animation",
+      "uuid": "53636386-e16f-426a-821f-461cc07daae7@f65d1",
+      "displayName": "",
+      "id": "f65d1",
+      "name": "skill02_stop.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "ladybug@skill02_stop",
+        "duration": 0.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "skill02_stop",
+            "from": 0,
+            "to": 0.5,
+            "wrapMode": 2,
+            "previousId": "f65d1"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "53636386-e16f-426a-821f-461cc07daae7@26332"
+      ]
+    }
+  }
+}

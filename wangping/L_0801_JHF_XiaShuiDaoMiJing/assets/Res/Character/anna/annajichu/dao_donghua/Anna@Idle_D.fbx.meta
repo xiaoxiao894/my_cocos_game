@@ -1,0 +1,112 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bc3d1abb-6649-4f13-8906-0d0cf0bdfedb",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "10728": {
+      "importer": "gltf-animation",
+      "uuid": "bc3d1abb-6649-4f13-8906-0d0cf0bdfedb@10728",
+      "displayName": "",
+      "id": "10728",
+      "name": "Idle_D.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "47d2f": {
+      "importer": "gltf-scene",
+      "uuid": "bc3d1abb-6649-4f13-8906-0d0cf0bdfedb@47d2f",
+      "displayName": "",
+      "id": "47d2f",
+      "name": "Anna@Idle_D.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idle_D",
+            "from": 0,
+            "to": 3,
+            "wrapMode": 2,
+            "previousId": "10728"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "bc3d1abb-6649-4f13-8906-0d0cf0bdfedb@47d2f"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "autoErrorRate": true,
+      "errorRate": 0,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

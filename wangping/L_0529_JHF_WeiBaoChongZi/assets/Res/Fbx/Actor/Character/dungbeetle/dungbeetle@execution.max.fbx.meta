@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b577b3ad-f64d-47e5-8c53-ba2da5efeb77",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "0eb2b": {
+      "importer": "gltf-animation",
+      "uuid": "b577b3ad-f64d-47e5-8c53-ba2da5efeb77@0eb2b",
+      "displayName": "",
+      "id": "0eb2b",
+      "name": "execution.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "52a31": {
+      "importer": "gltf-scene",
+      "uuid": "b577b3ad-f64d-47e5-8c53-ba2da5efeb77@52a31",
+      "displayName": "",
+      "id": "52a31",
+      "name": "dungbeetle@execution.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "dungbeetle@execution",
+        "duration": 4,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "execution",
+            "from": 0,
+            "to": 4,
+            "wrapMode": 2,
+            "previousId": "0eb2b"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "b577b3ad-f64d-47e5-8c53-ba2da5efeb77@52a31"
+      ]
+    }
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 364,
+      "max": [
+        -0.0208074189722538,
+        0.027566201984882355,
+        0.03957856073975563
+      ],
+      "min": [
+        -0.19326993823051453,
+        -0.027566200122237206,
+        -0.10328692942857742
+      ],
+      "name": "拐弯/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 364,
+      "name": "拐弯/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 364,
+      "name": "拐弯/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 636,
+      "name": "拐弯/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.07370256632566452,
+        0.027566201984882355,
+        -0.03257931396365166
+      ],
+      "min": [
+        -0.02090683951973915,
+        -0.027566200122237206,
+        -0.10328692942857742
+      ],
+      "name": "短面/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 96,
+      "name": "短面/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 96,
+      "name": "短面/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 144,
+      "name": "短面/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        -0.12288185954093933,
+        0.027566200122237206,
+        0.10025524348020554
+      ],
+      "min": [
+        -0.19326993823051453,
+        -0.027566200122237206,
+        0.0393851101398468
+      ],
+      "name": "长面/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 96,
+      "name": "长面/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 96,
+      "name": "长面/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 144,
+      "name": "长面/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11648,
+      "byteStride": 32,
+      "name": "拐弯",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1272,
+      "byteOffset": 11648,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3072,
+      "byteOffset": 12920,
+      "byteStride": 32,
+      "name": "短面",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 15992,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3072,
+      "byteOffset": 16280,
+      "byteStride": 32,
+      "name": "长面",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 19352,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 19640,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 5,
+          "hour": 14,
+          "millisecond": 937,
+          "minute": 41,
+          "month": 6,
+          "second": 54,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2019.2",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2020",
+            "fileName": "C:\\Users\\北远\\Desktop\\传送带\\chuansongdai.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Cocos\\PlayAble\\L_DefendTheCup\\assets\\Res\\Fbx\\Map\\Duild\\chuansongdai\\chuansongdai.fbx"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.0,
+                  0.800000011920929,
+                  0.800000011920929
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 6.31179141998291
+              },
+              "specular": {
+                "value": [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              },
+              "specularFactor": {
+                "value": 1.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "blinn8"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "拐弯",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "短面",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "长面",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "拐弯",
+      "translation": [
+        0.09421055018901825,
+        -0.020881105214357376,
+        0.06737446784973145
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "短面",
+      "translation": [
+        0.09421055018901825,
+        -0.020881105214357376,
+        0.06737446784973145
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "长面",
+      "translation": [
+        0.09421055018901825,
+        -0.020881105214357376,
+        0.06737446784973145
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}

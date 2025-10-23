@@ -1,0 +1,208 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9f82e4e9-f873-4c03-b7b7-dfc66a2d3e68",
+  "files": [],
+  "subMetas": {
+    "de499": {
+      "importer": "gltf-mesh",
+      "uuid": "9f82e4e9-f873-4c03-b7b7-dfc66a2d3e68@de499",
+      "displayName": "",
+      "id": "de499",
+      "name": "c.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2964
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f2e12": {
+      "importer": "gltf-material",
+      "uuid": "9f82e4e9-f873-4c03-b7b7-dfc66a2d3e68@f2e12",
+      "displayName": "",
+      "id": "f2e12",
+      "name": "M_蜘蛛卵_2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "358ed": {
+      "importer": "gltf-scene",
+      "uuid": "9f82e4e9-f873-4c03-b7b7-dfc66a2d3e68@358ed",
+      "displayName": "",
+      "id": "358ed",
+      "name": "ZhiZhu Egg.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "9f82e4e9-f873-4c03-b7b7-dfc66a2d3e68@de499"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "9f82e4e9-f873-4c03-b7b7-dfc66a2d3e68@f2e12"
+      ],
+      "scenes": [
+        "9f82e4e9-f873-4c03-b7b7-dfc66a2d3e68@358ed"
+      ]
+    },
+    "materials": {
+      "9f82e4e9-f873-4c03-b7b7-dfc66a2d3e68@f2e12": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "81f5658e-bf6d-4c13-b401-c8b2d365e449",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_OUTLINE_PASS": true
+          },
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {},
+          {
+            "roughness": 0,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "a89db860-46ca-47e9-88d8-2ea921c0f095@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0.29
+    }
+  }
+}

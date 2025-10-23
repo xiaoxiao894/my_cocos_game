@@ -1,0 +1,109 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "87164141-5447-43a8-b0a1-0c5787eebcdc",
+  "files": [],
+  "subMetas": {
+    "f005f": {
+      "importer": "gltf-mesh",
+      "uuid": "87164141-5447-43a8-b0a1-0c5787eebcdc@f005f",
+      "displayName": "",
+      "id": "f005f",
+      "name": "dimian01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "91b0f": {
+      "importer": "gltf-material",
+      "uuid": "87164141-5447-43a8-b0a1-0c5787eebcdc@91b0f",
+      "displayName": "",
+      "id": "91b0f",
+      "name": "dimian01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b698a": {
+      "importer": "gltf-scene",
+      "uuid": "87164141-5447-43a8-b0a1-0c5787eebcdc@b698a",
+      "displayName": "",
+      "id": "b698a",
+      "name": "dimian01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "87164141-5447-43a8-b0a1-0c5787eebcdc@f005f"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "87164141-5447-43a8-b0a1-0c5787eebcdc@91b0f"
+      ],
+      "scenes": [
+        "87164141-5447-43a8-b0a1-0c5787eebcdc@b698a"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

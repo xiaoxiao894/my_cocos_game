@@ -1,0 +1,76 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitWidth": false,
+      "fitHeight": true
+    },
+    "highQuality": false
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "HERO"
+      },
+      {
+        "index": 2,
+        "name": "ENEMY"
+      },
+      {
+        "index": 3,
+        "name": "BULLET"
+      },
+      {
+        "index": 4,
+        "name": "HOME"
+      },
+      {
+        "index": 5,
+        "name": "WALL"
+      },
+      {
+        "index": 6,
+        "name": "GROUND"
+      },
+      {
+        "index": 7,
+        "name": "SOLDER"
+      },
+      {
+        "index": 8,
+        "name": "BUILDING"
+      },
+      {
+        "index": 9,
+        "name": "WALL1"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 71,
+      "1": 881,
+      "2": 765,
+      "3": 4,
+      "4": 134,
+      "5": 134,
+      "6": 135,
+      "7": 244,
+      "8": 2,
+      "9": 6
+    },
+    "gravity": {
+      "y": -10
+    },
+    "maxSubSteps": 3,
+    "fixedTimeStep": 0.0166667
+  },
+  "layer": [
+    {
+      "name": "ITEM",
+      "value": 524288
+    }
+  ],
+  "custom_joint_texture_layouts": []
+}

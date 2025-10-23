@@ -1,0 +1,246 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 52,
+      "max": [
+        0.10000000149011612,
+        0.43502339720726013,
+        0.10000000149011612
+      ],
+      "min": [
+        -0.10000000149011612,
+        0.0011935424990952015,
+        -0.10000000149011612
+      ],
+      "name": "MuZhuang/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 52,
+      "name": "MuZhuang/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 52,
+      "name": "MuZhuang/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 144,
+      "name": "MuZhuang/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1664,
+      "byteStride": 32,
+      "name": "MuZhuang",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 1664,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1952,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 8,
+          "hour": 23,
+          "millisecond": 613,
+          "minute": 13,
+          "month": 6,
+          "second": 11,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2019.2",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2020",
+            "fileName": "C:\\Users\\北远\\Desktop\\DC 使用资源优化压缩\\PA_prp_MuZhuang_A.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Cocos\\PlayAble\\SSD_PullWire\\assets\\Res\\Fbx\\Build\\famuchang\\PA_prp_MuZhuang_A.fbx"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.4000000059604645,
+                  0.4000000059604645,
+                  0.4000000059604645
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 1.0717734098434448
+              },
+              "specular": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "MuZhuang1"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "MuZhuang",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "MuZhuang"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+import { _decorator, Component, Label, Node, tween, UIOpacity, Vec3 } from 'cc';
+import super_html_playable from '../core/super_html_playable';
+import { SoundManager } from '../core/SoundManager';
+import { LanguageManager } from '../Language/LanguageManager';
+import { App } from '../App';
+const { ccclass, property } = _decorator;
+
+@ccclass('GameEndManager')
+export class GameEndManager extends Component {
+    @property(Node)
+    bg: Node = null;
+
+    @property(Node)
+    icon: Node = null;
+
+    @property(Node)
+    download: Node = null;
+
+    @property(Node)
+    download1: Node = null;
+
+    @property(Node)
+    continue: Node = null;
+
+    // @property(Node)
+    // win: Node = null;
+
+    @property(Node)
+    hand: Node = null;
+
+    private type: number = 1;
+
+    start() {
+
+        this.node.active = false;
+        this.init();
+        this.playFingerAndButtonAnim();
+        // 调用函数处理各个节点
+        this.updateLabelText(this.download);
+        this.updateLabelText(this.download1);
+        this.updateLabelText(this.continue);
+        if (this.type == 1) {
+            this.download1.active = false;
+            this.continue.active = false;
+            this.download.active = true;
+            SoundManager.Instance.playAudio("win");
+        } else {
+            this.download.active = false;
+            this.continue.active = true;
+            this.download1.active = true;
+            SoundManager.Instance.playAudio("fail");
+        }
+        
+    }
+    showGameEnd(type: number = 1) {
+        this.node.active = true;
+        this.type = type;
+        if (type == 1) {
+            this.download1.active = false;
+            this.continue.active = false;
+            this.download.active = true;
+            SoundManager.Instance.playAudio("win");
+        } else {
+            this.download.active = false;
+            this.continue.active = true;
+            this.download1.active = true;
+            SoundManager.Instance.playAudio("fail");
+        }
+        if(this.type == 1){
+            this.hand.setPosition(new Vec3(117.659, -281.833, 0));
+        }else{
+            this.hand.setPosition(new Vec3(248.414, -281.833, 0));
+        }
+    }
+    // 封装处理标签语言转换的函数
+    updateLabelText = (node) => {
+        if (!node) return;
+
+        const label = node.getChildByName("Label")?.getComponent(Label);
+        if (label) {
+            const text = LanguageManager.t(label.string);
+            if (text) label.string = text;
+        }
+    };
+
+    init() {
+        this.hand.active = false;
+        this.node.active = true;
+        if(this.type == 1){
+            this.hand.setPosition(new Vec3(117.659, -281.833, 0));
+        }else{
+            this.hand.setPosition(new Vec3(248.414, -281.833, 0));
+        }
+        // 背景淡入
+        const opacityCom = this.bg.getComponent(UIOpacity) || this.bg.addComponent(UIOpacity);
+        opacityCom.opacity = 0;
+        tween(opacityCom)
+            .to(0.1, { opacity: 150 })
+            .start();
+
+        // 初始缩放
+        this.icon.setScale(0, 0, 0);
+        this.download.setScale(0, 1, 1);
+
+        tween(this.icon)
+            .to(0.25, { scale: new Vec3(1.2, 1.2, 1.2) })
+            .to(0.3, { scale: new Vec3(1, 1, 1) })
+            .start();
+
+        tween(this.download)
+            .delay(0.25)
+            .to(0.25, { scale: new Vec3(1.1, 1.1, 1.1) })
+            .to(0.3, { scale: new Vec3(1, 1, 1) })
+            .call(
+                () => {
+                    this.hand.active = true;
+                }
+            )
+            .start();
+
+    }
+
+    // 手指+按钮循环提示动画
+    playFingerAndButtonAnim() {
+        // this.hand.active = true;
+        // 手指动画（0.9 -> 1 循环）
+        tween(this.hand)
+            .repeatForever(
+                tween()
+                    .to(0.3, { scale: new Vec3(0.4, 0.4, 0.4) })
+                    .to(0.3, { scale: new Vec3(0.5, 0.5, 0.5) })
+            )
+            .start();
+    }
+    platformBtnEvent() {
+        console.log("点击下载");
+        super_html_playable.download();
+    }
+
+    continueGame() {
+        console.log("从新开始游戏");
+        App.gameManager.continueGame();
+        this.type = 1;
+    }
+}
+
+

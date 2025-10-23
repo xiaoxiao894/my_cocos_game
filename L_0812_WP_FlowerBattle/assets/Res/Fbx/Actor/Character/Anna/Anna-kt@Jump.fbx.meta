@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "fad3f56a-607f-41c8-bda9-fead55d75dbc",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "f4113": {
+      "importer": "gltf-animation",
+      "uuid": "fad3f56a-607f-41c8-bda9-fead55d75dbc@f4113",
+      "displayName": "",
+      "id": "f4113",
+      "name": "Jump.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": [
+          {
+            "frame": 0,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0,
+            "func": "jumpSoundEvent",
+            "params": []
+          },
+          {
+            "frame": 0.7666666666666667,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7666666666666667,
+            "func": "jumpSoundEvent1",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 0.8,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "8394d": {
+      "importer": "gltf-scene",
+      "uuid": "fad3f56a-607f-41c8-bda9-fead55d75dbc@8394d",
+      "displayName": "",
+      "id": "8394d",
+      "name": "Anna-kt@Jump.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Jump",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 1,
+            "previousId": "f4113",
+            "speed": 0.8
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "fad3f56a-607f-41c8-bda9-fead55d75dbc@8394d"
+      ]
+    }
+  }
+}

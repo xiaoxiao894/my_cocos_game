@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a85e2e47-0a68-4a55-9f50-1a38a87a10e2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "40326": {
+      "importer": "gltf-scene",
+      "uuid": "a85e2e47-0a68-4a55-9f50-1a38a87a10e2@40326",
+      "displayName": "",
+      "id": "40326",
+      "name": "longicorn@cut_walk_f.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b92e": {
+      "importer": "gltf-animation",
+      "uuid": "a85e2e47-0a68-4a55-9f50-1a38a87a10e2@4b92e",
+      "displayName": "",
+      "id": "4b92e",
+      "name": "cut_walk_f.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5333333611488342
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "longicorn@cut_walk_f",
+        "duration": 0.5333333611488342,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "cut_walk_f",
+            "from": 0,
+            "to": 0.5333333611488342,
+            "wrapMode": 2,
+            "previousId": "4b92e"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a85e2e47-0a68-4a55-9f50-1a38a87a10e2@40326"
+      ]
+    }
+  }
+}

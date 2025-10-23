@@ -1,0 +1,190 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "aaef991b-643e-4b7d-8543-290e3ef556a6",
+  "files": [],
+  "subMetas": {
+    "b43ab": {
+      "importer": "gltf-mesh",
+      "uuid": "aaef991b-643e-4b7d-8543-290e3ef556a6@b43ab",
+      "displayName": "",
+      "id": "b43ab",
+      "name": "spider_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1314
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8803": {
+      "importer": "gltf-material",
+      "uuid": "aaef991b-643e-4b7d-8543-290e3ef556a6@c8803",
+      "displayName": "",
+      "id": "c8803",
+      "name": "t_spider_d.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0245f": {
+      "importer": "gltf-scene",
+      "uuid": "aaef991b-643e-4b7d-8543-290e3ef556a6@0245f",
+      "displayName": "",
+      "id": "0245f",
+      "name": "spider_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "aaef991b-643e-4b7d-8543-290e3ef556a6@b43ab"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "aaef991b-643e-4b7d-8543-290e3ef556a6@c8803"
+      ],
+      "scenes": [
+        "aaef991b-643e-4b7d-8543-290e3ef556a6@0245f"
+      ]
+    },
+    "materials": {
+      "aaef991b-643e-4b7d-8543-290e3ef556a6@c8803": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_NORMAL_MAP": true,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            },
+            "mainTexture": {
+              "__uuid__": "8e75c1ee-caf2-4782-bd45-7f90aef7b9ef@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "normalMap": {
+              "__uuid__": "be580990-765e-4045-9de2-afa7f513a745@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

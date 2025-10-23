@@ -1,0 +1,172 @@
+CCEffect %{
+  techniques:
+  - passes:
+    # 主渲染通道
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      depthStencilState:
+        depthTest: true
+        depthWrite: true
+      properties:
+        mainTexture:         { value: white }
+        mainColor:           { value: [1, 1, 1, 1], linear: true, editor: { type: color }, displayName: "MainColor" }
+        dissolveNoise:       { value: white, macro: USE_DISSOLVE }
+        uvNoise:             { value: white, macro: USE_UV_DISTORT }
+        timeScale:           { value: 1.0, editor: { slide: true, range: [0.0, 5.0], step: 0.1 } }
+        dissolveThreshold:   { value: 0.5, editor: { slide: true, range: [0.0, 1.0], step: 0.1 }, macro: USE_DISSOLVE }
+        edgeWidth:           { value: 0.05,editor: { slide: true, range: [0.0, 1.0], step: 0.01 }, macro: USE_DISSOLVE_EDGE }
+        edgeColor:           { value: [1, 0.5, 0, 1],linear: true, editor: { type: color }, macro: USE_DISSOLVE_EDGE }
+        uvFlowU:             { value: 0.1, editor: { slide: true, range: [-2.0, 2.0], step: 0.1 }, macro: USE_UV_FLOW }
+        uvFlowV:             { value: 0.0, editor: { slide: true, range: [-2.0, 2.0], step: 0.1 }, macro: USE_UV_FLOW }
+        uvDistortIntensity:  { value: 0.05, editor: { slide: true, range: [0.0, 0.5], step: 0.01 }, macro: USE_UV_DISTORT }
+        mainTextureTilingOffset: { value: [1, 1, 0, 0], editor: { type: vec4, step: 0.01 }, displayName: "Main Tex Tiling Offset" }
+        dissolveNoiseTilingOffset: { value: [1, 1, 0, 0], editor: { type: vec4, step: 0.01 }, displayName: "Dissolve Noise Tiling Offset" }
+        uvNoiseTilingOffset: { value: [1, 1, 0, 0], editor: { type: vec4, step: 0.01 }, displayName: "UV Noise Tiling Offset" }
+    
+}%
+
+// 主通道顶点着色器
+CCProgram vs %{
+  precision highp float;
+  
+  #include <cc-global>
+  #include <cc-local>
+
+  in vec4 a_position;
+  in vec2 a_texCoord;
+  in vec3 a_normal;
+  out vec2 v_uv;
+  out vec4 v_pos;
+  out float v_depth;
+  out vec3 v_normal;
+  out vec4 v_worldPos;
+
+  uniform Material {
+    vec4 mainColor;
+    vec4 edgeColor;
+    vec4 mainTextureTilingOffset;
+    vec4 dissolveNoiseTilingOffset;
+    vec4 uvNoiseTilingOffset;
+    
+    float timeScale;
+    float dissolveThreshold;
+    float edgeWidth;
+    float uvFlowU;
+    float uvFlowV;
+    float uvDistortIntensity;
+    
+    
+  };
+
+  void main () {
+    v_worldPos = cc_matWorld * a_position;
+    v_uv = a_texCoord;
+    v_pos = cc_matProj * cc_matView * v_worldPos;
+    v_depth = v_pos.z / v_pos.w;
+    v_normal = mat3(cc_matWorld) * a_normal;
+    gl_Position = v_pos;
+  }
+}%
+
+// 主通道片段着色器
+CCProgram fs %{
+  precision highp float;
+  
+  #include <cc-global>
+
+  in vec2 v_uv;
+  in vec4 v_pos;
+  in float v_depth;
+  in vec3 v_normal;
+  in vec4 v_worldPos;
+
+  layout(location = 0) out vec4 o_color;
+
+  uniform sampler2D mainTexture;
+  
+  #if USE_DISSOLVE
+  uniform sampler2D dissolveNoise;
+  #endif
+  
+  #if USE_UV_DISTORT
+  uniform sampler2D uvNoise;
+  #endif
+
+  uniform Material {
+    vec4 mainColor;
+    vec4 edgeColor;
+    vec4 mainTextureTilingOffset;
+    vec4 dissolveNoiseTilingOffset;
+    vec4 uvNoiseTilingOffset;
+    
+    float timeScale;
+    float dissolveThreshold;
+    float edgeWidth;
+    float uvFlowU;
+    float uvFlowV;
+    float uvDistortIntensity;
+    
+    
+  };
+
+  void main () {
+    float time = cc_time.x * timeScale;
+
+    // 应用主纹理的平铺和偏移
+    vec2 mainUV = v_uv * mainTextureTilingOffset.xy + mainTextureTilingOffset.zw;
+    
+    // 应用溶解噪声纹理的平铺和偏移
+    vec2 dissolveUV = v_uv * dissolveNoiseTilingOffset.xy + dissolveNoiseTilingOffset.zw;
+    
+    // 应用UV噪声纹理的平铺和偏移
+    vec2 noiseUV = v_uv * uvNoiseTilingOffset.xy + uvNoiseTilingOffset.zw;
+
+    vec2 uv = mainUV;
+
+    #if USE_UV_FLOW
+    // 独立控制U和V方向的流动
+    uv += vec2(time * uvFlowU, time * uvFlowV);
+    #endif
+
+    #if USE_UV_DISTORT
+    // UV扭曲效果（通过uvDistortIntensity控制强度）
+    vec2 noise = texture(uvNoise, noiseUV * 3.0 + vec2(time * 0.5, 0.0)).rg - 0.5;
+    uv += noise * uvDistortIntensity;
+    #endif
+
+    
+    vec4 baseColor = texture(mainTexture, uv);
+
+    // 应用主贴图颜色
+    baseColor.rgb *= mainColor.rgb;
+    baseColor.a *= mainColor.a;
+
+    #if USE_DISSOLVE
+    // 溶解效果
+    float noiseVal = texture(dissolveNoise, dissolveUV).r;
+    float dissolve = noiseVal - dissolveThreshold;
+    
+    #if USE_DISSOLVE_EDGE
+    // 溶解边缘效果
+    float edge = smoothstep(0.0, edgeWidth, dissolve);
+    baseColor = mix(edgeColor, baseColor, edge);
+    #endif
+
+    baseColor.a *= step(0.0, dissolve);
+    if (baseColor.a < 0.01) discard;
+    #endif
+
+    o_color = baseColor;
+  }
+}%
+
+

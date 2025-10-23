@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "329b7027-9cfa-4221-94b8-e0d29a39034d",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "39eac": {
+      "importer": "gltf-animation",
+      "uuid": "329b7027-9cfa-4221-94b8-e0d29a39034d@39eac",
+      "displayName": "",
+      "id": "39eac",
+      "name": "attack01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.2666666507720947
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6adfb": {
+      "importer": "gltf-scene",
+      "uuid": "329b7027-9cfa-4221-94b8-e0d29a39034d@6adfb",
+      "displayName": "",
+      "id": "6adfb",
+      "name": "weevil@attack01.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "weevil@attack01",
+        "duration": 1.2666666507720947,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack01",
+            "from": 0,
+            "to": 1.2666666507720947,
+            "wrapMode": 2,
+            "previousId": "39eac"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "329b7027-9cfa-4221-94b8-e0d29a39034d@6adfb"
+      ]
+    },
+    "redirect": "329b7027-9cfa-4221-94b8-e0d29a39034d@6adfb"
+  }
+}

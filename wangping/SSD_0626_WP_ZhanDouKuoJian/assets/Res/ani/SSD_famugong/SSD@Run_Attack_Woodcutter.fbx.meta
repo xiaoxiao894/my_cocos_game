@@ -1,0 +1,126 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e11e3745-5512-4f84-bbb1-bb86bdb148fc",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "4d3f5": {
+      "importer": "gltf-animation",
+      "uuid": "e11e3745-5512-4f84-bbb1-bb86bdb148fc@4d3f5",
+      "displayName": "",
+      "id": "4d3f5",
+      "name": "Run_Attack_Woodcutter.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5333333611488342
+        },
+        "events": [
+          {
+            "frame": 0.3,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.3,
+            "func": "playAttackAni",
+            "params": []
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "playAttackSound",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1.4,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "985ae": {
+      "importer": "gltf-scene",
+      "uuid": "e11e3745-5512-4f84-bbb1-bb86bdb148fc@985ae",
+      "displayName": "",
+      "id": "985ae",
+      "name": "SSD@Run_Attack_Woodcutter.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.5333333611488342,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Run_Attack_Woodcutter",
+            "from": 0,
+            "to": 0.5333333611488342,
+            "wrapMode": 2,
+            "previousId": "4d3f5"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e11e3745-5512-4f84-bbb1-bb86bdb148fc@985ae"
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6fd5d4bd-c8e0-46ec-9e6a-ec7e8ca16583",
+  "files": [],
+  "subMetas": {
+    "0df3b": {
+      "importer": "gltf-mesh",
+      "uuid": "6fd5d4bd-c8e0-46ec-9e6a-ec7e8ca16583@0df3b",
+      "displayName": "",
+      "id": "0df3b",
+      "name": "ZhuWang.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 17028
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a3ca": {
+      "importer": "gltf-material",
+      "uuid": "6fd5d4bd-c8e0-46ec-9e6a-ec7e8ca16583@7a3ca",
+      "displayName": "",
+      "id": "7a3ca",
+      "name": "lambert2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4fbc1": {
+      "importer": "gltf-scene",
+      "uuid": "6fd5d4bd-c8e0-46ec-9e6a-ec7e8ca16583@4fbc1",
+      "displayName": "",
+      "id": "4fbc1",
+      "name": "ZhuWang_V001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6fd5d4bd-c8e0-46ec-9e6a-ec7e8ca16583@0df3b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6fd5d4bd-c8e0-46ec-9e6a-ec7e8ca16583@7a3ca"
+      ],
+      "scenes": [
+        "6fd5d4bd-c8e0-46ec-9e6a-ec7e8ca16583@4fbc1"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

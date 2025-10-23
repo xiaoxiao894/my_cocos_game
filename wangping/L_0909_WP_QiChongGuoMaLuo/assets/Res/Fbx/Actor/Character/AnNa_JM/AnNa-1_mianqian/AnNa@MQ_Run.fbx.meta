@@ -1,0 +1,106 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e3ff06b5-57d8-4413-bacb-284d6e060a65",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a518e": {
+      "importer": "gltf-animation",
+      "uuid": "e3ff06b5-57d8-4413-bacb-284d6e060a65@a518e",
+      "displayName": "",
+      "id": "a518e",
+      "name": "MQ_Run.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1.2,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "52eeb": {
+      "importer": "gltf-scene",
+      "uuid": "e3ff06b5-57d8-4413-bacb-284d6e060a65@52eeb",
+      "displayName": "",
+      "id": "52eeb",
+      "name": "AnNa@MQ_Run.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "MQ_Run",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 2,
+            "previousId": "a518e",
+            "speed": 1.2
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e3ff06b5-57d8-4413-bacb-284d6e060a65@52eeb"
+      ]
+    }
+  }
+}

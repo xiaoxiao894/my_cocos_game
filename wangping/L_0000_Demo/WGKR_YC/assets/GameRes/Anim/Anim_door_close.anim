@@ -1,0 +1,197 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Anim_door_close",
+    "_objFlags": 0,
+    "__editorExtras__": {
+      "embeddedPlayerGroups": []
+    },
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 1,
+    "enableTrsBlending": false,
+    "_duration": 0.43333333333333335,
+    "_hash": 500763545,
+    "_tracks": [
+      {
+        "__id__": 1
+      },
+      {
+        "__id__": 6
+      }
+    ],
+    "_exoticAnimation": null,
+    "_events": [],
+    "_embeddedPlayers": [],
+    "_additiveSettings": {
+      "__id__": 11
+    },
+    "_auxiliaryCurveEntries": []
+  },
+  {
+    "__type__": "cc.animation.QuatTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      },
+      "proxy": null
+    },
+    "_channel": {
+      "__id__": 4
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      "rotation"
+    ]
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "door1"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.QuatCurve",
+    "_times": [
+      0,
+      0.38333332538604736,
+      0.4333333373069763
+    ],
+    "_values": [
+      {
+        "__type__": "cc.QuatKeyframeValue",
+        "interpolationMode": 0,
+        "value": {
+          "__type__": "cc.Quat",
+          "x": 0,
+          "y": 0.8840839266777039,
+          "z": 0,
+          "w": 0.46732813119888306
+        },
+        "easingMethod": 0
+      },
+      {
+        "__type__": "cc.QuatKeyframeValue",
+        "interpolationMode": 0,
+        "value": {
+          "__type__": "cc.Quat",
+          "x": 0,
+          "y": -0.07677123695611954,
+          "z": 0,
+          "w": 0.9970487356185913
+        },
+        "easingMethod": 0
+      },
+      {
+        "__type__": "cc.QuatKeyframeValue",
+        "interpolationMode": 0,
+        "value": {
+          "__type__": "cc.Quat",
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "easingMethod": 0
+      }
+    ],
+    "preExtrapolation": 1,
+    "postExtrapolation": 1
+  },
+  {
+    "__type__": "cc.animation.QuatTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 7
+      },
+      "proxy": null
+    },
+    "_channel": {
+      "__id__": 9
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 8
+      },
+      "rotation"
+    ]
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "door2"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 10
+    }
+  },
+  {
+    "__type__": "cc.QuatCurve",
+    "_times": [
+      0,
+      0.38333332538604736,
+      0.4333333373069763
+    ],
+    "_values": [
+      {
+        "__type__": "cc.QuatKeyframeValue",
+        "interpolationMode": 0,
+        "value": {
+          "__type__": "cc.Quat",
+          "x": 0,
+          "y": -0.9305006861686707,
+          "z": 0,
+          "w": 0.3662901222705841
+        },
+        "easingMethod": 0
+      },
+      {
+        "__type__": "cc.QuatKeyframeValue",
+        "interpolationMode": 0,
+        "value": {
+          "__type__": "cc.Quat",
+          "x": 0,
+          "y": 0.07564876973628998,
+          "z": 0,
+          "w": 0.9971345067024231
+        },
+        "easingMethod": 0
+      },
+      {
+        "__type__": "cc.QuatKeyframeValue",
+        "interpolationMode": 0,
+        "value": {
+          "__type__": "cc.Quat",
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "easingMethod": 0
+      }
+    ],
+    "preExtrapolation": 1,
+    "postExtrapolation": 1
+  },
+  {
+    "__type__": "cc.AnimationClipAdditiveSettings",
+    "enabled": false,
+    "refClip": null
+  }
+]

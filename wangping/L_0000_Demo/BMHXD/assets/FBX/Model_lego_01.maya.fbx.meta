@@ -1,0 +1,166 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d68ce001-0f43-4aad-b3af-11866d2a4ec6",
+  "files": [],
+  "subMetas": {
+    "85c04": {
+      "importer": "gltf-mesh",
+      "uuid": "d68ce001-0f43-4aad-b3af-11866d2a4ec6@85c04",
+      "displayName": "",
+      "id": "85c04",
+      "name": "lego_01_b.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 368
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2d715": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d68ce001-0f43-4aad-b3af-11866d2a4ec6@2d715",
+      "displayName": "",
+      "id": "2d715",
+      "name": "t_lego_01_b_d_1.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "9c881": {
+      "importer": "texture",
+      "uuid": "d68ce001-0f43-4aad-b3af-11866d2a4ec6@9c881",
+      "displayName": "",
+      "id": "9c881",
+      "name": "t_lego_01_b_d_1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d68ce001-0f43-4aad-b3af-11866d2a4ec6@2d715"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8aa12": {
+      "importer": "gltf-material",
+      "uuid": "d68ce001-0f43-4aad-b3af-11866d2a4ec6@8aa12",
+      "displayName": "",
+      "id": "8aa12",
+      "name": "b.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "63fd0": {
+      "importer": "gltf-scene",
+      "uuid": "d68ce001-0f43-4aad-b3af-11866d2a4ec6@63fd0",
+      "displayName": "",
+      "id": "63fd0",
+      "name": "Model_lego_01.maya.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "t_lego_01_b_d_1",
+        "uri": "d68ce001-0f43-4aad-b3af-11866d2a4ec6@2d715"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d68ce001-0f43-4aad-b3af-11866d2a4ec6@85c04"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d68ce001-0f43-4aad-b3af-11866d2a4ec6@9c881"
+      ],
+      "materials": [
+        "d68ce001-0f43-4aad-b3af-11866d2a4ec6@8aa12"
+      ],
+      "scenes": [
+        "d68ce001-0f43-4aad-b3af-11866d2a4ec6@63fd0"
+      ]
+    },
+    "meshOptimize": {
+      "enable": false,
+      "overdraw": false,
+      "vertexFetch": false,
+      "vertexCache": false
+    },
+    "meshSimplify": {
+      "enable": false,
+      "autoErrorRate": false,
+      "lockBoundary": false
+    },
+    "meshCluster": {
+      "enable": false,
+      "generateBounding": false
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

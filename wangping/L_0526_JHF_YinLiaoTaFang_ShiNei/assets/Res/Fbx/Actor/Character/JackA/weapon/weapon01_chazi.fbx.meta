@@ -1,0 +1,110 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d8fe2cda-fb2a-4332-b8de-26653616795b",
+  "files": [],
+  "subMetas": {
+    "30234": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fe2cda-fb2a-4332-b8de-26653616795b@30234",
+      "displayName": "",
+      "id": "30234",
+      "name": "weapon_01chazi.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "d8fe2cda-fb2a-4332-b8de-26653616795b@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 1
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8f9d1": {
+      "importer": "gltf-scene",
+      "uuid": "d8fe2cda-fb2a-4332-b8de-26653616795b@8f9d1",
+      "displayName": "",
+      "id": "8f9d1",
+      "name": "weapon01_chazi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d8fe2cda-fb2a-4332-b8de-26653616795b@30234"
+      ],
+      "skeletons": [
+        "d8fe2cda-fb2a-4332-b8de-26653616795b@438fe"
+      ],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d8fe2cda-fb2a-4332-b8de-26653616795b@8f9d1"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "lockBoundary": true,
+      "autoErrorRate": true,
+      "errorRate": 0,
+      "targetRatio": 0,
+      "enable": true
+    }
+  }
+}

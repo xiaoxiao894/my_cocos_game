@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b1bbba12-e43c-4015-a4c4-bd13736f10fd",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "1f586": {
+      "importer": "gltf-animation",
+      "uuid": "b1bbba12-e43c-4015-a4c4-bd13736f10fd@1f586",
+      "displayName": "",
+      "id": "1f586",
+      "name": "idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.366666555404663
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "cd2e6": {
+      "importer": "gltf-scene",
+      "uuid": "b1bbba12-e43c-4015-a4c4-bd13736f10fd@cd2e6",
+      "displayName": "",
+      "id": "cd2e6",
+      "name": "beetlewarrior@idle.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "beetlewarrior@idle",
+        "duration": 2.366666555404663,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle",
+            "from": 0,
+            "to": 2.366666555404663,
+            "wrapMode": 2,
+            "previousId": "1f586"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "b1bbba12-e43c-4015-a4c4-bd13736f10fd@cd2e6"
+      ]
+    },
+    "redirect": "b1bbba12-e43c-4015-a4c4-bd13736f10fd@cd2e6"
+  }
+}

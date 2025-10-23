@@ -1,0 +1,227 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      properties: &props
+        mainTexture:    { value: grey }
+        tilingOffset:   { value: [1, 1, 0, 0] }
+        mainColor:      { value: [1, 1, 1, 1], linear: true, editor: { type: color } }
+        colorScale:     { value: [1, 1, 1], target: colorScaleAndCutoff.xyz }
+        alphaThreshold: { value: 0.5, target: colorScaleAndCutoff.w, editor: { parent: USE_ALPHA_TEST } }
+        color:          { target: mainColor, linear: true, editor: { visible: false } } # backward compability
+      migrations: &migs
+        properties:
+          mainColor:    { formerlySerializedAs: color }
+    - vert: unlit-vs:vert_ray
+      frag: unlit-fs:frag_ray
+      properties: &props_ray
+        _RimColor:      { value: [1, 1, 1, 1], linear: true, editor: { type: color } }
+        _RimWidth:      { value: 1.0, editor: { slide: true, range: [1.0, 3.0], step: 0.1}}
+        _RimPower:      { value: 1.0, editor: { slide: true, range: [0.1, 3.0], step: 0.1}}
+      blendState:
+        targets:
+          - blend: true             
+            blendSrc: src_alpha
+            blendDst: one
+      depthStencilState:
+        depthWrite: false           
+        depthFunc: greater         
+    
+    - &deferred-forward
+      vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      phase: deferred-forward
+      propertyIndex: 0
+  - name: transparent
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      depthStencilState: &d1
+        depthTest: true
+        depthWrite: false
+      blendState: &b1
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+      migrations: *migs
+    - &deferred-forward-transparent
+      vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      phase: deferred-forward
+      propertyIndex: 0
+      migrations: *migs
+      depthStencilState: *d1
+      blendState: *b1
+  - name: add
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      rasterizerState: &r1 { cullMode: none }
+      depthStencilState: *d1
+      blendState: &b2
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one
+      properties: *props
+      migrations: *migs
+    - &deferred-forward-add
+      vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      phase: deferred-forward
+      rasterizerState: *r1
+      depthStencilState: *d1
+      blendState: *b2
+      propertyIndex: 0
+      migrations: *migs
+  - name: alpha-blend
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      rasterizerState: *r1
+      depthStencilState: *d1
+      blendState: &b3
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+      migrations: *migs
+    - &deferred-forward-alpha-blend
+      vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      phase: deferred-forward
+      rasterizerState: *r1
+      depthStencilState: *d1
+      blendState: *b3
+      propertyIndex: 0
+      migrations: *migs
+}%
+
+CCProgram unlit-vs %{
+  precision highp float;
+  #include <legacy/input>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/decode-base>
+  #include <legacy/local-batch>
+  #include <legacy/input>
+  #include <legacy/fog-vs>
+
+  #if USE_VERTEX_COLOR
+    in lowp vec4 a_color;
+    out lowp vec4 v_color;
+  #endif
+
+  #if USE_TEXTURE
+    out vec2 v_uv;
+    uniform TexCoords {
+      vec4 tilingOffset;
+    };
+  #endif
+
+  vec4 vert () {
+    vec4 position;
+    CCVertInput(position);
+
+    mat4 matWorld;
+    CCGetWorldMatrix(matWorld);
+
+    #if USE_TEXTURE
+      v_uv = a_texCoord * tilingOffset.xy + tilingOffset.zw;
+      #if SAMPLE_FROM_RT
+        CC_HANDLE_RT_SAMPLE_FLIP(v_uv);
+      #endif
+    #endif
+
+    #if USE_VERTEX_COLOR
+      v_color = a_color;
+    #endif
+
+    CC_TRANSFER_FOG(matWorld * position);
+    return cc_matProj * (cc_matView * matWorld) * position;
+  }
+
+  uniform Rim {
+    vec4 _RimColor;
+    float _RimPower;
+    float _RimWidth;
+  };
+  out vec4 v_rayColor;
+  vec4 vert_ray () {
+    vec4 position;
+    CCVertInput(position);
+
+    mat4 matWorld;
+    CCGetWorldMatrix(matWorld);
+
+    vec3 viewDir = normalize(cc_cameraPos.xyz - (matWorld * position).xyz); //视图方向
+    vec3 normal = normalize((matWorld * vec4(a_normal, 0.0)).xyz);
+    float rim = 1.0 - clamp(dot(viewDir, normal), 0.0, 1.0); //计算边缘强度
+    v_rayColor = _RimColor * ((rim * _RimWidth) * _RimPower); //设置像素颜色
+
+    
+    return cc_matProj * (cc_matView * matWorld) * position;
+  }
+}%
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <legacy/output-standard>
+  #include <legacy/fog-fs>
+
+  #if USE_ALPHA_TEST
+    #pragma define-meta ALPHA_TEST_CHANNEL options([a, r, g, b])
+  #endif
+
+  #if USE_TEXTURE
+    in vec2 v_uv;
+    uniform sampler2D mainTexture;
+  #endif
+
+  uniform Constant {
+    vec4 mainColor;
+    vec4 colorScaleAndCutoff;
+  };
+
+  #if USE_VERTEX_COLOR
+    in lowp vec4 v_color;
+  #endif
+
+  vec4 frag () {
+    vec4 o = mainColor;
+    o.rgb *= colorScaleAndCutoff.xyz;
+
+    #if USE_VERTEX_COLOR
+      o.rgb *= SRGBToLinear(v_color.rgb);//use linear
+      o.a *= v_color.a;
+    #endif
+
+    #if USE_TEXTURE
+      vec4 texColor = texture(mainTexture, v_uv);
+      texColor.rgb = SRGBToLinear(texColor.rgb);
+      o *= texColor;
+    #endif
+
+    #if USE_ALPHA_TEST
+      if (o.ALPHA_TEST_CHANNEL < colorScaleAndCutoff.w) discard;
+    #endif
+
+    CC_APPLY_FOG(o);
+    return CCFragOutput(o);
+  }
+
+  in vec4 v_rayColor;
+  vec4 frag_ray () {
+    return CCFragOutput(v_rayColor);
+  }
+}%

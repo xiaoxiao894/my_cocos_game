@@ -1,0 +1,105 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e239db6e-a484-4aac-bde9-7e3dcc3a724a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "80afd": {
+      "importer": "gltf-animation",
+      "uuid": "e239db6e-a484-4aac-bde9-7e3dcc3a724a@80afd",
+      "displayName": "",
+      "id": "80afd",
+      "name": "idle_relax.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "39d24": {
+      "importer": "gltf-scene",
+      "uuid": "e239db6e-a484-4aac-bde9-7e3dcc3a724a@39d24",
+      "displayName": "",
+      "id": "39d24",
+      "name": "m_cha_roadman_ultralow@idle_relax.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "idle_relax",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle_relax",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "80afd"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e239db6e-a484-4aac-bde9-7e3dcc3a724a@39d24"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

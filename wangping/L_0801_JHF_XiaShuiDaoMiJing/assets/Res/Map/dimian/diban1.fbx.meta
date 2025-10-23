@@ -1,0 +1,109 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "296a5157-6eac-45e5-890b-1eff8510dabd",
+  "files": [],
+  "subMetas": {
+    "1ea07": {
+      "importer": "gltf-mesh",
+      "uuid": "296a5157-6eac-45e5-890b-1eff8510dabd@1ea07",
+      "displayName": "",
+      "id": "1ea07",
+      "name": "Obj3d66-9476763-70-921.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 125
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5752e": {
+      "importer": "gltf-material",
+      "uuid": "296a5157-6eac-45e5-890b-1eff8510dabd@5752e",
+      "displayName": "",
+      "id": "5752e",
+      "name": "Mat3d66-9476763-6-98516.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cb42b": {
+      "importer": "gltf-scene",
+      "uuid": "296a5157-6eac-45e5-890b-1eff8510dabd@cb42b",
+      "displayName": "",
+      "id": "cb42b",
+      "name": "diban1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "296a5157-6eac-45e5-890b-1eff8510dabd@1ea07"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "296a5157-6eac-45e5-890b-1eff8510dabd@5752e"
+      ],
+      "scenes": [
+        "296a5157-6eac-45e5-890b-1eff8510dabd@cb42b"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      "name": "Box001/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Box001/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Box001/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 24,
+      "name": "Box001/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 512,
+      "byteStride": 32,
+      "name": "Box001",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 512,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 560,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 22,
+          "hour": 11,
+          "millisecond": 915,
+          "minute": 40,
+          "month": 8,
+          "second": 28,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.3.1",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2023",
+            "fileName": "D:\\LK\\other\\TX_fangkuai.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Cocos\\PlayAble\\L_0812_WP_FlowerBattle\\assets\\resources\\Prefab\\TX\\TX_fangkuai.fbx"
+        }
+      }
+    }
+  },
+  "meshes": [
+    {
+      "name": "Box001",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Box001",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        -0.04905843734741211,
+        0.0,
+        -0.020666170865297318
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

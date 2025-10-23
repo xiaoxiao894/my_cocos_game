@@ -1,0 +1,206 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "78b96288-f36e-4a63-8e47-c1b35aaeb60b",
+  "files": [],
+  "subMetas": {
+    "cab79": {
+      "importer": "gltf-mesh",
+      "uuid": "78b96288-f36e-4a63-8e47-c1b35aaeb60b@cab79",
+      "displayName": "",
+      "id": "cab79",
+      "name": "zidan.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 360
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db688": {
+      "importer": "gltf-material",
+      "uuid": "78b96288-f36e-4a63-8e47-c1b35aaeb60b@db688",
+      "displayName": "",
+      "id": "db688",
+      "name": "zidan.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4730c": {
+      "importer": "gltf-scene",
+      "uuid": "78b96288-f36e-4a63-8e47-c1b35aaeb60b@4730c",
+      "displayName": "",
+      "id": "4730c",
+      "name": "zidan.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "78b96288-f36e-4a63-8e47-c1b35aaeb60b@cab79"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "78b96288-f36e-4a63-8e47-c1b35aaeb60b@db688"
+      ],
+      "scenes": [
+        "78b96288-f36e-4a63-8e47-c1b35aaeb60b@4730c"
+      ]
+    },
+    "materials": {
+      "78b96288-f36e-4a63-8e47-c1b35aaeb60b@db688": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 2,
+              "y": 1,
+              "z": 0,
+              "w": 0
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 253,
+              "g": 225,
+              "b": 152,
+              "a": 255
+            },
+            "roughness": 0.389,
+            "metallic": 0.768,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "0221e232-b8ff-45c2-9ca8-b9382a62fb69@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

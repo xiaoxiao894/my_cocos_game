@@ -1,0 +1,162 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d0f0b598-5293-43fa-91cc-cbc25c90af86",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "76339": {
+      "importer": "gltf-scene",
+      "uuid": "d0f0b598-5293-43fa-91cc-cbc25c90af86@76339",
+      "displayName": "",
+      "id": "76339",
+      "name": "t_spider_02@walk_f.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "afce3": {
+      "importer": "gltf-mesh",
+      "uuid": "d0f0b598-5293-43fa-91cc-cbc25c90af86@afce3",
+      "displayName": "",
+      "id": "afce3",
+      "name": "蜘蛛圆滑.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 3784
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b226": {
+      "importer": "gltf-animation",
+      "uuid": "d0f0b598-5293-43fa-91cc-cbc25c90af86@4b226",
+      "displayName": "",
+      "id": "4b226",
+      "name": "walk_f_1.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6333333253860474
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "d0f0b598-5293-43fa-91cc-cbc25c90af86@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 91
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "54d3f": {
+      "importer": "gltf-material",
+      "uuid": "d0f0b598-5293-43fa-91cc-cbc25c90af86@54d3f",
+      "displayName": "",
+      "id": "54d3f",
+      "name": "M_蜘蛛_1_V03.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.6333333253860474,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk_f_1",
+            "from": 0,
+            "to": 0.6333333253860474,
+            "wrapMode": 2,
+            "previousId": "4b226"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d0f0b598-5293-43fa-91cc-cbc25c90af86@afce3"
+      ],
+      "skeletons": [
+        "d0f0b598-5293-43fa-91cc-cbc25c90af86@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "d0f0b598-5293-43fa-91cc-cbc25c90af86@54d3f"
+      ],
+      "scenes": [
+        "d0f0b598-5293-43fa-91cc-cbc25c90af86@76339"
+      ]
+    }
+  }
+}

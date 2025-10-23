@@ -1,0 +1,260 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 671,
+      "max": [
+        0.6225744485855103,
+        0.538649320602417,
+        0.5208948254585266
+      ],
+      "min": [
+        -0.6725359559059143,
+        0.0024609374813735485,
+        -0.5208941102027893
+      ],
+      "name": "ZhuoZi02/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 671,
+      "name": "ZhuoZi02/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 671,
+      "name": "ZhuoZi02/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 1596,
+      "name": "ZhuoZi02/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 21472,
+      "byteStride": 32,
+      "name": "ZhuoZi02",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3192,
+      "byteOffset": 21472,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 24664,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 19,
+          "hour": 15,
+          "millisecond": 149,
+          "minute": 31,
+          "month": 9,
+          "second": 17,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.3.9",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2026",
+            "fileName": "E:\\pa_lyk\\PlayAble\\SSD_LoggingSurvival\\assets\\Res\\Fbx\\zhuozi\\zhuozi.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Cocos\\PlayAble\\SSD_0623_JHF_FaMuShengCun\\assets\\Res\\Fbx\\zhuozi\\zhuozi.fbx"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "3dsMax": {
+                "value": {
+                  "ClassIDa": {
+                    "value": -804315648
+                  },
+                  "ClassIDb": {
+                    "value": -1099438848
+                  },
+                  "SuperClassID": {
+                    "value": 3072
+                  },
+                  "main": {
+                    "value": {
+                      "baseColor": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "bump_map_amt": {
+                        "value": 1.0
+                      },
+                      "displacement_amt": {
+                        "value": 1.0
+                      },
+                      "emit_color": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      "metalness": {
+                        "value": 0.0
+                      },
+                      "roughness": {
+                        "value": 0.0
+                      },
+                      "useGlossiness": {
+                        "value": 2
+                      }
+                    }
+                  },
+                  "settings": {
+                    "value": {
+                      "ao_affects_diffuse": {
+                        "value": true
+                      },
+                      "ao_affects_reflection": {
+                        "value": true
+                      },
+                      "normal_flip_green": {
+                        "value": false
+                      },
+                      "normal_flip_red": {
+                        "value": false
+                      }
+                    }
+                  }
+                }
+              },
+              "AmbientColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "DiffuseColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "EmissiveColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "EmissiveFactor": {
+                "value": 0.0
+              },
+              "MultiLayer": {
+                "value": false
+              },
+              "ShadingModel": {
+                "value": "unknown"
+              },
+              "ShininessExponent": {
+                "value": 1024.0
+              },
+              "SpecularColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "SpecularFactor": {
+                "value": 2.0
+              },
+              "TransparencyFactor": {
+                "value": 0.0
+              }
+            }
+          }
+        }
+      },
+      "name": "Material #27"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ZhuoZi02",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "ZhuoZi"
+    },
+    {
+      "mesh": 0,
+      "name": "ZhuoZi02"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

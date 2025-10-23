@@ -1,0 +1,112 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a24c2a4a-66eb-4e23-bd6d-3aaec337b792",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "7f3dc": {
+      "importer": "gltf-animation",
+      "uuid": "a24c2a4a-66eb-4e23-bd6d-3aaec337b792@7f3dc",
+      "displayName": "",
+      "id": "7f3dc",
+      "name": "walk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.0666667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a07bf": {
+      "importer": "gltf-scene",
+      "uuid": "a24c2a4a-66eb-4e23-bd6d-3aaec337b792@a07bf",
+      "displayName": "",
+      "id": "a07bf",
+      "name": "Bear@walk.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 1.0666667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk",
+            "from": 0,
+            "to": 1.0666667222976685,
+            "wrapMode": 2,
+            "previousId": "7f3dc"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a24c2a4a-66eb-4e23-bd6d-3aaec337b792@a07bf"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

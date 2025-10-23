@@ -1,0 +1,112 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c5f1bb8f-548f-4ad4-9ebc-5d063f63ea59",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "d629a": {
+      "importer": "gltf-animation",
+      "uuid": "c5f1bb8f-548f-4ad4-9ebc-5d063f63ea59@d629a",
+      "displayName": "",
+      "id": "d629a",
+      "name": "SGD_Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "42efa": {
+      "importer": "gltf-scene",
+      "uuid": "c5f1bb8f-548f-4ad4-9ebc-5d063f63ea59@42efa",
+      "displayName": "",
+      "id": "42efa",
+      "name": "AnNa@SGD_Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "SGD_Idle",
+            "from": 0,
+            "to": 3,
+            "wrapMode": 2,
+            "previousId": "d629a"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "c5f1bb8f-548f-4ad4-9ebc-5d063f63ea59@42efa"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

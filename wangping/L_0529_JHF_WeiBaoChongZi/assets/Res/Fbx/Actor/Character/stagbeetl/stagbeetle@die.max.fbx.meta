@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "14afc5e8-a607-4115-8385-97c915903fb9",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b4251": {
+      "importer": "gltf-animation",
+      "uuid": "14afc5e8-a607-4115-8385-97c915903fb9@b4251",
+      "displayName": "",
+      "id": "b4251",
+      "name": "die.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.5
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "8a34c": {
+      "importer": "gltf-scene",
+      "uuid": "14afc5e8-a607-4115-8385-97c915903fb9@8a34c",
+      "displayName": "",
+      "id": "8a34c",
+      "name": "stagbeetle@die.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "stagbeetle@die",
+        "duration": 2.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "die",
+            "from": 0,
+            "to": 2.5,
+            "wrapMode": 2,
+            "previousId": "b4251"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "14afc5e8-a607-4115-8385-97c915903fb9@8a34c"
+      ]
+    }
+  }
+}

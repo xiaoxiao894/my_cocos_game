@@ -1,0 +1,108 @@
+System.register(["cc"], function (_export, _context) {
+  "use strict";
+
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, GridSystem, _crd;
+
+  _export("GridSystem", void 0);
+
+  return {
+    setters: [function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "521f93YxnBH4rzlaLgB42vA", "GridSystem", undefined);
+
+      __checkObsolete__(['Vec3', 'Node']);
+
+      _export("GridSystem", GridSystem = class GridSystem {
+        constructor(gridSize = 5) {
+          this.gridSize = void 0;
+          this.gridMap = new Map();
+          this.nodeGridKey = new Map();
+          this.gridSize = gridSize;
+        }
+
+        getGridKey(pos) {
+          const gx = Math.floor(pos.x / this.gridSize);
+          const gz = Math.floor(pos.z / this.gridSize);
+          return `${gx}_${gz}`;
+        } // 注册或更新怪物位置
+
+
+        updateNode(node) {
+          if (!node || !node.worldPosition) return;
+          const newKey = this.getGridKey(node.worldPosition);
+          const lastKey = this.nodeGridKey.get(node);
+          if (lastKey === newKey) return; // 没移动出格子
+          // 1. 旧格子移除
+
+          if (lastKey && this.gridMap.has(lastKey)) {
+            var _this$gridMap$get;
+
+            (_this$gridMap$get = this.gridMap.get(lastKey)) == null || _this$gridMap$get.delete(node);
+          } // 2. 新格子添加
+
+
+          if (!this.gridMap.has(newKey)) {
+            this.gridMap.set(newKey, new Set());
+          }
+
+          this.gridMap.get(newKey).add(node); // 3. 记录新位置
+
+          this.nodeGridKey.set(node, newKey);
+        } // 获取攻击范围内的怪物（粗略）
+
+
+        getNearbyNodes(centerPos, range) {
+          const result = [];
+          const cx = Math.floor(centerPos.x / this.gridSize);
+          const cz = Math.floor(centerPos.z / this.gridSize);
+          const r = Math.ceil(range / this.gridSize);
+
+          for (let dx = -r; dx <= r; dx++) {
+            for (let dz = -r; dz <= r; dz++) {
+              const key = `${cx + dx}_${cz + dz}`;
+              const set = this.gridMap.get(key);
+
+              if (set) {
+                for (const node of set) {
+                  result.push(node);
+                }
+              }
+            }
+          }
+
+          return result;
+        }
+
+        getNearbyMonsterNodes(centerPos, range) {
+          const result = this.getNearbyNodes(centerPos, range);
+          return result.filter(node => node.name !== "Tree");
+        } // 移除节点
+
+
+        removeNode(node) {
+          const key = this.nodeGridKey.get(node);
+
+          if (key && this.gridMap.has(key)) {
+            var _this$gridMap$get2;
+
+            (_this$gridMap$get2 = this.gridMap.get(key)) == null || _this$gridMap$get2.delete(node);
+          }
+
+          this.nodeGridKey.delete(node);
+        }
+
+      });
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=83b637950d2621f18f1e6a8fa4f25a0911ebe597.js.map

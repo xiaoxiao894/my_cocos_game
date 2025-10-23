@@ -1,0 +1,91 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e2a52894-06c1-48f2-92d2-88c7320e706c",
+  "files": [],
+  "subMetas": {
+    "c6160": {
+      "importer": "gltf-mesh",
+      "uuid": "e2a52894-06c1-48f2-92d2-88c7320e706c@c6160",
+      "displayName": "",
+      "id": "c6160",
+      "name": "Cylinder001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 36
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b7535": {
+      "importer": "gltf-scene",
+      "uuid": "e2a52894-06c1-48f2-92d2-88c7320e706c@b7535",
+      "displayName": "",
+      "id": "b7535",
+      "name": "TX_yuanhzu.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e2a52894-06c1-48f2-92d2-88c7320e706c@c6160"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e2a52894-06c1-48f2-92d2-88c7320e706c@b7535"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7772df2a-e97e-46ce-bea4-1951f3caaf8e",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c2496": {
+      "importer": "gltf-animation",
+      "uuid": "7772df2a-e97e-46ce-bea4-1951f3caaf8e@c2496",
+      "displayName": "",
+      "id": "c2496",
+      "name": "Run_PH.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7333333492279053
+        },
+        "events": [
+          {
+            "frame": 0.7333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7333333333333333,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "882e5": {
+      "importer": "gltf-scene",
+      "uuid": "7772df2a-e97e-46ce-bea4-1951f3caaf8e@882e5",
+      "displayName": "",
+      "id": "882e5",
+      "name": "Anna@Run_PH.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.7333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Run_PH",
+            "from": 0,
+            "to": 0.7333333492279053,
+            "wrapMode": 1,
+            "previousId": "c2496"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "7772df2a-e97e-46ce-bea4-1951f3caaf8e@882e5"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "autoErrorRate": true,
+      "errorRate": 0,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

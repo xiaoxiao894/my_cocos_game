@@ -1,0 +1,111 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9c08fa45-deaf-43e9-b1d9-a091a4eb6e75",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "55c8f": {
+      "importer": "gltf-animation",
+      "uuid": "9c08fa45-deaf-43e9-b1d9-a091a4eb6e75@55c8f",
+      "displayName": "",
+      "id": "55c8f",
+      "name": "kanshu.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 2,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6d500": {
+      "importer": "gltf-scene",
+      "uuid": "9c08fa45-deaf-43e9-b1d9-a091a4eb6e75@6d500",
+      "displayName": "",
+      "id": "6d500",
+      "name": "SSD@kanshu.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "kanshu",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 1,
+            "previousId": "55c8f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "9c08fa45-deaf-43e9-b1d9-a091a4eb6e75@6d500"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

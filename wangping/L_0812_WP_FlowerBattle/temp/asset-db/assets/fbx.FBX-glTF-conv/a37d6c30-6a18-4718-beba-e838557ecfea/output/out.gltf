@@ -1,0 +1,261 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 827,
+      "max": [
+        7.96662712097168,
+        8.96623420715332,
+        19.341550827026367
+      ],
+      "min": [
+        -11.910100936889648,
+        -9.732430458068848,
+        -0.24110740423202515
+      ],
+      "name": "grass_03_a/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 827,
+      "name": "grass_03_a/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 827,
+      "name": "grass_03_a/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 827,
+      "name": "grass_03_a/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 2112,
+      "name": "grass_03_a/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 39696,
+      "byteStride": 48,
+      "name": "grass_03_a",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4224,
+      "byteOffset": 39696,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 43920,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 21,
+          "hour": 15,
+          "millisecond": 390,
+          "minute": 52,
+          "month": 7,
+          "second": 24,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2019.2",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Maya",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "201900",
+            "fileName": "C:\\Users\\admin\\Desktop\\新建文件夹 (3)\\cao2.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Cocos\\PlayAble\\L_0812_WP_FlowerBattle\\assets\\Res\\Fbx\\Map\\zhuangshi\\zhiwu\\cao2.fbx"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 1.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 1.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "Phong",
+              "shininess": {
+                "value": 20.0
+              },
+              "specular": {
+                "value": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.20000000298023224
+                ]
+              },
+              "specularFactor": {
+                "value": 1.0
+              },
+              "transparencyFactor": {
+                "value": 1.0
+              },
+              "transparentColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "M_小草_4"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "grass_03_a",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "grass_03_a",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

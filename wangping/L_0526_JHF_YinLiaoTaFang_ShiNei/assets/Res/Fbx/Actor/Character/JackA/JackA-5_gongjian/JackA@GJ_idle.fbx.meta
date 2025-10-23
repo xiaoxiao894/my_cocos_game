@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a00416c9-d2f4-4977-8979-bc2d1386d1a3",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a42f5": {
+      "importer": "gltf-animation",
+      "uuid": "a00416c9-d2f4-4977-8979-bc2d1386d1a3@a42f5",
+      "displayName": "",
+      "id": "a42f5",
+      "name": "GJ_idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "7d653": {
+      "importer": "gltf-scene",
+      "uuid": "a00416c9-d2f4-4977-8979-bc2d1386d1a3@7d653",
+      "displayName": "",
+      "id": "7d653",
+      "name": "JackA@GJ_idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "GJ_idle",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "a42f5"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a00416c9-d2f4-4977-8979-bc2d1386d1a3@7d653"
+      ]
+    }
+  }
+}

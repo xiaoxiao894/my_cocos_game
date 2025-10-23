@@ -1,0 +1,105 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d48e74d6-98e3-4d7d-8916-060855084b93",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "78375": {
+      "importer": "gltf-scene",
+      "uuid": "d48e74d6-98e3-4d7d-8916-060855084b93@78375",
+      "displayName": "",
+      "id": "78375",
+      "name": "jack@walkP.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "27ef5": {
+      "importer": "gltf-animation",
+      "uuid": "d48e74d6-98e3-4d7d-8916-060855084b93@27ef5",
+      "displayName": "",
+      "id": "27ef5",
+      "name": "walkP.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.800000011920929
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.800000011920929,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walkP",
+            "from": 0,
+            "to": 0.800000011920929,
+            "wrapMode": 2,
+            "previousId": "27ef5"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d48e74d6-98e3-4d7d-8916-060855084b93@78375"
+      ]
+    }
+  }
+}

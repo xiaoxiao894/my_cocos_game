@@ -1,0 +1,269 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724",
+  "files": [],
+  "subMetas": {
+    "62907": {
+      "importer": "gltf-scene",
+      "uuid": "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@62907",
+      "displayName": "",
+      "id": "62907",
+      "name": "SM_Rock_Small_02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db406": {
+      "importer": "gltf-mesh",
+      "uuid": "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@db406",
+      "displayName": "",
+      "id": "db406",
+      "name": "SM_Rock_Small_02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 366
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "af224": {
+      "importer": "gltf-embeded-image",
+      "uuid": "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@af224",
+      "displayName": "",
+      "id": "af224",
+      "name": "EnvSamplerTex.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "f1c0d": {
+      "importer": "texture",
+      "uuid": "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@f1c0d",
+      "displayName": "",
+      "id": "f1c0d",
+      "name": "EnvSamplerTex.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@af224"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "02b39": {
+      "importer": "gltf-material",
+      "uuid": "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@02b39",
+      "displayName": "",
+      "id": "02b39",
+      "name": "M_SmallRocks_01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "EnvSamplerTex",
+        "uri": "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@af224"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@db406"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@f1c0d"
+      ],
+      "materials": [
+        "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@02b39"
+      ],
+      "scenes": [
+        "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@62907"
+      ]
+    },
+    "materials": {
+      "e6e5ae3d-a0d0-41dd-94f6-f1aa2b43b724@02b39": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "81f5658e-bf6d-4c13-b401-c8b2d365e449",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_OUTLINE_PASS": true
+          },
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "lineWidth": 5
+          },
+          {
+            "roughness": 0.058,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "6b22ea88-4d0d-4c04-9432-836fb6cd5ff5@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

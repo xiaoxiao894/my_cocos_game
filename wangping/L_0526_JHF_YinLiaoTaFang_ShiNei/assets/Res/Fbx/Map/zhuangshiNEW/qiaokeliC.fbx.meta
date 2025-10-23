@@ -1,0 +1,274 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cc6d5dbc-3778-4bd9-907f-11bd7727d870",
+  "files": [],
+  "subMetas": {
+    "22252": {
+      "importer": "gltf-scene",
+      "uuid": "cc6d5dbc-3778-4bd9-907f-11bd7727d870@22252",
+      "displayName": "",
+      "id": "22252",
+      "name": "qiaokeliC.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f6af": {
+      "importer": "gltf-mesh",
+      "uuid": "cc6d5dbc-3778-4bd9-907f-11bd7727d870@1f6af",
+      "displayName": "",
+      "id": "1f6af",
+      "name": "SM_prp_XiaoCao_Rig_V003:SM_prp_XiaoCao_Rig_V003:巧克�\u0001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1072
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8e2b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "cc6d5dbc-3778-4bd9-907f-11bd7727d870@e8e2b",
+      "displayName": "",
+      "id": "e8e2b",
+      "name": "SM_prp_XiaoCao_Rig_V003:3d66Model-14649578-files-3.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "11eb6": {
+      "importer": "texture",
+      "uuid": "cc6d5dbc-3778-4bd9-907f-11bd7727d870@11eb6",
+      "displayName": "",
+      "id": "11eb6",
+      "name": "SM_prp_XiaoCao_Rig_V003:3d66Model-14649578-files-3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "cc6d5dbc-3778-4bd9-907f-11bd7727d870@e8e2b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "60bc2": {
+      "importer": "gltf-material",
+      "uuid": "cc6d5dbc-3778-4bd9-907f-11bd7727d870@60bc2",
+      "displayName": "",
+      "id": "60bc2",
+      "name": "SM_prp_XiaoCao_Rig_V003:M_tian_Inst1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "SM_prp_XiaoCao_Rig_V003:3d66Model-14649578-files-3",
+        "uri": "cc6d5dbc-3778-4bd9-907f-11bd7727d870@e8e2b"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "cc6d5dbc-3778-4bd9-907f-11bd7727d870@1f6af"
+      ],
+      "skeletons": [],
+      "textures": [
+        "cc6d5dbc-3778-4bd9-907f-11bd7727d870@11eb6"
+      ],
+      "materials": [
+        "cc6d5dbc-3778-4bd9-907f-11bd7727d870@60bc2"
+      ],
+      "scenes": [
+        "cc6d5dbc-3778-4bd9-907f-11bd7727d870@22252"
+      ]
+    },
+    "materials": {
+      "cc6d5dbc-3778-4bd9-907f-11bd7727d870@60bc2": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "81f5658e-bf6d-4c13-b401-c8b2d365e449",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_OUTLINE_PASS": true
+          },
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "lineWidth": 1
+          },
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 90,
+              "g": 43,
+              "b": 0,
+              "a": 255
+            },
+            "roughness": 0.333,
+            "specularIntensity": 0.177
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": false
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "errorRate": 0,
+      "targetRatio": 0
+    }
+  }
+}

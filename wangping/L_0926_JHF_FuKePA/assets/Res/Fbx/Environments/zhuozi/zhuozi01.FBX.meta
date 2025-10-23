@@ -1,0 +1,265 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3b937872-526b-4c0a-982f-01ddfbf8ee0d",
+  "files": [],
+  "subMetas": {
+    "50000": {
+      "importer": "gltf-mesh",
+      "uuid": "3b937872-526b-4c0a-982f-01ddfbf8ee0d@50000",
+      "displayName": "",
+      "id": "50000",
+      "name": "zhuozi01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 875
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "32d96": {
+      "importer": "gltf-embeded-image",
+      "uuid": "3b937872-526b-4c0a-982f-01ddfbf8ee0d@32d96",
+      "displayName": "",
+      "id": "32d96",
+      "name": "Map #0.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "ab932": {
+      "importer": "texture",
+      "uuid": "3b937872-526b-4c0a-982f-01ddfbf8ee0d@ab932",
+      "displayName": "",
+      "id": "ab932",
+      "name": "Map #0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3b937872-526b-4c0a-982f-01ddfbf8ee0d@32d96"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d95d9": {
+      "importer": "gltf-material",
+      "uuid": "3b937872-526b-4c0a-982f-01ddfbf8ee0d@d95d9",
+      "displayName": "",
+      "id": "d95d9",
+      "name": "zhuozi.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "10cda": {
+      "importer": "gltf-scene",
+      "uuid": "3b937872-526b-4c0a-982f-01ddfbf8ee0d@10cda",
+      "displayName": "",
+      "id": "10cda",
+      "name": "zhuozi01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #0",
+        "uri": "3b937872-526b-4c0a-982f-01ddfbf8ee0d@32d96"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3b937872-526b-4c0a-982f-01ddfbf8ee0d@50000"
+      ],
+      "skeletons": [],
+      "textures": [
+        "3b937872-526b-4c0a-982f-01ddfbf8ee0d@ab932"
+      ],
+      "materials": [
+        "3b937872-526b-4c0a-982f-01ddfbf8ee0d@d95d9"
+      ],
+      "scenes": [
+        "3b937872-526b-4c0a-982f-01ddfbf8ee0d@10cda"
+      ]
+    },
+    "materials": {
+      "3b937872-526b-4c0a-982f-01ddfbf8ee0d@d95d9": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "81f5658e-bf6d-4c13-b401-c8b2d365e449",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {},
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {},
+          {
+            "roughness": 0,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "6d61136d-d252-4cdb-9e6b-3ecdf04591f4@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

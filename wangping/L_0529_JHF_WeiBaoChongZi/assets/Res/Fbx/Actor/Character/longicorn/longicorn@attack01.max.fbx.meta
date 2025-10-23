@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bacf5f08-4b41-46bd-9218-203dd5bd4787",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "39eac": {
+      "importer": "gltf-animation",
+      "uuid": "bacf5f08-4b41-46bd-9218-203dd5bd4787@39eac",
+      "displayName": "",
+      "id": "39eac",
+      "name": "attack01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.2000000476837158
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "4f836": {
+      "importer": "gltf-scene",
+      "uuid": "bacf5f08-4b41-46bd-9218-203dd5bd4787@4f836",
+      "displayName": "",
+      "id": "4f836",
+      "name": "longicorn@attack01.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "longicorn@attack01",
+        "duration": 1.2000000476837158,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack01",
+            "from": 0,
+            "to": 1.2000000476837158,
+            "wrapMode": 2,
+            "previousId": "39eac"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "bacf5f08-4b41-46bd-9218-203dd5bd4787@4f836"
+      ]
+    }
+  }
+}

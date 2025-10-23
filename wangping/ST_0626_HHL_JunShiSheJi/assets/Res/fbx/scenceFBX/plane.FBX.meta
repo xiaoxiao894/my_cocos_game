@@ -1,0 +1,102 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "01663ec5-c26c-4ad6-9d88-dbbbc400d70f",
+  "files": [],
+  "subMetas": {
+    "b8a2d": {
+      "importer": "gltf-mesh",
+      "uuid": "01663ec5-c26c-4ad6-9d88-dbbbc400d70f@b8a2d",
+      "displayName": "",
+      "id": "b8a2d",
+      "name": "Plane001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3d485": {
+      "importer": "gltf-material",
+      "uuid": "01663ec5-c26c-4ad6-9d88-dbbbc400d70f@3d485",
+      "displayName": "",
+      "id": "3d485",
+      "name": "01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6407": {
+      "importer": "gltf-scene",
+      "uuid": "01663ec5-c26c-4ad6-9d88-dbbbc400d70f@c6407",
+      "displayName": "",
+      "id": "c6407",
+      "name": "plane.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "01663ec5-c26c-4ad6-9d88-dbbbc400d70f@b8a2d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "01663ec5-c26c-4ad6-9d88-dbbbc400d70f@3d485"
+      ],
+      "scenes": [
+        "01663ec5-c26c-4ad6-9d88-dbbbc400d70f@c6407"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

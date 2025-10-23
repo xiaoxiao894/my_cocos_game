@@ -1,0 +1,154 @@
+2025-10-18 11:24:25-debug: start **** info
+2025-10-18 11:24:26-log: Cannot access game frame or container.
+2025-10-18 11:24:27-debug: asset-db:require-engine-code (1464ms)
+2025-10-18 11:24:27-log: meshopt wasm decoder initialized
+2025-10-18 11:24:27-log: [box2d]:box2d wasm lib loaded.
+2025-10-18 11:24:27-log: [bullet]:bullet wasm lib loaded.
+2025-10-18 11:24:27-log: Cocos Creator v3.8.6
+2025-10-18 11:24:27-log: Using legacy pipeline
+2025-10-18 11:24:27-log: Forward render pipeline initialized.
+2025-10-18 11:24:27-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:29.81MB, end 118.06MB, increase: 88.25MB
+2025-10-18 11:24:30-debug: [Assets Memory track]: asset-db-plugin-register: builder start:89.20MB, end 224.53MB, increase: 135.33MB
+2025-10-18 11:24:30-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:224.77MB, end 227.87MB, increase: 3.11MB
+2025-10-18 11:24:30-debug: [Assets Memory track]: asset-db-plugin-register: project start:118.77MB, end 228.06MB, increase: 109.29MB
+2025-10-18 11:24:30-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:118.08MB, end 228.10MB, increase: 110.02MB
+2025-10-18 11:24:30-debug: asset-db:worker-init: initPlugin (3112ms)
+2025-10-18 11:24:30-debug: [Assets Memory track]: asset-db:worker-init start:29.80MB, end 228.21MB, increase: 198.41MB
+2025-10-18 11:24:30-debug: Run asset db hook programming:beforePreStart ...
+2025-10-18 11:24:30-debug: Run asset db hook engine-extends:beforePreStart success!
+2025-10-18 11:24:30-debug: Run asset db hook programming:beforePreStart success!
+2025-10-18 11:24:30-debug: Run asset db hook engine-extends:beforePreStart ...
+2025-10-18 11:24:30-debug: asset-db-hook-engine-extends-beforePreStart (404ms)
+2025-10-18 11:24:30-debug: asset-db:worker-init (5137ms)
+2025-10-18 11:24:30-debug: asset-db-hook-programming-beforePreStart (404ms)
+2025-10-18 11:24:32-debug: Preimport db internal success
+2025-10-18 11:24:33-debug: Preimport db assets success
+2025-10-18 11:24:33-debug: Run asset db hook programming:afterPreStart ...
+2025-10-18 11:24:33-debug: starting packer-driver...
+2025-10-18 11:24:35-debug: initialize scripting environment...
+2025-10-18 11:24:35-debug: [[Executor]] prepare before lock
+2025-10-18 11:24:35-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-10-18 11:24:35-debug: [[Executor]] prepare after unlock
+2025-10-18 11:24:35-debug: Run asset db hook programming:afterPreStart success!
+2025-10-18 11:24:35-debug: Run asset db hook engine-extends:afterPreStart ...
+2025-10-18 11:24:35-debug: Run asset db hook engine-extends:afterPreStart success!
+2025-10-18 11:24:35-debug: [Assets Memory track]: asset-db:worker-init: preStart start:228.23MB, end 232.75MB, increase: 4.52MB
+2025-10-18 11:24:35-debug: Start up the 'internal' database...
+2025-10-18 11:24:37-debug: asset-db-hook-programming-afterPreStart (2924ms)
+2025-10-18 11:24:37-debug: asset-db:worker-effect-data-processing (942ms)
+2025-10-18 11:24:37-debug: asset-db-hook-engine-extends-afterPreStart (942ms)
+2025-10-18 11:24:38-debug: Start up the 'assets' database...
+2025-10-18 11:24:41-debug: asset-db:worker-startup-database[internal] (11475ms)
+2025-10-18 11:24:43-debug: lazy register asset handler *
+2025-10-18 11:24:43-debug: lazy register asset handler directory
+2025-10-18 11:24:43-debug: lazy register asset handler spine-data
+2025-10-18 11:24:43-debug: lazy register asset handler dragonbones
+2025-10-18 11:24:43-debug: lazy register asset handler dragonbones-atlas
+2025-10-18 11:24:43-debug: lazy register asset handler javascript
+2025-10-18 11:24:43-debug: lazy register asset handler terrain
+2025-10-18 11:24:43-debug: lazy register asset handler typescript
+2025-10-18 11:24:43-debug: lazy register asset handler prefab
+2025-10-18 11:24:43-debug: lazy register asset handler scene
+2025-10-18 11:24:43-debug: lazy register asset handler sprite-frame
+2025-10-18 11:24:43-debug: lazy register asset handler tiled-map
+2025-10-18 11:24:43-debug: lazy register asset handler buffer
+2025-10-18 11:24:43-debug: lazy register asset handler image
+2025-10-18 11:24:43-debug: lazy register asset handler sign-image
+2025-10-18 11:24:43-debug: lazy register asset handler alpha-image
+2025-10-18 11:24:43-debug: lazy register asset handler texture
+2025-10-18 11:24:43-debug: lazy register asset handler text
+2025-10-18 11:24:43-debug: lazy register asset handler json
+2025-10-18 11:24:43-debug: lazy register asset handler texture-cube
+2025-10-18 11:24:43-debug: lazy register asset handler texture-cube-face
+2025-10-18 11:24:43-debug: lazy register asset handler gltf
+2025-10-18 11:24:43-debug: lazy register asset handler gltf-mesh
+2025-10-18 11:24:43-debug: lazy register asset handler gltf-animation
+2025-10-18 11:24:43-debug: lazy register asset handler gltf-skeleton
+2025-10-18 11:24:43-debug: lazy register asset handler gltf-material
+2025-10-18 11:24:43-debug: lazy register asset handler gltf-scene
+2025-10-18 11:24:43-debug: lazy register asset handler gltf-embeded-image
+2025-10-18 11:24:43-debug: lazy register asset handler fbx
+2025-10-18 11:24:43-debug: lazy register asset handler erp-texture-cube
+2025-10-18 11:24:43-debug: lazy register asset handler material
+2025-10-18 11:24:43-debug: lazy register asset handler physics-material
+2025-10-18 11:24:43-debug: lazy register asset handler effect-header
+2025-10-18 11:24:43-debug: lazy register asset handler audio-clip
+2025-10-18 11:24:43-debug: lazy register asset handler animation-clip
+2025-10-18 11:24:43-debug: lazy register asset handler animation-graph
+2025-10-18 11:24:43-debug: lazy register asset handler animation-graph-variant
+2025-10-18 11:24:43-debug: lazy register asset handler animation-mask
+2025-10-18 11:24:43-debug: lazy register asset handler ttf-font
+2025-10-18 11:24:43-debug: lazy register asset handler bitmap-font
+2025-10-18 11:24:43-debug: lazy register asset handler particle
+2025-10-18 11:24:43-debug: lazy register asset handler sprite-atlas
+2025-10-18 11:24:43-debug: lazy register asset handler auto-atlas
+2025-10-18 11:24:43-debug: lazy register asset handler label-atlas
+2025-10-18 11:24:43-debug: lazy register asset handler render-pipeline
+2025-10-18 11:24:43-debug: lazy register asset handler render-stage
+2025-10-18 11:24:43-debug: lazy register asset handler render-flow
+2025-10-18 11:24:43-debug: lazy register asset handler instantiation-material
+2025-10-18 11:24:43-debug: lazy register asset handler instantiation-mesh
+2025-10-18 11:24:43-debug: lazy register asset handler instantiation-skeleton
+2025-10-18 11:24:43-debug: lazy register asset handler instantiation-animation
+2025-10-18 11:24:43-debug: lazy register asset handler video-clip
+2025-10-18 11:24:43-debug: lazy register asset handler render-texture
+2025-10-18 11:24:43-debug: lazy register asset handler rt-sprite-frame
+2025-10-18 11:24:43-debug: lazy register asset handler effect
+2025-10-18 11:24:43-debug: asset-db:worker-startup-database[assets] (11233ms)
+2025-10-18 11:24:43-debug: asset-db:start-database (13142ms)
+2025-10-18 11:24:43-debug: asset-db:ready (22502ms)
+2025-10-18 11:24:43-debug: fix the bug of updateDefaultUserData
+2025-10-18 11:24:43-debug: init worker message success
+2025-10-18 11:24:44-debug: [Build Memory track]: builder:worker-init start:187.32MB, end 199.04MB, increase: 11.72MB
+2025-10-18 11:24:44-debug: programming:execute-script (909ms)
+2025-10-18 11:24:44-debug: builder:worker-init (901ms)
+2025-10-18 11:26:26-debug: Query all assets info in project
+2025-10-18 11:26:26-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-10-18 11:26:26-debug: Skip compress image, progress: 0%
+2025-10-18 11:26:26-debug: Init all bundles start..., progress: 0%
+2025-10-18 11:26:26-debug: Num of bundles: 3..., progress: 0%
+2025-10-18 11:26:26-debug: 查询 Asset Bundle start, progress: 0%
+2025-10-18 11:26:26-debug: // ---- build task 查询 Asset Bundle ----
+2025-10-18 11:26:26-debug: Init bundle root assets start..., progress: 0%
+2025-10-18 11:26:26-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,b2bd1fa7-8d7c-49c5-a158-df29a6d3a594,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-10-18 11:26:26-debug:   Number of other assets: 690
+2025-10-18 11:26:26-debug:   Number of all scripts: 40
+2025-10-18 11:26:26-debug: Init bundle root assets success..., progress: 0%
+2025-10-18 11:26:26-debug:   Number of all scenes: 1
+2025-10-18 11:26:26-debug: // ---- build task 查询 Asset Bundle ---- (23ms)
+2025-10-18 11:26:26-log: run build task 查询 Asset Bundle success in 23 ms√, progress: 5%
+2025-10-18 11:26:26-debug: [Build Memory track]: 查询 Asset Bundle start:196.89MB, end 197.07MB, increase: 180.15KB
+2025-10-18 11:26:26-debug: 查询 Asset Bundle start, progress: 5%
+2025-10-18 11:26:26-debug: // ---- build task 查询 Asset Bundle ----
+2025-10-18 11:26:26-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-10-18 11:26:26-log: run build task 查询 Asset Bundle success in 7 ms√, progress: 10%
+2025-10-18 11:26:26-debug: [Build Memory track]: 查询 Asset Bundle start:197.10MB, end 196.54MB, increase: -576.77KB
+2025-10-18 11:26:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-10-18 11:26:26-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-10-18 11:26:26-log: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
+2025-10-18 11:26:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2025-10-18 11:26:26-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:196.78MB, end 196.62MB, increase: -166.02KB
+2025-10-18 11:26:26-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-10-18 11:26:26-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-10-18 11:26:26-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-10-18 11:26:26-log: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-10-18 11:26:26-debug: [Build Memory track]: 填充脚本数据到 settings.json start:196.65MB, end 196.69MB, increase: 34.11KB
+2025-10-18 11:26:26-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-10-18 11:26:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-10-18 11:26:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
+2025-10-18 11:26:26-log: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 15%
+2025-10-18 11:26:26-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:196.72MB, end 196.80MB, increase: 78.06KB
+2025-10-18 11:27:15-debug: refresh db internal success
+2025-10-18 11:27:15-debug: refresh db assets success
+2025-10-18 11:27:15-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-10-18 11:27:15-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-10-18 11:27:15-debug: asset-db:refresh-all-database (259ms)
+2025-10-18 11:27:15-debug: asset-db:worker-effect-data-processing (18ms)
+2025-10-18 11:27:15-debug: asset-db-hook-engine-extends-afterRefresh (18ms)
+2025-10-18 11:32:41-debug: refresh db internal success
+2025-10-18 11:32:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-10-18 11:32:41-debug: refresh db assets success
+2025-10-18 11:32:41-debug: asset-db:refresh-all-database (180ms)
+2025-10-18 11:32:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-10-18 11:32:41-debug: asset-db:worker-effect-data-processing (2ms)
+2025-10-18 11:32:41-debug: asset-db-hook-engine-extends-afterRefresh (3ms)

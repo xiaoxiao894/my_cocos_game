@@ -1,0 +1,133 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d0aeadf4-147a-4a69-bc98-3457190f7288",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "3bd46": {
+      "importer": "gltf-animation",
+      "uuid": "d0aeadf4-147a-4a69-bc98-3457190f7288@3bd46",
+      "displayName": "",
+      "id": "3bd46",
+      "name": "attackP.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4000000059604645
+        },
+        "events": [
+          {
+            "frame": 0,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0,
+            "func": "fireAtTarget",
+            "params": [
+              "attack"
+            ]
+          },
+          {
+            "frame": 0.4,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.4,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.4,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "48bdc": {
+      "importer": "gltf-scene",
+      "uuid": "d0aeadf4-147a-4a69-bc98-3457190f7288@48bdc",
+      "displayName": "",
+      "id": "48bdc",
+      "name": "jack@attackP.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d0aeadf4-147a-4a69-bc98-3457190f7288@48bdc"
+      ]
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.4000000059604645,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attackP",
+            "from": 0,
+            "to": 0.4000000059604645,
+            "wrapMode": 2,
+            "previousId": "3bd46"
+          }
+        ]
+      }
+    ]
+  }
+}

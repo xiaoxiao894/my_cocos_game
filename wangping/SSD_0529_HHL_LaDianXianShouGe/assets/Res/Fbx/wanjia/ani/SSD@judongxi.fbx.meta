@@ -1,0 +1,117 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8019dbfe-bd1d-40f8-b66a-97b5c71d66eb",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "388b4": {
+      "importer": "gltf-animation",
+      "uuid": "8019dbfe-bd1d-40f8-b66a-97b5c71d66eb@388b4",
+      "displayName": "",
+      "id": "388b4",
+      "name": "judongxi.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9333333373069763
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6b105": {
+      "importer": "gltf-scene",
+      "uuid": "8019dbfe-bd1d-40f8-b66a-97b5c71d66eb@6b105",
+      "displayName": "",
+      "id": "6b105",
+      "name": "SSD@judongxi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.9333333373069763,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "judongxi",
+            "from": 0,
+            "to": 0.9333333373069763,
+            "wrapMode": 1,
+            "previousId": "388b4"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "8019dbfe-bd1d-40f8-b66a-97b5c71d66eb@6b105"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0.5,
+      "autoErrorRate": true,
+      "errorRate": 0.5
+    }
+  }
+}

@@ -1,0 +1,293 @@
+System.register(["cc"], function (_export, _context) {
+  "use strict";
+
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, v2, v3, Util, _crd;
+
+  _export("default", void 0);
+
+  return {
+    setters: [function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      v2 = _cc.v2;
+      v3 = _cc.v3;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "7e8985rRCtBsIQJv8NK1xmL", "Util", undefined); // Learn TypeScript:
+      //  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
+      // Learn Attribute:
+      //  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
+      // Learn life-cycle callbacks:
+      //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
+
+
+      __checkObsolete__(['v2', 'v3', 'Vec2', 'Vec3']);
+
+      _export("default", Util = class Util {
+        static simpleV2(value, out) {
+          if (out) {
+            out.set(value, value);
+            return out;
+          }
+
+          return v2(value, value);
+        }
+
+        static simpleV3(value, out) {
+          if (out) {
+            out.set(value, value, value);
+            return out;
+          }
+
+          return v3(value, value, value);
+        }
+
+        static v2t3(v2Data, out) {
+          if (!out) {
+            return v3(v2Data.x, v2Data.y, 1);
+          } else {
+            out.x = v2Data.x;
+            out.y = 0;
+            out.z = v2Data.y;
+            return out;
+          }
+        }
+
+        static v3t2(v3Data, out) {
+          if (!out) {
+            return v2(v3Data.x, v3Data.z);
+          } else {
+            out.x = v3Data.x;
+            out.y = v3Data.z;
+            return out;
+          }
+        }
+        /**
+         * return min  - max  之间的数，包括min和max
+         * @param min 
+         * @param max 
+         */
+
+
+        static randomNumber(min, max) {
+          if (min == max) {
+            return min;
+          }
+
+          return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+
+        static findArrNullIdx(arr) {
+          if (arr.length == 0) return 0;
+
+          for (var i = 0; i < arr.length; i++) {
+            if (!arr[i]) {
+              return i;
+            }
+          }
+
+          return -1;
+        } //分割number字符串 返回number 数组
+
+
+        static splitNumber(str, Separator) {
+          if (Separator === void 0) {
+            Separator = ',';
+          }
+
+          if (!str) return [];
+
+          if (typeof str == 'number') {
+            return [str];
+          }
+
+          return str.split(Separator).map((s_num, idx) => {
+            return Number(s_num);
+          });
+        }
+        /**
+         * @param weights 权重数组 随机一个
+         * @returns 
+         */
+
+
+        static weightRandomIdx(weights) {
+          if (weights.length <= 1) {
+            return 0;
+          }
+
+          var tw = 0;
+
+          for (var i = 0; i < weights.length; i++) {
+            tw += weights[i];
+          }
+
+          var rw = Math.random() * tw;
+          var sw = 0,
+              ew = 0;
+
+          for (var _i = 0; _i < weights.length; _i++) {
+            ew = sw + weights[_i];
+
+            if (sw < rw && rw <= ew) {
+              return _i;
+            }
+
+            sw = ew;
+          }
+
+          return 0;
+        }
+        /**小数去0 */
+
+
+        static numMoveZoro(num) {
+          if (num.indexOf('.') < 0) {
+            return num;
+          }
+
+          num = num.replace(/0+?$/g, '');
+
+          if (num[num.length - 1] == '.') {
+            num = num.replace(/[.$]/, '');
+          }
+
+          return num;
+        }
+        /**
+         * 
+         * @param num 秒 格式化  h:f:s
+         */
+
+
+        static secondFormat(num) {
+          var str = '';
+          var h = Math.floor(num / 3600);
+          num -= h * 3600;
+          var f = Math.floor(num / 60);
+          num -= f * 60;
+          num = Math.floor(num); // str += (h<10?'0' + h:h);
+          // str += ':';
+
+          str += f < 10 ? '0' + f : f;
+          str += ':';
+          str += num < 10 ? '0' + num : num;
+          return str;
+        }
+        /**日期展示 */
+
+
+        static getDateStr(time, format) {
+          if (format === void 0) {
+            format = 1;
+          }
+
+          var date = new Date(time);
+          var y = date.getFullYear(),
+              m = date.getMonth() + 1,
+              d = date.getDate(),
+              h = date.getHours(),
+              mn = date.getMinutes();
+          var mnStr = '' + mn;
+          if (mn < 10) mnStr = '0' + mn;
+
+          if (format == 1) {
+            return y + "/" + m + "/" + d + "  " + h + ":" + mnStr;
+          } else {
+            return y + "\u5E74" + m + "\u6708" + d + "\u65E5  " + h + ":" + mnStr;
+          }
+        }
+
+        static generatorCallBack(len, callBack) {
+          for (var _len = arguments.length, params = new Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
+            params[_key - 2] = arguments[_key];
+          }
+
+          function* gen() {
+            for (var i = 0; i < len; i++) {
+              yield callBack(i, ...params);
+            }
+          }
+
+          return this.exeGenerator(gen(), 10);
+        }
+
+        static exeGenerator(generator, duration) {
+          return new Promise((resolve, reject) => {
+            var gen = generator;
+
+            var execute = () => {
+              var startTime = new Date().getTime();
+
+              for (var iter = gen.next();; iter = gen.next()) {
+                if (iter == null || iter.done) {
+                  resolve(null);
+                  return;
+                }
+
+                if (new Date().getTime() - startTime > duration) {
+                  setTimeout(() => {
+                    execute();
+                  }, duration);
+                  return;
+                }
+              }
+            };
+
+            execute();
+          });
+        }
+        /**
+         * 拷贝对象
+         * @param src_obj 源对象
+         * @param dst_obj 目标对象
+         */
+
+
+        static copyObj(src_obj, dst_obj) {
+          if (typeof dst_obj === "object") {
+            for (var key in dst_obj) {
+              if (typeof dst_obj[key] === "object") {
+                src_obj[key] != null && Util.copyObj(src_obj[key], dst_obj[key]);
+              } else if (typeof dst_obj[key] != "function") {
+                src_obj[key] != null && (dst_obj[key] = src_obj[key]);
+              }
+            }
+          } else {// console.log("can not copy the value type");
+          }
+        }
+        /**
+         * 克隆对象
+         * @param obj 源对象
+         * @returns 新的对象
+         */
+
+
+        static cloneObj(obj) {
+          var new_obj;
+
+          if (obj != null && (obj.constructor === Object || obj.constructor === Array)) {
+            new_obj = new obj.constructor();
+
+            for (var key in obj) {
+              new_obj[key] = Util.cloneObj(obj[key]);
+            }
+          } else {
+            new_obj = obj;
+          }
+
+          return new_obj;
+        }
+
+      });
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=09ec15356d65a897ba8713bc5b6b29e861008b5b.js.map

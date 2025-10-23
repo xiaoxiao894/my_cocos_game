@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ec5fbad7-c476-4693-a90c-cf1111297c91",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "db06a": {
+      "importer": "gltf-animation",
+      "uuid": "ec5fbad7-c476-4693-a90c-cf1111297c91@db06a",
+      "displayName": "",
+      "id": "db06a",
+      "name": "skill01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.7333333492279053
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "9f22e": {
+      "importer": "gltf-scene",
+      "uuid": "ec5fbad7-c476-4693-a90c-cf1111297c91@9f22e",
+      "displayName": "",
+      "id": "9f22e",
+      "name": "dungbeetle@skill01.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "dungbeetle@skill01",
+        "duration": 1.7333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "skill01",
+            "from": 0,
+            "to": 1.7333333492279053,
+            "wrapMode": 2,
+            "previousId": "db06a"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "ec5fbad7-c476-4693-a90c-cf1111297c91@9f22e"
+      ]
+    }
+  }
+}

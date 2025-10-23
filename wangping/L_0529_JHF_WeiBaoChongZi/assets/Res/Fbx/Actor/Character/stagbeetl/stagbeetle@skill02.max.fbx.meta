@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d7e1870a-6537-4957-99ff-69f2defc9e5b",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "7bee5": {
+      "importer": "gltf-animation",
+      "uuid": "d7e1870a-6537-4957-99ff-69f2defc9e5b@7bee5",
+      "displayName": "",
+      "id": "7bee5",
+      "name": "skill02.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.6666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "df763": {
+      "importer": "gltf-scene",
+      "uuid": "d7e1870a-6537-4957-99ff-69f2defc9e5b@df763",
+      "displayName": "",
+      "id": "df763",
+      "name": "stagbeetle@skill02.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "stagbeetle@skill02",
+        "duration": 1.6666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "skill02",
+            "from": 0,
+            "to": 1.6666666269302368,
+            "wrapMode": 2,
+            "previousId": "7bee5"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d7e1870a-6537-4957-99ff-69f2defc9e5b@df763"
+      ]
+    }
+  }
+}

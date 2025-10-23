@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4644dd24-004d-4817-aac1-96d69ca86ef5",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "733e1": {
+      "importer": "gltf-animation",
+      "uuid": "4644dd24-004d-4817-aac1-96d69ca86ef5@733e1",
+      "displayName": "",
+      "id": "733e1",
+      "name": "JZ_cheer.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "9a8a8": {
+      "importer": "gltf-scene",
+      "uuid": "4644dd24-004d-4817-aac1-96d69ca86ef5@9a8a8",
+      "displayName": "",
+      "id": "9a8a8",
+      "name": "JackA@JZ_cheer.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "JZ_cheer",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 1,
+            "previousId": "733e1"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "4644dd24-004d-4817-aac1-96d69ca86ef5@9a8a8"
+      ]
+    }
+  }
+}

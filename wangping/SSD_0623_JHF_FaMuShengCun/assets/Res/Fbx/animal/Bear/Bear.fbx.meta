@@ -1,0 +1,248 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "cbafc": {
+      "importer": "gltf-mesh",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@cbafc",
+      "displayName": "",
+      "id": "cbafc",
+      "name": "Bear_丧尸.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1928
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 18
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1cf5": {
+      "importer": "gltf-material",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@f1cf5",
+      "displayName": "",
+      "id": "f1cf5",
+      "name": "M_熊.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0624b": {
+      "importer": "gltf-scene",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@0624b",
+      "displayName": "",
+      "id": "0624b",
+      "name": "Bear.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@cbafc"
+      ],
+      "skeletons": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@f1cf5"
+      ],
+      "scenes": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@0624b"
+      ]
+    },
+    "materials": {
+      "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@f1cf5": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "3290a870-119c-4099-a001-7044edcb5a20",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_ALBEDO_MAP": true,
+            "USE_EFFECT": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "occlusion": 0,
+            "roughness": 1,
+            "metallic": 0,
+            "specularIntensity": 1,
+            "mainTexture": {
+              "__uuid__": "e2a14388-e16c-4641-8c7b-763fd710a562@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "noiseMap": {
+              "__uuid__": "b26f3e7d-66e5-42e1-a299-7356e5800f03@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "dissolveThreshold": 0,
+            "lineWidth": 0.031,
+            "specialColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 0,
+              "b": 0,
+              "a": 255
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 3.3333332538604736,
+            "wrapMode": 2,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ]
+  }
+}

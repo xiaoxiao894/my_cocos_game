@@ -1,0 +1,105 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a778a87e-184c-4322-b7ce-3267f099aaec",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b7565": {
+      "importer": "gltf-animation",
+      "uuid": "a778a87e-184c-4322-b7ce-3267f099aaec@b7565",
+      "displayName": "",
+      "id": "b7565",
+      "name": "base_idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1d270": {
+      "importer": "gltf-scene",
+      "uuid": "a778a87e-184c-4322-b7ce-3267f099aaec@1d270",
+      "displayName": "",
+      "id": "1d270",
+      "name": "m_cha_mera@base_idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "base_idle",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2,
+            "previousId": "b7565"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a778a87e-184c-4322-b7ce-3267f099aaec@1d270"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

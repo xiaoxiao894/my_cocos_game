@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "90303e29-79be-48de-9b9a-0894224b10b2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "58134": {
+      "importer": "gltf-scene",
+      "uuid": "90303e29-79be-48de-9b9a-0894224b10b2@58134",
+      "displayName": "",
+      "id": "58134",
+      "name": "dungbeetle@skill02_hero_2.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a4ec2": {
+      "importer": "gltf-animation",
+      "uuid": "90303e29-79be-48de-9b9a-0894224b10b2@a4ec2",
+      "displayName": "",
+      "id": "a4ec2",
+      "name": "skill02_hero_2.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8333333134651184
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "dungbeetle@skill02_hero_2",
+        "duration": 0.8333333134651184,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "skill02_hero_2",
+            "from": 0,
+            "to": 0.8333333134651184,
+            "wrapMode": 2,
+            "previousId": "a4ec2"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "90303e29-79be-48de-9b9a-0894224b10b2@58134"
+      ]
+    }
+  }
+}

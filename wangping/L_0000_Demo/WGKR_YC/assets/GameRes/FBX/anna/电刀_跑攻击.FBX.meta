@@ -1,0 +1,107 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "65bbcab1-1519-4b38-8124-5d82434af848",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "65bbcab1-1519-4b38-8124-5d82434af848@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Electricknife_run_attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.800000011920929
+        },
+        "events": [
+          {
+            "frame": 0.4666666666666667,
+            "func": "attack",
+            "params": [
+              0
+            ]
+          }
+        ]
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "97f7e": {
+      "importer": "gltf-scene",
+      "uuid": "65bbcab1-1519-4b38-8124-5d82434af848@97f7e",
+      "displayName": "",
+      "id": "97f7e",
+      "name": "电刀_跑攻击.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.800000011920929,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Electricknife_run_attack",
+            "from": 0,
+            "to": 0.800000011920929,
+            "wrapMode": 0,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "65bbcab1-1519-4b38-8124-5d82434af848@97f7e"
+      ]
+    }
+  }
+}

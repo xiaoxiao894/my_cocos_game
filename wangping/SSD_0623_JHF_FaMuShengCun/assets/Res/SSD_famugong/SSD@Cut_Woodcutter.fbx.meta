@@ -1,0 +1,132 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "24541675-1988-4bb3-be8a-1fd19bd83874",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "9d0e9": {
+      "importer": "gltf-animation",
+      "uuid": "24541675-1988-4bb3-be8a-1fd19bd83874@9d0e9",
+      "displayName": "",
+      "id": "9d0e9",
+      "name": "Cut_Woodcutter.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.3333332538604736
+        },
+        "events": [
+          {
+            "frame": 0.7,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7,
+            "func": "fireAtTarget",
+            "params": [
+              ""
+            ]
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 2.8,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "4ed32": {
+      "importer": "gltf-scene",
+      "uuid": "24541675-1988-4bb3-be8a-1fd19bd83874@4ed32",
+      "displayName": "",
+      "id": "4ed32",
+      "name": "SSD@Cut_Woodcutter.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Cut_Woodcutter",
+            "from": 0,
+            "to": 3.3333332538604736,
+            "wrapMode": 2,
+            "previousId": "9d0e9",
+            "speed": 2.8
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "24541675-1988-4bb3-be8a-1fd19bd83874@4ed32"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

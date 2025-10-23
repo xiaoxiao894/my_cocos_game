@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "aa2e6655-c1d8-4fe5-8b54-3a5c85ea4ae5",
+  "files": [],
+  "subMetas": {
+    "ebd6a": {
+      "importer": "gltf-mesh",
+      "uuid": "aa2e6655-c1d8-4fe5-8b54-3a5c85ea4ae5@ebd6a",
+      "displayName": "",
+      "id": "ebd6a",
+      "name": "FBX_fence_a.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2469
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a3ca": {
+      "importer": "gltf-material",
+      "uuid": "aa2e6655-c1d8-4fe5-8b54-3a5c85ea4ae5@7a3ca",
+      "displayName": "",
+      "id": "7a3ca",
+      "name": "lambert2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "79dab": {
+      "importer": "gltf-scene",
+      "uuid": "aa2e6655-c1d8-4fe5-8b54-3a5c85ea4ae5@79dab",
+      "displayName": "",
+      "id": "79dab",
+      "name": "Model_fence_a.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "aa2e6655-c1d8-4fe5-8b54-3a5c85ea4ae5@ebd6a"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "aa2e6655-c1d8-4fe5-8b54-3a5c85ea4ae5@7a3ca"
+      ],
+      "scenes": [
+        "aa2e6655-c1d8-4fe5-8b54-3a5c85ea4ae5@79dab"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

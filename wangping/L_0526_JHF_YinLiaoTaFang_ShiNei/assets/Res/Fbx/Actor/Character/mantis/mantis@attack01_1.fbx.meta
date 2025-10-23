@@ -1,0 +1,116 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f1e481e8-a815-43e0-bc42-f5ec5f9f1732",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a3251": {
+      "importer": "gltf-animation",
+      "uuid": "f1e481e8-a815-43e0-bc42-f5ec5f9f1732@a3251",
+      "displayName": "",
+      "id": "a3251",
+      "name": "attack01_1.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.100000023841858
+        },
+        "events": [
+          {
+            "frame": 0.7333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7333333333333333,
+            "func": "attack",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "7e813": {
+      "importer": "gltf-scene",
+      "uuid": "f1e481e8-a815-43e0-bc42-f5ec5f9f1732@7e813",
+      "displayName": "",
+      "id": "7e813",
+      "name": "mantis@attack01_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.100000023841858,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack01_1",
+            "from": 0,
+            "to": 1.100000023841858,
+            "wrapMode": 2,
+            "previousId": "a3251"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "f1e481e8-a815-43e0-bc42-f5ec5f9f1732@7e813"
+      ]
+    }
+  }
+}

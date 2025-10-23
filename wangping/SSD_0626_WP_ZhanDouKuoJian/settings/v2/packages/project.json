@@ -1,0 +1,53 @@
+{
+  "__version__": "1.0.6",
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "area"
+      },
+      {
+        "index": 2,
+        "name": "player"
+      },
+      {
+        "index": 3,
+        "name": "paling"
+      },
+      {
+        "index": 4,
+        "name": "bear"
+      },
+      {
+        "index": 5,
+        "name": "obstacle"
+      },
+      {
+        "index": 6,
+        "name": "pater"
+      },
+      {
+        "index": 7,
+        "name": "building"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 4,
+      "2": 138,
+      "3": 68,
+      "4": 32,
+      "5": 16,
+      "6": 8,
+      "7": 4
+    }
+  },
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "df1107e4-600a-4c14-be13-e56ba5e7a8f0",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "db06a": {
+      "importer": "gltf-animation",
+      "uuid": "df1107e4-600a-4c14-be13-e56ba5e7a8f0@db06a",
+      "displayName": "",
+      "id": "db06a",
+      "name": "skill01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "fe399": {
+      "importer": "gltf-scene",
+      "uuid": "df1107e4-600a-4c14-be13-e56ba5e7a8f0@fe399",
+      "displayName": "",
+      "id": "fe399",
+      "name": "ladybug@skill01.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "ladybug@skill01",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "skill01",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "db06a"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "df1107e4-600a-4c14-be13-e56ba5e7a8f0@fe399"
+      ]
+    }
+  }
+}

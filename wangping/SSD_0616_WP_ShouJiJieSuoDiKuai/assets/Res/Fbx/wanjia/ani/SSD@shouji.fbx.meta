@@ -1,0 +1,105 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "93686300-a408-44ab-9c73-34d7e23d9015",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "62563": {
+      "importer": "gltf-scene",
+      "uuid": "93686300-a408-44ab-9c73-34d7e23d9015@62563",
+      "displayName": "",
+      "id": "62563",
+      "name": "SSD@shouji.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8e65": {
+      "importer": "gltf-animation",
+      "uuid": "93686300-a408-44ab-9c73-34d7e23d9015@c8e65",
+      "displayName": "",
+      "id": "c8e65",
+      "name": "shouji.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.1666666269302368
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.1666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "shouji",
+            "from": 0,
+            "to": 1.1666666269302368,
+            "wrapMode": 1,
+            "previousId": "c8e65"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "93686300-a408-44ab-9c73-34d7e23d9015@62563"
+      ]
+    }
+  }
+}

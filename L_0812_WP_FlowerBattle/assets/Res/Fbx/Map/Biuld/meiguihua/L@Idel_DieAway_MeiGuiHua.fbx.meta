@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cd37d0b9-30e1-4d4e-9dd5-7e5dd0f3f354",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b32bd": {
+      "importer": "gltf-animation",
+      "uuid": "cd37d0b9-30e1-4d4e-9dd5-7e5dd0f3f354@b32bd",
+      "displayName": "",
+      "id": "b32bd",
+      "name": "Idel_DieAway_MeiGuiHua.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "df27b": {
+      "importer": "gltf-scene",
+      "uuid": "cd37d0b9-30e1-4d4e-9dd5-7e5dd0f3f354@df27b",
+      "displayName": "",
+      "id": "df27b",
+      "name": "L@Idel_DieAway_MeiGuiHua.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idel_DieAway_MeiGuiHua",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "b32bd"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "cd37d0b9-30e1-4d4e-9dd5-7e5dd0f3f354@df27b"
+      ]
+    }
+  }
+}

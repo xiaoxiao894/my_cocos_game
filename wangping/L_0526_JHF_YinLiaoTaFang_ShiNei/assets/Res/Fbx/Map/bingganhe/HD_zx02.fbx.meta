@@ -1,0 +1,109 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f249cf23-350d-4858-bad0-d0868bf3691d",
+  "files": [],
+  "subMetas": {
+    "60609": {
+      "importer": "gltf-mesh",
+      "uuid": "f249cf23-350d-4858-bad0-d0868bf3691d@60609",
+      "displayName": "",
+      "id": "60609",
+      "name": "He_e.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 32
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d883": {
+      "importer": "gltf-material",
+      "uuid": "f249cf23-350d-4858-bad0-d0868bf3691d@8d883",
+      "displayName": "",
+      "id": "8d883",
+      "name": "lambert1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "781bc": {
+      "importer": "gltf-scene",
+      "uuid": "f249cf23-350d-4858-bad0-d0868bf3691d@781bc",
+      "displayName": "",
+      "id": "781bc",
+      "name": "HD_zx02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f249cf23-350d-4858-bad0-d0868bf3691d@60609"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "f249cf23-350d-4858-bad0-d0868bf3691d@8d883"
+      ],
+      "scenes": [
+        "f249cf23-350d-4858-bad0-d0868bf3691d@781bc"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "errorRate": 0,
+      "targetRatio": 0
+    }
+  }
+}

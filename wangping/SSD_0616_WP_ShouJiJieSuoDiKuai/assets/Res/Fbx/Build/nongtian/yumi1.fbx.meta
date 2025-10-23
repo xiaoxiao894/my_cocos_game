@@ -1,0 +1,253 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8db4f91a-7193-4455-81d2-c68b59e8d68b",
+  "files": [],
+  "subMetas": {
+    "b38e8": {
+      "importer": "gltf-mesh",
+      "uuid": "8db4f91a-7193-4455-81d2-c68b59e8d68b@b38e8",
+      "displayName": "",
+      "id": "b38e8",
+      "name": "yumi1.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 48
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e863": {
+      "importer": "texture",
+      "uuid": "8db4f91a-7193-4455-81d2-c68b59e8d68b@1e863",
+      "displayName": "",
+      "id": "1e863",
+      "name": "corn_texture.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/Fbx/Build/nongtian/corn_texture.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4ff33": {
+      "importer": "gltf-material",
+      "uuid": "8db4f91a-7193-4455-81d2-c68b59e8d68b@4ff33",
+      "displayName": "",
+      "id": "4ff33",
+      "name": "corn_plant__corn_texture_png.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bf99b": {
+      "importer": "gltf-scene",
+      "uuid": "8db4f91a-7193-4455-81d2-c68b59e8d68b@bf99b",
+      "displayName": "",
+      "id": "bf99b",
+      "name": "yumi1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "corn_texture.png",
+        "uri": "db://assets/Res/Fbx/Build/nongtian/corn_texture.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8db4f91a-7193-4455-81d2-c68b59e8d68b@b38e8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8db4f91a-7193-4455-81d2-c68b59e8d68b@1e863"
+      ],
+      "materials": [
+        "8db4f91a-7193-4455-81d2-c68b59e8d68b@4ff33"
+      ],
+      "scenes": [
+        "8db4f91a-7193-4455-81d2-c68b59e8d68b@bf99b"
+      ]
+    },
+    "materials": {
+      "8db4f91a-7193-4455-81d2-c68b59e8d68b@4ff33": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "2e360623-d51f-4e0f-bff3-21930a86e324",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true
+          },
+          {
+            "USE_INSTANCING": true,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "lineWidth": 5,
+            "depthBias": 0.05
+          },
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 230,
+              "b": 129,
+              "a": 255
+            },
+            "roughness": 0,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "9aecb0f8-87b9-44d7-8b2b-006570b95911@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

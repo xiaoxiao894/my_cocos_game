@@ -1,0 +1,136 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bb11d6f7-6866-4831-8366-16f6f55defb9",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "f5d4d": {
+      "importer": "gltf-animation",
+      "uuid": "bb11d6f7-6866-4831-8366-16f6f55defb9@f5d4d",
+      "displayName": "",
+      "id": "f5d4d",
+      "name": "JZ_attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.1666666269302368
+        },
+        "events": [
+          {
+            "frame": 0.26666666666666666,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.26666666666666666,
+            "func": "centerAttackEnd",
+            "params": []
+          },
+          {
+            "frame": 0.36666666666666664,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.36666666666666664,
+            "func": "fireAtTarget",
+            "params": []
+          },
+          {
+            "frame": 1.1666666666666667,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 1.1666666666666667,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1.3,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "380cc": {
+      "importer": "gltf-scene",
+      "uuid": "bb11d6f7-6866-4831-8366-16f6f55defb9@380cc",
+      "displayName": "",
+      "id": "380cc",
+      "name": "JackA@JZ_attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.1666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "JZ_attack",
+            "from": 0,
+            "to": 1.1666666269302368,
+            "wrapMode": 1,
+            "previousId": "f5d4d"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "bb11d6f7-6866-4831-8366-16f6f55defb9@380cc"
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6aab0601-b69f-45ed-bffd-8a1a75e11e39",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "6bea6": {
+      "importer": "gltf-animation",
+      "uuid": "6aab0601-b69f-45ed-bffd-8a1a75e11e39@6bea6",
+      "displayName": "",
+      "id": "6bea6",
+      "name": "MQ_Idle02.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.6666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "ccf18": {
+      "importer": "gltf-scene",
+      "uuid": "6aab0601-b69f-45ed-bffd-8a1a75e11e39@ccf18",
+      "displayName": "",
+      "id": "ccf18",
+      "name": "AnNa@MQ_Idle02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "MQ_Idle02",
+            "from": 0,
+            "to": 2.6666667461395264,
+            "wrapMode": 2,
+            "previousId": "6bea6"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "6aab0601-b69f-45ed-bffd-8a1a75e11e39@ccf18"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

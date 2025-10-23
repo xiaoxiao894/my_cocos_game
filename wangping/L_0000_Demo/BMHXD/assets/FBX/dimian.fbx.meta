@@ -1,0 +1,172 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f7ca9675-d8e3-426f-8331-6b4f8a6a9b89",
+  "files": [],
+  "subMetas": {
+    "1d338": {
+      "importer": "gltf-mesh",
+      "uuid": "f7ca9675-d8e3-426f-8331-6b4f8a6a9b89@1d338",
+      "displayName": "",
+      "id": "1d338",
+      "name": "dimian.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 34
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db4d2": {
+      "importer": "gltf-material",
+      "uuid": "f7ca9675-d8e3-426f-8331-6b4f8a6a9b89@db4d2",
+      "displayName": "",
+      "id": "db4d2",
+      "name": "02 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b622f": {
+      "importer": "gltf-scene",
+      "uuid": "f7ca9675-d8e3-426f-8331-6b4f8a6a9b89@b622f",
+      "displayName": "",
+      "id": "b622f",
+      "name": "dimian.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f7ca9675-d8e3-426f-8331-6b4f8a6a9b89@1d338"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "f7ca9675-d8e3-426f-8331-6b4f8a6a9b89@db4d2"
+      ],
+      "scenes": [
+        "f7ca9675-d8e3-426f-8331-6b4f8a6a9b89@b622f"
+      ]
+    },
+    "materials": {
+      "f7ca9675-d8e3-426f-8331-6b4f8a6a9b89@db4d2": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "2ec11458-f855-4978-b14d-f3ed5cf697fa",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 1,
+        "_defines": [
+          {
+            "USE_VERTEX_COLOR": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 188,
+              "g": 188,
+              "b": 188,
+              "a": 255
+            },
+            "roughness": 0,
+            "metallic": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

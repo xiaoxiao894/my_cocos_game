@@ -1,0 +1,193 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "491fb9a5-0933-421b-8d3e-f701b5678a5b",
+  "files": [],
+  "subMetas": {
+    "4420b": {
+      "importer": "gltf-mesh",
+      "uuid": "491fb9a5-0933-421b-8d3e-f701b5678a5b@4420b",
+      "displayName": "",
+      "id": "4420b",
+      "name": "开关新3.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 6944
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d90a4": {
+      "importer": "gltf-material",
+      "uuid": "491fb9a5-0933-421b-8d3e-f701b5678a5b@d90a4",
+      "displayName": "",
+      "id": "d90a4",
+      "name": "01 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "edc09": {
+      "importer": "gltf-scene",
+      "uuid": "491fb9a5-0933-421b-8d3e-f701b5678a5b@edc09",
+      "displayName": "",
+      "id": "edc09",
+      "name": "ChaZuo.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "491fb9a5-0933-421b-8d3e-f701b5678a5b@edc09",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "491fb9a5-0933-421b-8d3e-f701b5678a5b@4420b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "491fb9a5-0933-421b-8d3e-f701b5678a5b@d90a4"
+      ],
+      "scenes": [
+        "491fb9a5-0933-421b-8d3e-f701b5678a5b@edc09"
+      ]
+    },
+    "materials": {
+      "491fb9a5-0933-421b-8d3e-f701b5678a5b@d90a4": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 224,
+              "g": 253,
+              "b": 255,
+              "a": 255
+            },
+            "roughness": 0.098,
+            "specularIntensity": 0.106
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

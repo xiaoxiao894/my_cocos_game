@@ -1,0 +1,223 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b052f6f9-0a3b-4fcd-875d-f2b338c4e609",
+  "files": [],
+  "subMetas": {
+    "11873": {
+      "importer": "gltf-material",
+      "uuid": "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@11873",
+      "displayName": "",
+      "id": "11873",
+      "name": "Material #0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "34574": {
+      "importer": "gltf-mesh",
+      "uuid": "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@34574",
+      "displayName": "",
+      "id": "34574",
+      "name": "Mogu_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 979
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 23
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a96a6": {
+      "importer": "texture",
+      "uuid": "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@a96a6",
+      "displayName": "",
+      "id": "a96a6",
+      "name": "贴图 #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/Model/Mogu_01/Texture/mushroomman_01_d.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dad16": {
+      "importer": "gltf-scene",
+      "uuid": "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@dad16",
+      "displayName": "",
+      "id": "dad16",
+      "name": "skin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #1",
+        "uri": "db://assets/Res/Model/Mogu_01/Texture/mushroomman_01_d.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@34574"
+      ],
+      "skeletons": [
+        "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@438fe"
+      ],
+      "textures": [
+        "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@a96a6"
+      ],
+      "materials": [
+        "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@11873"
+      ],
+      "scenes": [
+        "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@dad16"
+      ]
+    },
+    "materials": {
+      "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@11873": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "b052f6f9-0a3b-4fcd-875d-f2b338c4e609@a96a6",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "acf4cbae-8d08-49fd-b458-ce08435e768c",
+  "files": [],
+  "subMetas": {
+    "070e1": {
+      "importer": "gltf-mesh",
+      "uuid": "acf4cbae-8d08-49fd-b458-ce08435e768c@070e1",
+      "displayName": "",
+      "id": "070e1",
+      "name": "B02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 66
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2b619": {
+      "importer": "gltf-material",
+      "uuid": "acf4cbae-8d08-49fd-b458-ce08435e768c@2b619",
+      "displayName": "",
+      "id": "2b619",
+      "name": "Material #137.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4177": {
+      "importer": "gltf-scene",
+      "uuid": "acf4cbae-8d08-49fd-b458-ce08435e768c@f4177",
+      "displayName": "",
+      "id": "f4177",
+      "name": "LaZhu_hlB02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "acf4cbae-8d08-49fd-b458-ce08435e768c@070e1"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "acf4cbae-8d08-49fd-b458-ce08435e768c@2b619"
+      ],
+      "scenes": [
+        "acf4cbae-8d08-49fd-b458-ce08435e768c@f4177"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5733fd02-cad2-49e2-aba9-c08b5f7986ad",
+  "files": [],
+  "subMetas": {
+    "6fdbf": {
+      "importer": "gltf-mesh",
+      "uuid": "5733fd02-cad2-49e2-aba9-c08b5f7986ad@6fdbf",
+      "displayName": "",
+      "id": "6fdbf",
+      "name": "YaQian1.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 48
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "036b1": {
+      "importer": "gltf-embeded-image",
+      "uuid": "5733fd02-cad2-49e2-aba9-c08b5f7986ad@036b1",
+      "displayName": "",
+      "id": "036b1",
+      "name": "GongJian_Base_Color_1.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7bc7a": {
+      "importer": "texture",
+      "uuid": "5733fd02-cad2-49e2-aba9-c08b5f7986ad@7bc7a",
+      "displayName": "",
+      "id": "7bc7a",
+      "name": "GongJian_Base_Color_1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5733fd02-cad2-49e2-aba9-c08b5f7986ad@036b1"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c2ef8": {
+      "importer": "gltf-material",
+      "uuid": "5733fd02-cad2-49e2-aba9-c08b5f7986ad@c2ef8",
+      "displayName": "",
+      "id": "c2ef8",
+      "name": "Material #33.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4daba": {
+      "importer": "gltf-scene",
+      "uuid": "5733fd02-cad2-49e2-aba9-c08b5f7986ad@4daba",
+      "displayName": "",
+      "id": "4daba",
+      "name": "gongjianJ.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "GongJian_Base_Color_1",
+        "uri": "5733fd02-cad2-49e2-aba9-c08b5f7986ad@036b1"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5733fd02-cad2-49e2-aba9-c08b5f7986ad@6fdbf"
+      ],
+      "skeletons": [],
+      "textures": [
+        "5733fd02-cad2-49e2-aba9-c08b5f7986ad@7bc7a"
+      ],
+      "materials": [
+        "5733fd02-cad2-49e2-aba9-c08b5f7986ad@c2ef8"
+      ],
+      "scenes": [
+        "5733fd02-cad2-49e2-aba9-c08b5f7986ad@4daba"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": true,
+      "encode": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "errorRate": 0,
+      "targetRatio": 0
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "79003536-7525-45f6-9fb1-8f5a3ef03c18",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "73d50": {
+      "importer": "gltf-animation",
+      "uuid": "79003536-7525-45f6-9fb1-8f5a3ef03c18@73d50",
+      "displayName": "",
+      "id": "73d50",
+      "name": "Die.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "777b5": {
+      "importer": "gltf-scene",
+      "uuid": "79003536-7525-45f6-9fb1-8f5a3ef03c18@777b5",
+      "displayName": "",
+      "id": "777b5",
+      "name": "ZhiZhu-kt@Die.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Die",
+            "from": 0,
+            "to": 2.3333332538604736,
+            "wrapMode": 2,
+            "previousId": "73d50"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "79003536-7525-45f6-9fb1-8f5a3ef03c18@777b5"
+      ]
+    }
+  }
+}

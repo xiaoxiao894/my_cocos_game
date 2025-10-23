@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cb28a8e8-7e86-48b4-bc4e-c7864fe476b3",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "db06a": {
+      "importer": "gltf-animation",
+      "uuid": "cb28a8e8-7e86-48b4-bc4e-c7864fe476b3@db06a",
+      "displayName": "",
+      "id": "db06a",
+      "name": "skill01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "0ffdb": {
+      "importer": "gltf-scene",
+      "uuid": "cb28a8e8-7e86-48b4-bc4e-c7864fe476b3@0ffdb",
+      "displayName": "",
+      "id": "0ffdb",
+      "name": "stagbeetle@skill01.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "stagbeetle@skill01",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "skill01",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "db06a"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "cb28a8e8-7e86-48b4-bc4e-c7864fe476b3@0ffdb"
+      ]
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e43458f3-4464-42c6-9657-e3bc17f83bcb",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "684db": {
+      "importer": "gltf-mesh",
+      "uuid": "e43458f3-4464-42c6-9657-e3bc17f83bcb@684db",
+      "displayName": "",
+      "id": "684db",
+      "name": "Cylinder002.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 216
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "39eac": {
+      "importer": "gltf-animation",
+      "uuid": "e43458f3-4464-42c6-9657-e3bc17f83bcb@39eac",
+      "displayName": "",
+      "id": "39eac",
+      "name": "attack01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "813f2": {
+      "importer": "gltf-scene",
+      "uuid": "e43458f3-4464-42c6-9657-e3bc17f83bcb@813f2",
+      "displayName": "",
+      "id": "813f2",
+      "name": "beetlewarrior@attack01.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "beetlewarrior@attack01",
+        "duration": 1.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack01",
+            "from": 0,
+            "to": 1.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "39eac"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e43458f3-4464-42c6-9657-e3bc17f83bcb@684db"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e43458f3-4464-42c6-9657-e3bc17f83bcb@813f2"
+      ]
+    },
+    "redirect": "e43458f3-4464-42c6-9657-e3bc17f83bcb@813f2"
+  }
+}

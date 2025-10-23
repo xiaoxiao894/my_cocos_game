@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ee3b915c-ce1e-4fc5-a964-abae7fa855b4",
+  "files": [],
+  "subMetas": {
+    "659f4": {
+      "importer": "gltf-mesh",
+      "uuid": "ee3b915c-ce1e-4fc5-a964-abae7fa855b4@659f4",
+      "displayName": "",
+      "id": "659f4",
+      "name": "FBX_Terrain_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 141
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "253b4": {
+      "importer": "gltf-material",
+      "uuid": "ee3b915c-ce1e-4fc5-a964-abae7fa855b4@253b4",
+      "displayName": "",
+      "id": "253b4",
+      "name": "lambert17.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b7a6b": {
+      "importer": "gltf-scene",
+      "uuid": "ee3b915c-ce1e-4fc5-a964-abae7fa855b4@b7a6b",
+      "displayName": "",
+      "id": "b7a6b",
+      "name": "Model_Terrain_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ee3b915c-ce1e-4fc5-a964-abae7fa855b4@659f4"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ee3b915c-ce1e-4fc5-a964-abae7fa855b4@253b4"
+      ],
+      "scenes": [
+        "ee3b915c-ce1e-4fc5-a964-abae7fa855b4@b7a6b"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": false
+    }
+  }
+}

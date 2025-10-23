@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0d965ae1-9173-4427-a6b8-121ce9cae22f",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "9fb7f": {
+      "importer": "gltf-animation",
+      "uuid": "0d965ae1-9173-4427-a6b8-121ce9cae22f@9fb7f",
+      "displayName": "",
+      "id": "9fb7f",
+      "name": "die_idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.03333333507180214
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "18cce": {
+      "importer": "gltf-scene",
+      "uuid": "0d965ae1-9173-4427-a6b8-121ce9cae22f@18cce",
+      "displayName": "",
+      "id": "18cce",
+      "name": "stagbeetle@die_idle.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "stagbeetle@die_idle",
+        "duration": 0.03333333507180214,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "die_idle",
+            "from": 0,
+            "to": 0.03333333507180214,
+            "wrapMode": 2,
+            "previousId": "9fb7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "0d965ae1-9173-4427-a6b8-121ce9cae22f@18cce"
+      ]
+    }
+  }
+}

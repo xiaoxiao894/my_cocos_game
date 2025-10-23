@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cb1587b2-786b-49b0-a0d4-db9dca5db8c8",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "14910": {
+      "importer": "gltf-scene",
+      "uuid": "cb1587b2-786b-49b0-a0d4-db9dca5db8c8@14910",
+      "displayName": "",
+      "id": "14910",
+      "name": "Bear@hit.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "79e35": {
+      "importer": "gltf-animation",
+      "uuid": "cb1587b2-786b-49b0-a0d4-db9dca5db8c8@79e35",
+      "displayName": "",
+      "id": "79e35",
+      "name": "hit.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "hit",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "79e35"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "cb1587b2-786b-49b0-a0d4-db9dca5db8c8@14910"
+      ]
+    }
+  }
+}

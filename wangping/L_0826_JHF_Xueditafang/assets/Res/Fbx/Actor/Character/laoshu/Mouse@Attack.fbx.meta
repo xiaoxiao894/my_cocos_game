@@ -1,0 +1,129 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6b6470c6-0c07-4b3e-93f2-f20ef7c0bcff",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "2cd1c": {
+      "importer": "gltf-animation",
+      "uuid": "6b6470c6-0c07-4b3e-93f2-f20ef7c0bcff@2cd1c",
+      "displayName": "",
+      "id": "2cd1c",
+      "name": "Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.5
+        },
+        "events": [
+          {
+            "frame": 0.5,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.5,
+            "func": "attack",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f569a": {
+      "importer": "gltf-scene",
+      "uuid": "6b6470c6-0c07-4b3e-93f2-f20ef7c0bcff@f569a",
+      "displayName": "",
+      "id": "f569a",
+      "name": "Mouse@Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Attack",
+            "from": 0,
+            "to": 1.5,
+            "wrapMode": 2,
+            "previousId": "2cd1c"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "6b6470c6-0c07-4b3e-93f2-f20ef7c0bcff@f569a"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

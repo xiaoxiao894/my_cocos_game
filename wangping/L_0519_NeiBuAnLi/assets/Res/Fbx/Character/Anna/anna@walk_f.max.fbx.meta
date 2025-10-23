@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "25a87433-753a-4515-9c7e-2ffb5c8a88e2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "22734": {
+      "importer": "gltf-scene",
+      "uuid": "25a87433-753a-4515-9c7e-2ffb5c8a88e2@22734",
+      "displayName": "",
+      "id": "22734",
+      "name": "anna@walk_f.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bda48": {
+      "importer": "gltf-animation",
+      "uuid": "25a87433-753a-4515-9c7e-2ffb5c8a88e2@bda48",
+      "displayName": "",
+      "id": "bda48",
+      "name": "walk_f.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "anna@run01",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk_f",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 2,
+            "previousId": "bda48"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "25a87433-753a-4515-9c7e-2ffb5c8a88e2@22734"
+      ]
+    },
+    "redirect": "25a87433-753a-4515-9c7e-2ffb5c8a88e2@22734"
+  }
+}

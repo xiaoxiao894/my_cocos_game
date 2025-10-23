@@ -1,0 +1,61 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Player"
+      },
+      {
+        "index": 2,
+        "name": "Monster"
+      },
+      {
+        "index": 4,
+        "name": "Wall"
+      },
+      {
+        "index": 5,
+        "name": "ground"
+      },
+      {
+        "index": 6,
+        "name": "corn"
+      },
+      {
+        "index": 7,
+        "name": "Partner"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 195,
+      "1": 123,
+      "2": 728,
+      "3": 262,
+      "4": 198,
+      "5": 450,
+      "6": 247,
+      "7": 245,
+      "8": 40,
+      "9": 4
+    }
+  },
+  "layer": [
+    {
+      "name": "QUAD",
+      "value": 524288
+    }
+  ],
+  "script": {
+    "preserveSymlinks": true
+  }
+}

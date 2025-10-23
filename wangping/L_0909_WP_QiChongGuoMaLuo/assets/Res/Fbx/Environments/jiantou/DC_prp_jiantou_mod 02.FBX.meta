@@ -1,0 +1,289 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f5676d81-7326-4d11-9035-525ef89ea5a3",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b62fc": {
+      "importer": "gltf-mesh",
+      "uuid": "f5676d81-7326-4d11-9035-525ef89ea5a3@b62fc",
+      "displayName": "",
+      "id": "b62fc",
+      "name": "DC_prp_jiantou_mod.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 252
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "f5676d81-7326-4d11-9035-525ef89ea5a3@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a59ea": {
+      "importer": "texture",
+      "uuid": "f5676d81-7326-4d11-9035-525ef89ea5a3@a59ea",
+      "displayName": "",
+      "id": "a59ea",
+      "name": "file18.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/Fbx/Environments/jiantou/JianTou.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5a826": {
+      "importer": "gltf-material",
+      "uuid": "f5676d81-7326-4d11-9035-525ef89ea5a3@5a826",
+      "displayName": "",
+      "id": "5a826",
+      "name": "M_JianTou.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4f89": {
+      "importer": "gltf-scene",
+      "uuid": "f5676d81-7326-4d11-9035-525ef89ea5a3@f4f89",
+      "displayName": "",
+      "id": "f4f89",
+      "name": "DC_prp_jiantou_mod 02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file18",
+        "uri": "db://assets/Res/Fbx/Environments/jiantou/JianTou.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 3.3333332538604736,
+            "wrapMode": 2,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f5676d81-7326-4d11-9035-525ef89ea5a3@b62fc"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f5676d81-7326-4d11-9035-525ef89ea5a3@a59ea"
+      ],
+      "materials": [
+        "f5676d81-7326-4d11-9035-525ef89ea5a3@5a826"
+      ],
+      "scenes": [
+        "f5676d81-7326-4d11-9035-525ef89ea5a3@f4f89"
+      ]
+    },
+    "materials": {
+      "f5676d81-7326-4d11-9035-525ef89ea5a3@5a826": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "81f5658e-bf6d-4c13-b401-c8b2d365e449",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_OUTLINE_PASS": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "lineWidth": 50,
+            "baseColor": {
+              "__type__": "cc.Color",
+              "r": 109,
+              "g": 255,
+              "b": 231,
+              "a": 165
+            }
+          },
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 0,
+              "g": 204,
+              "b": 255,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

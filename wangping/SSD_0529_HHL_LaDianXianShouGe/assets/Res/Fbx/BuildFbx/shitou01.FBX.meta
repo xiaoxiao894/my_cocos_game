@@ -1,0 +1,207 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0416d44c-1b63-47eb-bfe9-ea44308e38b3",
+  "files": [],
+  "subMetas": {
+    "79a41": {
+      "importer": "gltf-mesh",
+      "uuid": "0416d44c-1b63-47eb-bfe9-ea44308e38b3@79a41",
+      "displayName": "",
+      "id": "79a41",
+      "name": "shitou01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 62
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ccd5d": {
+      "importer": "gltf-material",
+      "uuid": "0416d44c-1b63-47eb-bfe9-ea44308e38b3@ccd5d",
+      "displayName": "",
+      "id": "ccd5d",
+      "name": "MI_YanShi1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cc45a": {
+      "importer": "gltf-scene",
+      "uuid": "0416d44c-1b63-47eb-bfe9-ea44308e38b3@cc45a",
+      "displayName": "",
+      "id": "cc45a",
+      "name": "shitou01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0416d44c-1b63-47eb-bfe9-ea44308e38b3@79a41"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "0416d44c-1b63-47eb-bfe9-ea44308e38b3@ccd5d"
+      ],
+      "scenes": [
+        "0416d44c-1b63-47eb-bfe9-ea44308e38b3@cc45a"
+      ]
+    },
+    "materials": {
+      "0416d44c-1b63-47eb-bfe9-ea44308e38b3@ccd5d": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 255
+            },
+            "roughness": 0,
+            "specularIntensity": 0
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "enable": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

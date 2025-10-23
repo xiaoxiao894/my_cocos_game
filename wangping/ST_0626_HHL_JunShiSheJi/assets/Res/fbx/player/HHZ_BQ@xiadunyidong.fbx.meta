@@ -1,0 +1,115 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3b1b5790-cb58-455c-be61-0d31d2d3a11a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "23371": {
+      "importer": "gltf-animation",
+      "uuid": "3b1b5790-cb58-455c-be61-0d31d2d3a11a@23371",
+      "displayName": "",
+      "id": "23371",
+      "name": "xiadunyidong.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.0333333015441895
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "9239a": {
+      "importer": "gltf-scene",
+      "uuid": "3b1b5790-cb58-455c-be61-0d31d2d3a11a@9239a",
+      "displayName": "",
+      "id": "9239a",
+      "name": "HHZ_BQ@xiadunyidong.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.0333333015441895,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "xiadunyidong",
+            "from": 0,
+            "to": 1.0333333015441895,
+            "wrapMode": 2,
+            "previousId": "23371"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "3b1b5790-cb58-455c-be61-0d31d2d3a11a@9239a"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0.5
+    }
+  }
+}

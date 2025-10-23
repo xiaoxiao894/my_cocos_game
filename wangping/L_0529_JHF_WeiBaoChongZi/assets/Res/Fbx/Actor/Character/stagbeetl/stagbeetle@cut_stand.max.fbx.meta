@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3efb7a46-dc3e-4e66-bf04-b3e651ece729",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a0615": {
+      "importer": "gltf-animation",
+      "uuid": "3efb7a46-dc3e-4e66-bf04-b3e651ece729@a0615",
+      "displayName": "",
+      "id": "a0615",
+      "name": "cut_stand.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.3333333432674408
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "67bea": {
+      "importer": "gltf-scene",
+      "uuid": "3efb7a46-dc3e-4e66-bf04-b3e651ece729@67bea",
+      "displayName": "",
+      "id": "67bea",
+      "name": "stagbeetle@cut_stand.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "stagbeetle@cut_stand",
+        "duration": 0.3333333432674408,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "cut_stand",
+            "from": 0,
+            "to": 0.3333333432674408,
+            "wrapMode": 2,
+            "previousId": "a0615"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "3efb7a46-dc3e-4e66-bf04-b3e651ece729@67bea"
+      ]
+    }
+  }
+}

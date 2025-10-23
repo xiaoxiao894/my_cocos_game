@@ -1,0 +1,16 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "overwriteProjectSettings": {
+        "includeModules": {
+          "gfx-webgl2": "inherit-project-setting"
+        }
+      },
+      "nativeCodeBundleMode": "asmjs"
+    }
+  }
+}

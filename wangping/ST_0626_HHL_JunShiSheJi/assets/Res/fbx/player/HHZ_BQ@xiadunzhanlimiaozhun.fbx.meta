@@ -1,0 +1,210 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "63c84ffa-8085-4c03-b93f-db97b9ae052b",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "39141": {
+      "importer": "gltf-animation",
+      "uuid": "63c84ffa-8085-4c03-b93f-db97b9ae052b@39141",
+      "displayName": "",
+      "id": "39141",
+      "name": "zhanlidaiji.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0.6666666865348816,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "82b53": {
+      "importer": "gltf-animation",
+      "uuid": "63c84ffa-8085-4c03-b93f-db97b9ae052b@82b53",
+      "displayName": "",
+      "id": "82b53",
+      "name": "xiadunzhanlimiaozhun.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1b95f": {
+      "importer": "gltf-animation",
+      "uuid": "63c84ffa-8085-4c03-b93f-db97b9ae052b@1b95f",
+      "displayName": "",
+      "id": "1b95f",
+      "name": "zhanlimiaozhunxiadun.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 36,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a6717": {
+      "importer": "gltf-animation",
+      "uuid": "63c84ffa-8085-4c03-b93f-db97b9ae052b@a6717",
+      "displayName": "",
+      "id": "a6717",
+      "name": "xiadundaiji.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "50a3f": {
+      "importer": "gltf-scene",
+      "uuid": "63c84ffa-8085-4c03-b93f-db97b9ae052b@50a3f",
+      "displayName": "",
+      "id": "50a3f",
+      "name": "HHZ_BQ@xiadunzhanlimiaozhun.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "xiadunzhanlimiaozhun",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 1,
+            "previousId": "82b53"
+          },
+          {
+            "name": "zhanlimiaozhunxiadun",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 36,
+            "speed": 1,
+            "previousId": "1b95f"
+          },
+          {
+            "name": "xiadundaiji",
+            "from": 0,
+            "to": 0,
+            "wrapMode": 2,
+            "speed": 1,
+            "previousId": "a6717"
+          },
+          {
+            "name": "zhanlidaiji",
+            "from": 0.6666666865348816,
+            "to": 0.6666666865348816,
+            "wrapMode": 2,
+            "speed": 1,
+            "previousId": "39141"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "63c84ffa-8085-4c03-b93f-db97b9ae052b@50a3f"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0.5
+    }
+  }
+}

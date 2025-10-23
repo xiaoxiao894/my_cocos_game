@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "23641670-717e-42a3-812a-5845bf1849c7",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "ac958": {
+      "importer": "gltf-animation",
+      "uuid": "23641670-717e-42a3-812a-5845bf1849c7@ac958",
+      "displayName": "",
+      "id": "ac958",
+      "name": "JZ_run-attack02.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7333333492279053
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "524dc": {
+      "importer": "gltf-scene",
+      "uuid": "23641670-717e-42a3-812a-5845bf1849c7@524dc",
+      "displayName": "",
+      "id": "524dc",
+      "name": "JackA@JZ_run-attack02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.7333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "JZ_run-attack02",
+            "from": 0,
+            "to": 0.7333333492279053,
+            "wrapMode": 2,
+            "previousId": "ac958"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "23641670-717e-42a3-812a-5845bf1849c7@524dc"
+      ]
+    }
+  }
+}

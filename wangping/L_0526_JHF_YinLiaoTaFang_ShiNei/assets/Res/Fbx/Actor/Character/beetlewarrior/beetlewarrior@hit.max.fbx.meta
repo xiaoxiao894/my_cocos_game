@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ce39132a-2aee-47cb-8354-cbe0c28d9f49",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "79e35": {
+      "importer": "gltf-animation",
+      "uuid": "ce39132a-2aee-47cb-8354-cbe0c28d9f49@79e35",
+      "displayName": "",
+      "id": "79e35",
+      "name": "hit.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "02827": {
+      "importer": "gltf-scene",
+      "uuid": "ce39132a-2aee-47cb-8354-cbe0c28d9f49@02827",
+      "displayName": "",
+      "id": "02827",
+      "name": "beetlewarrior@hit.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "beetlewarrior@hit",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "hit",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "79e35"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "ce39132a-2aee-47cb-8354-cbe0c28d9f49@02827"
+      ]
+    }
+  }
+}

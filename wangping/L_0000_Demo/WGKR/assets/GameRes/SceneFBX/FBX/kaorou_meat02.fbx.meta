@@ -1,0 +1,146 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "aec8d00f-a221-449a-bca4-88d3bc7289d9",
+  "files": [],
+  "subMetas": {
+    "71a48": {
+      "importer": "gltf-mesh",
+      "uuid": "aec8d00f-a221-449a-bca4-88d3bc7289d9@71a48",
+      "displayName": "",
+      "id": "71a48",
+      "name": "kaorou_meat02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 96
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "23fa5": {
+      "importer": "gltf-embeded-image",
+      "uuid": "aec8d00f-a221-449a-bca4-88d3bc7289d9@23fa5",
+      "displayName": "",
+      "id": "23fa5",
+      "name": "贴图 #34.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "c26db": {
+      "importer": "texture",
+      "uuid": "aec8d00f-a221-449a-bca4-88d3bc7289d9@c26db",
+      "displayName": "",
+      "id": "c26db",
+      "name": "贴图 #34.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "aec8d00f-a221-449a-bca4-88d3bc7289d9@23fa5"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b537b": {
+      "importer": "gltf-material",
+      "uuid": "aec8d00f-a221-449a-bca4-88d3bc7289d9@b537b",
+      "displayName": "",
+      "id": "b537b",
+      "name": "Material #93.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f96fa": {
+      "importer": "gltf-scene",
+      "uuid": "aec8d00f-a221-449a-bca4-88d3bc7289d9@f96fa",
+      "displayName": "",
+      "id": "f96fa",
+      "name": "kaorou_meat02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #34",
+        "uri": "aec8d00f-a221-449a-bca4-88d3bc7289d9@23fa5"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "aec8d00f-a221-449a-bca4-88d3bc7289d9@71a48"
+      ],
+      "skeletons": [],
+      "textures": [
+        "aec8d00f-a221-449a-bca4-88d3bc7289d9@c26db"
+      ],
+      "materials": [
+        "aec8d00f-a221-449a-bca4-88d3bc7289d9@b537b"
+      ],
+      "scenes": [
+        "aec8d00f-a221-449a-bca4-88d3bc7289d9@f96fa"
+      ]
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0",
+  "files": [],
+  "subMetas": {
+    "cbafc": {
+      "importer": "gltf-mesh",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@cbafc",
+      "displayName": "",
+      "id": "cbafc",
+      "name": "Bear_丧尸.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1962
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 18
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1c0d": {
+      "importer": "texture",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@f1c0d",
+      "displayName": "",
+      "id": "f1c0d",
+      "name": "EnvSamplerTex.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/Fbx/animal/Bear/tex_Bear_D3.PNG"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1cf5": {
+      "importer": "gltf-material",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@f1cf5",
+      "displayName": "",
+      "id": "f1cf5",
+      "name": "M_熊.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0624b": {
+      "importer": "gltf-scene",
+      "uuid": "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@0624b",
+      "displayName": "",
+      "id": "0624b",
+      "name": "Bear.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "EnvSamplerTex",
+        "uri": "db://assets/Res/Fbx/animal/Bear/tex_Bear_D3.PNG"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@cbafc"
+      ],
+      "skeletons": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@438fe"
+      ],
+      "textures": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@f1c0d"
+      ],
+      "materials": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@f1cf5"
+      ],
+      "scenes": [
+        "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@0624b"
+      ]
+    },
+    "materials": {
+      "2a0ef3f6-4870-479b-9d52-d0e15c66cff0@f1cf5": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "aa235cdc-bafe-46ea-9e07-f199ccc7c980",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_ALBEDO_MAP": true,
+            "USE_EFFECT": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "roughness": 1,
+            "metallic": 0,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "b8257233-e12f-4b3c-8105-9dff14d5018d@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "noiseMap": {
+              "__uuid__": "3a210627-abd8-4cb8-a43a-312905c59f26@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "dissolveThreshold": 0.066,
+            "lineWidth": 0.015
+          },
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

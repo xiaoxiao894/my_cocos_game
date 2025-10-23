@@ -1,0 +1,146 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0e005a38-44fe-4814-95e1-9765d055d674",
+  "files": [],
+  "subMetas": {
+    "cacfd": {
+      "importer": "gltf-mesh",
+      "uuid": "0e005a38-44fe-4814-95e1-9765d055d674@cacfd",
+      "displayName": "",
+      "id": "cacfd",
+      "name": "kaorou_men02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c0bfb": {
+      "importer": "gltf-embeded-image",
+      "uuid": "0e005a38-44fe-4814-95e1-9765d055d674@c0bfb",
+      "displayName": "",
+      "id": "c0bfb",
+      "name": "贴图 #31.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "33e54": {
+      "importer": "texture",
+      "uuid": "0e005a38-44fe-4814-95e1-9765d055d674@33e54",
+      "displayName": "",
+      "id": "33e54",
+      "name": "贴图 #31.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0e005a38-44fe-4814-95e1-9765d055d674@c0bfb"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ae61": {
+      "importer": "gltf-material",
+      "uuid": "0e005a38-44fe-4814-95e1-9765d055d674@7ae61",
+      "displayName": "",
+      "id": "7ae61",
+      "name": "Material #71.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4afa": {
+      "importer": "gltf-scene",
+      "uuid": "0e005a38-44fe-4814-95e1-9765d055d674@d4afa",
+      "displayName": "",
+      "id": "d4afa",
+      "name": "kaorou_men02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #31",
+        "uri": "0e005a38-44fe-4814-95e1-9765d055d674@c0bfb"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0e005a38-44fe-4814-95e1-9765d055d674@cacfd"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0e005a38-44fe-4814-95e1-9765d055d674@33e54"
+      ],
+      "materials": [
+        "0e005a38-44fe-4814-95e1-9765d055d674@7ae61"
+      ],
+      "scenes": [
+        "0e005a38-44fe-4814-95e1-9765d055d674@d4afa"
+      ]
+    }
+  }
+}

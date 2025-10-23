@@ -1,0 +1,128 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f043a945-bc23-4950-b711-74418e10af90",
+  "files": [],
+  "subMetas": {
+    "0faf6": {
+      "importer": "gltf-mesh",
+      "uuid": "f043a945-bc23-4950-b711-74418e10af90@0faf6",
+      "displayName": "",
+      "id": "0faf6",
+      "name": "SM_SmallPipeBracket02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 132
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ef521": {
+      "importer": "gltf-mesh",
+      "uuid": "f043a945-bc23-4950-b711-74418e10af90@ef521",
+      "displayName": "",
+      "id": "ef521",
+      "name": "UCX_SM_SmallPipeBracket02.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "25ae6": {
+      "importer": "gltf-material",
+      "uuid": "f043a945-bc23-4950-b711-74418e10af90@25ae6",
+      "displayName": "",
+      "id": "25ae6",
+      "name": "MI_Details01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9bff3": {
+      "importer": "gltf-scene",
+      "uuid": "f043a945-bc23-4950-b711-74418e10af90@9bff3",
+      "displayName": "",
+      "id": "9bff3",
+      "name": "SM_SmallPipeBracket02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f043a945-bc23-4950-b711-74418e10af90@0faf6",
+        "f043a945-bc23-4950-b711-74418e10af90@ef521"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "f043a945-bc23-4950-b711-74418e10af90@25ae6"
+      ],
+      "scenes": [
+        "f043a945-bc23-4950-b711-74418e10af90@9bff3"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "errorRate": 0,
+      "targetRatio": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

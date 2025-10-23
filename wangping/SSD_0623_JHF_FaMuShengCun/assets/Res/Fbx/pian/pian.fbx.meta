@@ -1,0 +1,91 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7d812fc9-e7e3-4d5e-8ccc-e8db97c56379",
+  "files": [],
+  "subMetas": {
+    "b8a2d": {
+      "importer": "gltf-mesh",
+      "uuid": "7d812fc9-e7e3-4d5e-8ccc-e8db97c56379@b8a2d",
+      "displayName": "",
+      "id": "b8a2d",
+      "name": "Plane001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fb175": {
+      "importer": "gltf-scene",
+      "uuid": "7d812fc9-e7e3-4d5e-8ccc-e8db97c56379@fb175",
+      "displayName": "",
+      "id": "fb175",
+      "name": "pian.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7d812fc9-e7e3-4d5e-8ccc-e8db97c56379@b8a2d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "7d812fc9-e7e3-4d5e-8ccc-e8db97c56379@fb175"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

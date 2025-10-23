@@ -1,0 +1,91 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3293d9e1-28b5-4f7d-9bc7-7ec368e37adc",
+  "files": [],
+  "subMetas": {
+    "b8a2d": {
+      "importer": "gltf-mesh",
+      "uuid": "3293d9e1-28b5-4f7d-9bc7-7ec368e37adc@b8a2d",
+      "displayName": "",
+      "id": "b8a2d",
+      "name": "Plane001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 20
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "815f2": {
+      "importer": "gltf-scene",
+      "uuid": "3293d9e1-28b5-4f7d-9bc7-7ec368e37adc@815f2",
+      "displayName": "",
+      "id": "815f2",
+      "name": "shanxing.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3293d9e1-28b5-4f7d-9bc7-7ec368e37adc@b8a2d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "3293d9e1-28b5-4f7d-9bc7-7ec368e37adc@815f2"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

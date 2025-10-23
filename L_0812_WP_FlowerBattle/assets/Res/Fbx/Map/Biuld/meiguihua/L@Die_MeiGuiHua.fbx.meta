@@ -1,0 +1,105 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a888a67e-291c-4287-beb6-671316b8f0cb",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "71a66": {
+      "importer": "gltf-animation",
+      "uuid": "a888a67e-291c-4287-beb6-671316b8f0cb@71a66",
+      "displayName": "",
+      "id": "71a66",
+      "name": "Die_MeiGuiHua.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "8c581": {
+      "importer": "gltf-scene",
+      "uuid": "a888a67e-291c-4287-beb6-671316b8f0cb@8c581",
+      "displayName": "",
+      "id": "8c581",
+      "name": "L@Die_MeiGuiHua.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Die_MeiGuiHua",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 1,
+            "previousId": "71a66"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a888a67e-291c-4287-beb6-671316b8f0cb@8c581"
+      ]
+    }
+  }
+}

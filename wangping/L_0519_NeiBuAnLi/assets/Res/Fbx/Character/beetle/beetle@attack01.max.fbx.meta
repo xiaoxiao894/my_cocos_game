@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ad6dd4b5-d3dd-4a6b-a639-4d34e274f5cc",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "66226": {
+      "importer": "gltf-scene",
+      "uuid": "ad6dd4b5-d3dd-4a6b-a639-4d34e274f5cc@66226",
+      "displayName": "",
+      "id": "66226",
+      "name": "beetle@attack01.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "39eac": {
+      "importer": "gltf-animation",
+      "uuid": "ad6dd4b5-d3dd-4a6b-a639-4d34e274f5cc@39eac",
+      "displayName": "",
+      "id": "39eac",
+      "name": "attack01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "beetle@attack01",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack01",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "39eac"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "ad6dd4b5-d3dd-4a6b-a639-4d34e274f5cc@66226"
+      ]
+    },
+    "redirect": "ad6dd4b5-d3dd-4a6b-a639-4d34e274f5cc@66226"
+  }
+}

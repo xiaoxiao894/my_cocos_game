@@ -1,0 +1,67 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Spider"
+      },
+      {
+        "index": 2,
+        "name": "player"
+      },
+      {
+        "index": 3,
+        "name": "buiding"
+      },
+      {
+        "index": 4,
+        "name": "area"
+      },
+      {
+        "index": 5,
+        "name": "playerBeetle"
+      },
+      {
+        "index": 6,
+        "name": "plane"
+      },
+      {
+        "index": 7,
+        "name": "coin"
+      },
+      {
+        "index": 8,
+        "name": "coinPlane"
+      },
+      {
+        "index": 9,
+        "name": "attackFlower"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 608,
+      "2": 88,
+      "3": 4,
+      "4": 4,
+      "5": 66,
+      "6": 166,
+      "7": 320,
+      "8": 128,
+      "9": 2
+    },
+    "gravity": {
+      "y": -35
+    }
+  },
+  "custom_joint_texture_layouts": []
+}

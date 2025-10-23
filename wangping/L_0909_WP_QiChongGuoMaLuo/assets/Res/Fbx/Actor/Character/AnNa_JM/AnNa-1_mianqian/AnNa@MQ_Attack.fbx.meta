@@ -1,0 +1,137 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "addfa026-5855-4cf4-b3f3-2ec9447a6e8a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "eff54": {
+      "importer": "gltf-animation",
+      "uuid": "addfa026-5855-4cf4-b3f3-2ec9447a6e8a@eff54",
+      "displayName": "",
+      "id": "eff54",
+      "name": "MQ_Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": [
+          {
+            "frame": 0.4,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.4,
+            "func": "onAttackAni",
+            "params": []
+          },
+          {
+            "frame": 0.43333333333333335,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.43333333333333335,
+            "func": "onAttack",
+            "params": []
+          },
+          {
+            "frame": 1.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 1.3333333333333333,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1.2,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "945c9": {
+      "importer": "gltf-scene",
+      "uuid": "addfa026-5855-4cf4-b3f3-2ec9447a6e8a@945c9",
+      "displayName": "",
+      "id": "945c9",
+      "name": "AnNa@MQ_Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "MQ_Attack",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2,
+            "previousId": "eff54",
+            "speed": 1.2
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "addfa026-5855-4cf4-b3f3-2ec9447a6e8a@945c9"
+      ]
+    }
+  }
+}

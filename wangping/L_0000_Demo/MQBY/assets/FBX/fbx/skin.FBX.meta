@@ -1,0 +1,145 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5cf8797b-5a03-4f74-8b4e-b98286eff379",
+  "files": [],
+  "subMetas": {
+    "0bb4f": {
+      "importer": "gltf-mesh",
+      "uuid": "5cf8797b-5a03-4f74-8b4e-b98286eff379@0bb4f",
+      "displayName": "",
+      "id": "0bb4f",
+      "name": "mantis_01_v02_eqm01_slg.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 954
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "5cf8797b-5a03-4f74-8b4e-b98286eff379@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 19
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bfae8": {
+      "importer": "texture",
+      "uuid": "5cf8797b-5a03-4f74-8b4e-b98286eff379@bfae8",
+      "displayName": "",
+      "id": "bfae8",
+      "name": "贴图 #3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/FBX/fbx/mantis.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ff75": {
+      "importer": "gltf-material",
+      "uuid": "5cf8797b-5a03-4f74-8b4e-b98286eff379@7ff75",
+      "displayName": "",
+      "id": "7ff75",
+      "name": "Material #27.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dad16": {
+      "importer": "gltf-scene",
+      "uuid": "5cf8797b-5a03-4f74-8b4e-b98286eff379@dad16",
+      "displayName": "",
+      "id": "dad16",
+      "name": "skin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #3",
+        "uri": "db://assets/FBX/fbx/mantis.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5cf8797b-5a03-4f74-8b4e-b98286eff379@0bb4f"
+      ],
+      "skeletons": [
+        "5cf8797b-5a03-4f74-8b4e-b98286eff379@438fe"
+      ],
+      "textures": [
+        "5cf8797b-5a03-4f74-8b4e-b98286eff379@bfae8"
+      ],
+      "materials": [
+        "5cf8797b-5a03-4f74-8b4e-b98286eff379@7ff75"
+      ],
+      "scenes": [
+        "5cf8797b-5a03-4f74-8b4e-b98286eff379@dad16"
+      ]
+    }
+  }
+}

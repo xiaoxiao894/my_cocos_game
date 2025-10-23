@@ -1,0 +1,180 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f7aba628-37a2-4dc4-9912-05edbec72685",
+  "files": [],
+  "subMetas": {
+    "c278d": {
+      "importer": "gltf-mesh",
+      "uuid": "f7aba628-37a2-4dc4-9912-05edbec72685@c278d",
+      "displayName": "",
+      "id": "c278d",
+      "name": "anna_LOD2.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "lodLevel": 2,
+        "triangleCount": 2489
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "f7aba628-37a2-4dc4-9912-05edbec72685@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 28
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "425ef": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f7aba628-37a2-4dc4-9912-05edbec72685@425ef",
+      "displayName": "",
+      "id": "425ef",
+      "name": "贴图 #2.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "59f96": {
+      "importer": "texture",
+      "uuid": "f7aba628-37a2-4dc4-9912-05edbec72685@59f96",
+      "displayName": "",
+      "id": "59f96",
+      "name": "贴图 #2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f7aba628-37a2-4dc4-9912-05edbec72685@425ef"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1fbcb": {
+      "importer": "gltf-material",
+      "uuid": "f7aba628-37a2-4dc4-9912-05edbec72685@1fbcb",
+      "displayName": "",
+      "id": "1fbcb",
+      "name": "Material #28.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dad16": {
+      "importer": "gltf-scene",
+      "uuid": "f7aba628-37a2-4dc4-9912-05edbec72685@dad16",
+      "displayName": "",
+      "id": "dad16",
+      "name": "skin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #2",
+        "uri": "f7aba628-37a2-4dc4-9912-05edbec72685@425ef"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": true,
+      "hasBuiltinLOD": true,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": null
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": null
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f7aba628-37a2-4dc4-9912-05edbec72685@c278d"
+      ],
+      "skeletons": [
+        "f7aba628-37a2-4dc4-9912-05edbec72685@438fe"
+      ],
+      "textures": [
+        "f7aba628-37a2-4dc4-9912-05edbec72685@59f96"
+      ],
+      "materials": [
+        "f7aba628-37a2-4dc4-9912-05edbec72685@1fbcb"
+      ],
+      "scenes": [
+        "f7aba628-37a2-4dc4-9912-05edbec72685@dad16"
+      ]
+    },
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "addVertexColor": false,
+    "generateLightmapUVNode": false,
+    "meshOptimizer": {
+      "enable": false,
+      "algorithm": "simplify",
+      "simplifyOptions": {
+        "targetRatio": 1,
+        "enableSmartLink": true,
+        "agressiveness": 7,
+        "maxIterationCount": 100
+      }
+    }
+  }
+}

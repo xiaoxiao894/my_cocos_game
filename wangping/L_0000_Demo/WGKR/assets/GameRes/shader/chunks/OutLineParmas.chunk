@@ -1,0 +1,12 @@
+uniform OutlineParams {
+  vec4 baseColor;
+  vec4 outlineParams; // x: line width, y: depth hack
+
+  vec4 outdissolveColor1;
+  vec4 outdissolveColor2;
+  vec4 outnoiseMapOffset;
+  float outdissolveThreshold;
+  float outdisslineWidth;
+  float outoffSetThreshold;
+  float outoffSetScale;
+};

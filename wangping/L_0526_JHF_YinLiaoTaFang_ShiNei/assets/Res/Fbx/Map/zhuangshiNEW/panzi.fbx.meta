@@ -1,0 +1,222 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "91e627af-6793-4476-8742-bdf14a238e67",
+  "files": [],
+  "subMetas": {
+    "02b02": {
+      "importer": "gltf-mesh",
+      "uuid": "91e627af-6793-4476-8742-bdf14a238e67@02b02",
+      "displayName": "",
+      "id": "02b02",
+      "name": "SM_prp_XiaoCao_Rig_V003:L_prp_eggtart_mod.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1424
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9fc47": {
+      "importer": "gltf-material",
+      "uuid": "91e627af-6793-4476-8742-bdf14a238e67@9fc47",
+      "displayName": "",
+      "id": "9fc47",
+      "name": "SM_prp_XiaoCao_Rig_V003:MI_Plate_white_square.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e6abf": {
+      "importer": "gltf-scene",
+      "uuid": "91e627af-6793-4476-8742-bdf14a238e67@e6abf",
+      "displayName": "",
+      "id": "e6abf",
+      "name": "panzi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "91e627af-6793-4476-8742-bdf14a238e67@02b02"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "91e627af-6793-4476-8742-bdf14a238e67@9fc47"
+      ],
+      "scenes": [
+        "91e627af-6793-4476-8742-bdf14a238e67@e6abf"
+      ]
+    },
+    "materials": {
+      "91e627af-6793-4476-8742-bdf14a238e67@9fc47": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "81f5658e-bf6d-4c13-b401-c8b2d365e449",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_OUTLINE_PASS": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "lineWidth": 0.5
+          },
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 236,
+              "g": 236,
+              "b": 236,
+              "a": 255
+            },
+            "roughness": 0.455,
+            "specularIntensity": 1
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

@@ -1,0 +1,1049 @@
+20:48:35 debug: 2025/9/3下午8:48:35
+20:48:35 debug: Project: D:\Cocos\PlayAble\L_DefendTheCup
+20:48:35 debug: Targets: editor,preview
+20:48:35 debug: Incremental file seems great.
+20:48:35 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+20:48:35 debug: Initializing target [Editor]
+20:48:35 debug: Loading cache
+20:48:35 debug: Loading cache costs 24.7146999835968ms.
+20:48:35 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
+20:48:35 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+20:48:35 debug: Initializing target [Preview]
+20:48:35 debug: Loading cache
+20:48:35 debug: Loading cache costs 18.966099977493286ms.
+20:48:35 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+20:48:35 debug: Sync engine features: 2d,3d,animation,audio,base,gfx-webgl,meshopt,physics-cannon,skeletal-animation,tween,ui
+20:48:35 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "D:\\Cocos\\PlayAble\\L_DefendTheCup\\assets"
+  }
+]
+20:48:35 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/"
+  }
+}
+20:48:35 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/"
+  }
+}
+20:48:35 debug: Pulling asset-db.
+20:48:35 debug: Fetch asset-db cost: 8.958100020885468ms.
+20:48:35 debug: Build iteration starts.
+Number of accumulated asset changes: 56
+Feature changed: false
+20:48:35 debug: Target(editor) build started.
+20:48:35 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+20:48:35 debug: Inspect cce:/internal/x/cc
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+20:48:35 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+20:48:35 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+20:48:35 debug: Inspect cce:/internal/x/prerequisite-imports
+20:48:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:48:35 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:48:35 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:48:35 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:48:35 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:35 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@526d52a9-4432-4cff-9afd-17a09de883c0, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@526d52a9-4432-4cff-9afd-17a09de883c0
+20:48:35 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Aug 27 2025 15:51:03 GMT+0800 (中国标准时间), Current mtime: Wed Sep 03 2025 20:48:30 GMT+0800 (中国标准时间)
+20:48:36 debug: Inspect cce:/internal/code-quality/cr.mjs
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ./StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Util/MathUtil from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@a04c9ec7-33de-4575-8377-cd8d1a6c9b60, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@a04c9ec7-33de-4575-8377-cd8d1a6c9b60
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@a69b00e8-259b-4801-91dd-09b5db9f4149, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@a69b00e8-259b-4801-91dd-09b5db9f4149
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Monster/FlowField from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@894f79d1-0617-4af7-a96c-53cc89a6e985, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@894f79d1-0617-4af7-a96c-53cc89a6e985
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:36 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:36 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:36 debug: Resolve ../Area/ItemAreaManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Global/RVOObstacles from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts.
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../RVO/Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ./Agent from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts.
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ./Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:36 debug: Resolve ./Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:36 debug: Resolve ./kdtree from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts.
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ./Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:36 debug: Resolve ./Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:36 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:36 debug: Resolve ./MinionManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@2637de75-a914-48d0-8c26-3093f19af55e, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@2637de75-a914-48d0-8c26-3093f19af55e
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:36 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:36 debug: Resolve ./StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:36 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:36 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Common/Util from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@7e898e6b-442b-41b0-8409-bfc34ad7198b, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@7e898e6b-442b-41b0-8409-bfc34ad7198b
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Monster/MonsterItem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@609619dd-13da-4ed9-be24-cc1652d7e276, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@609619dd-13da-4ed9-be24-cc1652d7e276
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:36 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:36 debug: Resolve ../RVO/Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:36 debug: Resolve ../Actor/StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:36 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:36 debug: Resolve ../../Res/DissolveEffect/scripts/DissolveEffect from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Util/MathUtil from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:36 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@1e255a34-8442-4032-a16c-5f19306fd1a9, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@1e255a34-8442-4032-a16c-5f19306fd1a9
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:36 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@4412d74c-c385-40f2-879b-d1c96bba7480, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@4412d74c-c385-40f2-879b-d1c96bba7480
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:36 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:36 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@e6677c30-f688-40ae-90fa-d42cf891c975, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@e6677c30-f688-40ae-90fa-d42cf891c975
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts.
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:36 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts.
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts.
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:36 debug: Resolve ./Bullet from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts.
+20:48:36 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@c9215277-6c49-41c7-bfec-6dab18265140, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@c9215277-6c49-41c7-bfec-6dab18265140
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts
+20:48:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as cce:/internal/x/cc.
+20:48:36 debug: Resolve ./PlayerManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts.
+20:48:36 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@e9f5aeb5-18c5-4a7a-807c-d9470500e813, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@e9f5aeb5-18c5-4a7a-807c-d9470500e813
+20:48:36 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ./Actor from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:37 debug: Resolve ./StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:37 debug: Resolve ../Input/VirtuallInput from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@8c9d3f27-bdec-46fb-9efa-43e254506bbf, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@8c9d3f27-bdec-46fb-9efa-43e254506bbf
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:37 debug: Resolve ./MinionManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts.
+20:48:37 debug: Resolve ./StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:37 debug: Resolve ./Actor from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@ef19a092-3b4e-45a9-b6fb-c3a616879a1b, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@ef19a092-3b4e-45a9-b6fb-c3a616879a1b
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve ./Bullet from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts.
+20:48:37 debug: Resolve ../Area/ItemAreaManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts.
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts.
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@a4400a37-39b6-400a-af02-461f2f80bf1f, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@a4400a37-39b6-400a-af02-461f2f80bf1f
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts.
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@cb43065a-ec33-4eaa-96b9-da57371c0b59, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@cb43065a-ec33-4eaa-96b9-da57371c0b59
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@3146bfb7-40b2-4ed7-9fe8-dff127377d8e, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@3146bfb7-40b2-4ed7-9fe8-dff127377d8e
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Enum from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/index.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/index.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间), Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/index.ts
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@c79b6cd5-af1a-45c1-bbfc-7e81ffc28974, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@c79b6cd5-af1a-45c1-bbfc-7e81ffc28974
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts.
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts. Last mtime: Tue Aug 26 2025 17:24:18 GMT+0800 (中国标准时间)@5ce687b1-9718-4e5c-9166-892c77f4357c, Current mtime: Wed Sep 03 2025 20:47:32 GMT+0800 (中国标准时间)@5ce687b1-9718-4e5c-9166-892c77f4357c
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@2496f59e-0b60-40dd-ae8f-189899da621c, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@2496f59e-0b60-40dd-ae8f-189899da621c
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@c092c945-66c8-422e-9654-c23e3b5bc044, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@c092c945-66c8-422e-9654-c23e3b5bc044
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Common/ItemPool from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts.
+20:48:37 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:37 debug: Resolve ./MonsterItem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve ../Common/Util from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts.
+20:48:37 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:37 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts.
+20:48:37 debug: Resolve ../RVO/Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@7ec6546b-a449-4b19-8c15-001c044024a2, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@7ec6546b-a449-4b19-8c15-001c044024a2
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:37 debug: Resolve ../Global/ResourceManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve ../Common/Platform from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts.
+20:48:37 debug: Resolve ../Grid/GridSystem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts.
+20:48:37 debug: Resolve ../Monster/FlowField from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts.
+20:48:37 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:37 debug: Resolve ../RVO/Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:37 debug: Resolve ../Global/RVOObstacles from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts.
+20:48:37 debug: Resolve ../Common/super_html_playable from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@b8447e3b-9bc8-49d3-8d99-085d6d340df9, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@b8447e3b-9bc8-49d3-8d99-085d6d340df9
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@d596a071-5d93-41c9-be64-8776dcf2872c, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@d596a071-5d93-41c9-be64-8776dcf2872c
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts. Last mtime: Tue Aug 26 2025 17:37:32 GMT+0800 (中国标准时间)@4cc32448-5a2a-45af-b27d-b57f27adc7bc, Current mtime: Wed Sep 03 2025 20:47:32 GMT+0800 (中国标准时间)@4cc32448-5a2a-45af-b27d-b57f27adc7bc
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:37 debug: Resolve ../Util/MathUtil from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:37 debug: Resolve ../Area/ItemAreaManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:37 debug: Resolve ../Actor/PartnerManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts.
+20:48:37 debug: Resolve ../Actor/Actor from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:37 debug: Resolve ../Actor/StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:37 debug: Resolve ../Language/LanguageManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts. Last mtime: Tue Aug 26 2025 17:37:32 GMT+0800 (中国标准时间)@56ff4dbd-ab2c-46b3-84d4-196f2a7733cc, Current mtime: Wed Sep 03 2025 20:47:32 GMT+0800 (中国标准时间)@56ff4dbd-ab2c-46b3-84d4-196f2a7733cc
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts
+20:48:37 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+20:48:37 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:37 debug: Resolve ../Common/super_html_playable from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts.
+20:48:37 debug: Resolve ../Language/LanguageManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:37 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts.
+20:48:37 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@789f3358-b8fd-4a27-9acd-f4894ec8c573, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@789f3358-b8fd-4a27-9acd-f4894ec8c573
+20:48:37 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Input/VirtuallInput from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts.
+20:48:38 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@1435b943-d352-4796-b6c4-40a05fdc95bf, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@1435b943-d352-4796-b6c4-40a05fdc95bf
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Actor/PartnerManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts. Last mtime: Tue Aug 26 2025 17:37:32 GMT+0800 (中国标准时间)@b624604d-99c1-406d-af76-928421e3079a, Current mtime: Wed Sep 03 2025 20:47:32 GMT+0800 (中国标准时间)@b624604d-99c1-406d-af76-928421e3079a
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:38 debug: Resolve ../Language/LanguageManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts.
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts.
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ./DeliverItem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts.
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ./PillarItem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts.
+20:48:38 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+20:48:38 debug: Target(editor) ends with cost 2303.547900021076ms.
+20:48:38 debug: Target(preview) build started.
+20:48:38 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+20:48:38 debug: Inspect cce:/internal/x/cc
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+20:48:38 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+20:48:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+20:48:38 debug: Inspect cce:/internal/x/prerequisite-imports
+20:48:38 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:48:38 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@526d52a9-4432-4cff-9afd-17a09de883c0, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@526d52a9-4432-4cff-9afd-17a09de883c0
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Aug 27 2025 15:51:03 GMT+0800 (中国标准时间), Current mtime: Wed Sep 03 2025 20:48:30 GMT+0800 (中国标准时间)
+20:48:38 debug: Inspect cce:/internal/code-quality/cr.mjs
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ./StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Util/MathUtil from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@a04c9ec7-33de-4575-8377-cd8d1a6c9b60, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@a04c9ec7-33de-4575-8377-cd8d1a6c9b60
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@a69b00e8-259b-4801-91dd-09b5db9f4149, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@a69b00e8-259b-4801-91dd-09b5db9f4149
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Monster/FlowField from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@894f79d1-0617-4af7-a96c-53cc89a6e985, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@894f79d1-0617-4af7-a96c-53cc89a6e985
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:38 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:38 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:38 debug: Resolve ../Area/ItemAreaManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Global/RVOObstacles from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts.
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../RVO/Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ./Agent from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts.
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ./Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:38 debug: Resolve ./Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:38 debug: Resolve ./kdtree from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts.
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ./Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:38 debug: Resolve ./Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:38 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:38 debug: Resolve ./MinionManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@2637de75-a914-48d0-8c26-3093f19af55e, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@2637de75-a914-48d0-8c26-3093f19af55e
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts
+20:48:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:38 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:38 debug: Resolve ./StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:38 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:38 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Common/Util from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@7e898e6b-442b-41b0-8409-bfc34ad7198b, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@7e898e6b-442b-41b0-8409-bfc34ad7198b
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts as cce:/internal/x/cc.
+20:48:38 debug: Resolve ../Monster/MonsterItem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts.
+20:48:38 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@609619dd-13da-4ed9-be24-cc1652d7e276, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@609619dd-13da-4ed9-be24-cc1652d7e276
+20:48:38 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:39 debug: Resolve ../RVO/Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:39 debug: Resolve ../Actor/StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:39 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:39 debug: Resolve ../../Res/DissolveEffect/scripts/DissolveEffect from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Util/MathUtil from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@1e255a34-8442-4032-a16c-5f19306fd1a9, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@1e255a34-8442-4032-a16c-5f19306fd1a9
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@4412d74c-c385-40f2-879b-d1c96bba7480, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@4412d74c-c385-40f2-879b-d1c96bba7480
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@e6677c30-f688-40ae-90fa-d42cf891c975, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@e6677c30-f688-40ae-90fa-d42cf891c975
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts.
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts.
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts.
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ./Bullet from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@c9215277-6c49-41c7-bfec-6dab18265140, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@c9215277-6c49-41c7-bfec-6dab18265140
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ./PlayerManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@e9f5aeb5-18c5-4a7a-807c-d9470500e813, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@e9f5aeb5-18c5-4a7a-807c-d9470500e813
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ./Actor from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:39 debug: Resolve ./StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:39 debug: Resolve ../Input/VirtuallInput from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@8c9d3f27-bdec-46fb-9efa-43e254506bbf, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@8c9d3f27-bdec-46fb-9efa-43e254506bbf
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:39 debug: Resolve ./MinionManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts.
+20:48:39 debug: Resolve ./StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:39 debug: Resolve ./Actor from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@ef19a092-3b4e-45a9-b6fb-c3a616879a1b, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@ef19a092-3b4e-45a9-b6fb-c3a616879a1b
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ./Bullet from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts.
+20:48:39 debug: Resolve ../Area/ItemAreaManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts.
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts.
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@a4400a37-39b6-400a-af02-461f2f80bf1f, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@a4400a37-39b6-400a-af02-461f2f80bf1f
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts.
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@cb43065a-ec33-4eaa-96b9-da57371c0b59, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@cb43065a-ec33-4eaa-96b9-da57371c0b59
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@3146bfb7-40b2-4ed7-9fe8-dff127377d8e, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@3146bfb7-40b2-4ed7-9fe8-dff127377d8e
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Enum from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/index.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/index.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间), Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/index.ts
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@c79b6cd5-af1a-45c1-bbfc-7e81ffc28974, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@c79b6cd5-af1a-45c1-bbfc-7e81ffc28974
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts.
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts. Last mtime: Tue Aug 26 2025 17:24:18 GMT+0800 (中国标准时间)@5ce687b1-9718-4e5c-9166-892c77f4357c, Current mtime: Wed Sep 03 2025 20:47:32 GMT+0800 (中国标准时间)@5ce687b1-9718-4e5c-9166-892c77f4357c
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@2496f59e-0b60-40dd-ae8f-189899da621c, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@2496f59e-0b60-40dd-ae8f-189899da621c
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@c092c945-66c8-422e-9654-c23e3b5bc044, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@c092c945-66c8-422e-9654-c23e3b5bc044
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Common/ItemPool from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts.
+20:48:39 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:39 debug: Resolve ./MonsterItem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ../Common/Util from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts.
+20:48:39 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:39 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts.
+20:48:39 debug: Resolve ../RVO/Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@7ec6546b-a449-4b19-8c15-001c044024a2, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@7ec6546b-a449-4b19-8c15-001c044024a2
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:39 debug: Resolve ../Global/ResourceManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ../Common/Platform from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts.
+20:48:39 debug: Resolve ../Grid/GridSystem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts.
+20:48:39 debug: Resolve ../Monster/FlowField from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts.
+20:48:39 debug: Resolve ../RVO/Simulator from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:39 debug: Resolve ../RVO/Common from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:39 debug: Resolve ../Global/RVOObstacles from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts.
+20:48:39 debug: Resolve ../Common/super_html_playable from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@b8447e3b-9bc8-49d3-8d99-085d6d340df9, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@b8447e3b-9bc8-49d3-8d99-085d6d340df9
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@d596a071-5d93-41c9-be64-8776dcf2872c, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@d596a071-5d93-41c9-be64-8776dcf2872c
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts
+20:48:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as cce:/internal/code-quality/cr.mjs.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as cce:/internal/x/cc.
+20:48:39 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:39 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:39 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts.
+20:48:39 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts. Last mtime: Tue Aug 26 2025 17:37:32 GMT+0800 (中国标准时间)@4cc32448-5a2a-45af-b27d-b57f27adc7bc, Current mtime: Wed Sep 03 2025 20:47:32 GMT+0800 (中国标准时间)@4cc32448-5a2a-45af-b27d-b57f27adc7bc
+20:48:39 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts
+20:48:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:40 debug: Resolve ../Enum/Index from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:40 debug: Resolve ../Util/MathUtil from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:40 debug: Resolve ../Area/ItemAreaManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:40 debug: Resolve ../Actor/PartnerManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts.
+20:48:40 debug: Resolve ../Actor/Actor from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:40 debug: Resolve ../Actor/StateDefine from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:40 debug: Resolve ../Language/LanguageManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts.
+20:48:40 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts. Last mtime: Tue Aug 26 2025 17:37:32 GMT+0800 (中国标准时间)@56ff4dbd-ab2c-46b3-84d4-196f2a7733cc, Current mtime: Wed Sep 03 2025 20:47:32 GMT+0800 (中国标准时间)@56ff4dbd-ab2c-46b3-84d4-196f2a7733cc
+20:48:40 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts
+20:48:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:40 debug: Resolve ../Common/super_html_playable from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts.
+20:48:40 debug: Resolve ../Language/LanguageManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts.
+20:48:40 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@789f3358-b8fd-4a27-9acd-f4894ec8c573, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@789f3358-b8fd-4a27-9acd-f4894ec8c573
+20:48:40 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts
+20:48:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as cce:/internal/code-quality/cr.mjs.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve ../Input/VirtuallInput from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts.
+20:48:40 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts.
+20:48:40 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts. Last mtime: Thu Aug 07 2025 16:56:35 GMT+0800 (中国标准时间)@1435b943-d352-4796-b6c4-40a05fdc95bf, Current mtime: Thu Aug 28 2025 21:15:10 GMT+0800 (中国标准时间)@1435b943-d352-4796-b6c4-40a05fdc95bf
+20:48:40 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts
+20:48:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve ../Actor/PartnerManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts.
+20:48:40 debug: Detected change: file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts. Last mtime: Tue Aug 26 2025 17:37:32 GMT+0800 (中国标准时间)@b624604d-99c1-406d-af76-928421e3079a, Current mtime: Wed Sep 03 2025 20:47:32 GMT+0800 (中国标准时间)@b624604d-99c1-406d-af76-928421e3079a
+20:48:40 debug: Inspect file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts
+20:48:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:40 debug: Resolve ../Language/LanguageManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts.
+20:48:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts.
+20:48:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as cce:/internal/code-quality/cr.mjs.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve ./DeliverItem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts.
+20:48:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as cce:/internal/code-quality/cr.mjs.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve cc from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as cce:/internal/x/cc.
+20:48:40 debug: Resolve ./PillarItem from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts.
+20:48:40 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:40 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+20:48:40 debug: Target(preview) ends with cost 2042.1797000169754ms.
+20:48:48 debug: Pulling asset-db.
+20:48:48 debug: Fetch asset-db cost: 397.8555999994278ms.
+20:48:48 debug: Build iteration starts.
+Number of accumulated asset changes: 56
+Feature changed: false
+20:48:48 debug: Target(editor) build started.
+20:48:48 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
+20:48:48 debug: Inspect cce:/internal/x/prerequisite-imports
+20:48:48 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+20:48:48 debug: Target(editor) ends with cost 130.89039999246597ms.
+20:48:48 debug: Target(preview) build started.
+20:48:48 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
+20:48:48 debug: Inspect cce:/internal/x/prerequisite-imports
+20:48:48 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Actor.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Arrow3DManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ArrowManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/Bullet.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/ConveyerBeltManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/EachPartnerManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/GunTurretManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/JackManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionConManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/MinionManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PartnerManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/PlayerManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/SearchMonsters.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/StateDefine.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Actor/WeaponManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/ItemAreaManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Area/TweenMaterial.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Base/Singleton.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/CameraMain.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Camera/FenceBloodBarManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/BatchComponent.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/ItemPool.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Platform.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/Util.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Common/super_html_playable.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Enum/Index.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/DataManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/EventManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/RVOObstacles.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Global/ResourceManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Grid/GridSystem.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Input/VirtuallInput.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Language/LanguageManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/FlowField.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterBorn.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterItem.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Monster/MonsterManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Agent.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Common.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/Simulator.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/RVO/kdtree.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Scene/SceneManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Sounds/SoundManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Tip/BossTipConMananger.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/CardConManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/GameEndManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIJoyStick.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPartnerEnergyBarManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIPropertyManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/UI/UIWarnManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/Util/MathUtil.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/DeliverItem.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarItem.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/JavaScript/pillars/PillarManager.ts.
+20:48:48 debug: Resolve file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/L_DefendTheCup/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+20:48:48 debug: Target(preview) ends with cost 206.24919998645782ms.

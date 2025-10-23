@@ -1,0 +1,105 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d74a8736-c426-4dce-867e-d316681aaeda",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "58738": {
+      "importer": "gltf-scene",
+      "uuid": "d74a8736-c426-4dce-867e-d316681aaeda@58738",
+      "displayName": "",
+      "id": "58738",
+      "name": "L@Idel_MeiGuiHua.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6c38d": {
+      "importer": "gltf-animation",
+      "uuid": "d74a8736-c426-4dce-867e-d316681aaeda@6c38d",
+      "displayName": "",
+      "id": "6c38d",
+      "name": "Idel_MeiGuiHua.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idel_MeiGuiHua",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "6c38d"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d74a8736-c426-4dce-867e-d316681aaeda@58738"
+      ]
+    }
+  }
+}

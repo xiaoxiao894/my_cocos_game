@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b6384ea3-dfee-418a-a25d-98084b6b01cc",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "bda48": {
+      "importer": "gltf-animation",
+      "uuid": "b6384ea3-dfee-418a-a25d-98084b6b01cc@bda48",
+      "displayName": "",
+      "id": "bda48",
+      "name": "walk_f.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "52e1a": {
+      "importer": "gltf-scene",
+      "uuid": "b6384ea3-dfee-418a-a25d-98084b6b01cc@52e1a",
+      "displayName": "",
+      "id": "52e1a",
+      "name": "metalwasp@walk_f.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "metalwasp@walk_f",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk_f",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "bda48"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "b6384ea3-dfee-418a-a25d-98084b6b01cc@52e1a"
+      ]
+    },
+    "redirect": "b6384ea3-dfee-418a-a25d-98084b6b01cc@52e1a"
+  }
+}

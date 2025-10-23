@@ -1,0 +1,109 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ced09807-7281-4fa1-a3b3-a2d9a702d9b2",
+  "files": [],
+  "subMetas": {
+    "68d0e": {
+      "importer": "gltf-mesh",
+      "uuid": "ced09807-7281-4fa1-a3b3-a2d9a702d9b2@68d0e",
+      "displayName": "",
+      "id": "68d0e",
+      "name": "He_c.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 26
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d883": {
+      "importer": "gltf-material",
+      "uuid": "ced09807-7281-4fa1-a3b3-a2d9a702d9b2@8d883",
+      "displayName": "",
+      "id": "8d883",
+      "name": "lambert1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "390c3": {
+      "importer": "gltf-scene",
+      "uuid": "ced09807-7281-4fa1-a3b3-a2d9a702d9b2@390c3",
+      "displayName": "",
+      "id": "390c3",
+      "name": "HD_by01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ced09807-7281-4fa1-a3b3-a2d9a702d9b2@68d0e"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ced09807-7281-4fa1-a3b3-a2d9a702d9b2@8d883"
+      ],
+      "scenes": [
+        "ced09807-7281-4fa1-a3b3-a2d9a702d9b2@390c3"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "errorRate": 0,
+      "targetRatio": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

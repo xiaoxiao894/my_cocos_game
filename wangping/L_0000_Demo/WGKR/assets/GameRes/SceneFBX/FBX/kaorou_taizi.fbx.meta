@@ -1,0 +1,146 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e5967991-cc4a-4058-8136-bd53ad2c8659",
+  "files": [],
+  "subMetas": {
+    "b64ac": {
+      "importer": "gltf-mesh",
+      "uuid": "e5967991-cc4a-4058-8136-bd53ad2c8659@b64ac",
+      "displayName": "",
+      "id": "b64ac",
+      "name": "kaorou_taizi.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 312
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0f924": {
+      "importer": "gltf-embeded-image",
+      "uuid": "e5967991-cc4a-4058-8136-bd53ad2c8659@0f924",
+      "displayName": "",
+      "id": "0f924",
+      "name": "贴图 #32.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "b41ab": {
+      "importer": "texture",
+      "uuid": "e5967991-cc4a-4058-8136-bd53ad2c8659@b41ab",
+      "displayName": "",
+      "id": "b41ab",
+      "name": "贴图 #32.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e5967991-cc4a-4058-8136-bd53ad2c8659@0f924"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84e8a": {
+      "importer": "gltf-material",
+      "uuid": "e5967991-cc4a-4058-8136-bd53ad2c8659@84e8a",
+      "displayName": "",
+      "id": "84e8a",
+      "name": "Material #91.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0a7d": {
+      "importer": "gltf-scene",
+      "uuid": "e5967991-cc4a-4058-8136-bd53ad2c8659@a0a7d",
+      "displayName": "",
+      "id": "a0a7d",
+      "name": "kaorou_taizi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #32",
+        "uri": "e5967991-cc4a-4058-8136-bd53ad2c8659@0f924"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e5967991-cc4a-4058-8136-bd53ad2c8659@b64ac"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e5967991-cc4a-4058-8136-bd53ad2c8659@b41ab"
+      ],
+      "materials": [
+        "e5967991-cc4a-4058-8136-bd53ad2c8659@84e8a"
+      ],
+      "scenes": [
+        "e5967991-cc4a-4058-8136-bd53ad2c8659@a0a7d"
+      ]
+    }
+  }
+}

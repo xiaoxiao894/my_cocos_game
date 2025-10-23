@@ -1,0 +1,116 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "27525b53-2d63-492d-980f-4b022762deba",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "79e35": {
+      "importer": "gltf-animation",
+      "uuid": "27525b53-2d63-492d-980f-4b022762deba@79e35",
+      "displayName": "",
+      "id": "79e35",
+      "name": "hit.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": [
+          {
+            "frame": 0.8666666666666667,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.8666666666666667,
+            "func": "YeziIdle",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 0.95,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "95cde": {
+      "importer": "gltf-scene",
+      "uuid": "27525b53-2d63-492d-980f-4b022762deba@95cde",
+      "displayName": "",
+      "id": "95cde",
+      "name": "YeZi@hit.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "叶子",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "hit",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 1,
+            "previousId": "79e35"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "27525b53-2d63-492d-980f-4b022762deba@95cde"
+      ]
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2fd77861-c89c-4c23-87bc-94c4242b8056",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "88591": {
+      "importer": "gltf-mesh",
+      "uuid": "2fd77861-c89c-4c23-87bc-94c4242b8056@88591",
+      "displayName": "",
+      "id": "88591",
+      "name": "piranha_01_a.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 6198
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db914": {
+      "importer": "gltf-animation",
+      "uuid": "2fd77861-c89c-4c23-87bc-94c4242b8056@db914",
+      "displayName": "",
+      "id": "db914",
+      "name": "Attack-end.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.1666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "2fd77861-c89c-4c23-87bc-94c4242b8056@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 39
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b2e9": {
+      "importer": "texture",
+      "uuid": "2fd77861-c89c-4c23-87bc-94c4242b8056@5b2e9",
+      "displayName": "",
+      "id": "5b2e9",
+      "name": "pasted__file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/Fbx/Map/Biuld/shirenhua/t_piranha_01_a_d.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3a51d": {
+      "importer": "gltf-material",
+      "uuid": "2fd77861-c89c-4c23-87bc-94c4242b8056@3a51d",
+      "displayName": "",
+      "id": "3a51d",
+      "name": "a.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "65ae0": {
+      "importer": "gltf-scene",
+      "uuid": "2fd77861-c89c-4c23-87bc-94c4242b8056@65ae0",
+      "displayName": "",
+      "id": "65ae0",
+      "name": "Piranha@Attack-end.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "pasted__file1",
+        "uri": "db://assets/Res/Fbx/Map/Biuld/shirenhua/t_piranha_01_a_d.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2.1666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Attack-end",
+            "from": 0,
+            "to": 2.1666667461395264,
+            "wrapMode": 1,
+            "previousId": "db914"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2fd77861-c89c-4c23-87bc-94c4242b8056@88591"
+      ],
+      "skeletons": [
+        "2fd77861-c89c-4c23-87bc-94c4242b8056@438fe"
+      ],
+      "textures": [
+        "2fd77861-c89c-4c23-87bc-94c4242b8056@5b2e9"
+      ],
+      "materials": [
+        "2fd77861-c89c-4c23-87bc-94c4242b8056@3a51d"
+      ],
+      "scenes": [
+        "2fd77861-c89c-4c23-87bc-94c4242b8056@65ae0"
+      ]
+    }
+  }
+}

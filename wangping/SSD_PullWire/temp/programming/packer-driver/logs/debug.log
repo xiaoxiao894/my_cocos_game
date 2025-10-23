@@ -1,0 +1,939 @@
+17:24:01 debug: 2025/8/4下午5:24:01
+17:24:01 debug: Project: D:\Cocos\PlayAble\SSD_PullWire
+17:24:01 debug: Targets: editor,preview
+17:24:01 debug: Incremental file seems great.
+17:24:01 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+17:24:01 debug: Initializing target [Editor]
+17:24:01 debug: Loading cache
+17:24:01 debug: Loading cache costs 2.5852999687194824ms.
+17:24:01 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
+17:24:01 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+17:24:01 debug: Initializing target [Preview]
+17:24:01 debug: Loading cache
+17:24:01 debug: Loading cache costs 2.232800006866455ms.
+17:24:01 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+17:24:01 debug: Sync engine features: 2d,3d,animation,audio,base,gfx-webgl,light-probe,meshopt,particle,physics-cannon,primitive,profiler,skeletal-animation,tween,ui
+17:24:01 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "D:\\Cocos\\PlayAble\\SSD_PullWire\\assets"
+  }
+]
+17:24:01 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/Cocos/PlayAble/SSD_PullWire/assets/"
+  }
+}
+17:24:01 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/Cocos/PlayAble/SSD_PullWire/assets/"
+  }
+}
+17:24:01 debug: Pulling asset-db.
+17:24:01 debug: Fetch asset-db cost: 7.133400201797485ms.
+17:24:01 debug: Build iteration starts.
+Number of accumulated asset changes: 49
+Feature changed: false
+17:24:01 debug: Target(editor) build started.
+17:24:01 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+17:24:01 debug: Inspect cce:/internal/x/cc
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+17:24:01 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+17:24:01 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+17:24:01 debug: Inspect cce:/internal/x/prerequisite-imports
+17:24:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:24:01 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@572c34c1-3c8f-408e-948b-6e2823890cfe, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@572c34c1-3c8f-408e-948b-6e2823890cfe
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Jul 23 2025 17:16:15 GMT+0800 (中国标准时间), Current mtime: Mon Aug 04 2025 17:23:55 GMT+0800 (中国标准时间)
+17:24:01 debug: Inspect cce:/internal/code-quality/cr.mjs
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@a04c9ec7-33de-4575-8377-cd8d1a6c9b60, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@a04c9ec7-33de-4575-8377-cd8d1a6c9b60
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts.
+17:24:01 debug: Resolve ./EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@48eca146-3a40-4f6b-86e0-dcf4ef79f045, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@48eca146-3a40-4f6b-86e0-dcf4ef79f045
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:01 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@2907ef38-c3af-4d39-8603-3dce194640e3, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@2907ef38-c3af-4d39-8603-3dce194640e3
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ./Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts.
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts.
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:01 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@fb7e919f-21e3-4ca3-8cce-d920045da281, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@fb7e919f-21e3-4ca3-8cce-d920045da281
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:01 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@62006448-8b8c-4a13-9445-9ea6d5fd4177, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@62006448-8b8c-4a13-9445-9ea6d5fd4177
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../core/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../core/EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@5b099ea1-cec0-463f-8fad-d176cead23ea, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@5b099ea1-cec0-463f-8fad-d176cead23ea
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:01 debug: Resolve ../core/coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@629b59ea-238e-4cf9-8185-61d11fbd60a2, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@629b59ea-238e-4cf9-8185-61d11fbd60a2
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:01 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:01 debug: Resolve ../core/CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@5a48d78e-4b85-4bcf-94c8-2dfb385ab394, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@5a48d78e-4b85-4bcf-94c8-2dfb385ab394
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../core/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:01 debug: Resolve ../core/EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:01 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:01 debug: Resolve ../core/PalingAnimation from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../core/coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:01 debug: Resolve ../core/CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@bc4fc940-87d4-4500-8b1e-e665daeeee72, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@bc4fc940-87d4-4500-8b1e-e665daeeee72
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts
+17:24:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as cce:/internal/code-quality/cr.mjs.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as cce:/internal/x/cc.
+17:24:01 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:01 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts.
+17:24:01 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@8f87d151-388d-432d-a4c3-1e4b24be36d3, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@8f87d151-388d-432d-a4c3-1e4b24be36d3
+17:24:01 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ./RopeGeneratorNew from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@b5c5717f-05db-406b-9324-6967a6e21b22, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@b5c5717f-05db-406b-9324-6967a6e21b22
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../Utils/MathUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@7c0b5f82-f46b-4f06-91b9-3c7be1f9c2e1, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@7c0b5f82-f46b-4f06-91b9-3c7be1f9c2e1
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ./RopeBatch from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@50468f49-44a1-468b-8329-7521f1e47978, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@50468f49-44a1-468b-8329-7521f1e47978
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts.
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:02 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@0662692e-73bb-46e4-8c91-7e97d264536e, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@0662692e-73bb-46e4-8c91-7e97d264536e
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ../Utils/MathUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:02 debug: Resolve ./CompleteRopeItem from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts.
+17:24:02 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:02 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:02 debug: Resolve ./PlugItem from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts.
+17:24:02 debug: Resolve ../core/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:02 debug: Resolve ../core/EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@cab1f38f-4edd-455d-a355-f8a14122bf3f, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@cab1f38f-4edd-455d-a355-f8a14122bf3f
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ../Utils/MathUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@caae2ae4-6764-4437-9398-c2fb7bbb9bd6, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@caae2ae4-6764-4437-9398-c2fb7bbb9bd6
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:02 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:02 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@e455be9a-ec75-445e-a748-a58fb701a3f5, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@e455be9a-ec75-445e-a748-a58fb701a3f5
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ./Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:02 debug: Resolve ./Global/ResourceManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts.
+17:24:02 debug: Resolve ./Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ./Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:02 debug: Resolve ../super_html_playable from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@5cbc18a7-e3d2-4df7-b596-389a9faaf216, Current mtime: Mon Aug 04 2025 14:09:38 GMT+0800 (中国标准时间)@5cbc18a7-e3d2-4df7-b596-389a9faaf216
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@7f6062dc-29ae-4412-af7e-43771576bccf, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@7f6062dc-29ae-4412-af7e-43771576bccf
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:02 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@75121e93-8e56-4b17-b843-47c3a2332d49, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@75121e93-8e56-4b17-b843-47c3a2332d49
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../../super_html_playable from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@c8e56daa-9779-4c20-84bd-c8ae23e3e603, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@c8e56daa-9779-4c20-84bd-c8ae23e3e603
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ../Utils/TransformPositionUtil from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts.
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ../Repo/PlugItem from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts.
+17:24:02 debug: Resolve ../Utils/MathUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:02 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:02 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:02 debug: Resolve ../core/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:02 debug: Resolve ../core/EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:02 debug: Resolve ../Repo/RopeUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts.
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ./CloudEffct from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@c22b3365-e53b-46d2-a70b-ce1b44ce7b5f, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@c22b3365-e53b-46d2-a70b-ce1b44ce7b5f
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ./CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:02 debug: Resolve ./EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:02 debug: Resolve ./EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@87e6dc1c-c6c8-43b4-9fe3-d540e989e139, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@87e6dc1c-c6c8-43b4-9fe3-d540e989e139
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:02 debug: Resolve ../EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:02 debug: Resolve ./TopShakeEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve db://assets/Res/DissolveEffect/scripts/DissolveEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@ba9066d8-9e39-42c0-8c8c-81f91da93f51, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@ba9066d8-9e39-42c0-8c8c-81f91da93f51
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ./PoolManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:02 debug: Resolve ../EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:02 debug: Resolve ./EnemyBase from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts.
+17:24:02 debug: Resolve ../coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:02 debug: Resolve ../../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ../CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@42540680-6bae-4877-9a4e-cc82628222d0, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@42540680-6bae-4877-9a4e-cc82628222d0
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts
+17:24:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as cce:/internal/code-quality/cr.mjs.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as cce:/internal/x/cc.
+17:24:02 debug: Resolve ../EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:02 debug: Resolve ../EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:02 debug: Resolve ../CloudEffct from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts.
+17:24:02 debug: Resolve ../coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:02 debug: Resolve ../../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:02 debug: Resolve ../CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:02 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts.
+17:24:02 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@cbd82b11-e31a-41b8-99ec-6e6d6554cb0f, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@cbd82b11-e31a-41b8-99ec-6e6d6554cb0f
+17:24:02 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ./EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:03 debug: Resolve ./EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:03 debug: Resolve ./PalingAnimation from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts.
+17:24:03 debug: Resolve ./FruitScript from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve ./coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:03 debug: Resolve ./CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@e65d4b54-5809-46b7-83fb-ac9b6e22b6d1, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@e65d4b54-5809-46b7-83fb-ac9b6e22b6d1
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts.
+17:24:03 debug: Target(editor) ends with cost 1776.5043001174927ms.
+17:24:03 debug: Target(preview) build started.
+17:24:03 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+17:24:03 debug: Inspect cce:/internal/x/cc
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/physics-cannon from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-cannon.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:24:03 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:24:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+17:24:03 debug: Inspect cce:/internal/x/prerequisite-imports
+17:24:03 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:24:03 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@572c34c1-3c8f-408e-948b-6e2823890cfe, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@572c34c1-3c8f-408e-948b-6e2823890cfe
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Jul 23 2025 17:16:15 GMT+0800 (中国标准时间), Current mtime: Mon Aug 04 2025 17:23:55 GMT+0800 (中国标准时间)
+17:24:03 debug: Inspect cce:/internal/code-quality/cr.mjs
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@a04c9ec7-33de-4575-8377-cd8d1a6c9b60, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@a04c9ec7-33de-4575-8377-cd8d1a6c9b60
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts.
+17:24:03 debug: Resolve ./EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@48eca146-3a40-4f6b-86e0-dcf4ef79f045, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@48eca146-3a40-4f6b-86e0-dcf4ef79f045
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:03 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@2907ef38-c3af-4d39-8603-3dce194640e3, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@2907ef38-c3af-4d39-8603-3dce194640e3
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ./Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts.
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Base/Singleton from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts.
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:03 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@fb7e919f-21e3-4ca3-8cce-d920045da281, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@fb7e919f-21e3-4ca3-8cce-d920045da281
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:03 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@62006448-8b8c-4a13-9445-9ea6d5fd4177, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@62006448-8b8c-4a13-9445-9ea6d5fd4177
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../core/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../core/EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@5b099ea1-cec0-463f-8fad-d176cead23ea, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@5b099ea1-cec0-463f-8fad-d176cead23ea
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve ../core/coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@629b59ea-238e-4cf9-8185-61d11fbd60a2, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@629b59ea-238e-4cf9-8185-61d11fbd60a2
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:03 debug: Resolve ../core/CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@5a48d78e-4b85-4bcf-94c8-2dfb385ab394, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@5a48d78e-4b85-4bcf-94c8-2dfb385ab394
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../core/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:03 debug: Resolve ../core/EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve ../core/PalingAnimation from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../core/coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:03 debug: Resolve ../core/CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@bc4fc940-87d4-4500-8b1e-e665daeeee72, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@bc4fc940-87d4-4500-8b1e-e665daeeee72
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@8f87d151-388d-432d-a4c3-1e4b24be36d3, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@8f87d151-388d-432d-a4c3-1e4b24be36d3
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ./RopeGeneratorNew from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@b5c5717f-05db-406b-9324-6967a6e21b22, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@b5c5717f-05db-406b-9324-6967a6e21b22
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Utils/MathUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@7c0b5f82-f46b-4f06-91b9-3c7be1f9c2e1, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@7c0b5f82-f46b-4f06-91b9-3c7be1f9c2e1
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ./RopeBatch from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@50468f49-44a1-468b-8329-7521f1e47978, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@50468f49-44a1-468b-8329-7521f1e47978
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts.
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:03 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@0662692e-73bb-46e4-8c91-7e97d264536e, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@0662692e-73bb-46e4-8c91-7e97d264536e
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve ../Utils/MathUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:03 debug: Resolve ./CompleteRopeItem from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts.
+17:24:03 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:03 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:03 debug: Resolve ./PlugItem from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts.
+17:24:03 debug: Resolve ../core/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:03 debug: Resolve ../core/EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@cab1f38f-4edd-455d-a355-f8a14122bf3f, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@cab1f38f-4edd-455d-a355-f8a14122bf3f
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts
+17:24:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as cce:/internal/code-quality/cr.mjs.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as cce:/internal/x/cc.
+17:24:03 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:03 debug: Resolve ../Utils/MathUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:03 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts.
+17:24:03 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@caae2ae4-6764-4437-9398-c2fb7bbb9bd6, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@caae2ae4-6764-4437-9398-c2fb7bbb9bd6
+17:24:03 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:04 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:04 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@e455be9a-ec75-445e-a748-a58fb701a3f5, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@e455be9a-ec75-445e-a748-a58fb701a3f5
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ./Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:04 debug: Resolve ./Global/ResourceManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts.
+17:24:04 debug: Resolve ./Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve ./Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:04 debug: Resolve ../super_html_playable from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@5cbc18a7-e3d2-4df7-b596-389a9faaf216, Current mtime: Mon Aug 04 2025 14:09:38 GMT+0800 (中国标准时间)@5cbc18a7-e3d2-4df7-b596-389a9faaf216
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@7f6062dc-29ae-4412-af7e-43771576bccf, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@7f6062dc-29ae-4412-af7e-43771576bccf
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:04 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@75121e93-8e56-4b17-b843-47c3a2332d49, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@75121e93-8e56-4b17-b843-47c3a2332d49
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../../super_html_playable from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@c8e56daa-9779-4c20-84bd-c8ae23e3e603, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@c8e56daa-9779-4c20-84bd-c8ae23e3e603
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve ../Utils/TransformPositionUtil from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts.
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve ../Repo/PlugItem from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts.
+17:24:04 debug: Resolve ../Utils/MathUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:04 debug: Resolve ../Global/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:04 debug: Resolve ../Common/Enum from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:04 debug: Resolve ../core/EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:04 debug: Resolve ../core/EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:04 debug: Resolve ../Repo/RopeUtils from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts.
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ./CloudEffct from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@c22b3365-e53b-46d2-a70b-ce1b44ce7b5f, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@c22b3365-e53b-46d2-a70b-ce1b44ce7b5f
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ./CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:04 debug: Resolve ./EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:04 debug: Resolve ./EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@87e6dc1c-c6c8-43b4-9fe3-d540e989e139, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@87e6dc1c-c6c8-43b4-9fe3-d540e989e139
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:04 debug: Resolve ../EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:04 debug: Resolve ./TopShakeEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve db://assets/Res/DissolveEffect/scripts/DissolveEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@ba9066d8-9e39-42c0-8c8c-81f91da93f51, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@ba9066d8-9e39-42c0-8c8c-81f91da93f51
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ./PoolManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:04 debug: Resolve ../EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:04 debug: Resolve ./EnemyBase from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts.
+17:24:04 debug: Resolve ../coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:04 debug: Resolve ../../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve ../CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@42540680-6bae-4877-9a4e-cc82628222d0, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@42540680-6bae-4877-9a4e-cc82628222d0
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:04 debug: Resolve ../EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:04 debug: Resolve ../CloudEffct from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts.
+17:24:04 debug: Resolve ../coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:04 debug: Resolve ../../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve ../CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@cbd82b11-e31a-41b8-99ec-6e6d6554cb0f, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@cbd82b11-e31a-41b8-99ec-6e6d6554cb0f
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ./EventManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:04 debug: Resolve ./EventType from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:04 debug: Resolve ./PalingAnimation from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts.
+17:24:04 debug: Resolve ./FruitScript from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts.
+17:24:04 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve ./coinEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:04 debug: Resolve ./CloudParticleEffect from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts.
+17:24:04 debug: Detected change: file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts. Last mtime: Wed Jul 23 2025 17:15:55 GMT+0800 (中国标准时间)@e65d4b54-5809-46b7-83fb-ac9b6e22b6d1, Current mtime: Mon Aug 04 2025 14:09:37 GMT+0800 (中国标准时间)@e65d4b54-5809-46b7-83fb-ac9b6e22b6d1
+17:24:04 debug: Inspect file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts
+17:24:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as cce:/internal/code-quality/cr.mjs.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve cc from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as cce:/internal/x/cc.
+17:24:04 debug: Resolve ../Global/DataManager from file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+17:24:04 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts.
+17:24:04 debug: Target(preview) ends with cost 1656.3292000293732ms.
+17:24:10 debug: Pulling asset-db.
+17:24:11 debug: Fetch asset-db cost: 358.62580013275146ms.
+17:24:11 debug: Build iteration starts.
+Number of accumulated asset changes: 49
+Feature changed: false
+17:24:11 debug: Target(editor) build started.
+17:24:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+17:24:11 debug: Inspect cce:/internal/x/prerequisite-imports
+17:24:11 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts.
+17:24:11 debug: Target(editor) ends with cost 69.27760004997253ms.
+17:24:11 debug: Target(preview) build started.
+17:24:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+17:24:11 debug: Inspect cce:/internal/x/prerequisite-imports
+17:24:11 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Base/Singleton.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Camera/CameraMain.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/BatchComponent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Enum.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Platform.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Common/Type.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/DataManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/EventManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Global/ResourceManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/ArrowItem.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Guide/HandComonent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/Lumberyard.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Plot/MiningSite.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/AnimationEvenet.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/CompleteRopeItem.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/PlugItem.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeBatch.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeGeneratorNew.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/RopeUtils.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Repo/TowerComponent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/SceneManger.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/CoinComponent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/GameEndManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/UI/RepoTouchComponent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/MathUtils.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/Utils/TransformPositionUtil.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffct.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudEffctFade.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/CloudParticleEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/EventType.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/FruitScript.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/GroundParent.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/LandCloudFade.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/EnemyBase.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/MapBeast.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/OilDrumEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/PoolManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeast/TopShakeEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapBeastB/MapBeastB.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/MapFarmland.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/NodeRotator.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/PalingAnimation.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/SoundManager.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/JavaScript/core/coinEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/Res/DissolveEffect/scripts/DissolveEffect.ts.
+17:24:11 debug: Resolve file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/PlayAble/SSD_PullWire/assets/super_html_playable.ts.
+17:24:11 debug: Target(preview) ends with cost 73.20329999923706ms.

@@ -1,0 +1,139 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "33ea53f1-e5b7-48e1-be33-7da66bf78d7e",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "f5d4d": {
+      "importer": "gltf-animation",
+      "uuid": "33ea53f1-e5b7-48e1-be33-7da66bf78d7e@f5d4d",
+      "displayName": "",
+      "id": "f5d4d",
+      "name": "JZ_attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5
+        },
+        "events": [
+          {
+            "frame": 0.26666666666666666,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.26666666666666666,
+            "func": "onAttack",
+            "params": []
+          },
+          {
+            "frame": 0.5,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.5,
+            "func": "onAttackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "380cc": {
+      "importer": "gltf-scene",
+      "uuid": "33ea53f1-e5b7-48e1-be33-7da66bf78d7e@380cc",
+      "displayName": "",
+      "id": "380cc",
+      "name": "JackA@JZ_attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "JZ_attack",
+            "from": 0,
+            "to": 0.5,
+            "wrapMode": 1,
+            "previousId": "f5d4d"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "33ea53f1-e5b7-48e1-be33-7da66bf78d7e@380cc"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

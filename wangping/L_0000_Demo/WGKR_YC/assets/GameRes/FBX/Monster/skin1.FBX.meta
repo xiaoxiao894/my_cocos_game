@@ -1,0 +1,165 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "78465c8b-6d33-4c6d-954b-cc98b69cd876",
+  "files": [],
+  "subMetas": {
+    "43759": {
+      "importer": "gltf-scene",
+      "uuid": "78465c8b-6d33-4c6d-954b-cc98b69cd876@43759",
+      "displayName": "",
+      "id": "43759",
+      "name": "skin1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b43ab": {
+      "importer": "gltf-mesh",
+      "uuid": "78465c8b-6d33-4c6d-954b-cc98b69cd876@b43ab",
+      "displayName": "",
+      "id": "b43ab",
+      "name": "spider_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1950
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "78465c8b-6d33-4c6d-954b-cc98b69cd876@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 18
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "32d96": {
+      "importer": "gltf-embeded-image",
+      "uuid": "78465c8b-6d33-4c6d-954b-cc98b69cd876@32d96",
+      "displayName": "",
+      "id": "32d96",
+      "name": "Map #0.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "ab932": {
+      "importer": "texture",
+      "uuid": "78465c8b-6d33-4c6d-954b-cc98b69cd876@ab932",
+      "displayName": "",
+      "id": "ab932",
+      "name": "Map #0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "78465c8b-6d33-4c6d-954b-cc98b69cd876@32d96"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9bb0f": {
+      "importer": "gltf-material",
+      "uuid": "78465c8b-6d33-4c6d-954b-cc98b69cd876@9bb0f",
+      "displayName": "",
+      "id": "9bb0f",
+      "name": "spider_01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #0",
+        "uri": "78465c8b-6d33-4c6d-954b-cc98b69cd876@32d96"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "78465c8b-6d33-4c6d-954b-cc98b69cd876@b43ab"
+      ],
+      "skeletons": [
+        "78465c8b-6d33-4c6d-954b-cc98b69cd876@438fe"
+      ],
+      "textures": [
+        "78465c8b-6d33-4c6d-954b-cc98b69cd876@ab932"
+      ],
+      "materials": [
+        "78465c8b-6d33-4c6d-954b-cc98b69cd876@9bb0f"
+      ],
+      "scenes": [
+        "78465c8b-6d33-4c6d-954b-cc98b69cd876@43759"
+      ]
+    }
+  }
+}

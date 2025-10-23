@@ -1,0 +1,214 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a987e089-621f-4ce5-89f9-96361e75dda7",
+  "files": [],
+  "subMetas": {
+    "71893": {
+      "importer": "gltf-mesh",
+      "uuid": "a987e089-621f-4ce5-89f9-96361e75dda7@71893",
+      "displayName": "",
+      "id": "71893",
+      "name": "He_d.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 324
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e38f0": {
+      "importer": "gltf-mesh",
+      "uuid": "a987e089-621f-4ce5-89f9-96361e75dda7@e38f0",
+      "displayName": "",
+      "id": "e38f0",
+      "name": "He_0201.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 324
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d883": {
+      "importer": "gltf-material",
+      "uuid": "a987e089-621f-4ce5-89f9-96361e75dda7@8d883",
+      "displayName": "",
+      "id": "8d883",
+      "name": "lambert1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1faf6": {
+      "importer": "gltf-scene",
+      "uuid": "a987e089-621f-4ce5-89f9-96361e75dda7@1faf6",
+      "displayName": "",
+      "id": "1faf6",
+      "name": "HB_by01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a987e089-621f-4ce5-89f9-96361e75dda7@71893",
+        "a987e089-621f-4ce5-89f9-96361e75dda7@e38f0"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "a987e089-621f-4ce5-89f9-96361e75dda7@8d883"
+      ],
+      "scenes": [
+        "a987e089-621f-4ce5-89f9-96361e75dda7@1faf6"
+      ]
+    },
+    "materials": {
+      "a987e089-621f-4ce5-89f9-96361e75dda7@8d883": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {
+              "cullMode": 0
+            },
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 170,
+              "g": 170,
+              "b": 170,
+              "a": 255
+            },
+            "emissiveScale": 0,
+            "shininessExponent": 1.0717734098434448,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 255
+            },
+            "specularFactor": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "errorRate": 0,
+      "targetRatio": 0
+    }
+  }
+}

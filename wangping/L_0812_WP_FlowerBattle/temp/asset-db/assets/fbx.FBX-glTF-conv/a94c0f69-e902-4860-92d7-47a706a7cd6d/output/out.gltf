@@ -1,0 +1,3699 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2534,
+      "max": [
+        0.3356083035469055,
+        1.1037269830703735,
+        0.17176534235477448
+      ],
+      "min": [
+        -0.3356086313724518,
+        -0.0010003955103456974,
+        -0.237894207239151
+      ],
+      "name": "Anna_kt_2/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 2534,
+      "name": "Anna_kt_2/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2534,
+      "name": "Anna_kt_2/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 2534,
+      "name": "Anna_kt_2/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 2534,
+      "name": "Anna_kt_2/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 56,
+      "componentType": 5123,
+      "count": 2534,
+      "name": "Anna_kt_2/JOINTS_1",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 64,
+      "componentType": 5126,
+      "count": 2534,
+      "name": "Anna_kt_2/WEIGHTS_1",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 10200,
+      "name": "Anna_kt_2/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 80,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Bip001/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.03333333507180214
+      ],
+      "min": [
+        0.03333333507180214
+      ],
+      "name": "Bip001/translation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Bip001/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.03333333507180214
+      ],
+      "min": [
+        0.03333333507180214
+      ],
+      "name": "Bip001/rotation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Bip001/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.03333333507180214
+      ],
+      "min": [
+        0.03333333507180214
+      ],
+      "name": "Bip001/scale/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Bip001 Footsteps/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.03333333507180214
+      ],
+      "min": [
+        0.03333333507180214
+      ],
+      "name": "Bip001 Footsteps/translation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Bip001 Footsteps/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.03333333507180214
+      ],
+      "min": [
+        0.03333333507180214
+      ],
+      "name": "Bip001 Footsteps/rotation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Bip001 Footsteps/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.03333333507180214
+      ],
+      "min": [
+        0.03333333507180214
+      ],
+      "name": "Bip001 Footsteps/scale/Input",
+      "type": "SCALAR"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 1,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 2,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "node": 2,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "PA_chr_Anna_kt_Skin_V002_2021",
+      "samplers": [
+        {
+          "input": 10,
+          "output": 9
+        },
+        {
+          "input": 12,
+          "output": 11
+        },
+        {
+          "input": 14,
+          "output": 13
+        },
+        {
+          "input": 16,
+          "output": 15
+        },
+        {
+          "input": 18,
+          "output": 17
+        },
+        {
+          "input": 20,
+          "output": 19
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 202720,
+      "byteStride": 80,
+      "name": "Anna_kt_2",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20400,
+      "byteOffset": 202720,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5120,
+      "byteOffset": 223120
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 228240
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 228252
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 228256
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 228272
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 228276
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 228288
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 228292
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 228304
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 228308
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 228324
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 228328
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 228340
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 228344,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 3,
+          "hour": 16,
+          "millisecond": 818,
+          "minute": 51,
+          "month": 9,
+          "second": 47,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.3.1",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2023",
+            "fileName": "C:\\Users\\Administrator\\Desktop\\Anna_JC.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Cocos\\PlayAble\\L_0812_WP_FlowerBattle\\assets\\Res\\Fbx\\Actor\\Character\\Anna\\PA_chr_Anna_kt_Skin_V001.fbx"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5882353186607361,
+                  0.5882353186607361,
+                  0.5882353186607361
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.5882353186607361,
+                  0.5882353186607361,
+                  0.5882353186607361
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 1.9999998807907104
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "anna"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Anna_kt_2",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 3,
+            "JOINTS_1": 5,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "WEIGHTS_0": 4,
+            "WEIGHTS_1": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        125
+      ],
+      "name": "anna",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "Root"
+          }
+        }
+      },
+      "name": "Bip001",
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.7071062326431274,
+        0.7071073651313782
+      ],
+      "translation": [
+        0.0,
+        -0.020989036187529564,
+        0.4963717758655548
+      ]
+    },
+    {
+      "name": "Bip001 Footsteps",
+      "rotation": [
+        5.993829049659165e-35,
+        -5.993838807180632e-35,
+        0.7071062326431274,
+        0.7071073651313782
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.4951220750808716
+      ]
+    },
+    {
+      "children": [
+        4
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 Pelvis",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.4999993145465851,
+        0.5000007152557373
+      ]
+    },
+    {
+      "children": [
+        5,
+        115,
+        120
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 Spine",
+      "rotation": [
+        -2.0714703623525565e-06,
+        -5.722765195059765e-07,
+        -0.020351795479655266,
+        0.9997928738594055
+      ],
+      "translation": [
+        0.03720451518893242,
+        -0.0016854846617206931,
+        5.7104770689875295e-08
+      ]
+    },
+    {
+      "children": [
+        6,
+        104,
+        113,
+        114
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 Spine1",
+      "rotation": [
+        1.5917658302555537e-09,
+        1.3733995274378685e-07,
+        -0.04572628438472748,
+        0.9989539980888367
+      ],
+      "translation": [
+        0.08827228844165802,
+        -8.765220991335809e-05,
+        -2.433262202838904e-10
+      ]
+    },
+    {
+      "children": [
+        7,
+        31,
+        55
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 Neck",
+      "rotation": [
+        5.479648401696124e-10,
+        -4.2104807107534725e-07,
+        0.1544024795293808,
+        0.9880080223083496
+      ],
+      "translation": [
+        0.12104430794715881,
+        -0.014228849671781063,
+        -1.795939219562115e-08
+      ]
+    },
+    {
+      "children": [
+        8
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Clavicle",
+      "rotation": [
+        0.6505616307258606,
+        -0.16733050346374512,
+        0.7386308312416077,
+        0.0565204843878746
+      ],
+      "translation": [
+        -0.040180206298828125,
+        0.018620558083057404,
+        0.034721489995718
+      ]
+    },
+    {
+      "children": [
+        9
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L UpperArm",
+      "rotation": [
+        0.10485909879207611,
+        0.323699027299881,
+        -0.04066679999232292,
+        0.9394518136978149
+      ],
+      "translation": [
+        0.04891030490398407,
+        -1.776356799695581e-17,
+        7.629394360719743e-08
+      ]
+    },
+    {
+      "children": [
+        10
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Forearm",
+      "rotation": [
+        -1.18076527264099e-18,
+        3.936152510595628e-17,
+        -0.08027774095535278,
+        0.9967725276947021
+      ],
+      "translation": [
+        0.13008110225200653,
+        2.38418573772492e-09,
+        -7.105427198782324e-17
+      ]
+    },
+    {
+      "children": [
+        11,
+        15,
+        19,
+        23,
+        27
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Hand",
+      "rotation": [
+        -0.7063835859298706,
+        -0.024981480091810226,
+        0.02500137872993946,
+        0.7069463133811951
+      ],
+      "translation": [
+        0.10800626873970032,
+        -7.1525572131747595e-09,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger0",
+      "rotation": [
+        0.5269880890846252,
+        0.28450947999954224,
+        -0.08750738948583603,
+        0.796040415763855
+      ],
+      "translation": [
+        0.013408508151769638,
+        0.010854988358914852,
+        -0.019122188910841942
+      ]
+    },
+    {
+      "children": [
+        13
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger01",
+      "rotation": [
+        -1.1389987521640798e-17,
+        -1.5982934342621085e-17,
+        0.16547830402851105,
+        0.9862134456634521
+      ],
+      "translation": [
+        0.023870354518294334,
+        -3.814697180359872e-08,
+        -3.814697180359872e-08
+      ]
+    },
+    {
+      "children": [
+        14
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger02",
+      "rotation": [
+        1.0077167544864096e-08,
+        3.01915399347763e-08,
+        0.036614902317523956,
+        0.9993294477462769
+      ],
+      "translation": [
+        0.017562484368681908,
+        -1.907348590179936e-08,
+        3.814697180359872e-08
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger0Nub",
+      "translation": [
+        0.022396374493837357,
+        0.0,
+        -7.105427198782324e-17
+      ]
+    },
+    {
+      "children": [
+        16
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger1",
+      "rotation": [
+        0.08752089738845825,
+        0.03065616451203823,
+        -0.021619193255901337,
+        0.9954560995101929
+      ],
+      "translation": [
+        0.0526699461042881,
+        -0.0032411194406449795,
+        -0.016514472663402557
+      ]
+    },
+    {
+      "children": [
+        17
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger11",
+      "rotation": [
+        -1.6335791386268284e-08,
+        2.4505178330969102e-08,
+        -0.017569243907928467,
+        0.9998456239700317
+      ],
+      "translation": [
+        0.021389294415712357,
+        -3.814697180359872e-08,
+        9.53674295089968e-09
+      ]
+    },
+    {
+      "children": [
+        18
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger12",
+      "rotation": [
+        -1.866821719431755e-08,
+        8.288457920002656e-09,
+        0.005011099390685558,
+        0.9999874234199524
+      ],
+      "translation": [
+        0.015188923105597496,
+        7.629394360719743e-08,
+        -9.53674295089968e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger1Nub",
+      "translation": [
+        0.01642833650112152,
+        3.814697180359872e-08,
+        1.4305114426349519e-08
+      ]
+    },
+    {
+      "children": [
+        20
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger2",
+      "rotation": [
+        -0.0451555959880352,
+        -0.03731628507375717,
+        0.009176906198263168,
+        0.99824059009552
+      ],
+      "translation": [
+        0.05347898602485657,
+        -0.006384544540196657,
+        -0.0012241244548931718
+      ]
+    },
+    {
+      "children": [
+        21
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger21",
+      "rotation": [
+        -8.69375114120885e-08,
+        2.630997109065447e-08,
+        -0.02401718497276306,
+        0.9997115731239319
+      ],
+      "translation": [
+        0.02364007942378521,
+        -3.814697180359872e-08,
+        -4.76837147544984e-09
+      ]
+    },
+    {
+      "children": [
+        22
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger22",
+      "rotation": [
+        1.2937837468030011e-08,
+        1.4988659202685994e-08,
+        0.006736595183610916,
+        0.9999772906303406
+      ],
+      "translation": [
+        0.01368524506688118,
+        3.814697180359872e-08,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger2Nub",
+      "translation": [
+        0.0169341079890728,
+        -7.105427198782324e-17,
+        -8.881783998477905e-18
+      ]
+    },
+    {
+      "children": [
+        24
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger3",
+      "rotation": [
+        -0.1257706731557846,
+        -0.08551046997308731,
+        -0.012450599111616611,
+        0.9882887601852417
+      ],
+      "translation": [
+        0.05251996964216232,
+        -0.0036179732996970415,
+        0.014130106195807457
+      ]
+    },
+    {
+      "children": [
+        25
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger31",
+      "rotation": [
+        -3.3439860658290854e-08,
+        4.4445873648157885e-09,
+        -0.02147950977087021,
+        0.9997692704200745
+      ],
+      "translation": [
+        0.022756366059184074,
+        3.814697180359872e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        26
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger32",
+      "rotation": [
+        -2.248737729360073e-08,
+        -7.030598325741266e-09,
+        -0.01873123086988926,
+        0.999824583530426
+      ],
+      "translation": [
+        0.014409675262868404,
+        -3.814697180359872e-08,
+        -9.53674295089968e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger3Nub",
+      "translation": [
+        0.01577535644173622,
+        -7.105427198782324e-17,
+        1.776356799695581e-17
+      ]
+    },
+    {
+      "children": [
+        28
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger4",
+      "rotation": [
+        -0.2059289664030075,
+        -0.15109899640083313,
+        -0.03311095014214516,
+        0.9662639498710632
+      ],
+      "translation": [
+        0.049295198172330856,
+        0.0006460571312345564,
+        0.02708979696035385
+      ]
+    },
+    {
+      "children": [
+        29
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger41",
+      "rotation": [
+        -4.481051263383051e-08,
+        -6.777214345277116e-09,
+        -0.015044081956148148,
+        0.9998868107795715
+      ],
+      "translation": [
+        0.01828058250248432,
+        3.814697180359872e-08,
+        -1.907348590179936e-08
+      ]
+    },
+    {
+      "children": [
+        30
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger42",
+      "rotation": [
+        -3.4000240844989094e-08,
+        5.933631896937186e-08,
+        0.007947100326418877,
+        0.999968409538269
+      ],
+      "translation": [
+        0.013507748022675514,
+        0.0,
+        1.907348590179936e-08
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Finger4Nub",
+      "translation": [
+        0.017606334760785103,
+        3.814697180359872e-08,
+        1.907348590179936e-08
+      ]
+    },
+    {
+      "children": [
+        32
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Clavicle",
+      "rotation": [
+        -0.6505614519119263,
+        0.16732847690582275,
+        0.7386313080787659,
+        0.056522317230701447
+      ],
+      "translation": [
+        -0.040180206298828125,
+        0.018620748072862625,
+        -0.034721437841653824
+      ]
+    },
+    {
+      "children": [
+        33
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R UpperArm",
+      "rotation": [
+        -0.10485751926898956,
+        -0.323699414730072,
+        -0.04067135602235794,
+        0.9394516944885254
+      ],
+      "translation": [
+        0.04891030490398407,
+        9.53674295089968e-09,
+        7.629394360719743e-08
+      ]
+    },
+    {
+      "children": [
+        34
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Forearm",
+      "rotation": [
+        -2.6252762564139005e-18,
+        -4.34058394225771e-17,
+        -0.08026953786611557,
+        0.9967731833457947
+      ],
+      "translation": [
+        0.13008113205432892,
+        0.0,
+        -7.105427198782324e-17
+      ]
+    },
+    {
+      "children": [
+        35,
+        39,
+        43,
+        47,
+        51
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Hand",
+      "rotation": [
+        0.7063836455345154,
+        0.02498146891593933,
+        0.02500142902135849,
+        0.7069462537765503
+      ],
+      "translation": [
+        0.10800628364086151,
+        4.76837147544984e-09,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        36
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger0",
+      "rotation": [
+        -0.5269880294799805,
+        -0.284509539604187,
+        -0.08750727772712708,
+        0.796040415763855
+      ],
+      "translation": [
+        0.013408565893769264,
+        0.010854988358914852,
+        0.01912219077348709
+      ]
+    },
+    {
+      "children": [
+        37
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger01",
+      "rotation": [
+        7.397457757463144e-09,
+        -4.408717302339937e-08,
+        0.16547833383083344,
+        0.9862134456634521
+      ],
+      "translation": [
+        0.023870373144745827,
+        0.0,
+        7.105427198782324e-17
+      ]
+    },
+    {
+      "children": [
+        38
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger02",
+      "rotation": [
+        -2.397356624328495e-08,
+        4.3855106213186446e-08,
+        0.03661487624049187,
+        0.9993294477462769
+      ],
+      "translation": [
+        0.017562484368681908,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger0Nub",
+      "rotation": [
+        1.4901161193847656e-08,
+        7.4505797087454084e-09,
+        1.0,
+        -1.7225463185688425e-16
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "translation": [
+        0.02239641174674034,
+        -1.907348590179936e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        40
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger1",
+      "rotation": [
+        -0.08752090483903885,
+        -0.03065618872642517,
+        -0.02161913737654686,
+        0.9954560995101929
+      ],
+      "translation": [
+        0.05267000198364258,
+        -0.0032411194406449795,
+        0.016514472663402557
+      ]
+    },
+    {
+      "children": [
+        41
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger11",
+      "rotation": [
+        -2.4521538577459978e-08,
+        -1.726696829962293e-08,
+        -0.01756928861141205,
+        0.9998456239700317
+      ],
+      "translation": [
+        0.02138923667371273,
+        7.629394360719743e-08,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "children": [
+        42
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger12",
+      "rotation": [
+        4.2896303398265445e-08,
+        -1.0961051621904971e-08,
+        0.005011054687201977,
+        0.9999874234199524
+      ],
+      "translation": [
+        0.015188923105597496,
+        7.105427198782324e-17,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger1Nub",
+      "rotation": [
+        5.587935447692871e-09,
+        1.862645149230957e-09,
+        1.0,
+        -7.164068348511924e-17
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "translation": [
+        0.016428356990218163,
+        7.105427198782324e-17,
+        -9.53674295089968e-09
+      ]
+    },
+    {
+      "children": [
+        44
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger2",
+      "rotation": [
+        0.04515550658106804,
+        0.03731627017259598,
+        0.009177043102681637,
+        0.99824059009552
+      ],
+      "translation": [
+        0.05347902327775955,
+        -0.006384506355971098,
+        0.0012241208460181952
+      ]
+    },
+    {
+      "children": [
+        45
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger21",
+      "rotation": [
+        1.8263191847722737e-08,
+        -1.5344218340374027e-08,
+        -0.024017227813601494,
+        0.9997115731239319
+      ],
+      "translation": [
+        0.02364007942378521,
+        -3.814697180359872e-08,
+        -8.881783998477905e-18
+      ]
+    },
+    {
+      "children": [
+        46
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger22",
+      "rotation": [
+        -9.451041727004394e-09,
+        2.0425893865194666e-08,
+        0.006736565846949816,
+        0.9999772906303406
+      ],
+      "translation": [
+        0.013685264624655247,
+        -1.4210854397564648e-16,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger2Nub",
+      "rotation": [
+        1.862645149230957e-09,
+        -5.587934559514451e-09,
+        1.0,
+        -5.082400177339755e-17
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "translation": [
+        0.016934052109718323,
+        3.814697180359872e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        48
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger3",
+      "rotation": [
+        0.1257706582546234,
+        0.08551047742366791,
+        -0.012450538575649261,
+        0.9882887601852417
+      ],
+      "translation": [
+        0.052519988268613815,
+        -0.0036180114839226007,
+        -0.014130107127130032
+      ]
+    },
+    {
+      "children": [
+        49
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger31",
+      "rotation": [
+        -1.4737689291166589e-08,
+        7.768929499718524e-09,
+        -0.021479405462741852,
+        0.9997692704200745
+      ],
+      "translation": [
+        0.022756310179829597,
+        3.814697180359872e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        50
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger32",
+      "rotation": [
+        1.0964572361160663e-08,
+        -1.1383248121887846e-08,
+        -0.018731214106082916,
+        0.999824583530426
+      ],
+      "translation": [
+        0.014409694820642471,
+        0.0,
+        1.776356799695581e-17
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger3Nub",
+      "rotation": [
+        2.0816681711721685e-17,
+        6.203854594147708e-25,
+        1.0,
+        -2.9802322387695313e-08
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "translation": [
+        0.01577535644173622,
+        -7.629394360719743e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        52
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger4",
+      "rotation": [
+        0.20592889189720154,
+        0.15109901130199432,
+        -0.033111006021499634,
+        0.9662639498710632
+      ],
+      "translation": [
+        0.04929525405168533,
+        0.0006460571312345564,
+        -0.027089806273579597
+      ]
+    },
+    {
+      "children": [
+        53
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger41",
+      "rotation": [
+        -6.237002736497743e-08,
+        6.427550403032001e-08,
+        -0.015044037252664566,
+        0.9998868107795715
+      ],
+      "translation": [
+        0.018280543386936188,
+        -3.814697180359872e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        54
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger42",
+      "rotation": [
+        -3.547541593817982e-09,
+        -2.2380637787478008e-08,
+        0.007947083562612534,
+        0.999968409538269
+      ],
+      "translation": [
+        0.013507804833352566,
+        3.814697180359872e-08,
+        3.552713599391162e-17
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Finger4Nub",
+      "rotation": [
+        -1.1175870895385742e-08,
+        1.4901161193847656e-08,
+        1.0,
+        1.4901161193847656e-08
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "translation": [
+        0.01760631613433361,
+        -3.814697180359872e-08,
+        3.552713599391162e-17
+      ]
+    },
+    {
+      "children": [
+        56,
+        57,
+        69,
+        74,
+        80,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 Head",
+      "rotation": [
+        7.909010335538369e-09,
+        3.0013404739293037e-07,
+        -0.08881071209907532,
+        0.9960485100746155
+      ],
+      "translation": [
+        0.04759468138217926,
+        -0.00885759387165308,
+        -1.2285545025747524e-08
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 HeadNub",
+      "translation": [
+        0.21064460277557373,
+        0.0,
+        1.818989362888275e-14
+      ]
+    },
+    {
+      "children": [
+        58,
+        59,
+        64
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone017",
+      "rotation": [
+        -0.025726769119501114,
+        0.7066389918327332,
+        -0.7066382169723511,
+        0.025726934894919395
+      ],
+      "translation": [
+        0.12953369319438934,
+        -0.08074977248907089,
+        -2.7090463206036475e-08
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone018",
+      "translation": [
+        0.09358100593090057,
+        -9.094946814441375e-15,
+        -3.552713599391162e-17
+      ]
+    },
+    {
+      "children": [
+        60
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone019",
+      "rotation": [
+        -0.07510469853878021,
+        -0.06694235652685165,
+        0.10111921280622482,
+        0.9897741675376892
+      ],
+      "scale": [
+        1.0,
+        1.0000009536743164,
+        1.0
+      ],
+      "translation": [
+        0.11294647306203842,
+        0.08558908104896545,
+        -0.003165607340633869
+      ]
+    },
+    {
+      "children": [
+        61
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone020",
+      "rotation": [
+        -0.001911096042022109,
+        0.0029060880187898874,
+        0.011431625112891197,
+        0.9999285936355591
+      ],
+      "translation": [
+        0.1356525868177414,
+        -7.629394360719743e-08,
+        1.335144048653092e-07
+      ]
+    },
+    {
+      "children": [
+        62
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone021",
+      "rotation": [
+        0.0010810447856783867,
+        -0.04843708127737045,
+        0.00606758426874876,
+        0.9988071918487549
+      ],
+      "translation": [
+        0.0996626690030098,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        63
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone022",
+      "rotation": [
+        -2.8759739052475197e-06,
+        3.790162850236811e-07,
+        0.01849190518260002,
+        0.9998289942741394
+      ],
+      "translation": [
+        0.0822068378329277,
+        1.907348590179936e-08,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone023",
+      "rotation": [
+        -2.65434437096701e-06,
+        1.4770912457606755e-06,
+        0.016207827255129814,
+        0.999868631362915
+      ],
+      "translation": [
+        0.14202192425727844,
+        1.907348590179936e-08,
+        1.1444091541079615e-07
+      ]
+    },
+    {
+      "children": [
+        65
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone024",
+      "rotation": [
+        0.075103759765625,
+        -0.06694164127111435,
+        -0.10111962258815765,
+        0.989774227142334
+      ],
+      "translation": [
+        0.11294662207365036,
+        -0.08558999001979828,
+        -0.003165550297126174
+      ]
+    },
+    {
+      "children": [
+        66
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone025",
+      "rotation": [
+        0.0019106107065454125,
+        0.002904111985117197,
+        -0.011431396007537842,
+        0.9999285936355591
+      ],
+      "translation": [
+        0.13565249741077423,
+        3.814697180359872e-08,
+        1.9073486612342094e-07
+      ]
+    },
+    {
+      "children": [
+        67
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone026",
+      "rotation": [
+        -0.00107949273660779,
+        -0.048436276614665985,
+        -0.006068284623324871,
+        0.9988072514533997
+      ],
+      "translation": [
+        0.09966285526752472,
+        7.629394360719743e-08,
+        -3.0517577442878974e-07
+      ]
+    },
+    {
+      "children": [
+        68
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone027",
+      "rotation": [
+        2.869021955120843e-06,
+        7.775252583996917e-07,
+        -0.01468178816139698,
+        0.9998922348022461
+      ],
+      "translation": [
+        0.08220691978931427,
+        5.7220457705398076e-08,
+        -1.5258788721439487e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone028",
+      "rotation": [
+        2.550688122937572e-06,
+        -1.0100503686771845e-06,
+        -0.016207922250032425,
+        0.999868631362915
+      ],
+      "scale": [
+        0.9999989867210388,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.10864667594432831,
+        -5.7220457705398076e-08,
+        1.1444091541079615e-07
+      ]
+    },
+    {
+      "children": [
+        70
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone007",
+      "rotation": [
+        0.9136428833007813,
+        0.26750120520591736,
+        0.06990247964859009,
+        -0.298015832901001
+      ],
+      "translation": [
+        0.2372143566608429,
+        0.08085546642541885,
+        0.01676732674241066
+      ]
+    },
+    {
+      "children": [
+        71
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone008",
+      "rotation": [
+        0.01061459630727768,
+        0.05935921519994736,
+        -0.24880528450012207,
+        0.9666745662689209
+      ],
+      "translation": [
+        0.048304978758096695,
+        -3.814697180359872e-08,
+        -1.4305114426349519e-08
+      ]
+    },
+    {
+      "children": [
+        72
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone009",
+      "rotation": [
+        0.016455868259072304,
+        0.05340956524014473,
+        -0.2630513608455658,
+        0.9631617665290833
+      ],
+      "translation": [
+        0.03188816085457802,
+        -7.629394360719743e-08,
+        3.33786012163273e-08
+      ]
+    },
+    {
+      "children": [
+        73
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone010",
+      "rotation": [
+        0.0001829979009926319,
+        0.007278849370777607,
+        -0.12222215533256531,
+        0.9924760460853577
+      ],
+      "translation": [
+        0.0262007899582386,
+        -7.629394360719743e-08,
+        9.53674295089968e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone011",
+      "rotation": [
+        4.539807196124457e-05,
+        0.005679769441485405,
+        -0.008467225357890129,
+        0.9999480247497559
+      ],
+      "translation": [
+        0.02014758065342903,
+        -3.0517577442878974e-07,
+        -3.00407407394232e-07
+      ]
+    },
+    {
+      "children": [
+        75
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone001",
+      "rotation": [
+        -0.6045421361923218,
+        0.060635969042778015,
+        0.16516004502773285,
+        0.7769004106521606
+      ],
+      "translation": [
+        0.20846351981163025,
+        0.07295362651348114,
+        0.004410093650221825
+      ]
+    },
+    {
+      "children": [
+        76
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone002",
+      "rotation": [
+        -0.001953988801687956,
+        -0.0005466369329951704,
+        0.6410251259803772,
+        0.7675172090530396
+      ],
+      "translation": [
+        0.060037918388843536,
+        -3.128051730527659e-06,
+        9.53674295089968e-09
+      ]
+    },
+    {
+      "children": [
+        77
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone003",
+      "rotation": [
+        0.014554093591868877,
+        0.11368939280509949,
+        0.4427322447299957,
+        0.8892980813980103
+      ],
+      "translation": [
+        0.057711925357580185,
+        2.288818308215923e-07,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "children": [
+        78
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone004",
+      "rotation": [
+        0.15999571979045868,
+        0.28243395686149597,
+        -0.029125895351171494,
+        0.9454015493392944
+      ],
+      "translation": [
+        0.07925346493721008,
+        -3.814697180359872e-08,
+        3.814697180359872e-08
+      ]
+    },
+    {
+      "children": [
+        79
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone005",
+      "rotation": [
+        0.021512793377041817,
+        0.18189801275730133,
+        -0.44111406803131104,
+        0.8785606026649475
+      ],
+      "translation": [
+        0.10323398560285568,
+        -3.0517577442878974e-07,
+        -1.9073486612342094e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone006",
+      "rotation": [
+        -0.019244631752371788,
+        -0.09119965136051178,
+        -0.15906813740730286,
+        0.982857882976532
+      ],
+      "translation": [
+        0.08559989929199219,
+        2.517700295356917e-06,
+        -1.6021728015402914e-06
+      ]
+    },
+    {
+      "children": [
+        81
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone012",
+      "rotation": [
+        0.31647351384162903,
+        -0.6459222435951233,
+        0.6487091779708862,
+        0.24860675632953644
+      ],
+      "translation": [
+        0.2371804118156433,
+        0.08071082085371017,
+        0.06697463244199753
+      ]
+    },
+    {
+      "children": [
+        82
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone013",
+      "rotation": [
+        0.02699865587055683,
+        -0.12845799326896667,
+        0.3037419319152832,
+        0.9436686038970947
+      ],
+      "translation": [
+        0.06759613007307053,
+        -3.204345603080583e-06,
+        -4.148483299104555e-07
+      ]
+    },
+    {
+      "children": [
+        83
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone014",
+      "rotation": [
+        -0.08933594822883606,
+        -0.27732881903648376,
+        -0.11346682906150818,
+        0.9498594999313354
+      ],
+      "translation": [
+        0.07101532071828842,
+        1.5258788721439487e-07,
+        2.8610230629055877e-07
+      ]
+    },
+    {
+      "children": [
+        84
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone015",
+      "rotation": [
+        -0.06556612998247147,
+        -0.3022123873233795,
+        -0.33723631501197815,
+        0.8891796469688416
+      ],
+      "translation": [
+        0.056332968175411224,
+        -7.629394360719743e-08,
+        -3.814697180359872e-08
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone016",
+      "rotation": [
+        -0.00361134042032063,
+        -0.022013017907738686,
+        -0.1051839143037796,
+        0.9942025542259216
+      ],
+      "translation": [
+        0.04655994474887848,
+        -7.629394360719743e-08,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone077",
+      "rotation": [
+        0.9296731948852539,
+        0.36279618740081787,
+        -0.023239465430378914,
+        -0.059552960097789764
+      ],
+      "translation": [
+        0.07591544836759567,
+        0.042875200510025024,
+        0.03684013709425926
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone078",
+      "rotation": [
+        5.05762386637798e-07,
+        -5.057619318904472e-07,
+        0.7071071267127991,
+        0.7071064710617065
+      ],
+      "translation": [
+        0.07960113883018494,
+        0.049136754125356674,
+        0.03616012632846832
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone079",
+      "rotation": [
+        0.42291319370269775,
+        0.9055643677711487,
+        0.014018925838172436,
+        -0.030017053708434105
+      ],
+      "translation": [
+        0.07595810294151306,
+        0.042875200510025024,
+        0.03684013709425926
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone075",
+      "rotation": [
+        5.675796046489268e-07,
+        -4.4394471387931844e-07,
+        0.7071071267127991,
+        0.7071064710617065
+      ],
+      "translation": [
+        0.0796012133359909,
+        0.04913685843348503,
+        -0.03616189584136009
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone074",
+      "rotation": [
+        0.9296731352806091,
+        0.3627966344356537,
+        0.023239752277731895,
+        0.059551432728767395
+      ],
+      "translation": [
+        0.07591553032398224,
+        0.04287530481815338,
+        -0.036839284002780914
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone076",
+      "rotation": [
+        0.42291322350502014,
+        0.9055644273757935,
+        -0.014017678797245026,
+        0.030016424134373665
+      ],
+      "translation": [
+        0.07595817744731903,
+        0.04287530481815338,
+        -0.036839284002780914
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_07",
+      "rotation": [
+        2.646146981533093e-07,
+        -7.400962545034417e-07,
+        0.6967410445213318,
+        0.7173227071762085
+      ],
+      "translation": [
+        0.0294203944504261,
+        0.0665641725063324,
+        0.024840161204338074
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_08",
+      "rotation": [
+        0.6967398524284363,
+        0.717323899269104,
+        3.2212344081017363e-07,
+        -4.571140834741527e-07
+      ],
+      "translation": [
+        0.026228027418255806,
+        0.0775359496474266,
+        1.5258788721439487e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_06",
+      "rotation": [
+        0.6967398524284363,
+        0.717323899269104,
+        3.2212344081017363e-07,
+        -4.571140834741527e-07
+      ],
+      "translation": [
+        0.02942047081887722,
+        0.06656423211097717,
+        -0.0248398557305336
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_01",
+      "rotation": [
+        2.646146981533093e-07,
+        -7.400962545034417e-07,
+        0.6967410445213318,
+        0.7173227071762085
+      ],
+      "translation": [
+        0.12874916195869446,
+        0.07067274302244186,
+        0.015562513843178749
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_00",
+      "rotation": [
+        0.18565738201141357,
+        -0.18033012747764587,
+        0.672999918460846,
+        0.6928805708885193
+      ],
+      "translation": [
+        0.12679794430732727,
+        0.06377573311328888,
+        0.04400862753391266
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_05",
+      "rotation": [
+        0.24533957242965698,
+        -0.23829971253871918,
+        0.6547221541404724,
+        0.6740627884864807
+      ],
+      "translation": [
+        0.11332497000694275,
+        0.05452032387256622,
+        0.06110922992229462
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_02",
+      "rotation": [
+        0.7173230648040771,
+        0.6967407464981079,
+        4.875211629951082e-07,
+        -8.668420150570455e-07
+      ],
+      "translation": [
+        0.1287490874528885,
+        0.07067279517650604,
+        -0.015559843741357327
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_03",
+      "rotation": [
+        0.6928809881210327,
+        0.672999918460846,
+        -0.1803293377161026,
+        0.18565654754638672
+      ],
+      "translation": [
+        0.12679794430732727,
+        0.06377585977315903,
+        -0.04400985687971115
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "B_bone_biaoqing_04",
+      "rotation": [
+        0.6740633249282837,
+        0.6547222137451172,
+        -0.2382989227771759,
+        0.24533873796463013
+      ],
+      "translation": [
+        0.11332497000694275,
+        0.05452049896121025,
+        -0.06110984832048416
+      ]
+    },
+    {
+      "children": [
+        101
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone080",
+      "rotation": [
+        -0.019699789583683014,
+        -0.07544702291488647,
+        -0.26061421632766724,
+        0.9622888565063477
+      ],
+      "translation": [
+        0.2958829402923584,
+        -0.03421289473772049,
+        -0.013621977530419827
+      ]
+    },
+    {
+      "children": [
+        102
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone081",
+      "rotation": [
+        -0.11592024564743042,
+        -0.16668805480003357,
+        -0.44054415822029114,
+        0.8744703531265259
+      ],
+      "translation": [
+        0.15397880971431732,
+        1.182556161438697e-06,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        103
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone082",
+      "rotation": [
+        -0.022709336131811142,
+        0.014033600687980652,
+        -0.24957403540611267,
+        0.9679876565933228
+      ],
+      "translation": [
+        0.17557430267333984,
+        -3.318786548334174e-05,
+        1.907348590179936e-08
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone083",
+      "rotation": [
+        -0.0022081525530666113,
+        -0.043920427560806274,
+        0.0882435068488121,
+        0.9951277375221252
+      ],
+      "translation": [
+        0.1727554202079773,
+        3.814697322468419e-07,
+        3.814697180359872e-08
+      ]
+    },
+    {
+      "children": [
+        105,
+        109
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone073",
+      "rotation": [
+        0.9999723434448242,
+        -0.007436963729560375,
+        -4.0163925518754695e-08,
+        -4.771491148858331e-07
+      ],
+      "translation": [
+        0.03660697862505913,
+        -0.1324623078107834,
+        -1.9073486612342094e-07
+      ]
+    },
+    {
+      "children": [
+        106
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone065",
+      "rotation": [
+        0.15557193756103516,
+        -0.0605304129421711,
+        0.21832001209259033,
+        0.9614935517311096
+      ],
+      "translation": [
+        0.10406479239463806,
+        0.020693207159638405,
+        0.009439926594495773
+      ]
+    },
+    {
+      "children": [
+        107
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone066",
+      "rotation": [
+        0.005353775806725025,
+        -0.0051650553941726685,
+        -0.04709083214402199,
+        0.9988629221916199
+      ],
+      "translation": [
+        0.044553376734256744,
+        3.552713599391162e-17,
+        8.106231774718253e-08
+      ]
+    },
+    {
+      "children": [
+        108
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone067",
+      "rotation": [
+        0.07562383264303207,
+        -0.20054765045642853,
+        0.4557476341724396,
+        0.8639188408851624
+      ],
+      "scale": [
+        1.0000009536743164,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.05644676089286804,
+        7.629394360719743e-08,
+        -2.0027160019253643e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone068",
+      "rotation": [
+        -0.0681750550866127,
+        -0.02035435102880001,
+        -0.004334444645792246,
+        0.9974563121795654
+      ],
+      "translation": [
+        0.04900772124528885,
+        7.629394360719743e-08,
+        -2.0980834847250662e-07
+      ]
+    },
+    {
+      "children": [
+        110
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone069",
+      "rotation": [
+        0.961493730545044,
+        0.21831944584846497,
+        -0.06053076684474945,
+        0.15557138621807098
+      ],
+      "translation": [
+        0.10406486690044403,
+        0.02069319784641266,
+        -0.009435348212718964
+      ]
+    },
+    {
+      "children": [
+        111
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone070",
+      "rotation": [
+        -0.005354067776352167,
+        -0.005166010465472937,
+        0.04709120839834213,
+        0.9988628625869751
+      ],
+      "translation": [
+        0.04455352947115898,
+        1.335144048653092e-07,
+        7.152557657263969e-08
+      ]
+    },
+    {
+      "children": [
+        112
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone071",
+      "rotation": [
+        -0.07562597095966339,
+        -0.2005489617586136,
+        -0.4557480216026306,
+        0.863918125629425
+      ],
+      "translation": [
+        0.05644691362977028,
+        -1.5258788721439487e-07,
+        -2.0980834847250662e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone072",
+      "rotation": [
+        0.0681745857000351,
+        -0.020352967083454132,
+        0.004333531949669123,
+        0.9974563717842102
+      ],
+      "scale": [
+        1.0,
+        0.9999989867210388,
+        1.0000009536743164
+      ],
+      "translation": [
+        0.04900779575109482,
+        0.0,
+        -2.0980834847250662e-07
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "b_baldric_r",
+      "rotation": [
+        0.052113160490989685,
+        0.9199669361114502,
+        0.3750484585762024,
+        0.10140855610370636
+      ],
+      "translation": [
+        0.059922944754362106,
+        0.026310138404369354,
+        -0.06669996678829193
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "b_baldric_l",
+      "rotation": [
+        0.10140850394964218,
+        0.375047504901886,
+        0.9199673533439636,
+        0.0521128810942173
+      ],
+      "translation": [
+        0.059922944754362106,
+        0.026309948414564133,
+        0.06670467555522919
+      ]
+    },
+    {
+      "children": [
+        116
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Thigh",
+      "rotation": [
+        -0.021497586742043495,
+        0.9996663928031921,
+        -0.002460124436765909,
+        -0.014101481065154076
+      ],
+      "translation": [
+        -0.03724227845668793,
+        0.00016993045574054122,
+        0.0481453575193882
+      ]
+    },
+    {
+      "children": [
+        117
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Calf",
+      "rotation": [
+        -1.5856270398468736e-19,
+        2.8476794805304205e-18,
+        -0.09687323123216629,
+        0.9952967166900635
+      ],
+      "translation": [
+        0.21341241896152496,
+        2.2204459996194763e-18,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "children": [
+        118
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Foot",
+      "rotation": [
+        -0.01759052276611328,
+        -0.015945065766572952,
+        0.09775087982416153,
+        0.994927704334259
+      ],
+      "translation": [
+        0.21924647688865662,
+        2.38418573772492e-09,
+        -4.76837147544984e-09
+      ]
+    },
+    {
+      "children": [
+        119
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Toe0",
+      "rotation": [
+        2.2930718657221405e-08,
+        3.083328792286011e-08,
+        0.7071067094802856,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.06685052067041397,
+        0.1206195056438446,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 L Toe0Nub",
+      "rotation": [
+        3.3355262996082047e-14,
+        4.301315203904225e-23,
+        1.0,
+        7.166659369358015e-15
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "translation": [
+        0.06259015202522278,
+        7.450580430390374e-11,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        121
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Thigh",
+      "rotation": [
+        -0.02149752527475357,
+        0.9996663928031921,
+        0.0024629051331430674,
+        0.014101707376539707
+      ],
+      "translation": [
+        -0.03724227845668793,
+        0.00017019748338498175,
+        -0.04814537614583969
+      ]
+    },
+    {
+      "children": [
+        122
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Calf",
+      "rotation": [
+        4.946592795831156e-19,
+        6.054496277805719e-19,
+        -0.09687323868274689,
+        0.9952967166900635
+      ],
+      "translation": [
+        0.21341241896152496,
+        -1.19209286886246e-09,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "children": [
+        123
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Foot",
+      "rotation": [
+        0.017590506002306938,
+        0.015945259481668472,
+        0.09775082767009735,
+        0.994927704334259
+      ],
+      "translation": [
+        0.2192465215921402,
+        2.38418573772492e-09,
+        -8.881783998477905e-18
+      ]
+    },
+    {
+      "children": [
+        124
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Toe0",
+      "rotation": [
+        -6.37542498793664e-08,
+        -1.1070662608858584e-08,
+        0.7071067690849304,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.06685052067041397,
+        0.12061949074268341,
+        4.76837147544984e-09
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bip001 R Toe0Nub",
+      "translation": [
+        0.06259016692638397,
+        7.450580430390374e-11,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        126,
+        128,
+        129,
+        130
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "penghuoqi_01",
+      "rotation": [
+        0.706348717212677,
+        -0.03273560106754303,
+        0.7063485383987427,
+        0.032735612243413925
+      ],
+      "translation": [
+        0.01588727906346321,
+        0.2734772264957428,
+        0.4309920370578766
+      ]
+    },
+    {
+      "children": [
+        127
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone089",
+      "rotation": [
+        0.8909323811531067,
+        0.4361700713634491,
+        0.09819462150335312,
+        -0.07970570772886276
+      ],
+      "translation": [
+        0.12375122308731079,
+        0.4817810356616974,
+        -0.09440820664167404
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone090",
+      "rotation": [
+        0.0062074195593595505,
+        0.0442943200469017,
+        0.9736476540565491,
+        -0.22362861037254333
+      ],
+      "translation": [
+        0.04532440006732941,
+        -0.035209979861974716,
+        -0.0002123069716617465
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone086",
+      "rotation": [
+        -0.010033010505139828,
+        5.850010609265155e-08,
+        -1.473710085519997e-06,
+        0.9999496936798096
+      ],
+      "translation": [
+        0.44844651222229004,
+        -0.005694999825209379,
+        -0.11344803124666214
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone088",
+      "rotation": [
+        0.37233221530914307,
+        0.5613585710525513,
+        0.6159189939498901,
+        -0.40852054953575134
+      ],
+      "translation": [
+        0.40457388758659363,
+        -0.0027469824999570847,
+        0.13676324486732483
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone084",
+      "rotation": [
+        0.5049893856048584,
+        0.5049912333488464,
+        0.4949584901332855,
+        -0.49496030807495117
+      ],
+      "translation": [
+        0.1485603302717209,
+        0.008477210998535156,
+        0.19062772393226624
+      ]
+    },
+    {
+      "name": "Anna_PHT_2",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "children": [
+        133
+      ],
+      "name": "Anna_kt_2",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Anna_kt_2",
+      "rotation": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "skin": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        131,
+        132
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 8,
+      "joints": [
+        55,
+        6,
+        5,
+        7,
+        31,
+        32,
+        33,
+        34,
+        4,
+        113,
+        104,
+        8,
+        114,
+        9,
+        10,
+        3,
+        120,
+        115,
+        121,
+        116,
+        122,
+        117,
+        69,
+        70,
+        71,
+        72,
+        66,
+        67,
+        65,
+        64,
+        57,
+        59,
+        60,
+        61,
+        78,
+        77,
+        76,
+        75,
+        82,
+        83,
+        81,
+        74,
+        80,
+        62,
+        110,
+        111,
+        106,
+        107,
+        11,
+        19,
+        12,
+        15,
+        23,
+        27,
+        28,
+        20,
+        16,
+        24,
+        25,
+        13,
+        29,
+        17,
+        21,
+        35,
+        43,
+        36,
+        39,
+        47,
+        51,
+        52,
+        53,
+        44,
+        48,
+        49,
+        37,
+        40,
+        41,
+        45,
+        118,
+        123
+      ]
+    }
+  ]
+}

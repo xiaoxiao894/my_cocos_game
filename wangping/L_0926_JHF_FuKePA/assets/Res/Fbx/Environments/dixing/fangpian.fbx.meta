@@ -1,0 +1,176 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4197afae-dd8f-4b5a-bd59-773afddf618e",
+  "files": [],
+  "subMetas": {
+    "19475": {
+      "importer": "gltf-material",
+      "uuid": "4197afae-dd8f-4b5a-bd59-773afddf618e@19475",
+      "displayName": "",
+      "id": "19475",
+      "name": "all.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8a2d": {
+      "importer": "gltf-mesh",
+      "uuid": "4197afae-dd8f-4b5a-bd59-773afddf618e@b8a2d",
+      "displayName": "",
+      "id": "b8a2d",
+      "name": "Plane001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 30
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9da77": {
+      "importer": "gltf-scene",
+      "uuid": "4197afae-dd8f-4b5a-bd59-773afddf618e@9da77",
+      "displayName": "",
+      "id": "9da77",
+      "name": "fangpian.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "4197afae-dd8f-4b5a-bd59-773afddf618e@b8a2d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "4197afae-dd8f-4b5a-bd59-773afddf618e@19475"
+      ],
+      "scenes": [
+        "4197afae-dd8f-4b5a-bd59-773afddf618e@9da77"
+      ]
+    },
+    "materials": {
+      "4197afae-dd8f-4b5a-bd59-773afddf618e@19475": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_TEXTURE": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "cda4daad-704f-49fc-8e52-5d77a9f44cf4@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0093a8b6-c703-4a82-8008-4f7044539f69",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "88591": {
+      "importer": "gltf-mesh",
+      "uuid": "0093a8b6-c703-4a82-8008-4f7044539f69@88591",
+      "displayName": "",
+      "id": "88591",
+      "name": "piranha_01_a.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 6198
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b74c2": {
+      "importer": "gltf-animation",
+      "uuid": "0093a8b6-c703-4a82-8008-4f7044539f69@b74c2",
+      "displayName": "",
+      "id": "b74c2",
+      "name": "Attack-loop.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": [
+          {
+            "frame": 0.36666666666666664,
+            "func": "",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "0093a8b6-c703-4a82-8008-4f7044539f69@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 39
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b2e9": {
+      "importer": "texture",
+      "uuid": "0093a8b6-c703-4a82-8008-4f7044539f69@5b2e9",
+      "displayName": "",
+      "id": "5b2e9",
+      "name": "pasted__file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Res/Fbx/Map/Biuld/shirenhua/t_piranha_01_a_d.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3a51d": {
+      "importer": "gltf-material",
+      "uuid": "0093a8b6-c703-4a82-8008-4f7044539f69@3a51d",
+      "displayName": "",
+      "id": "3a51d",
+      "name": "a.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a4ba0": {
+      "importer": "gltf-scene",
+      "uuid": "0093a8b6-c703-4a82-8008-4f7044539f69@a4ba0",
+      "displayName": "",
+      "id": "a4ba0",
+      "name": "Piranha@Attack-loop.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "pasted__file1",
+        "uri": "db://assets/Res/Fbx/Map/Biuld/shirenhua/t_piranha_01_a_d.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Attack-loop",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "b74c2"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0093a8b6-c703-4a82-8008-4f7044539f69@88591"
+      ],
+      "skeletons": [
+        "0093a8b6-c703-4a82-8008-4f7044539f69@438fe"
+      ],
+      "textures": [
+        "0093a8b6-c703-4a82-8008-4f7044539f69@5b2e9"
+      ],
+      "materials": [
+        "0093a8b6-c703-4a82-8008-4f7044539f69@3a51d"
+      ],
+      "scenes": [
+        "0093a8b6-c703-4a82-8008-4f7044539f69@a4ba0"
+      ]
+    }
+  }
+}

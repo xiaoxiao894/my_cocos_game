@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3acf8d2a-6902-4152-b695-9cbfedc0fda3",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "193fa": {
+      "importer": "gltf-animation",
+      "uuid": "3acf8d2a-6902-4152-b695-9cbfedc0fda3@193fa",
+      "displayName": "",
+      "id": "193fa",
+      "name": "Idle_M.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.6666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "fa79e": {
+      "importer": "gltf-scene",
+      "uuid": "3acf8d2a-6902-4152-b695-9cbfedc0fda3@fa79e",
+      "displayName": "",
+      "id": "fa79e",
+      "name": "Anna@Idle_M.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Idle_M",
+            "from": 0,
+            "to": 2.6666667461395264,
+            "wrapMode": 2,
+            "previousId": "193fa"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "3acf8d2a-6902-4152-b695-9cbfedc0fda3@fa79e"
+      ]
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "27240204-576b-418c-921d-bf13d81ef364",
+  "files": [],
+  "subMetas": {
+    "89136": {
+      "importer": "gltf-material",
+      "uuid": "27240204-576b-418c-921d-bf13d81ef364@89136",
+      "displayName": "",
+      "id": "89136",
+      "name": "M_新_围墙风格改1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "df607": {
+      "importer": "gltf-mesh",
+      "uuid": "27240204-576b-418c-921d-bf13d81ef364@df607",
+      "displayName": "",
+      "id": "df607",
+      "name": "weiqiang02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 748
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "16b64": {
+      "importer": "gltf-scene",
+      "uuid": "27240204-576b-418c-921d-bf13d81ef364@16b64",
+      "displayName": "",
+      "id": "16b64",
+      "name": "weiqiang02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "27240204-576b-418c-921d-bf13d81ef364@df607"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "27240204-576b-418c-921d-bf13d81ef364@89136"
+      ],
+      "scenes": [
+        "27240204-576b-418c-921d-bf13d81ef364@16b64"
+      ]
+    },
+    "materials": {
+      "27240204-576b-418c-921d-bf13d81ef364@89136": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {
+              "depthWrite": true
+            },
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 200,
+              "b": 83,
+              "a": 255
+            },
+            "roughness": 0.904,
+            "specularIntensity": 1,
+            "mainTexture": {
+              "__uuid__": "0b9825d0-42b0-4cdf-8c10-26aba602cef9@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": false,
+      "compress": true,
+      "quantize": true
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    }
+  }
+}

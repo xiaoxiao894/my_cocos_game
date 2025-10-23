@@ -1,0 +1,116 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "de8cda0f-50f4-481c-b0fd-3833ecece740",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "d0973": {
+      "importer": "gltf-animation",
+      "uuid": "de8cda0f-50f4-481c-b0fd-3833ecece740@d0973",
+      "displayName": "",
+      "id": "d0973",
+      "name": "PHQ_run.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7333333492279053
+        },
+        "events": [
+          {
+            "frame": 0.7333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7333333333333333,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "348d7": {
+      "importer": "gltf-scene",
+      "uuid": "de8cda0f-50f4-481c-b0fd-3833ecece740@348d7",
+      "displayName": "",
+      "id": "348d7",
+      "name": "JackA@PHQ_run.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.7333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "PHQ_run",
+            "from": 0,
+            "to": 0.7333333492279053,
+            "wrapMode": 1,
+            "previousId": "d0973"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "de8cda0f-50f4-481c-b0fd-3833ecece740@348d7"
+      ]
+    }
+  }
+}

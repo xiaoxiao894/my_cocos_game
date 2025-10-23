@@ -1,0 +1,538 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 91,
+      "max": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "min": [
+        -0.375,
+        -0.375,
+        -0.25
+      ],
+      "name": "qu/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 91,
+      "name": "qu/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 91,
+      "name": "qu/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 432,
+      "name": "qu/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 74,
+      "max": [
+        0.5000000596046448,
+        0.24620194733142853,
+        0.2500000298023224
+      ],
+      "min": [
+        -0.5000000596046448,
+        -0.24620194733142853,
+        -0.25000014901161194
+      ],
+      "name": "huan/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 74,
+      "name": "huan/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 74,
+      "name": "huan/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 204,
+      "name": "huan/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 74,
+      "max": [
+        0.12500004470348358,
+        0.3151385188102722,
+        0.3199999928474426
+      ],
+      "min": [
+        -0.12500005960464478,
+        -0.3151385188102722,
+        -0.3200000524520874
+      ],
+      "name": "zhi/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 74,
+      "name": "zhi/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 74,
+      "name": "zhi/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 204,
+      "name": "zhi/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2912,
+      "byteStride": 32,
+      "name": "qu",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 864,
+      "byteOffset": 2912,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2368,
+      "byteOffset": 3776,
+      "byteStride": 32,
+      "name": "huan",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 408,
+      "byteOffset": 6144,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2368,
+      "byteOffset": 6552,
+      "byteStride": 32,
+      "name": "zhi",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 408,
+      "byteOffset": 8920,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9328,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 20,
+          "hour": 18,
+          "millisecond": 542,
+          "minute": 41,
+          "month": 7,
+          "second": 25,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2019.2",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2020",
+            "fileName": "C:\\Users\\北远\\Desktop\\dianxian.FBX"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Cocos\\PlayAble\\SSD_0623_JHF_FaMuShengCun\\assets\\Res\\Fbx\\dianxian\\dianxian.FBX"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5882353186607361,
+                  0.5882353186607361,
+                  0.5882353186607361
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.5882353186607361,
+                  0.5882353186607361,
+                  0.5882353186607361
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 1.9999998807907104
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "01 - Default"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5882353186607361,
+                  0.5882353186607361,
+                  0.5882353186607361
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.5882353186607361,
+                  0.5882353186607361,
+                  0.5882353186607361
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 1.9999998807907104
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "02 - Default"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "qu",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "huan",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "zhi",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "qu",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        0.375,
+        0.0,
+        -0.125
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "huan",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        -0.5,
+        -2.1855694143368964e-08,
+        0.0
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "zhi",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        -0.4208028316497803,
+        -5.463923535842241e-09,
+        9.53674295089968e-09
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}

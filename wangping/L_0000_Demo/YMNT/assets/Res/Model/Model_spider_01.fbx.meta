@@ -1,0 +1,187 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "98aa52ab-2ef2-4751-a874-9cea7b1eff3e",
+  "files": [],
+  "subMetas": {
+    "b43ab": {
+      "importer": "gltf-mesh",
+      "uuid": "98aa52ab-2ef2-4751-a874-9cea7b1eff3e@b43ab",
+      "displayName": "",
+      "id": "b43ab",
+      "name": "spider_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1314
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8803": {
+      "importer": "gltf-material",
+      "uuid": "98aa52ab-2ef2-4751-a874-9cea7b1eff3e@c8803",
+      "displayName": "",
+      "id": "c8803",
+      "name": "t_spider_d.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0245f": {
+      "importer": "gltf-scene",
+      "uuid": "98aa52ab-2ef2-4751-a874-9cea7b1eff3e@0245f",
+      "displayName": "",
+      "id": "0245f",
+      "name": "Model_spider_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "98aa52ab-2ef2-4751-a874-9cea7b1eff3e@b43ab"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "98aa52ab-2ef2-4751-a874-9cea7b1eff3e@c8803"
+      ],
+      "scenes": [
+        "98aa52ab-2ef2-4751-a874-9cea7b1eff3e@0245f"
+      ]
+    },
+    "materials": {
+      "98aa52ab-2ef2-4751-a874-9cea7b1eff3e@c8803": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "16f7312f-6134-4447-aef4-cd4736ec984e",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_NORMAL_MAP": true,
+            "USE_ALBEDO_MAP": true,
+            "USE_EMISSIVE_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {},
+                {},
+                {},
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "metallic": 0,
+            "normalStrenth": 0.4,
+            "mainTexture": {
+              "__uuid__": "d8f4d1c4-9838-4544-a1ef-f9695b620ed7@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "normalMap": {
+              "__uuid__": "65eee2a7-6d7b-409b-b494-4fb557361382@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "emissiveMap": {
+              "__uuid__": "adee4d2e-892e-4db5-8891-ffbd3bf9703a@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

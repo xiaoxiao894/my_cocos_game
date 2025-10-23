@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "81451ada-5eaa-4ded-9ddd-2b196befd4ca",
+  "files": [],
+  "subMetas": {
+    "29153": {
+      "importer": "gltf-mesh",
+      "uuid": "81451ada-5eaa-4ded-9ddd-2b196befd4ca@29153",
+      "displayName": "",
+      "id": "29153",
+      "name": "FBX_Stone_03.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 146
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "03fe2": {
+      "importer": "gltf-material",
+      "uuid": "81451ada-5eaa-4ded-9ddd-2b196befd4ca@03fe2",
+      "displayName": "",
+      "id": "03fe2",
+      "name": "MI_Stone_12.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "484f9": {
+      "importer": "gltf-scene",
+      "uuid": "81451ada-5eaa-4ded-9ddd-2b196befd4ca@484f9",
+      "displayName": "",
+      "id": "484f9",
+      "name": "Model_Stone_03.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "81451ada-5eaa-4ded-9ddd-2b196befd4ca@29153"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "81451ada-5eaa-4ded-9ddd-2b196befd4ca@03fe2"
+      ],
+      "scenes": [
+        "81451ada-5eaa-4ded-9ddd-2b196befd4ca@484f9"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

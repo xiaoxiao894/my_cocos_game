@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "074f088a-38c2-48b1-bcc0-8e7e5059063a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b4251": {
+      "importer": "gltf-animation",
+      "uuid": "074f088a-38c2-48b1-bcc0-8e7e5059063a@b4251",
+      "displayName": "",
+      "id": "b4251",
+      "name": "die.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.1666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "ce5b0": {
+      "importer": "gltf-scene",
+      "uuid": "074f088a-38c2-48b1-bcc0-8e7e5059063a@ce5b0",
+      "displayName": "",
+      "id": "ce5b0",
+      "name": "weevil@die.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "weevil@die",
+        "duration": 2.1666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "die",
+            "from": 0,
+            "to": 2.1666667461395264,
+            "wrapMode": 2,
+            "previousId": "b4251"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "074f088a-38c2-48b1-bcc0-8e7e5059063a@ce5b0"
+      ]
+    },
+    "redirect": "074f088a-38c2-48b1-bcc0-8e7e5059063a@ce5b0"
+  }
+}

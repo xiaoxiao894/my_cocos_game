@@ -1,0 +1,162 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cb6c50f2-970c-48ab-8eee-96b47a79098f",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "36d01": {
+      "importer": "gltf-animation",
+      "uuid": "cb6c50f2-970c-48ab-8eee-96b47a79098f@36d01",
+      "displayName": "",
+      "id": "36d01",
+      "name": "PHQ_run-attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7333333492279053
+        },
+        "events": [
+          {
+            "frame": 0.03333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.03333333333333333,
+            "func": "centerAttackEnd",
+            "params": []
+          },
+          {
+            "frame": 0.2,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.2,
+            "func": "fireAtTarget",
+            "params": [
+              "walk"
+            ]
+          },
+          {
+            "frame": 0.4,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.4,
+            "func": "fireAtTarget",
+            "params": [
+              "walk"
+            ]
+          },
+          {
+            "frame": 0.6,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.6,
+            "func": "fireAtTarget",
+            "params": [
+              "walk"
+            ]
+          },
+          {
+            "frame": 0.7,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "5d867": {
+      "importer": "gltf-scene",
+      "uuid": "cb6c50f2-970c-48ab-8eee-96b47a79098f@5d867",
+      "displayName": "",
+      "id": "5d867",
+      "name": "JackA@PHQ_run-attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.7333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "PHQ_run-attack",
+            "from": 0,
+            "to": 0.7333333492279053,
+            "wrapMode": 1,
+            "previousId": "36d01"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "cb6c50f2-970c-48ab-8eee-96b47a79098f@5d867"
+      ]
+    }
+  }
+}

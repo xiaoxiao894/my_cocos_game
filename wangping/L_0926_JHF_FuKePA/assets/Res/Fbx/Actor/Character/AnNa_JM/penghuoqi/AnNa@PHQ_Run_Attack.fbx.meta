@@ -1,0 +1,191 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ad327330-2ce1-4507-a1b0-f6dba90d5419",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "15c83": {
+      "importer": "gltf-animation",
+      "uuid": "ad327330-2ce1-4507-a1b0-f6dba90d5419@15c83",
+      "displayName": "",
+      "id": "15c83",
+      "name": "PHQ_Run_Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7333333492279053
+        },
+        "events": [
+          {
+            "frame": 0.1,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.1,
+            "func": "centerAttackEnd",
+            "params": []
+          },
+          {
+            "frame": 0.2,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.2,
+            "func": "fireAtTarget",
+            "params": [
+              "walk"
+            ]
+          },
+          {
+            "frame": 0.3,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.3,
+            "func": "fireAtTarget",
+            "params": []
+          },
+          {
+            "frame": 0.43333333333333335,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.43333333333333335,
+            "func": "fireAtTarget",
+            "params": []
+          },
+          {
+            "frame": 0.5666666666666667,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.5666666666666667,
+            "func": "fireAtTarget",
+            "params": []
+          },
+          {
+            "frame": 0.6666666666666666,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.6666666666666666,
+            "func": "fireAtTarget",
+            "params": []
+          },
+          {
+            "frame": 0.7333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7333333333333333,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "dd842": {
+      "importer": "gltf-scene",
+      "uuid": "ad327330-2ce1-4507-a1b0-f6dba90d5419@dd842",
+      "displayName": "",
+      "id": "dd842",
+      "name": "AnNa@PHQ_Run_Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.7333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "PHQ_Run_Attack",
+            "from": 0,
+            "to": 0.7333333492279053,
+            "wrapMode": 2,
+            "previousId": "15c83"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "ad327330-2ce1-4507-a1b0-f6dba90d5419@dd842"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

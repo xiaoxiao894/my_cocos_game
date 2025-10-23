@@ -1,0 +1,43 @@
+
+precision highp float;
+#include <builtin/uniforms/cc-global>
+#include <legacy/output>
+#include "../GameRes/shader/chunks/OutLineParmas"
+in vec2 v_uv;
+
+
+
+#if USE_EFFECT
+  uniform sampler2D outnoiseMap;
+#endif
+
+#if USE_BASE_COLOR_MAP
+  uniform sampler2D baseColorMap;
+#endif
+
+vec4 frag () {
+  vec4 color = baseColor ;
+    #if USE_MAIN_LIGHT_COLOR
+    color *= cc_mainLitColor;
+  #endif
+  #if USE_BASE_COLOR_MAP
+    vec4 texColor = texture(baseColorMap, v_uv);
+    texColor.rgb = SRGBToLinear(texColor.rgb);
+    color *= texColor;
+  #endif
+
+
+  #if USE_EFFECT
+    vec2 noiseUv = v_uv * outnoiseMapOffset.xy + outnoiseMapOffset.zw;
+    vec4 noise = texture(outnoiseMap, noiseUv);
+    if(noise.r < outdissolveThreshold){
+      discard;   
+    }
+    float t = 1.0 - smoothstep(0.0,outdisslineWidth,noise.r - outdissolveThreshold);
+    vec4 dissolveColor = mix(outdissolveColor1, outdissolveColor2, t);
+    color.rgb = mix(color.rgb, dissolveColor.rgb, t * step(0.0001,outdissolveThreshold));
+  #endif
+
+
+  return CCFragOutput(vec4(color.rgb, 1.0));
+}

@@ -1,0 +1,151 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ebf45167-8590-4baf-a9ca-8a8ec815c633",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a7ffd": {
+      "importer": "gltf-animation",
+      "uuid": "ebf45167-8590-4baf-a9ca-8a8ec815c633@a7ffd",
+      "displayName": "",
+      "id": "a7ffd",
+      "name": "run+attack_M.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": [
+          {
+            "frame": 0.43333333333333335,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.43333333333333335,
+            "func": "centerAttackEnd",
+            "params": []
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.5333333333333333,
+            "func": "fireAtTarget",
+            "params": [
+              "walk"
+            ]
+          },
+          {
+            "frame": 1.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 1.3333333333333333,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1.3,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "89bbc": {
+      "importer": "gltf-scene",
+      "uuid": "ebf45167-8590-4baf-a9ca-8a8ec815c633@89bbc",
+      "displayName": "",
+      "id": "89bbc",
+      "name": "Anna@run+attack_M.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "run+attack_M",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 1,
+            "previousId": "a7ffd"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "ebf45167-8590-4baf-a9ca-8a8ec815c633@89bbc"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "autoErrorRate": true,
+      "errorRate": 0,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

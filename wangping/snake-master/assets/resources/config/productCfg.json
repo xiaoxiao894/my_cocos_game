@@ -1,0 +1,98 @@
+{
+    "PRODUCT_START": {
+        "event": {
+            "event_start_video": {
+                "switch": "zs_start_video_switch"
+            }
+        }
+    },
+    "PRODUCT_BEGIN": {
+        "switch": "!"
+    },
+    "GAME_HOME": {
+        "base": [
+            {
+                "type": "btn_more_game",
+                "switch": "zs_jump_switch",
+                "window": {
+                    "align": "left",
+                    "alignoffsetx": 30,
+                    "scale": [
+                        1,
+                        1
+                    ]
+                }
+            },
+            {
+                "type": "add_btn_deskTopIcon",
+                "window": {
+                    "align": "right",
+                    "scale": [
+                        1.2,
+                        1.2
+                    ],
+                    "alignoffsetx": 0
+                }
+            }
+        ]
+    },
+    "PRODUCT_HOME_PLAY": {
+        "check": {
+            "event_check_egg": false
+        },
+        "base": {
+            "type": "knock_video_egg",
+            "window": {
+                "align": "topleft",
+                "fit": true,
+                "block": true
+            },
+            "base": {
+                "awardevent": null,
+                "btnignoreoffset": true
+            }
+        }
+    },
+    "GAME_PLAY": {
+        "states": [
+            "PLAY",
+            "SHARE",
+            "SETTLE"
+        ]
+    },
+    "GAME_PLAY.PLAY": {
+        "event": "event_game_play"
+    },
+    "GAME_PLAY.SHARE": {
+        "base": [
+            {
+                "type": "share_record",
+                "window": {
+                    "align": "center",
+                    "fit": true,
+                    "block": true
+                },
+                "base": {
+                    "event": "event_share_record_reward",
+                    "closeEvent": "event_childnext"
+                }
+            }
+        ]
+    },
+    "GAME_PLAY.SETTLE": {
+        "banner": {
+            "auto": true
+        }
+    },
+    "PRODUCT_PLAY_END": {
+        "switch": "!"
+    },
+    "GAME_END": {
+        "event": {
+            "event_show_insert": {}
+        }
+    },
+    "PRODUCT_FINISH": {
+        "switch": "!"
+    }
+}

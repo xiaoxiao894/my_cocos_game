@@ -1,0 +1,112 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c095918a-3b66-43a7-950d-f646062f7b52",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "73d50": {
+      "importer": "gltf-animation",
+      "uuid": "c095918a-3b66-43a7-950d-f646062f7b52@73d50",
+      "displayName": "",
+      "id": "73d50",
+      "name": "Die.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.1666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "ed71b": {
+      "importer": "gltf-scene",
+      "uuid": "c095918a-3b66-43a7-950d-f646062f7b52@ed71b",
+      "displayName": "",
+      "id": "ed71b",
+      "name": "Anna-kt@Die.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.1666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Die",
+            "from": 0,
+            "to": 1.1666666269302368,
+            "wrapMode": 1,
+            "previousId": "73d50"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "c095918a-3b66-43a7-950d-f646062f7b52@ed71b"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "lockBoundary": true,
+      "targetRatio": 0,
+      "errorRate": 0
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1f9fd38e-ee70-4c68-a166-97feaa394a13",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "1f9fd38e-ee70-4c68-a166-97feaa394a13@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Run+Attack_zy.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": [
+          {
+            "frame": 0.16666666666666666,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.16666666666666666,
+            "func": "onAttackAni",
+            "params": []
+          },
+          {
+            "frame": 0.16666666666666666,
+            "func": "centerAttackEnd",
+            "params": []
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.3333333333333333,
+            "func": "onAttack",
+            "params": []
+          },
+          {
+            "frame": 0.7333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7333333333333333,
+            "func": "secendSound",
+            "params": []
+          },
+          {
+            "frame": 1.3333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 1.3333333333333333,
+            "func": "attackEnd",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "ee2b4": {
+      "importer": "gltf-scene",
+      "uuid": "1f9fd38e-ee70-4c68-a166-97feaa394a13@ee2b4",
+      "displayName": "",
+      "id": "ee2b4",
+      "name": "AnNa@MQ_Run+Attack_zy.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Run+Attack_zy",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 1,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1f9fd38e-ee70-4c68-a166-97feaa394a13@ee2b4"
+      ]
+    },
+    "meshSimplify": {
+      "enable": true,
+      "targetRatio": 0,
+      "errorRate": 0,
+      "autoErrorRate": true,
+      "lockBoundary": true
+    },
+    "meshCompress": {
+      "enable": true,
+      "encode": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

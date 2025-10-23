@@ -1,0 +1,28 @@
+
+#ifndef COLOR_INCLUDE
+#define COLOR_INCLUDE
+
+#include <builtin/uniforms/cc-global>
+
+float Luminance(vec3 color) {
+  return dot(color, vec3(0.2126729, 0.7151522, 0.0721750));
+}
+
+float Luminance(vec4 color) {
+  return Luminance(color.rgb);
+}
+
+vec3 OldPhotoColor(vec3 color) {
+  float r = 0.393 * color.r + 0.769 * color.g + 0.189 * color.b;
+  float g = 0.349 * color.r + 0.686 * color.g + 0.168 * color.b;
+  float b = 0.272 * color.r + 0.534 * color.g + 0.131 * color.b;
+  return vec3(r, g, b);
+}
+
+float SmoothValue(float threshold, float smoothness, float value) {
+  float minValue = threshold - smoothness;
+  float maxValue = threshold + smoothness;
+  return smoothstep(minValue, maxValue, value);
+}
+
+#endif

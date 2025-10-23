@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bcd6bbe7-842a-405c-b1d0-78b31f7852a4",
+  "files": [],
+  "subMetas": {
+    "26768": {
+      "importer": "gltf-mesh",
+      "uuid": "bcd6bbe7-842a-405c-b1d0-78b31f7852a4@26768",
+      "displayName": "",
+      "id": "26768",
+      "name": "FBX_Door_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 180
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "aa825": {
+      "importer": "gltf-material",
+      "uuid": "bcd6bbe7-842a-405c-b1d0-78b31f7852a4@aa825",
+      "displayName": "",
+      "id": "aa825",
+      "name": "lambert4.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a5406": {
+      "importer": "gltf-scene",
+      "uuid": "bcd6bbe7-842a-405c-b1d0-78b31f7852a4@a5406",
+      "displayName": "",
+      "id": "a5406",
+      "name": "Model_Door_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "bcd6bbe7-842a-405c-b1d0-78b31f7852a4@26768"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "bcd6bbe7-842a-405c-b1d0-78b31f7852a4@aa825"
+      ],
+      "scenes": [
+        "bcd6bbe7-842a-405c-b1d0-78b31f7852a4@a5406"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

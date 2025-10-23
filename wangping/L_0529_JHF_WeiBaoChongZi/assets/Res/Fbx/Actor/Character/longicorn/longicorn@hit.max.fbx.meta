@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "17d989ff-5f4f-46bc-9f12-1dcac796bc3c",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "79e35": {
+      "importer": "gltf-animation",
+      "uuid": "17d989ff-5f4f-46bc-9f12-1dcac796bc3c@79e35",
+      "displayName": "",
+      "id": "79e35",
+      "name": "hit.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "7bcdc": {
+      "importer": "gltf-scene",
+      "uuid": "17d989ff-5f4f-46bc-9f12-1dcac796bc3c@7bcdc",
+      "displayName": "",
+      "id": "7bcdc",
+      "name": "longicorn@hit.max.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "longicorn@hit",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "hit",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "79e35"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "17d989ff-5f4f-46bc-9f12-1dcac796bc3c@7bcdc"
+      ]
+    }
+  }
+}

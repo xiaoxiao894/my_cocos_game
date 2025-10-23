@@ -1,0 +1,21 @@
+import { _decorator, Component, Node } from 'cc';
+import { StackManager } from '../StackSlot/StackManager';
+const { ccclass, property } = _decorator;
+
+@ccclass('CollectMeatConStackManager')
+export class CollectMeatConStackManager extends Component {
+    start() {
+        const row = 2;
+        const col = 4;
+        const gapX = 2.1;
+        const gapZ = 2.1;
+        const gapY = 0.5;
+        const maxLayer = 20000;
+
+        if (this.node && !this.node["__stackManager"]) {
+            this.node["__stackManager"] = new StackManager(row, col, gapX, gapZ, gapY, maxLayer);
+        }
+    }
+}
+
+

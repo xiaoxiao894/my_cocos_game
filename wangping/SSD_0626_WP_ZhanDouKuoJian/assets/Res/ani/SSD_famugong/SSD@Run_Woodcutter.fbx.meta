@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "03ed0f0d-eef5-488f-b856-a07290912dcb",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "1088f": {
+      "importer": "gltf-animation",
+      "uuid": "03ed0f0d-eef5-488f-b856-a07290912dcb@1088f",
+      "displayName": "",
+      "id": "1088f",
+      "name": "Run_Woodcutter.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5333333611488342
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a99f3": {
+      "importer": "gltf-scene",
+      "uuid": "03ed0f0d-eef5-488f-b856-a07290912dcb@a99f3",
+      "displayName": "",
+      "id": "a99f3",
+      "name": "SSD@Run_Woodcutter.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.5333333611488342,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Run_Woodcutter",
+            "from": 0,
+            "to": 0.5333333611488342,
+            "wrapMode": 2,
+            "previousId": "1088f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "03ed0f0d-eef5-488f-b856-a07290912dcb@a99f3"
+      ]
+    }
+  }
+}
